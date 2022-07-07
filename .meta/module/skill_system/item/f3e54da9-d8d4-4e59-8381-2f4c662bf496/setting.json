@@ -8,11 +8,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "setting.json": "8b99bb55c79af4efe00cbcd1933e034c",
-=======
       "setting.json": "c4e2a64f75166f3e609f6223a4cde854",
->>>>>>> origin/develop
       "triggers.bts": ""
     },
     "VERSION": "0.21"

@@ -1,10 +1,6 @@
 {
   "data": {
-<<<<<<< HEAD
-    "md5": "b5f33461acc16c72765dda97c9ef8cf5",
-=======
     "md5": "8d44294cfd9c71fbaa0906d739375bab",
->>>>>>> origin/develop
     "path": "asset/JumpButton.layout",
     "root": {
       "anchor": {
@@ -21,11 +17,7 @@
             "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
           },
           "id": {
-<<<<<<< HEAD
-            "value": "7eaad0a7-1716-47ab-90d5-0b6841d52e06"
-=======
             "value": "a451914d-a5db-48c1-901d-f0f072811841"
->>>>>>> origin/develop
           },
           "NormalImage": {
             "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
@@ -55,11 +47,7 @@
         }
       ],
       "id": {
-<<<<<<< HEAD
-        "value": "da49fdc0-f5d4-4ba7-875d-321fc2bf64cf"
-=======
         "value": "30fcc2db-b062-4d44-8942-ce7ea123d5c5"
->>>>>>> origin/develop
       },
       "size": {
         "UDim_X": {
@@ -73,11 +61,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "layout": "b5f33461acc16c72765dda97c9ef8cf5",
-=======
       "layout": "8d44294cfd9c71fbaa0906d739375bab",
->>>>>>> origin/develop
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

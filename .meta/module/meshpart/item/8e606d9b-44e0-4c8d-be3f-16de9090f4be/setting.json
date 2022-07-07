@@ -1,10 +1,4 @@
 {
-<<<<<<< HEAD
-  "data": [],
-  "meta": {
-    "EXPORT": {
-      "triggers.bts": ""
-=======
   "data": {
     "triggers": {
       "list": [
@@ -83,7 +77,6 @@
   "meta": {
     "EXPORT": {
       "triggers.bts": "61d396e9b8802c16cc414a3b713bd70e"
->>>>>>> origin/develop
     },
     "VERSION": "0.21"
   }

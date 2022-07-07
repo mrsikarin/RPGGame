@@ -36,11 +36,7 @@
     "collision": true,
     "enableAI": true,
     "girlactor": {
-<<<<<<< HEAD
-      "asset": ""
-=======
       "asset": "empty.actor"
->>>>>>> origin/develop
     },
     "hideHp": false,
     "hpBarHeight": 0.1,
@@ -51,11 +47,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "setting.json": "81c241292de410fab719ae6af8c99647",
-=======
       "setting.json": "de3ceff7b50afbbf40f631184ee8415f",
->>>>>>> origin/develop
       "triggers.bts": ""
     },
     "VERSION": "0.21"

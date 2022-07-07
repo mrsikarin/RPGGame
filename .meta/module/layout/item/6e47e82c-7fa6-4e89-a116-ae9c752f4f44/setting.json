@@ -1,10 +1,6 @@
 {
   "data": {
-<<<<<<< HEAD
-    "md5": "d1cf656e8226ae97b8a650909355ba2d",
-=======
     "md5": "32315d8bdef2d5625701e6d0e67fb683",
->>>>>>> origin/develop
     "path": "asset/QuestInfo.layout",
     "root": {
       "anchor": {
@@ -25,12 +21,7 @@
                 "HorizontalAlignment": "Right"
               },
               "DisabledImage": {
-<<<<<<< HEAD
-                "asset": "",
-                "selector": ""
-=======
                 "asset": ""
->>>>>>> origin/develop
               },
               "DisabledTextColour": {
                 "b": 29,
@@ -40,12 +31,7 @@
               "Font": "HarmonyOS_Sans_SC_Bold",
               "Font_size": 40,
               "HoverImage": {
-<<<<<<< HEAD
-                "asset": "",
-                "selector": ""
-=======
                 "asset": ""
->>>>>>> origin/develop
               },
               "HoverTextColour": {
                 "b": 39,
@@ -53,20 +39,11 @@
                 "r": 176
               },
               "id": {
-<<<<<<< HEAD
-                "value": "67f7618c-48b9-4569-b70b-040370fe8e44"
-              },
-              "name": "CloseBtn",
-              "NormalImage": {
-                "asset": "",
-                "selector": ""
-=======
                 "value": "343b5db1-f838-4bcd-8413-d9602771c899"
               },
               "name": "CloseBtn",
               "NormalImage": {
                 "asset": ""
->>>>>>> origin/develop
               },
               "NormalTextColour": {
                 "b": 39,
@@ -82,12 +59,7 @@
                 }
               },
               "PushedImage": {
-<<<<<<< HEAD
-                "asset": "",
-                "selector": ""
-=======
                 "asset": ""
->>>>>>> origin/develop
               },
               "PushedTextColour": {
                 "b": 29,
@@ -96,15 +68,6 @@
               },
               "size": {
                 "UDim_X": {
-<<<<<<< HEAD
-                  "Offect": 60.0
-                },
-                "UDim_Y": {
-                  "Offect": 60.0
-                }
-              },
-              "Text": "X"
-=======
                   "Offect": 60
                 },
                 "UDim_Y": {
@@ -182,7 +145,6 @@
                   }
                 ]
               }
->>>>>>> origin/develop
             },
             {
               "__OBJ_TYPE": "Button",
@@ -192,23 +154,6 @@
                 "VerticalAlignment": "Bottom"
               },
               "DisabledImage": {
-<<<<<<< HEAD
-                "asset": "",
-                "selector": ""
-              },
-              "Font_size": 24,
-              "HoverImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "id": {
-                "value": "57410862-7b4f-40cb-ac4f-b89ff5114c9d"
-              },
-              "name": "AcceptBtn",
-              "NormalImage": {
-                "asset": "",
-                "selector": ""
-=======
                 "asset": ""
               },
               "Font_size": 24,
@@ -221,7 +166,6 @@
               "name": "AcceptBtn",
               "NormalImage": {
                 "asset": ""
->>>>>>> origin/develop
               },
               "pos": {
                 "UDim_Y": {
@@ -229,23 +173,14 @@
                 }
               },
               "PushedImage": {
-<<<<<<< HEAD
-                "asset": "",
-                "selector": ""
-=======
                 "asset": ""
->>>>>>> origin/develop
               },
               "size": {
                 "UDim_X": {
                   "Offect": 165.26615488529
                 },
                 "UDim_Y": {
-<<<<<<< HEAD
-                  "Offect": 66.579730033877
-=======
                   "Offect": 66.579730033876
->>>>>>> origin/develop
                 }
               },
               "Text": "Accept"
@@ -254,11 +189,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-<<<<<<< HEAD
-                "value": "f039ee82-0c0f-4684-965f-a52bd221df5d"
-=======
                 "value": "a923f4a3-72b0-457a-9893-06a8f0f10e79"
->>>>>>> origin/develop
               },
               "name": "Detail_txt",
               "pos": {
@@ -271,17 +202,10 @@
               },
               "size": {
                 "UDim_X": {
-<<<<<<< HEAD
-                  "Offect": 297.21823129059
-                },
-                "UDim_Y": {
-                  "Offect": 265.9180416465
-=======
                   "Offect": 297.2182312906
                 },
                 "UDim_Y": {
                   "Offect": 265.91804164649
->>>>>>> origin/develop
                 }
               },
               "Text": "Detail"
@@ -290,11 +214,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-<<<<<<< HEAD
-                "value": "594f9dae-ca6a-45b9-8525-1990b3e55aa0"
-=======
                 "value": "87641a81-faa3-4ea5-b1c3-b08f3f1a9ae2"
->>>>>>> origin/develop
               },
               "name": "Reward_txt",
               "pos": {
@@ -310,11 +230,7 @@
                   "Offect": 296.76710155608
                 },
                 "UDim_Y": {
-<<<<<<< HEAD
-                  "Offect": 74.90905964378
-=======
                   "Offect": 74.909059643774
->>>>>>> origin/develop
                 }
               },
               "Text": "Reward",
@@ -322,11 +238,7 @@
             }
           ],
           "id": {
-<<<<<<< HEAD
-            "value": "3bb98d9e-4c5d-4df1-a354-2f2bf52b8cdb"
-=======
             "value": "4b80abd6-827b-4286-9b96-9019e3995f6b"
->>>>>>> origin/develop
           },
           "Image": {
             "asset": "asset/Texture/output-onlinepngtools.png"
@@ -342,11 +254,7 @@
         }
       ],
       "id": {
-<<<<<<< HEAD
-        "value": "fc74df77-483c-46b3-8eeb-668ccc0625f8"
-=======
         "value": "cef13145-4a3e-4eae-8dbb-3add94581534"
->>>>>>> origin/develop
       },
       "size": {
         "UDim_X": {
@@ -362,11 +270,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "layout": "d1cf656e8226ae97b8a650909355ba2d",
-=======
       "layout": "32315d8bdef2d5625701e6d0e67fb683",
->>>>>>> origin/develop
       "triggers.bts": "6a675b5d791dd2cdb9fc6bc47a2bdc9c"
     },
     "VERSION": "0.21"

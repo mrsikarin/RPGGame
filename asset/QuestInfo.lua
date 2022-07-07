@@ -5,7 +5,7 @@ acceptBtn.onMouseClick = function()
   
   local quest = {
     title = "Kill monster",
-    task = {"Kill monster",1},
+    task = {"Kill monster",2},
     reward = 10}
   
   

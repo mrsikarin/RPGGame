@@ -1,10 +1,6 @@
 {
   "data": {
-<<<<<<< HEAD
-    "moveSpeed": 1,
-=======
     "moveSpeed": 1.0,
->>>>>>> origin/develop
     "name": {
       "value": "missile_db8e2663-586a-493a-8b81-99b415442f7f"
     },
@@ -16,11 +12,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "setting.json": "8659ae0ec601c2a81c8b4b93b1b09e6b",
-=======
       "setting.json": "889d2eb21f1e5a21a2a3e78414362a08",
->>>>>>> origin/develop
       "triggers.bts": ""
     },
     "VERSION": "0.21"

@@ -27,13 +27,6 @@
       }
     },
     "boundingVolume": {
-<<<<<<< HEAD
-      "memory": {
-        "Capsule": "2.000000-0.100000",
-        "Cylinder": "1.800000-0.450000"
-      },
-=======
->>>>>>> origin/develop
       "params": {
         "x": 2,
         "y": 2,
@@ -43,11 +36,7 @@
     "collision": true,
     "enableAI": true,
     "girlactor": {
-<<<<<<< HEAD
-      "asset": ""
-=======
       "asset": "empty.actor"
->>>>>>> origin/develop
     },
     "hideHp": false,
     "hpBarHeight": 0.1,
@@ -127,11 +116,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "setting.json": "b850f197edce9c13dad63abe9446a27a",
-=======
       "setting.json": "2dd8acabc9281a28a8ab1a4aaaed4fcd",
->>>>>>> origin/develop
       "triggers.bts": "fb62cfcdb4d0392ececce083c81f7149"
     },
     "VERSION": "0.21"

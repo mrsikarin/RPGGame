@@ -5,18 +5,6 @@ local exp = params.exp
 local curExp = player:getValue("exp")
 local level = player:getValue("level")
 local maxXp = level * 100
-<<<<<<< HEAD
---local status = UI:openWindow("playerUI")
-if curExp + exp >= maxXp then
-  player:setValue("level",level+1)
-  player:setValue("exp",(curExp + exp) - maxXp)
-  player:setValue("point",player:getValue("point") + 4)
-else
-  player:setValue("exp",curExp + exp)
-end
---status:refreshBar()
-PackageHandlers.sendClientHandler("refreshBar",{},function(...) end)
-=======
 local status = UI:openWindow("playerUI")
 if curExp + exp >= maxXp then
   player:setValue("level",level+1)
@@ -27,4 +15,3 @@ else
 end
 status:refreshBar()
 --PackageHandlers.sendClientHandler("refreshBar",{},function(...) end)
->>>>>>> origin/develop

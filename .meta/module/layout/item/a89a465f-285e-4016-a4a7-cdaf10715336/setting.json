@@ -1,10 +1,6 @@
 {
   "data": {
-<<<<<<< HEAD
-    "md5": "9006a97437b3ebf497baeba90a10854f",
-=======
     "md5": "7d275a886493029e1c0ce5868bc806a5",
->>>>>>> origin/develop
     "path": "asset/QuestInfo_1.layout",
     "root": {
       "anchor": {
@@ -45,11 +41,7 @@
                 "r": 176
               },
               "id": {
-<<<<<<< HEAD
-                "value": "8112e6c2-aede-4775-af30-5123bdfeae19"
-=======
                 "value": "d82cb791-d0cf-4be5-add1-ab0760d6897d"
->>>>>>> origin/develop
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -105,11 +97,7 @@
                 "selector": ""
               },
               "id": {
-<<<<<<< HEAD
-                "value": "3a5a191a-7aff-4884-ab65-455821532dd3"
-=======
                 "value": "28bcf29a-0cb7-43e0-9553-c4ca847c0c21"
->>>>>>> origin/develop
               },
               "name": "SubmitBtn",
               "NormalImage": {
@@ -139,11 +127,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-<<<<<<< HEAD
-                "value": "515654bd-2acf-4f5a-98a7-a20c59a07a61"
-=======
                 "value": "99735d87-3a8a-4a39-87ee-e3fac42a2fae"
->>>>>>> origin/develop
               },
               "name": "Detail_txt",
               "pos": {
@@ -168,11 +152,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-<<<<<<< HEAD
-                "value": "8b8e5966-859d-4e5d-8f24-e7d027e0384c"
-=======
                 "value": "1918cbd1-3851-4a1a-9b62-de8fdf1a0923"
->>>>>>> origin/develop
               },
               "name": "Reward_txt",
               "pos": {
@@ -196,11 +176,7 @@
             }
           ],
           "id": {
-<<<<<<< HEAD
-            "value": "6c96469b-9006-444c-acb8-46e100bcaa61"
-=======
             "value": "0806d3d9-f10f-49e9-93c5-073403633c95"
->>>>>>> origin/develop
           },
           "Image": {
             "asset": "asset/Texture/output-onlinepngtools.png"
@@ -216,11 +192,7 @@
         }
       ],
       "id": {
-<<<<<<< HEAD
-        "value": "01ed95d6-3af7-4434-a0c5-ff337e4f627a"
-=======
         "value": "5e352c9a-e3bd-4744-9b52-d4e0f566df07"
->>>>>>> origin/develop
       },
       "size": {
         "UDim_X": {
@@ -236,11 +208,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "layout": "9006a97437b3ebf497baeba90a10854f",
-=======
       "layout": "7d275a886493029e1c0ce5868bc806a5",
->>>>>>> origin/develop
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

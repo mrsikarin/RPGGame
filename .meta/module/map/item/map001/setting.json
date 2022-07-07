@@ -41,19 +41,11 @@
           "shadowsType": "hard"
         },
         "skyColor": {
-<<<<<<< HEAD
-          "b": 140,
-          "g": 132
-        },
-        "skyLineColor": {
-          "g": 59,
-=======
           "b": 141,
           "g": 133
         },
         "skyLineColor": {
           "g": 60,
->>>>>>> origin/develop
           "r": 62
         }
       },
@@ -81,16 +73,6 @@
       {
         "__OBJ_TYPE": "Instance_MeshPart",
         "btsKey": "8e606d9b-44e0-4c8d-be3f-16de9090f4be",
-<<<<<<< HEAD
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8694405973654257665",
-        "massCenter": {
-          "x": 1.3539208173752,
-          "y": 2.7795929908752,
-          "z": -0.056593656539917
-        },
-=======
         "children": [
           {
             "__OBJ_TYPE": "Instance_EffectPart",
@@ -118,7 +100,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8694405973654257665",
->>>>>>> origin/develop
         "mesh": "asset/Mesh/Wooden Notice Board/g2021_xinshoucun_zhaopai.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Wooden Notice Board/g2021_xinshoucun_zhaopai.mesh",
@@ -145,14 +126,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8699966809106432001",
-<<<<<<< HEAD
-        "massCenter": {
-          "x": -5.4848871231079,
-          "y": 1.4998998641968,
-          "z": -13.362383842468
-        },
-=======
->>>>>>> origin/develop
         "position": {
           "x": -5.4848871231079,
           "y": 1.4998998641968,
@@ -313,74 +286,6 @@
           "y": 0.99989986419678,
           "z": 36.494255065918
         }
-<<<<<<< HEAD
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "7838d784-7f7f-47b4-97fa-d74301bfd529",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8704502661562171393",
-        "massCenter": {
-          "x": 7.2245240211487,
-          "y": 3.369108915329,
-          "z": 0.68748188018799
-        },
-        "mesh": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh",
-          "selector": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh"
-        },
-        "name": "g2021_duchi_diaoxiang.mesh",
-        "position": {
-          "x": 7.2245240211487,
-          "y": 3.369108915329,
-          "z": 0.68748188018799
-        },
-        "restitution": 0.3,
-        "size": {
-          "x": 3.7129807472229,
-          "y": 5.015209197998,
-          "z": 2.8010928630829
-        },
-        "staticBatchNo": "1",
-        "useAnchor": true
-      },
-      {
-        "__OBJ_TYPE": "Instance_MeshPart",
-        "btsKey": "ab23dcd1-b97f-458f-9ee4-863de5e27de6",
-        "density": 2.2,
-        "friction": 0.37,
-        "id": "8704502725735956481",
-        "massCenter": {
-          "x": 21.591932296753,
-          "y": 9.2966566085815,
-          "z": 10.419268608093
-        },
-        "mesh": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh",
-        "mesh_selector": {
-          "asset": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh",
-          "selector": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh"
-        },
-        "name": "g2021_duchi_diaoxiang.mesh",
-        "position": {
-          "x": 21.591932296753,
-          "y": 9.2966566085815,
-          "z": 10.419268608093
-        },
-        "restitution": 0.3,
-        "rotation": {
-          "y": -103.99999237061
-        },
-        "size": {
-          "x": 3.7129807472229,
-          "y": 5.015209197998,
-          "z": 2.8010928630829
-        },
-        "staticBatchNo": "1",
-        "useAnchor": true
-=======
->>>>>>> origin/develop
       }
     ],
     "name": {
@@ -393,11 +298,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-<<<<<<< HEAD
-      "setting.json": "7e1d1a7ccafa14ac335441cfd74f36ff"
-=======
       "setting.json": "cde097f4e95f4687686b3d026afd5437"
->>>>>>> origin/develop
     },
     "VERSION": "0.21"
   }

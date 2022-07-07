@@ -48,11 +48,7 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "setting.json": "af64c3b9aefefd594523ce5d167c73a5",
-=======
       "setting.json": "221ac40afe19cfdf191749fd273821db",
->>>>>>> origin/develop
       "triggers.bts": ""
     },
     "VERSION": "0.21"

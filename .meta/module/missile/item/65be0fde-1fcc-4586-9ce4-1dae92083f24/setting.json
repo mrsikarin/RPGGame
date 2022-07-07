@@ -18,7 +18,11 @@
     "lifeTime": {
       "value": 20
     },
+<<<<<<< HEAD
     "moveSpeed": 30,
+=======
+    "moveSpeed": 30.0,
+>>>>>>> origin/develop
     "name": {
       "value": "891d8c16-6e5c-4b3a-83e5-41a456f8dae5"
     },
@@ -26,12 +30,16 @@
       "effect": {
         "asset": "asset/Actor/Blue Archer Monster/g2021_gaoda_biggun.effect"
       },
+<<<<<<< HEAD
       "once": true,
       "scale": {
         "x": 0.5,
         "y": 0.5,
         "z": 0.5
       }
+=======
+      "once": true
+>>>>>>> origin/develop
     },
     "target_type": "hitPlayer",
     "triggers": {
@@ -63,7 +71,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "60d9cdcabf1f612a1eb8723d3c167dc6",
+=======
+      "setting.json": "4320d21ff9a4d256bf46c11d4ef27481",
+>>>>>>> origin/develop
       "triggers.bts": "72cc3f900de3a515fff800d5ea063d11"
     },
     "VERSION": "0.21"

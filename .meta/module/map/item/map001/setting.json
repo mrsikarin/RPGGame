@@ -41,11 +41,19 @@
           "shadowsType": "hard"
         },
         "skyColor": {
+<<<<<<< HEAD
           "b": 140,
           "g": 132
         },
         "skyLineColor": {
           "g": 59,
+=======
+          "b": 141,
+          "g": 133
+        },
+        "skyLineColor": {
+          "g": 60,
+>>>>>>> origin/develop
           "r": 62
         }
       },
@@ -73,6 +81,7 @@
       {
         "__OBJ_TYPE": "Instance_MeshPart",
         "btsKey": "8e606d9b-44e0-4c8d-be3f-16de9090f4be",
+<<<<<<< HEAD
         "density": 2.2,
         "friction": 0.37,
         "id": "8694405973654257665",
@@ -81,6 +90,35 @@
           "y": 2.7795929908752,
           "z": -0.056593656539917
         },
+=======
+        "children": [
+          {
+            "__OBJ_TYPE": "Instance_EffectPart",
+            "csgShapeEffect": {
+              "asset": "asset/effect/Marker_exclamation_mark.effect"
+            },
+            "id": "8704492749810532353",
+            "position": {
+              "x": 1.35392,
+              "y": 4.97959,
+              "z": -0.0565937
+            },
+            "size": {
+              "x": 0.79999995231628,
+              "y": 1.272897362709,
+              "z": 0.79999989271164
+            },
+            "transform": {
+              "pos": {
+                "y": 2.2
+              }
+            }
+          }
+        ],
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8694405973654257665",
+>>>>>>> origin/develop
         "mesh": "asset/Mesh/Wooden Notice Board/g2021_xinshoucun_zhaopai.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Wooden Notice Board/g2021_xinshoucun_zhaopai.mesh",
@@ -107,11 +145,14 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8699966809106432001",
+<<<<<<< HEAD
         "massCenter": {
           "x": -5.4848871231079,
           "y": 1.4998998641968,
           "z": -13.362383842468
         },
+=======
+>>>>>>> origin/develop
         "position": {
           "x": -5.4848871231079,
           "y": 1.4998998641968,
@@ -272,6 +313,7 @@
           "y": 0.99989986419678,
           "z": 36.494255065918
         }
+<<<<<<< HEAD
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -337,6 +379,8 @@
         },
         "staticBatchNo": "1",
         "useAnchor": true
+=======
+>>>>>>> origin/develop
       }
     ],
     "name": {
@@ -349,7 +393,11 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
+<<<<<<< HEAD
       "setting.json": "7e1d1a7ccafa14ac335441cfd74f36ff"
+=======
+      "setting.json": "cde097f4e95f4687686b3d026afd5437"
+>>>>>>> origin/develop
     },
     "VERSION": "0.21"
   }

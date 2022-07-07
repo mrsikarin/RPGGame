@@ -71,8 +71,13 @@
         "shadowsOffset": "0.02",
         "shadowsPresicion": "1024",
         "shadowsType": "hard",
+<<<<<<< HEAD
         "skyColor": "r:0.49803921568627 g:0.51764705882353 b:0.54901960784314 a:1.0",
         "skyLineColor": "r:0.24313725490196 g:0.23137254901961 b:0.2078431372549 a:1.0"
+=======
+        "skyColor": "r:0.49803921568627 g:0.52156862745098 b:0.55294117647059 a:1.0",
+        "skyLineColor": "r:0.24313725490196 g:0.23529411764706 b:0.2078431372549 a:1.0"
+>>>>>>> origin/develop
       }
     },
     {
@@ -107,6 +112,30 @@
       }
     },
     {
+<<<<<<< HEAD
+=======
+      "children": [
+        {
+          "class": "EffectPart",
+          "customProperties": [],
+          "properties": {
+            "batchType": "Static",
+            "effectFilePath": "asset/effect/Marker_exclamation_mark.effect",
+            "id": "8704492749810532353",
+            "loopCount": "1",
+            "loopInterval": "0.0",
+            "loopReset": "false",
+            "name": "EffectPart",
+            "needSync": "true",
+            "position": "x:1.35392 y:4.97959 z:-0.0565937",
+            "rotation": "x:0 y:0 z:0",
+            "scale": "x:1 y:1 z:1",
+            "selectable": "true",
+            "visible": "true"
+          }
+        }
+      ],
+>>>>>>> origin/develop
       "class": "MeshPart",
       "customProperties": [],
       "properties": {
@@ -402,6 +431,7 @@
         "scale": "x:1 y:1 z:1",
         "selectable": "true"
       }
+<<<<<<< HEAD
     },
     {
       "class": "MeshPart",
@@ -492,6 +522,8 @@
         "useGravity": "true",
         "useTextureAlpha": "false"
       }
+=======
+>>>>>>> origin/develop
     }
   ],
   "skyBox": [

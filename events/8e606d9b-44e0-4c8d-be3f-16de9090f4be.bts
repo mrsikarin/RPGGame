@@ -1,3 +1,7 @@
 PART_TOUCH_ENTITY_BEGIN {
+<<<<<<< HEAD
 	SendToClient(msg = "client_2a49af20_4513_4822_90ed_389b9761ac85", player = $obj2)
+=======
+	SendToClient(msg = "client_e799cacb_4890_4ba7_b0d0_f2bf416bb7c3", player = $obj2)
+>>>>>>> origin/develop
 }

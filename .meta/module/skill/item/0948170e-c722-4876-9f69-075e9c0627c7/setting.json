@@ -56,7 +56,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "5ea7bb0031e0fad1c88501d232533e58",
+=======
+      "setting.json": "3bc4288a93283afc6f7fd8fcc86875f5",
+>>>>>>> origin/develop
       "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
     },
     "VERSION": "0.21"

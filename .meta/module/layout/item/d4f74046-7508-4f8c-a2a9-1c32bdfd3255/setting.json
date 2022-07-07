@@ -1,6 +1,10 @@
 {
   "data": {
+<<<<<<< HEAD
     "md5": "565887518576bdd595aba0e461c5dd3e",
+=======
+    "md5": "6d2b3d280279d6a29b0c264d27007789",
+>>>>>>> origin/develop
     "path": "asset/playerUI.layout",
     "root": {
       "anchor": {
@@ -26,7 +30,11 @@
             "r": 240
           },
           "id": {
+<<<<<<< HEAD
             "value": "22a0003a-8eb7-4260-aa75-5f8acd35c3d5"
+=======
+            "value": "4191aa34-202e-446d-8369-bdf3034672ac"
+>>>>>>> origin/develop
           },
           "NormalImage": {
             "asset": "asset/texture2/icon_red_nor.png"
@@ -137,12 +145,23 @@
               "children": [
                 {
                   "__OBJ_TYPE": "StaticImage",
+<<<<<<< HEAD
                   "id": {
                     "value": "9e7f0425-953a-45b4-9a85-bb05bed7a948"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_bg.png",
                     "selector": "asset/Texture/Gui/slider_bg.png"
+=======
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "4f339627-160c-4acd-9a9b-8845f8e21031"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_bg.png"
+>>>>>>> origin/develop
                   },
                   "name": "Background",
                   "size": {
@@ -156,12 +175,23 @@
                 },
                 {
                   "__OBJ_TYPE": "StaticImage",
+<<<<<<< HEAD
                   "id": {
                     "value": "59887826-9bce-48ac-9b36-dbee3aef9f0d"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_top_h.png",
                     "selector": "asset/Texture/Gui/slider_top_h.png"
+=======
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "ec617a58-4c1e-412e-bd82-017bf74a1a98"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_top_h.png"
+>>>>>>> origin/develop
                   },
                   "name": "Fill",
                   "size": {
@@ -175,9 +205,17 @@
                 },
                 {
                   "__OBJ_TYPE": "SliderThumb",
+<<<<<<< HEAD
                   "gui_type": "SliderThumb",
                   "id": {
                     "value": "598d706d-f5f3-46e5-8376-c976fcf3770e"
+=======
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "c6560c09-a9c3-4dab-a669-ae1527457c4e"
+>>>>>>> origin/develop
                   },
                   "name": "Handle",
                   "Visible": false
@@ -192,7 +230,11 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
+<<<<<<< HEAD
                     "value": "3a760249-53ce-47c1-acc7-72aaa14b67e3"
+=======
+                    "value": "5252f662-1989-4bff-83c9-d7f7e5f72f6b"
+>>>>>>> origin/develop
                   },
                   "name": "level",
                   "pos": {
@@ -226,7 +268,11 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
+<<<<<<< HEAD
                     "value": "8f836980-9ca2-4c35-94a6-b1598529f03a"
+=======
+                    "value": "4bede86b-8ddc-41a6-aad4-9940642ef4fe"
+>>>>>>> origin/develop
                   },
                   "name": "textexp",
                   "pos": {
@@ -240,6 +286,12 @@
                   "size": {
                     "UDim_X": {
                       "Offect": 139.55161976815
+<<<<<<< HEAD
+=======
+                    },
+                    "UDim_Y": {
+                      "Offect": 128.0
+>>>>>>> origin/develop
                     }
                   },
                   "Text": "EXP",
@@ -252,13 +304,21 @@
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "c77710dc-6802-44a9-a906-9fb4d2de4d38"
+=======
+                "value": "01711454-abcc-486d-b77f-2fac50d2d350"
+>>>>>>> origin/develop
               },
               "name": "expbar"
             }
           ],
           "id": {
+<<<<<<< HEAD
             "value": "39b23083-3016-49b4-bebf-89a77cd4fd38"
+=======
+            "value": "e2e552e6-f4f8-42e0-8dd1-d92037b15112"
+>>>>>>> origin/develop
           },
           "size": {
             "UDim_X": {
@@ -268,7 +328,11 @@
         }
       ],
       "id": {
+<<<<<<< HEAD
         "value": "016bb159-dcce-41de-b6d0-ded95c2c7734"
+=======
+        "value": "986f1e26-01ec-4d89-8419-bbd53501d745"
+>>>>>>> origin/develop
       },
       "size": {
         "UDim_X": {
@@ -279,13 +343,21 @@
           "Offect": 70,
           "Scale": 1
         }
+<<<<<<< HEAD
       },
       "WindowTouchThroughMode": "MousePassThroughOpen"
+=======
+      }
+>>>>>>> origin/develop
     }
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "layout": "565887518576bdd595aba0e461c5dd3e",
+=======
+      "layout": "6d2b3d280279d6a29b0c264d27007789",
+>>>>>>> origin/develop
       "triggers.bts": "2c843c0491deb2fcfea676039f39ad4b"
     },
     "VERSION": "0.21"

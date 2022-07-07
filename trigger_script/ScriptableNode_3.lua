@@ -4,4 +4,7 @@ print(params.player:prop("damage"))
 print(params.player:prop("maxVp"))
 print("Level",params.player:getValue("level"))
 print("exp",params.player:getValue("exp"))
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/develop

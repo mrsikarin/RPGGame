@@ -1,6 +1,10 @@
 {
   "data": {
+<<<<<<< HEAD
     "md5": "b92dcd4b66f1fa0cf11de39c53f6fac3",
+=======
+    "md5": "d947adf890f330f2c257169f677cf8da",
+>>>>>>> origin/develop
     "path": "asset/test.layout",
     "root": {
       "children": [
@@ -11,18 +15,30 @@
             "VerticalAlignment": "Centre"
           },
           "id": {
+<<<<<<< HEAD
             "value": "97952c38-8e05-4e3c-b24b-6dc2c6a6a65e"
+=======
+            "value": "dab73670-abb3-45de-b407-547de8077335"
+>>>>>>> origin/develop
           }
         }
       ],
       "id": {
+<<<<<<< HEAD
         "value": "23b26eef-5b7a-4a0d-a497-c40cd88a4a8e"
+=======
+        "value": "65ddf2c9-0d43-4644-a091-a3e938532ba6"
+>>>>>>> origin/develop
       }
     }
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "layout": "b92dcd4b66f1fa0cf11de39c53f6fac3",
+=======
+      "layout": "d947adf890f330f2c257169f677cf8da",
+>>>>>>> origin/develop
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

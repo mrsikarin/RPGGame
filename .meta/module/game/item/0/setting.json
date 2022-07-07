@@ -126,6 +126,159 @@
             }
           },
           "type": "Trigger_RegisterClientProto"
+<<<<<<< HEAD
+=======
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/Custom Joystick/mainWnd.layout",
+                          "selector": "editor/neo/asset/Custom Joystick/mainWnd.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "45fc5353-3a2a-4141-acd0-4317ee0e48a4"
+              },
+              "pos": {
+                "x": 827,
+                "y": 266
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/JumpButton.layout",
+                          "selector": "editor/neo/asset/JumpButton.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ec642ac1-3b15-4935-b10c-fadbbb77a502"
+              },
+              "pos": {
+                "x": 828,
+                "y": 449
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f0c8c1ae-a886-44c3-9ba5-437286aed5d8"
+            },
+            "type": "Trigger_ClientInitFinished"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "45fc5353-3a2a-4141-acd0-4317ee0e48a4"
+                  },
+                  {
+                    "action": "ec642ac1-3b15-4935-b10c-fadbbb77a502"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "039c5b4d-872a-4e9e-918f-f5766334822c"
+            }
+          },
+          "type": "Trigger_ClientInitFinished"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/QuestBoard.layout",
+                          "selector": "editor/neo/asset/QuestBoard.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f343f748-94de-453e-89dc-44a43f37df6d"
+              },
+              "pos": {
+                "x": 840,
+                "y": 390
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "5520d42e-deb0-413e-820d-8cb2dbc23962"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "questBoard_1",
+          "proto_uuid": "e799cacb-4890-4ba7-b0d0-f2bf416bb7c3",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "f343f748-94de-453e-89dc-44a43f37df6d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "e47a3b9a-09c0-47ea-bf5a-039684445373"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+>>>>>>> origin/develop
         }
       ]
     },
@@ -200,7 +353,11 @@
       "setting.json": "19def57e68552810d113a7c19af9f81b",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
+<<<<<<< HEAD
       "triggers_client.bts": "b1127e3235c0b9946d03bf2df00bbc05"
+=======
+      "triggers_client.bts": "23c6252e07a19d5e87a2881442a5dc41"
+>>>>>>> origin/develop
     },
     "VERSION": "0.21"
   }

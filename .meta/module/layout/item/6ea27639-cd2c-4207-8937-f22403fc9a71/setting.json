@@ -1,6 +1,10 @@
 {
   "data": {
+<<<<<<< HEAD
     "md5": "dfc5bd7bdeb9e87a054c604e06c2735c",
+=======
+    "md5": "d66ae0c9fcd2f9262fab77e792f4ceb9",
+>>>>>>> origin/develop
     "path": "asset/PlayerStatus.layout",
     "root": {
       "anchor": {
@@ -22,7 +26,11 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
+<<<<<<< HEAD
                 "value": "b482662f-c42a-4ff9-a683-eb55d7090f8b"
+=======
+                "value": "d61f0d3c-00e9-424e-baae-b7a1f0cf39c7"
+>>>>>>> origin/develop
               },
               "Image": {
                 "asset": "asset/Texture/Gui/scrollable_pane_ver_bar.png"
@@ -58,7 +66,11 @@
                 "r": 255
               },
               "id": {
+<<<<<<< HEAD
                 "value": "c6ab5c92-5253-479b-9a48-f7a18c1d8dbd"
+=======
+                "value": "553bed3f-2ea9-45a7-8a96-a36f0edd3afa"
+>>>>>>> origin/develop
               },
               "name": "Close",
               "NormalImage": {
@@ -159,7 +171,11 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 24,
               "id": {
+<<<<<<< HEAD
                 "value": "bed6e859-754b-4e3c-8440-dc1e0698fd82"
+=======
+                "value": "af2ee490-30f7-4ce2-b58f-bd28f214210b"
+>>>>>>> origin/develop
               },
               "name": "PlayerInfo",
               "pos": {
@@ -191,7 +207,11 @@
                   "__OBJ_TYPE": "StaticText",
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "b7e4a819-d2a0-4ebf-8750-749fbe6a0872"
+=======
+                    "value": "aac470a0-54de-4dee-8084-7a1925b81cd8"
+>>>>>>> origin/develop
                   },
                   "name": "Atk",
                   "pos": {
@@ -213,7 +233,11 @@
                   "__OBJ_TYPE": "StaticText",
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "14154184-5b0c-47c6-90f4-9a7acc368bb8"
+=======
+                    "value": "2c2c8247-8b1a-4654-9a9a-37e9c968a665"
+>>>>>>> origin/develop
                   },
                   "name": "Mana",
                   "pos": {
@@ -238,7 +262,11 @@
                   "__OBJ_TYPE": "StaticText",
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "3456de2f-6300-48be-85b4-2be60dbcf4df"
+=======
+                    "value": "fe8e3f20-a7d2-4b05-9893-95e83167a8b4"
+>>>>>>> origin/develop
                   },
                   "name": "Def",
                   "pos": {
@@ -263,7 +291,11 @@
                   "__OBJ_TYPE": "StaticText",
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "017f896a-c18d-4027-ad0d-f13b89341f91"
+=======
+                    "value": "c9ace6ac-9c31-4f8b-ac20-e59f064a0f14"
+>>>>>>> origin/develop
                   },
                   "name": "Haste",
                   "pos": {
@@ -289,7 +321,11 @@
                   "Font_size": 18,
                   "HorzFormatting": "RightAligned",
                   "id": {
+<<<<<<< HEAD
                     "value": "621f6330-4363-41d4-b5c2-2e7abc895c05"
+=======
+                    "value": "40fa2fb3-aaf1-48d2-9595-5d86f5b932cc"
+>>>>>>> origin/develop
                   },
                   "name": "mana_stat",
                   "pos": {
@@ -316,7 +352,11 @@
                   "Font_size": 18,
                   "HorzFormatting": "RightAligned",
                   "id": {
+<<<<<<< HEAD
                     "value": "c9ac26fc-7c7e-4046-9806-5e773dac7797"
+=======
+                    "value": "ef317a29-2cf2-464b-9131-6e6c1d869f90"
+>>>>>>> origin/develop
                   },
                   "name": "Atk_stat",
                   "pos": {
@@ -340,7 +380,11 @@
                   "Font_size": 18,
                   "HorzFormatting": "RightAligned",
                   "id": {
+<<<<<<< HEAD
                     "value": "b1189f2f-360b-4878-89a3-43452b648073"
+=======
+                    "value": "ef93b714-00aa-4816-897b-70a708cfe431"
+>>>>>>> origin/develop
                   },
                   "name": "Haste_stat",
                   "pos": {
@@ -367,7 +411,11 @@
                   "Font_size": 18,
                   "HorzFormatting": "RightAligned",
                   "id": {
+<<<<<<< HEAD
                     "value": "9af64d13-a31c-4626-9ed9-ea6e25e7bfcb"
+=======
+                    "value": "45feb92d-3b3d-45e3-97f6-c9109f859db5"
+>>>>>>> origin/develop
                   },
                   "name": "Def_stat",
                   "pos": {
@@ -391,7 +439,11 @@
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "7be6b82d-02ee-488c-81fc-02060357b41b"
+=======
+                "value": "cfaa654e-603a-420b-ae53-622505c8c9c1"
+>>>>>>> origin/develop
               },
               "pos": {
                 "UDim_Y": {
@@ -423,7 +475,11 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "94170944-d3e8-4edb-be03-fac3a50fd089"
+=======
+                        "value": "f4c31459-5de7-4705-9d53-ebae2b4efe83"
+>>>>>>> origin/develop
                       },
                       "name": "txStr",
                       "pos": {
@@ -436,7 +492,11 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 68.006045073417
+=======
+                          "Offect": 68.00604507342
+>>>>>>> origin/develop
                         },
                         "UDim_Y": {
                           "Offect": 35.403301894683
@@ -452,7 +512,11 @@
                       },
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "5234c653-1711-4f72-804b-a39aadde747e"
+=======
+                        "value": "93dea969-9d7f-47b2-b41c-29a7a4dc4785"
+>>>>>>> origin/develop
                       },
                       "name": "upAtk",
                       "pos": {
@@ -465,10 +529,17 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 35
                         },
                         "UDim_Y": {
                           "Offect": 35
+=======
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+>>>>>>> origin/develop
                         }
                       },
                       "Text": "+"
@@ -476,7 +547,11 @@
                   ],
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "146dcdf5-0258-4489-a0cc-6271b450c383"
+=======
+                    "value": "330dce1f-d98e-4a67-811d-0409cf845398"
+>>>>>>> origin/develop
                   },
                   "name": "Str",
                   "pos": {
@@ -501,7 +576,11 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "c57f3ed0-fbf8-43d0-9d34-763f5ef20d4f"
+=======
+                        "value": "f8b9094a-fcc9-464a-a64b-de7e35f08853"
+>>>>>>> origin/develop
                       },
                       "name": "txVit",
                       "pos": {
@@ -514,7 +593,11 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 68.006045073417
+=======
+                          "Offect": 68.00604507342
+>>>>>>> origin/develop
                         },
                         "UDim_Y": {
                           "Offect": 35.40330189468
@@ -530,7 +613,11 @@
                       },
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "c64b9bc4-c54a-4850-ba3c-0ef5fd08a1c2"
+=======
+                        "value": "0ffa869c-2644-4ec5-bd5e-5195516c6512"
+>>>>>>> origin/develop
                       },
                       "name": "upVit",
                       "pos": {
@@ -543,10 +630,17 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 35
                         },
                         "UDim_Y": {
                           "Offect": 35
+=======
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+>>>>>>> origin/develop
                         }
                       },
                       "Text": "+"
@@ -554,7 +648,11 @@
                   ],
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "a09b3822-40ea-40da-a0ae-89cea063f185"
+=======
+                    "value": "c188b90f-e260-44ea-a1f4-7e1d60d53596"
+>>>>>>> origin/develop
                   },
                   "name": "Vit",
                   "pos": {
@@ -582,7 +680,11 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "36f795c4-3a79-4c53-8129-3d6985cd82f3"
+=======
+                        "value": "058d586b-962a-4564-b7a6-c615d51906a2"
+>>>>>>> origin/develop
                       },
                       "name": "txInt",
                       "pos": {
@@ -595,7 +697,11 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 68.006045073417
+=======
+                          "Offect": 68.00604507342
+>>>>>>> origin/develop
                         },
                         "UDim_Y": {
                           "Offect": 35.40330189468
@@ -611,7 +717,11 @@
                       },
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "4c9b56b2-c235-4a37-8e5a-18ff427f85ff"
+=======
+                        "value": "d2f21041-259f-4da0-bea9-bf623794c0fa"
+>>>>>>> origin/develop
                       },
                       "name": "upInt",
                       "pos": {
@@ -624,10 +734,17 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 35
                         },
                         "UDim_Y": {
                           "Offect": 35
+=======
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+>>>>>>> origin/develop
                         }
                       },
                       "Text": "+"
@@ -635,7 +752,11 @@
                   ],
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "dbabb2fd-815c-4623-a77f-e5407608b889"
+=======
+                    "value": "4babcdca-e28a-4f36-bd4d-61dec50292a8"
+>>>>>>> origin/develop
                   },
                   "name": "Int",
                   "pos": {
@@ -667,7 +788,11 @@
                       },
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "0ed2f4df-627f-46d8-85ea-d834b332a7e2"
+=======
+                        "value": "29a570f7-3840-4e2c-9d99-f3ef19a13ced"
+>>>>>>> origin/develop
                       },
                       "name": "txDex",
                       "pos": {
@@ -680,7 +805,11 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 68.006045073417
+=======
+                          "Offect": 68.00604507342
+>>>>>>> origin/develop
                         },
                         "UDim_Y": {
                           "Offect": 35.40330189468
@@ -696,7 +825,11 @@
                       },
                       "Font_size": 18,
                       "id": {
+<<<<<<< HEAD
                         "value": "a2b8d723-20be-4abb-9911-1732bbb7a84d"
+=======
+                        "value": "5f67b635-6777-4060-8e8d-210209b18281"
+>>>>>>> origin/develop
                       },
                       "name": "upDex",
                       "pos": {
@@ -709,10 +842,17 @@
                       },
                       "size": {
                         "UDim_X": {
+<<<<<<< HEAD
                           "Offect": 35
                         },
                         "UDim_Y": {
                           "Offect": 35
+=======
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+>>>>>>> origin/develop
                         }
                       },
                       "Text": "+"
@@ -720,7 +860,11 @@
                   ],
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "3347064f-9c40-45b0-8ac2-df2e669514a5"
+=======
+                    "value": "94eee80e-e991-4bb9-8551-67ee8916cb69"
+>>>>>>> origin/develop
                   },
                   "name": "Dex",
                   "pos": {
@@ -745,7 +889,11 @@
                   "__OBJ_TYPE": "StaticText",
                   "Font_size": 18,
                   "id": {
+<<<<<<< HEAD
                     "value": "dbe9331d-f78e-4ba3-b721-b5967ca72d8f"
+=======
+                    "value": "6d0926a6-69f1-498b-8efc-ef869782b250"
+>>>>>>> origin/develop
                   },
                   "name": "StatusPoint",
                   "pos": {
@@ -771,7 +919,11 @@
                   "Font_size": 18,
                   "HorzFormatting": "RightAligned",
                   "id": {
+<<<<<<< HEAD
                     "value": "84453c4c-d1b4-4d0b-8064-bcf9e59f8faf"
+=======
+                    "value": "3b204a0a-e8e5-4f5d-8b11-985a6b6711ed"
+>>>>>>> origin/develop
                   },
                   "name": "Point",
                   "pos": {
@@ -784,7 +936,11 @@
                   },
                   "size": {
                     "UDim_X": {
+<<<<<<< HEAD
                       "Offect": 100
+=======
+                      "Offect": 100.0
+>>>>>>> origin/develop
                     },
                     "UDim_Y": {
                       "Offect": 35.40330189468
@@ -795,7 +951,11 @@
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "b62e1c56-9eb2-4866-b660-09e4115920ff"
+=======
+                "value": "4120a1e6-446a-4da2-afed-270ff22b2347"
+>>>>>>> origin/develop
               },
               "name": "DefaultWindow1",
               "pos": {
@@ -808,7 +968,11 @@
               },
               "size": {
                 "UDim_X": {
+<<<<<<< HEAD
                   "Offect": 0,
+=======
+                  "Offect": 0.0,
+>>>>>>> origin/develop
                   "Scale": 0.5
                 },
                 "UDim_Y": {
@@ -819,7 +983,11 @@
             }
           ],
           "id": {
+<<<<<<< HEAD
             "value": "f5ee64a0-b715-4797-91c3-1535b31e74a8"
+=======
+            "value": "0b496e2a-e482-43cb-9a1e-58fc71bbd932"
+>>>>>>> origin/develop
           },
           "Image": {
             "asset": "asset/texture2/bg.png"
@@ -836,7 +1004,11 @@
         }
       ],
       "id": {
+<<<<<<< HEAD
         "value": "a5b5c075-498f-407f-8b02-358fcf8bbc76"
+=======
+        "value": "993d5f7e-6f83-4dc0-a75f-b56a83cd64f9"
+>>>>>>> origin/develop
       },
       "pos": {
         "UDim_X": {
@@ -849,19 +1021,32 @@
       },
       "size": {
         "UDim_X": {
+<<<<<<< HEAD
           "Offect": 0,
           "Scale": 1
         },
         "UDim_Y": {
           "Offect": 0,
           "Scale": 1
+=======
+          "Offect": 0.0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0.0,
+          "Scale": 1.0
+>>>>>>> origin/develop
         }
       }
     }
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "layout": "dfc5bd7bdeb9e87a054c604e06c2735c",
+=======
+      "layout": "d66ae0c9fcd2f9262fab77e792f4ceb9",
+>>>>>>> origin/develop
       "triggers.bts": "6c1bfad73961a3f3abd41f8556c0a05e"
     },
     "VERSION": "0.21"

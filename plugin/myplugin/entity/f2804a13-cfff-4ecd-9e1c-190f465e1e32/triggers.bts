@@ -1,3 +1,6 @@
 ENTITY_CLICK {
+<<<<<<< HEAD
 	SendToClient(msg = "client_1af48063_ecfd_4d3b_ad3a_279846af59f5", p_exp = 10, player = $obj2)
+=======
+>>>>>>> origin/develop
 }

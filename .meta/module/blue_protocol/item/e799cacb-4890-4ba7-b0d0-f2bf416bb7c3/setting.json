@@ -1,9 +1,9 @@
 {
   "data": {
     "id": {
-      "value": "2a49af20-4513-4822-90ed-389b9761ac85"
+      "value": "e799cacb-4890-4ba7-b0d0-f2bf416bb7c3"
     },
-    "name": "questBoard",
+    "name": "questBoard_1",
     "register_object": "game/0/triggers_client/list/3",
     "save": true,
     "triggers": {
@@ -11,12 +11,12 @@
         {
           "custom_trigger_data": {
             "name": {
-              "value": "5c03ae8a-057a-4595-af91-ba4782383772"
+              "value": "af4f9d5e-aac2-4746-a11e-94637ce48b62"
             },
             "type": "Trigger_RegisterClientProto"
           },
-          "func_name": "clientMessage_2",
-          "proto_uuid": "2a49af20-4513-4822-90ed-389b9761ac85",
+          "func_name": "clientMessage_4",
+          "proto_uuid": "e799cacb-4890-4ba7-b0d0-f2bf416bb7c3",
           "root": {
             "components": [
               {
@@ -24,7 +24,7 @@
               }
             ],
             "id": {
-              "value": "98db6d54-ba04-47fa-95b6-2ef2be84b79f"
+              "value": "537474f7-d018-4b45-a88b-ad10e09a7869"
             }
           },
           "type": "Trigger_RegisterClientProto"
@@ -35,12 +35,8 @@
   },
   "meta": {
     "EXPORT": {
-<<<<<<< HEAD
-      "setting.json": "0edfbab4e9b636acbf02079e4afc65da",
-=======
-      "setting.json": "4a450011a5a26680f669d24f06c1e95d",
->>>>>>> origin/develop
-      "triggers.bts": "7370503e75827a02b90f62252900d741"
+      "setting.json": "081b4e8237b0cfeb6d4f19f098807db2",
+      "triggers.bts": "a0132a21d6e645f4ae601f70f52364fb"
     },
     "VERSION": "0.21"
   }

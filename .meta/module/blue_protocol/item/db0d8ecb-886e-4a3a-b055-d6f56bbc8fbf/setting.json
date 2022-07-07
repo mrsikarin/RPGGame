@@ -1,0 +1,56 @@
+{
+  "data": {
+    "id": {
+      "value": "db0d8ecb-886e-4a3a-b055-d6f56bbc8fbf"
+    },
+    "name": "damagePlayer",
+    "params": [
+      {
+        "param_name": "dmg"
+      },
+      {
+        "param_name": "pos",
+        "param_type": "T_Vector3",
+        "param_type_old": "T_Vector3",
+        "value": {
+          "__OBJ_TYPE": "T_Vector3"
+        }
+      }
+    ],
+    "register_object": "game/0/triggers_client/list/5",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "c1fe8807-09da-45e1-8bbd-e12a0b020ad7"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "clientMessage_6",
+          "proto_uuid": "db0d8ecb-886e-4a3a-b055-d6f56bbc8fbf",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "836c58b0-ec37-4c4f-b67b-f0f882a557eb"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        }
+      ]
+    },
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "341ffed0b4aeda332176392bd9d1cde2",
+      "triggers.bts": "53518a875fff3ac2ad33d28af11e96db"
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,2 +1,8 @@
-ENTITY_DIE {
+ENTITY_DAMAGE {
+	SendToClient(
+		msg = "client_db0d8ecb_886e_4a3a_b055_d6f56bbc8fbf",
+		p_dmg = $damage,
+		p_pos = GetEntityPosition(entity = $obj1),
+		player = $obj2
+	)
 }

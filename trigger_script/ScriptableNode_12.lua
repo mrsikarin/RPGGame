@@ -13,5 +13,5 @@ if curExp + exp >= maxXp then
 else
   player:setValue("exp",curExp + exp)
 end
-status:refreshBar()
---PackageHandlers.sendClientHandler("refreshBar",{},function(...) end)
+--status:refreshBar()
+PackageHandlers.sendClientHandler("refreshBar",{},function(...) end)

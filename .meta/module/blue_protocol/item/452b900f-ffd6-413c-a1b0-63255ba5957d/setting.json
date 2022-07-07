@@ -1,0 +1,48 @@
+{
+  "data": {
+    "id": {
+      "value": "452b900f-ffd6-413c-a1b0-63255ba5957d"
+    },
+    "name": "damage",
+    "params": [
+      {
+        "param_name": "damage"
+      }
+    ],
+    "register_object": "game/0/triggers_client/list/4",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "018a6897-d68a-4009-8aae-cb1d7d6eec1a"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "clientMessage_5",
+          "proto_uuid": "452b900f-ffd6-413c-a1b0-63255ba5957d",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "61e471aa-9cbb-4943-b42e-32f4f2cfeffc"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        }
+      ]
+    },
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1fde3d1020d3924372e21cad5e22ce8a",
+      "triggers.bts": "1e79994e3177f97ba69c9e79ac8890d7"
+    },
+    "VERSION": "0.21"
+  }
+}

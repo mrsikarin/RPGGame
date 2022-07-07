@@ -276,6 +276,185 @@
             }
           },
           "type": "Trigger_RegisterClientProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "b218d1d0-5e4c-426a-a56b-e3b11c5a1272",
+                      "param_name": "player"
+                    },
+                    {
+                      "action": "86841233-5025-4ac9-8bdf-275da9e97109",
+                      "param_name": "damage"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_13"
+                }
+              ],
+              "id": {
+                "value": "608bd471-20b5-4764-9892-cdf83a9a7ebf"
+              },
+              "pos": {
+                "x": 737,
+                "y": 213
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "b218d1d0-5e4c-426a-a56b-e3b11c5a1272"
+              },
+              "pos": {
+                "x": 1091,
+                "y": 157
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetProtocolParam",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Param",
+                  "key": "damage"
+                }
+              ],
+              "id": {
+                "value": "86841233-5025-4ac9-8bdf-275da9e97109"
+              },
+              "pos": {
+                "x": 1290,
+                "y": 241
+              },
+              "proto_id": "452b900f-ffd6-413c-a1b0-63255ba5957d",
+              "type": "T_Int"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "3f78396e-68a4-43b2-847d-e2bd1bc5eb26"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "damage",
+          "proto_uuid": "452b900f-ffd6-413c-a1b0-63255ba5957d",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "608bd471-20b5-4764-9892-cdf83a9a7ebf"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "40ab753a-879e-4fe6-be91-83cc81975d54"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "2c5c05da-cc42-4d90-8a82-ebcb19771d85",
+                      "param_name": "dmg"
+                    },
+                    {
+                      "action": "5a250fdb-1e58-48c2-9dfc-0709f64e7f8c",
+                      "param_name": "pos"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_15"
+                }
+              ],
+              "id": {
+                "value": "50590f1d-6cb2-42cd-b208-393395d5293c"
+              },
+              "pos": {
+                "x": 752,
+                "y": 407
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetProtocolParam",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Param",
+                  "key": "dmg"
+                }
+              ],
+              "id": {
+                "value": "2c5c05da-cc42-4d90-8a82-ebcb19771d85"
+              },
+              "pos": {
+                "x": 1103,
+                "y": 409
+              },
+              "proto_id": "db0d8ecb-886e-4a3a-b055-d6f56bbc8fbf",
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetProtocolParam",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Param",
+                  "key": "pos"
+                }
+              ],
+              "id": {
+                "value": "5a250fdb-1e58-48c2-9dfc-0709f64e7f8c"
+              },
+              "pos": {
+                "x": 1105,
+                "y": 545
+              },
+              "proto_id": "db0d8ecb-886e-4a3a-b055-d6f56bbc8fbf",
+              "type": "T_Vector3"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "d945d54b-d190-4bc4-ac7a-2d4bc43e431c"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "damagePlayer",
+          "proto_uuid": "db0d8ecb-886e-4a3a-b055-d6f56bbc8fbf",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "50590f1d-6cb2-42cd-b208-393395d5293c"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8b9ee6e0-0e61-46f7-b7b7-64345b6c3c7e"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
         }
       ]
     },
@@ -350,7 +529,7 @@
       "setting.json": "19def57e68552810d113a7c19af9f81b",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
-      "triggers_client.bts": "23c6252e07a19d5e87a2881442a5dc41"
+      "triggers_client.bts": "c8ca51640ecd0bc815a8948eae923df0"
     },
     "VERSION": "0.21"
   }

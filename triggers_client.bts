@@ -10,3 +10,11 @@ Client_Init_Finished {
 client_e799cacb_4890_4ba7_b0d0_f2bf416bb7c3 {
 	CreateWindow(name = "", res = "QuestBoard")
 }
+
+client_452b900f_ffd6_413c_a1b0_63255ba5957d {
+	ExecScript(damage = $p_damage, player = $player, script_name = "ScriptableNode_13")
+}
+
+client_db0d8ecb_886e_4a3a_b055_d6f56bbc8fbf {
+	ExecScript(dmg = $p_dmg, pos = $p_pos, script_name = "ScriptableNode_15")
+}

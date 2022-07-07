@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "38956b6dc09dfdb08f0a93f8528315c2",
+    "md5": "6c6aa947d4223e6dd8cc71adff73a738",
     "path": "asset/damage.layout",
     "root": {
       "anchor": {
@@ -20,6 +20,7 @@
           "id": {
             "value": "ef40b3c3-af4d-425f-8549-00a7f74e770f"
           },
+          "name": "dmg",
           "TextColours": {
             "b": 42,
             "g": 10,
@@ -35,7 +36,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "38956b6dc09dfdb08f0a93f8528315c2",
+      "layout": "6c6aa947d4223e6dd8cc71adff73a738",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

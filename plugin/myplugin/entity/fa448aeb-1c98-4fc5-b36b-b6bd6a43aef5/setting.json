@@ -1,5 +1,7 @@
 {
-  "_clientScript": [],
+  "_clientScript": [
+    "client/client_script"
+  ],
   "_serverScript": [],
   "actorGirlName": "empty.actor",
   "actorName": "asset/Actor/Red Eagle/Big Dog.actor",

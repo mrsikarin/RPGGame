@@ -13,6 +13,62 @@
     "triggers": {
       "list": [
         {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_Int",
+                      "key": "exp",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3fcbe91e-c25a-4b51-8535-6870cf5279dd"
+                      }
+                    }
+                  ],
+                  "proto_id": "1af48063-ecfd-4d3b-ad3a-279846af59f5",
+                  "proto_name": "sendexp",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "90471c5f-2ebe-4315-8f8d-6f318e147395"
+              },
+              "pos": {
+                "x": 734,
+                "y": 254
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "3fcbe91e-c25a-4b51-8535-6870cf5279dd"
+              },
+              "pos": {
+                "x": 1164,
+                "y": 287
+              },
+              "type": "T_Entity"
+            }
+          ],
           "custom_trigger_data": {
             "name": {
               "value": "5bd9b5ee-fea1-45db-8c42-708abcea29e4"
@@ -24,7 +80,9 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  [],
+                  {
+                    "action": "90471c5f-2ebe-4315-8f8d-6f318e147395"
+                  },
                   []
                 ]
               }
@@ -40,8 +98,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "12dcaba52cd8e01447d984d99cfb5760",
-      "triggers.bts": "6a0c90522e1ec791f774f8fc7e12d334"
+      "setting.json": "52de2bbf896135709b9e5daf8808de4e",
+      "triggers.bts": "8fd822378401414688841d3eac8c5a1e"
     },
     "VERSION": "0.21"
   }

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "32315d8bdef2d5625701e6d0e67fb683",
+    "md5": "d1cf656e8226ae97b8a650909355ba2d",
     "path": "asset/QuestInfo.layout",
     "root": {
       "anchor": {
@@ -21,7 +21,8 @@
                 "HorizontalAlignment": "Right"
               },
               "DisabledImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "DisabledTextColour": {
                 "b": 29,
@@ -31,7 +32,8 @@
               "Font": "HarmonyOS_Sans_SC_Bold",
               "Font_size": 40,
               "HoverImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "HoverTextColour": {
                 "b": 39,
@@ -39,11 +41,12 @@
                 "r": 176
               },
               "id": {
-                "value": "343b5db1-f838-4bcd-8413-d9602771c899"
+                "value": "5b6f71d7-bee4-40e5-ad60-c63710823bca"
               },
               "name": "CloseBtn",
               "NormalImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "NormalTextColour": {
                 "b": 39,
@@ -59,7 +62,8 @@
                 }
               },
               "PushedImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "PushedTextColour": {
                 "b": 29,
@@ -68,83 +72,13 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 60
+                  "Offect": 60.0
                 },
                 "UDim_Y": {
-                  "Offect": 60
+                  "Offect": 60.0
                 }
               },
-              "Text": "X",
-              "triggers": {
-                "list": [
-                  {
-                    "actions": [
-                      {
-                        "__OBJ_TYPE": "Action_DestoryWidget",
-                        "components": [
-                          {
-                            "__OBJ_TYPE": "Component_Params",
-                            "params": [
-                              {
-                                "value": {
-                                  "__OBJ_TYPE": "T_Widget",
-                                  "action": "d8246401-dcfd-4118-a82c-72eb65e82b2e"
-                                }
-                              }
-                            ]
-                          }
-                        ],
-                        "id": {
-                          "value": "e35d6fd8-1c78-45ff-9aa1-685f96a3a19d"
-                        },
-                        "pos": {
-                          "x": 721,
-                          "y": 347
-                        }
-                      },
-                      {
-                        "__OBJ_TYPE": "Action_GetContextVar",
-                        "components": [
-                          {
-                            "__OBJ_TYPE": "Component_Context",
-                            "key": "rootInstance"
-                          }
-                        ],
-                        "id": {
-                          "value": "d8246401-dcfd-4118-a82c-72eb65e82b2e"
-                        },
-                        "pos": {
-                          "x": 1140,
-                          "y": 334
-                        },
-                        "type": "T_Layout"
-                      }
-                    ],
-                    "custom_trigger_data": {
-                      "name": {
-                        "value": "a278fcb3-8109-4635-97c5-5083da6ee9f6"
-                      },
-                      "type": "Trigger_WidgetClicked"
-                    },
-                    "root": {
-                      "components": [
-                        {
-                          "__OBJ_TYPE": "Component_Sequence",
-                          "children": [
-                            {
-                              "action": "e35d6fd8-1c78-45ff-9aa1-685f96a3a19d"
-                            }
-                          ]
-                        }
-                      ],
-                      "id": {
-                        "value": "ecc271fd-44f2-4726-99f2-25a97877852e"
-                      }
-                    },
-                    "type": "Trigger_WidgetClicked"
-                  }
-                ]
-              }
+              "Text": "X"
             },
             {
               "__OBJ_TYPE": "Button",
@@ -154,18 +88,21 @@
                 "VerticalAlignment": "Bottom"
               },
               "DisabledImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "Font_size": 24,
               "HoverImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "id": {
-                "value": "81708d50-8f9b-4659-b7a8-86fd12568c19"
+                "value": "ea1414b9-3293-4462-a36b-1f7efb633644"
               },
               "name": "AcceptBtn",
               "NormalImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "pos": {
                 "UDim_Y": {
@@ -173,14 +110,15 @@
                 }
               },
               "PushedImage": {
-                "asset": ""
+                "asset": "",
+                "selector": ""
               },
               "size": {
                 "UDim_X": {
                   "Offect": 165.26615488529
                 },
                 "UDim_Y": {
-                  "Offect": 66.579730033876
+                  "Offect": 66.579730033877
                 }
               },
               "Text": "Accept"
@@ -189,7 +127,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "a923f4a3-72b0-457a-9893-06a8f0f10e79"
+                "value": "c77e89d8-81d3-42b8-a436-641c5ba75e39"
               },
               "name": "Detail_txt",
               "pos": {
@@ -202,10 +140,10 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 297.2182312906
+                  "Offect": 297.21823129059
                 },
                 "UDim_Y": {
-                  "Offect": 265.91804164649
+                  "Offect": 265.9180416465
                 }
               },
               "Text": "Detail"
@@ -214,7 +152,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "87641a81-faa3-4ea5-b1c3-b08f3f1a9ae2"
+                "value": "b94c967e-1c88-467e-a5ea-3f6f3cc2f64a"
               },
               "name": "Reward_txt",
               "pos": {
@@ -230,7 +168,7 @@
                   "Offect": 296.76710155608
                 },
                 "UDim_Y": {
-                  "Offect": 74.909059643774
+                  "Offect": 74.90905964378
                 }
               },
               "Text": "Reward",
@@ -238,7 +176,7 @@
             }
           ],
           "id": {
-            "value": "4b80abd6-827b-4286-9b96-9019e3995f6b"
+            "value": "581fea79-18f6-4a68-95d5-eb5457c02101"
           },
           "Image": {
             "asset": "asset/Texture/output-onlinepngtools.png"
@@ -254,7 +192,7 @@
         }
       ],
       "id": {
-        "value": "cef13145-4a3e-4eae-8dbb-3add94581534"
+        "value": "1dcbc986-ae23-4fbf-9d89-873712b679fd"
       },
       "size": {
         "UDim_X": {
@@ -270,7 +208,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "32315d8bdef2d5625701e6d0e67fb683",
+      "layout": "d1cf656e8226ae97b8a650909355ba2d",
       "triggers.bts": "6a675b5d791dd2cdb9fc6bc47a2bdc9c"
     },
     "VERSION": "0.21"

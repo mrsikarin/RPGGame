@@ -47,6 +47,86 @@
         {
           "actions": [
             {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_Int",
+                      "key": "dmg",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "0115bc9a-32af-463c-8951-a2cd6baee18e"
+                      }
+                    },
+                    {
+                      "data_type": "T_Vector3",
+                      "key": "pos",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_Vector3",
+                        "action": "5fd5cfec-ffcc-4976-8113-f5edd55718c1"
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0be9acbf-e06a-4654-9783-be7b30a751ff"
+                      }
+                    }
+                  ],
+                  "proto_id": "db0d8ecb-886e-4a3a-b055-d6f56bbc8fbf",
+                  "proto_name": "damagePlayer",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "2ebf66d5-dde5-4e54-a924-9aefa022ca99"
+              },
+              "pos": {
+                "x": 740,
+                "y": 267
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "406b5ff0-b58c-46ad-98c2-763c299eb51c"
+              },
+              "pos": {
+                "x": 1555,
+                "y": 557
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "damage"
+                }
+              ],
+              "id": {
+                "value": "0115bc9a-32af-463c-8951-a2cd6baee18e"
+              },
+              "pos": {
+                "x": 1293,
+                "y": 404
+              },
+              "type": "T_Int"
+            },
+            {
               "__OBJ_TYPE": "Action_GetContextVar",
               "components": [
                 {
@@ -55,83 +135,43 @@
                 }
               ],
               "id": {
-                "value": "014dabf6-d4e4-4f86-9066-abc746c294af"
+                "value": "0be9acbf-e06a-4654-9783-be7b30a751ff"
               },
               "pos": {
-                "x": 1096.4748965048,
-                "y": 347.38012096311
+                "x": 1285,
+                "y": 203
               },
               "type": "T_Entity"
             },
             {
-              "__OBJ_TYPE": "Action_Function",
+              "__OBJ_TYPE": "Action_GetEntityPosition",
               "components": [
                 {
                   "__OBJ_TYPE": "Component_Params",
                   "params": [
                     {
                       "value": {
-                        "__OBJ_TYPE": "T_String",
-                        "rawval": "exp"
-                      }
-                    },
-                    {
-                      "key": "Exp",
-                      "value": {
-                        "__OBJ_TYPE": "T_Var",
-                        "action": "8a4c9ff9-23d3-4a79-aac8-bc4f20450785"
-                      }
-                    },
-                    {
-                      "key": "player",
-                      "value": {
-                        "__OBJ_TYPE": "T_Var",
-                        "action": "014dabf6-d4e4-4f86-9066-abc746c294af"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "func_declare_id": "c02b686356b_c54fd21a-59a2-4401-915f-65c07414e707",
-              "func_name": "exp",
-              "id": {
-                "value": "7e66ffbb-8317-4a26-b4a1-eb7ee5d8c721"
-              },
-              "pos": {
-                "x": 629.52510349522,
-                "y": 244.99245870852
-              },
-              "type": "T_Void"
-            },
-            {
-              "__OBJ_TYPE": "Action_NumberFloor",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Double",
-                        "rawval": 100
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "406b5ff0-b58c-46ad-98c2-763c299eb51c"
                       }
                     }
                   ]
                 }
               ],
               "id": {
-                "value": "8a4c9ff9-23d3-4a79-aac8-bc4f20450785"
+                "value": "5fd5cfec-ffcc-4976-8113-f5edd55718c1"
               },
               "pos": {
-                "x": 1065.4483321852,
-                "y": 218.61987903689
+                "x": 1197,
+                "y": 537
               }
             }
           ],
           "custom_trigger_data": {
             "name": {
-              "value": "7aa24414-8374-4ea3-8888-c48e625255f0"
+              "value": "a4bd76b6-81eb-4a70-9796-61fd8cf80a59"
             },
-            "type": "Trigger_EntityDie"
+            "type": "Trigger_EntityDamage"
           },
           "root": {
             "components": [
@@ -139,24 +179,24 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
-                    "action": "7e66ffbb-8317-4a26-b4a1-eb7ee5d8c721"
+                    "action": "2ebf66d5-dde5-4e54-a924-9aefa022ca99"
                   }
                 ]
               }
             ],
             "id": {
-              "value": "a89435f7-dc23-445f-ba53-004c53a5c4de"
+              "value": "006fec46-0e2c-4abc-9828-c2b68659c83e"
             }
           },
-          "type": "Trigger_EntityDie"
+          "type": "Trigger_EntityDamage"
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b0f9f5dd62f902eb58f6cec385f002f5",
-      "triggers.bts": "9ccbb211fa75aace9c27a751153abc78"
+      "setting.json": "4c3530d5540c4837d6c8d9f98e551da5",
+      "triggers.bts": "b8bf910db69d28ce495b5e37cc1feafd"
     },
     "VERSION": "0.21"
   }

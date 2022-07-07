@@ -1,0 +1,140 @@
+{
+  "__OBJ_TYPE": "SkillSystemCfg",
+  "attackBound": {
+    "__OBJ_TYPE": "AttackBound",
+    "height": 1,
+    "height_c": 1.5,
+    "memory": {
+      "__OBJ_TYPE": "BoundingVolumeMemory",
+      "Capsule": "",
+      "Cylinder": "",
+      "Sphere": ""
+    },
+    "position": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "radius": 0.5,
+    "radius_c": 0.5,
+    "rotate": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "size": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "type": "Box"
+  },
+  "attackTarget": {
+    "__OBJ_TYPE": "AttackTarget",
+    "attackEntity": "hitAllConfigEntity",
+    "attackTeam": "hitAllTeam",
+    "entityList": [],
+    "targetType": "hitAllEntitys",
+    "teamList": []
+  },
+  "castAction": {
+    "__OBJ_TYPE": "SkillReleaseAction",
+    "castAction": "attack",
+    "castActionTime": {
+      "__OBJ_TYPE": "Time",
+      "value": 20
+    },
+    "custom_time": false
+  },
+  "castEffect": {
+    "__OBJ_TYPE": "EntityEffect",
+    "effect": {
+      "__OBJ_TYPE": "Resource_Effect",
+      "asset": "",
+      "selector": ""
+    },
+    "once": true,
+    "pos": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "__OBJ_TYPE": "Vector3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "selfOnly": false,
+    "yaw": 0
+  },
+  "castInterval": {
+    "__OBJ_TYPE": "Time",
+    "value": 0
+  },
+  "castSound": {
+    "__OBJ_TYPE": "CastSound",
+    "loop": false,
+    "selfOnly": false,
+    "sound": {
+      "__OBJ_TYPE": "Resource_Sound",
+      "asset": "",
+      "selector": ""
+    },
+    "volume": {
+      "__OBJ_TYPE": "Percentage",
+      "value": 1
+    }
+  },
+  "cdTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 0
+  },
+  "damage": 5,
+  "hitEntitySound": {
+    "__OBJ_TYPE": "CastSound",
+    "loop": false,
+    "selfOnly": false,
+    "sound": {
+      "__OBJ_TYPE": "Resource_Sound",
+      "asset": "",
+      "selector": ""
+    },
+    "volume": {
+      "__OBJ_TYPE": "Percentage",
+      "value": 1
+    }
+  },
+  "hurtDistance": 0.1,
+  "isLimit": false,
+  "isTouch": false,
+  "lifeTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 2
+  },
+  "maxAttackNumber": 1,
+  "missile": "89c12506-47c8-46a3-8cd6-3f19ece9e657",
+  "name": {
+    "__OBJ_TYPE": "Text",
+    "value": "skill_system_dd476908-1a37-40ca-9b19-d49a7497e8a5"
+  },
+  "preKillTime": {
+    "__OBJ_TYPE": "Time",
+    "value": 0
+  },
+  "skill1": "dd476908-1a37-40ca-9b19-d49a7497e8a5",
+  "skill2": "79f5506f-8364-45a9-9de8-9d1832ab9d72",
+  "skillIcon": {
+    "__OBJ_TYPE": "Resource_SkillTexture",
+    "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png",
+    "selector": ""
+  },
+  "skillIconPos": {
+    "__OBJ_TYPE": "SkillIconPos",
+    "area_number": 7
+  }
+}

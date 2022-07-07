@@ -1,0 +1,69 @@
+{
+  "data": {
+    "md5": "8d44294cfd9c71fbaa0906d739375bab",
+    "path": "asset/JumpButton.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Right",
+        "VerticalAlignment": "Bottom"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "DisabledImage": {
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_nor.png"
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+          },
+          "id": {
+            "value": "a451914d-a5db-48c1-901d-f0f072811841"
+          },
+          "NormalImage": {
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -179.99999164679,
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Offect": -223.99997399678,
+              "Scale": 1
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_nor.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 170.0
+            },
+            "UDim_Y": {
+              "Offect": 170.0
+            }
+          },
+          "Text": " "
+        }
+      ],
+      "id": {
+        "value": "30fcc2db-b062-4d44-8942-ce7ea123d5c5"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 180
+        },
+        "UDim_Y": {
+          "Offect": 224
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "8d44294cfd9c71fbaa0906d739375bab",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

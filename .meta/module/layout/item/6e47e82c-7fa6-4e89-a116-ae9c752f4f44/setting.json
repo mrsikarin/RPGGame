@@ -1,0 +1,278 @@
+{
+  "data": {
+    "md5": "32315d8bdef2d5625701e6d0e67fb683",
+    "path": "asset/QuestInfo.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": ""
+              },
+              "DisabledTextColour": {
+                "b": 29,
+                "g": 89,
+                "r": 159
+              },
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 40,
+              "HoverImage": {
+                "asset": ""
+              },
+              "HoverTextColour": {
+                "b": 39,
+                "g": 105,
+                "r": 176
+              },
+              "id": {
+                "value": "343b5db1-f838-4bcd-8413-d9602771c899"
+              },
+              "name": "CloseBtn",
+              "NormalImage": {
+                "asset": ""
+              },
+              "NormalTextColour": {
+                "b": 39,
+                "g": 105,
+                "r": 176
+              },
+              "pos": {
+                "UDim_X": {
+                  "Offect": -2.224891921043
+                },
+                "UDim_Y": {
+                  "Offect": 17.201370681104
+                }
+              },
+              "PushedImage": {
+                "asset": ""
+              },
+              "PushedTextColour": {
+                "b": 29,
+                "g": 89,
+                "r": 159
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 60
+                },
+                "UDim_Y": {
+                  "Offect": 60
+                }
+              },
+              "Text": "X",
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "d8246401-dcfd-4118-a82c-72eb65e82b2e"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "e35d6fd8-1c78-45ff-9aa1-685f96a3a19d"
+                        },
+                        "pos": {
+                          "x": 721,
+                          "y": 347
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "d8246401-dcfd-4118-a82c-72eb65e82b2e"
+                        },
+                        "pos": {
+                          "x": 1140,
+                          "y": 334
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "a278fcb3-8109-4635-97c5-5083da6ee9f6"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "e35d6fd8-1c78-45ff-9aa1-685f96a3a19d"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "ecc271fd-44f2-4726-99f2-25a97877852e"
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0.994,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": ""
+              },
+              "Font_size": 24,
+              "HoverImage": {
+                "asset": ""
+              },
+              "id": {
+                "value": "81708d50-8f9b-4659-b7a8-86fd12568c19"
+              },
+              "name": "AcceptBtn",
+              "NormalImage": {
+                "asset": ""
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -17.201402664184
+                }
+              },
+              "PushedImage": {
+                "asset": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 165.26615488529
+                },
+                "UDim_Y": {
+                  "Offect": 66.579730033876
+                }
+              },
+              "Text": "Accept"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 18,
+              "id": {
+                "value": "a923f4a3-72b0-457a-9893-06a8f0f10e79"
+              },
+              "name": "Detail_txt",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 36.345624923705
+                },
+                "UDim_Y": {
+                  "Offect": 76.177505612372
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 297.2182312906
+                },
+                "UDim_Y": {
+                  "Offect": 265.91804164649
+                }
+              },
+              "Text": "Detail"
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 18,
+              "id": {
+                "value": "87641a81-faa3-4ea5-b1c3-b08f3f1a9ae2"
+              },
+              "name": "Reward_txt",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 36.345597136742
+                },
+                "UDim_Y": {
+                  "Offect": 340.84977734089
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 296.76710155608
+                },
+                "UDim_Y": {
+                  "Offect": 74.909059643774
+                }
+              },
+              "Text": "Reward",
+              "VertFormatting": "CentreAligned"
+            }
+          ],
+          "id": {
+            "value": "4b80abd6-827b-4286-9b96-9019e3995f6b"
+          },
+          "Image": {
+            "asset": "asset/Texture/output-onlinepngtools.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 370
+            },
+            "UDim_Y": {
+              "Offect": 500
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "cef13145-4a3e-4eae-8dbb-3add94581534"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "32315d8bdef2d5625701e6d0e67fb683",
+      "triggers.bts": "6a675b5d791dd2cdb9fc6bc47a2bdc9c"
+    },
+    "VERSION": "0.21"
+  }
+}

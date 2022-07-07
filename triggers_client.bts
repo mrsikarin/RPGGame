@@ -1,0 +1,12 @@
+client_1af48063_ecfd_4d3b_ad3a_279846af59f5 {
+	ExecScript(exp = $p_exp, player = $player, script_name = "ScriptableNode_12")
+}
+
+Client_Init_Finished {
+	CreateWindow(name = "", res = "Custom Joystick/mainWnd")
+	CreateWindow(name = "", res = "JumpButton")
+}
+
+client_e799cacb_4890_4ba7_b0d0_f2bf416bb7c3 {
+	CreateWindow(name = "", res = "QuestBoard")
+}

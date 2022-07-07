@@ -1,0 +1,23 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "equip_buff": "myplugin/0642a4fd-c29b-4b5d-b41a-f62edf304903",
+  "equip_skill": [],
+  "equip_skin": {
+    "": ""
+  },
+  "icon": "@asset/Item/R (6) (5).png",
+  "itemname": "item_152dff14-d68b-45ae-b6cd-c06616a6a4e1",
+  "needSave": true,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false,
+  "tray": [
+    2
+  ]
+}

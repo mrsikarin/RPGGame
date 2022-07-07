@@ -1,0 +1,56 @@
+{
+  "data": {
+    "castAction": "g2033_skill_sword_09",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 200
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_b3b3da22-421f-45e3-af84-7025d1d2ce4c"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/0ea38670-d6ca-4a1a-92a0-fce61dcf216f",
+            "startPos": {
+              "y": 0,
+              "z": 1
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 20
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/saber-slash.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6d8c1792b88b71ddda2758f7dac03bb7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

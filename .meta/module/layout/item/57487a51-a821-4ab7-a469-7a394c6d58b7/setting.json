@@ -1,0 +1,125 @@
+{
+  "data": {
+    "md5": "cf67cfb21226ac27a04a67fb20165c5a",
+    "path": "asset/interface.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "CustomHorizontalSlider",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "ccdf4fb0-62cd-4216-8383-55d875a79159"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_bg.png"
+                  },
+                  "name": "Background",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256
+                    },
+                    "UDim_Y": {
+                      "Offect": 16
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "2946edbf-c3f2-435b-8c1c-5cf844270465"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_top_h.png"
+                  },
+                  "name": "Fill",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256
+                    },
+                    "UDim_Y": {
+                      "Offect": 16
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "SliderThumb",
+                  "anchor": {
+                    "VerticalAlignment": "Centre"
+                  },
+                  "id": {
+                    "value": "38f9fa6c-5de9-415a-b7b8-4e50030f09ce"
+                  },
+                  "name": "Handle"
+                }
+              ],
+              "id": {
+                "value": "294f6891-c78f-451e-a3a2-fed7b30e9086"
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre"
+              },
+              "id": {
+                "value": "a90fd606-ab29-45ec-90a0-819c5ab41fa7"
+              }
+            }
+          ],
+          "id": {
+            "value": "30e6ce0d-6b92-4452-82da-f47fb55f49b4"
+          },
+          "size": {
+            "UDim_X": {
+              "Scale": 1
+            },
+            "UDim_Y": {
+              "Scale": 0.2
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "0b6ad615-236c-4edf-a26b-f5130075173f"
+      },
+      "size": {
+        "UDim_X": {
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "cf67cfb21226ac27a04a67fb20165c5a",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

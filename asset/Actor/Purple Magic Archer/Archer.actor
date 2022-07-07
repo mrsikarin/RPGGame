@@ -1,0 +1,133 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" AttackScale="1" Originalscale="1 1 1" TextHeight="0" name="111.actor" SoundFileNum="0" IsShowShadow="true" Alpha="1" SoundName3="" SelectedRingSize="1" Skeleton="boy_01.skel" Volume="0.8" MaxDistance="16" MinDistance="1" SoundName1="" WoundBone="" SoundName5="" WoundAngle="25" SoundName2="" IntervalTime="2">
+		<BodyParts>
+			<BodyPart SlaveName="g2021_suit_03" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" MasterName="body">
+				<Skin LocalBrightnessScale="1.0" UseTransparentNearestSlice="false" UseOriginalcolor="false" UseBloom="false" type_name="g2021_armor03_body" LocalAlpha="1" UseEdge="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" DiscardAlpha="0" UVSpeed="0 0" EdgeColor="1.0 0 0 1.0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" MeshName="asset/Skin/Actor_skin/g2021_armor03_body.skin"/>
+				<StaticMesh LocalAlpha="1" type_name="g2021_armor03_head" DiscardAlpha="0">
+					<Position_X value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_Y value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<SocketName value="s_head"/>
+					<yaw value="0"/>
+					<UseEdge value="false"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2021_armor03_head.mesh"/>
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<scale value="1"/>
+					<roll value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart SlaveName="6_3_1" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" MasterName="weapon">
+				<Effect>
+					<Position_X value="-0.178349"/>
+					<Position_Y value="-0.197815"/>
+					<type_name value="g2021_21_A"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<yaw value="-4.5"/>
+					<Position_Z value="0.910931"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_21_A.effect"/>
+					<pitch value="0"/>
+					<scale value="1.5"/>
+					<SocketName value="s_hand_r"/>
+				</Effect>
+				<Effect>
+					<Position_X value="-0.149601"/>
+					<Position_Y value="0.122938"/>
+					<type_name value="g2021_21_A"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<yaw value="-8"/>
+					<Position_Z value="1.00195"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_21_A.effect"/>
+					<pitch value="0"/>
+					<scale value="1.5"/>
+					<SocketName value="s_hand_r"/>
+				</Effect>
+				<Effect>
+					<Position_X value="0.185536"/>
+					<Position_Y value="-0.117317"/>
+					<type_name value="g2021_21_A"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<yaw value="-12"/>
+					<Position_Z value="-0.993141"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_21_A.effect"/>
+					<pitch value="0"/>
+					<scale value="1.5"/>
+					<SocketName value="s_hand_r"/>
+				</Effect>
+				<Effect>
+					<Position_X value="0.269045"/>
+					<Position_Y value="0.194595"/>
+					<type_name value="g2021_21_A"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<yaw value="-11.5"/>
+					<Position_Z value="-0.94822"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_21_A.effect"/>
+					<pitch value="0"/>
+					<scale value="1.5"/>
+					<SocketName value="s_hand_r"/>
+				</Effect>
+				<StaticMesh LocalAlpha="1" type_name="g2021_weapon_6_3" DiscardAlpha="0">
+					<Position_X value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_Y value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<SocketName value="s_hand_r"/>
+					<yaw value="0"/>
+					<UseEdge value="false"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2021_weapon_6_3.mesh"/>
+					<pitch value="0"/>
+					<Position_Z value="0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<scale value="0.5"/>
+					<roll value="0"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_zhujiao_run.anim"/>
+			<Anim Name="asset/Anim/christmas_idle_boy.anim"/>
+			<Anim Name="asset/Anim/boy_attack02_c.anim"/>
+			<Anim Name="asset/Anim/g2021_zhujue_shouji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="attack1">
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/boy_attack02_c.anim" FadeTime="0.25" BeginTime="0" Times="1" Length="0.433"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="hurt">
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/g2021_zhujue_shouji.anim" FadeTime="0.25" BeginTime="0" Times="1" Length="0.533"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="idle">
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/christmas_idle_boy.anim" FadeTime="0.25" BeginTime="0" Times="-1" Length="10.033"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="run">
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/g2021_zhujiao_run.anim" FadeTime="0.25" BeginTime="0" Times="-1" Length="0.633"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

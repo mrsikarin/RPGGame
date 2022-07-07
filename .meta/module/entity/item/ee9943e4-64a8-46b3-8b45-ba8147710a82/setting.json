@@ -1,0 +1,27 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "empty.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "name": {
+      "value": "entity_ee9943e4-64a8-46b3-8b45-ba8147710a82"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b64cea5594584b2bef09f46327f1677a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

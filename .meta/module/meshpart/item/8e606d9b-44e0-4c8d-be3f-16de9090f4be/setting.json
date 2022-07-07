@@ -1,0 +1,83 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "0a1f416d-3e9d-4dee-99dd-755a6fc1f0d0"
+              },
+              "pos": {
+                "x": 1311,
+                "y": 374
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0a1f416d-3e9d-4dee-99dd-755a6fc1f0d0"
+                      }
+                    }
+                  ],
+                  "proto_id": "e799cacb-4890-4ba7-b0d0-f2bf416bb7c3",
+                  "proto_name": "questBoard_1",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "61c87594-b3dd-4f86-b08f-2ea1b95a4434"
+              },
+              "pos": {
+                "x": 851,
+                "y": 351
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "14f0779d-69ec-4a6e-bc3d-b603fab710d4"
+            },
+            "type": "Trigger_MeshPartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "61c87594-b3dd-4f86-b08f-2ea1b95a4434"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "fd9162df-2e87-433a-ad7f-e7a763f6a937"
+            }
+          },
+          "type": "Trigger_MeshPartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "61d396e9b8802c16cc414a3b713bd70e"
+    },
+    "VERSION": "0.21"
+  }
+}

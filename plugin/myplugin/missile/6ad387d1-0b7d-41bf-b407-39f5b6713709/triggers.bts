@@ -1,0 +1,4 @@
+HIT_ENTITY {
+	AddEntityBuff(buffTime = 60, cfg = "myplugin/91761db5-647a-4c3b-bc1c-e2724b289de6", entity = $obj1)
+	Damage(damage = 10, entity = $obj1, from = $obj2)
+}

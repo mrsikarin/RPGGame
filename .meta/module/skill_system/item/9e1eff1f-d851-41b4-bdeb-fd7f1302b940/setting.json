@@ -1,0 +1,42 @@
+{
+  "data": {
+    "attackBound": {
+      "position": {
+        "z": 1
+      },
+      "size": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "castAction": {
+      "castAction": "g2033_skill_sword_09"
+    },
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_brick_break.effect"
+      }
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "damage": 20,
+    "name": {
+      "value": "skill_system_9e1eff1f-d851-41b4-bdeb-fd7f1302b940"
+    },
+    "skillIcon": {
+      "asset": "asset/Skill/saber-slash.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9e5c2c06026cd0009aaa98a8d0925158",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

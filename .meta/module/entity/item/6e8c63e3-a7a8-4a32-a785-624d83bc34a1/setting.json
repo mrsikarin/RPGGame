@@ -1,0 +1,124 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Three-Eyed Green Stone Monster/A Graffiti Wall Monster.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 2.5,
+          "fullName": "myplugin/b10e587b-352c-4011-a321-d92773101487"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 1
+      }
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "y": 2,
+        "z": 0.5
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "hpBarHeight": 0.1,
+    "maxHp": 50,
+    "name": {
+      "value": "entity_6e8c63e3-a7a8-4a32-a785-624d83bc34a1"
+    },
+    "textHeight": 3.3,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "23dc658e-3646-488f-8f57-beee5aba27f0"
+              },
+              "pos": {
+                "x": 1108.4160985428,
+                "y": 369.85528201947
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_NumberFloor",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "rawval": 100
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "352e9357-0a0f-468e-9785-c64156c1835d"
+              },
+              "pos": {
+                "x": 1077.3895342232,
+                "y": 241.09504009325
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "6fc76276-3bd7-4c40-93be-73bd67d9474e"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "63e6dd23-1a90-40aa-aa1a-f44ca9b242cc"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2dd8acabc9281a28a8ab1a4aaaed4fcd",
+      "triggers.bts": "fb62cfcdb4d0392ececce083c81f7149"
+    },
+    "VERSION": "0.21"
+  }
+}

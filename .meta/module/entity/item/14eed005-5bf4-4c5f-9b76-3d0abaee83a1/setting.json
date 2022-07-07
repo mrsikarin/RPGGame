@@ -1,0 +1,47 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Metal Monster/A Domineering Monster.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 2,
+          "fullName": "myplugin/feb3ba42-c47e-404c-9284-a6a6133e9b1d"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 1.6,
+        "z": 1.6
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "hideHp": false,
+    "hpBarHeight": 0.1,
+    "maxHp": 150,
+    "name": {
+      "value": "entity_14eed005-5bf4-4c5f-9b76-3d0abaee83a1"
+    },
+    "textHeight": 3
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f41b20c03dfa795ed30905293baec80f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

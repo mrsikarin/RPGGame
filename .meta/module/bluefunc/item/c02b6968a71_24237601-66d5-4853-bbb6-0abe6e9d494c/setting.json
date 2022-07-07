@@ -1,0 +1,345 @@
+{
+  "data": {
+    "name": {
+      "value": "LevelUp"
+    },
+    "params": [
+      {
+        "param_name": "player",
+        "param_type": "T_Var"
+      }
+    ],
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "level"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "db0a89d2-79ec-4618-bc37-4beedf36170a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "ed738204-2a2a-49ac-9811-0a1cd87f3179"
+              },
+              "pos": {
+                "x": 671,
+                "y": 317
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "c5a64050-bbaa-4876-90b4-3be6229eb66b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 1
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "db0a89d2-79ec-4618-bc37-4beedf36170a"
+              },
+              "pos": {
+                "x": 1052,
+                "y": 231
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "level"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "c5a64050-bbaa-4876-90b4-3be6229eb66b"
+              },
+              "pos": {
+                "x": 1423,
+                "y": 266
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "function_2",
+              "id": {
+                "value": "948eb8db-b232-48bf-8df8-8e3cbff69394"
+              },
+              "pos": {
+                "x": 1758,
+                "y": 371
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "function_2",
+              "id": {
+                "value": "cedec760-d4a5-48b9-95fc-186658c9b7a4"
+              },
+              "pos": {
+                "x": 1102,
+                "y": 446
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_ShowTip",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_TipType"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Text",
+                        "action": "77fff28f-57fd-4daf-beef-f7e6eb07676c",
+                        "rawval": {
+                          "value": "6d8b7db0-f47f-4923-8433-74dea063d042"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 200
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1148659c-1133-4b73-9e4e-4b8fc3463f57"
+              },
+              "pos": {
+                "x": 692,
+                "y": 589
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "function_2",
+              "id": {
+                "value": "21788226-a44b-4f3a-bec8-c87e1e5dd9cc"
+              },
+              "pos": {
+                "x": 1119,
+                "y": 613
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Concat",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "LevelUP : "
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "action": "f0b26346-c0a5-4468-8f1a-f4137551a2b5"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "77fff28f-57fd-4daf-beef-f7e6eb07676c"
+              },
+              "pos": {
+                "x": 1131.3894853939,
+                "y": 818.37172776828
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetObjectVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ObjectVar",
+                        "rawval": "level"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "13140056-1183-4764-a5ef-e18fefbfafc9"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "84e846cb-a440-4e63-b57b-ef83f3a361f3"
+              },
+              "pos": {
+                "x": 1551.889244132,
+                "y": 739.17446379071
+              },
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_ToString",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "action": "84e846cb-a440-4e63-b57b-ef83f3a361f3"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "f0b26346-c0a5-4468-8f1a-f4137551a2b5"
+              },
+              "pos": {
+                "x": 1404.8086110308,
+                "y": 937.16762373465
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetFuncsParamsVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Function_Param",
+                  "key": "player"
+                }
+              ],
+              "function_name": "LevelUp",
+              "id": {
+                "value": "13140056-1183-4764-a5ef-e18fefbfafc9"
+              },
+              "pos": {
+                "x": 1830.9653171959,
+                "y": 867.39860546869
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "5caa30ec-b3da-4d4b-94fc-af1a17b60016"
+            },
+            "type": "Function_Called"
+          },
+          "func_name": "LevelUp",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "ed738204-2a2a-49ac-9811-0a1cd87f3179"
+                  },
+                  {
+                    "action": "1148659c-1133-4b73-9e4e-4b8fc3463f57"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "8131f170-001f-4ea0-be38-5a5ae39fd0a5"
+            }
+          },
+          "type": "Function_Called"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "abd5bd1b6ada8730f2ac7ade7e4477dc",
+      "triggers.bts": "3b5645917480ff7a1956f0894fdc71c8"
+    },
+    "VERSION": "0.21"
+  }
+}

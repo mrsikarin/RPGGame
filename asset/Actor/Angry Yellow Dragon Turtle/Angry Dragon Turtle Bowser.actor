@@ -1,0 +1,51 @@
+<ActorTemplates>
+	<ActorTemplate MinDistance="1" SoundFileNum="0" Originalscale="1.5 1.5 1.5" SoundName3="" TextHeight="0" name="111.actor" SoundName1="" SoundName2="" MaxDistance="16" Volume="0.8" Alpha="1" SoundName4="" Skeleton="damowang_beicai.skel" IntervalTime="2" WoundBone="" AttackScale="1" IsShowShadow="true" SoundName5="" WoundAngle="25" SelectedRingSize="1">
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_tuhuo.anim" TimeScale="1" Times="1" Channel="" Length="4" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="die" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_siwang1.anim" TimeScale="1" Times="1" Channel="" Length="4.466" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="die2" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_siwang.anim" TimeScale="1" Times="1" Channel="" Length="1.7" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_beicai.anim" TimeScale="1" Times="1" Channel="" Length="3.566" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_zoulu.anim" TimeScale="0.07" Times="-1" Channel="" Length="1.233" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="roar" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_houtuipaoxiao.anim" TimeScale="1" Times="1" Channel="" Length="3.833" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_zoulu.anim" TimeScale="3" Times="-1" Channel="" Length="1.233" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="b03731e6-70a9-4488-8e16-86d078ae8d17" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_zoulu.anim" TimeScale="5" Times="-1" Channel="" Length="1.233" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="spin" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_xuanzhuan.anim" TimeScale="1" Times="-1" Channel="" Length="3.1" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="stun" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/damowang_xuanyunyaotou.anim" TimeScale="1" Times="-1" Channel="" Length="3.133" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Anim/damowang_tuhuo.anim"/>
+			<Anim Name="asset/Anim/damowang_xuanyunyaotou.anim"/>
+			<Anim Name="asset/Anim/damowang_xuanzhuan.anim"/>
+			<Anim Name="asset/Anim/damowang_beicai.anim"/>
+			<Anim Name="asset/Anim/damowang_houtuipaoxiao.anim"/>
+			<Anim Name="asset/Anim/damowang_siwang.anim"/>
+			<Anim Name="asset/Anim/damowang_zoulu.anim"/>
+			<Anim Name="asset/Anim/damowang_siwang1.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart DefaultUse="true" SlaveName="01" ColorParams="1 1 1 1" MasterName="body" EdgeColor="1 1 1 1">
+				<Skin UVSpeed="0 0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" type_name="damowang" MeshName="asset/Skin/Actor_skin/damowang.skin" UseOverlayColorReplaceMode="false" LocalAlpha="1" EdgeColor="1.0 0 0 1.0" UseOriginalcolor="false" UseTransparentNearestSlice="false" SpecularColor="1.0 1.0 1.0 1.0" LocalBrightnessScale="1.0" UseEdge="false" DiscardAlpha="0" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseBloom="false" SpecularStrength="1.0" UseReflect="false"/>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

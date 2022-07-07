@@ -1,0 +1,30 @@
+{
+  "data": {
+    "md5": "d947adf890f330f2c257169f677cf8da",
+    "path": "asset/test.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "dab73670-abb3-45de-b407-547de8077335"
+          }
+        }
+      ],
+      "id": {
+        "value": "65ddf2c9-0d43-4644-a091-a3e938532ba6"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "d947adf890f330f2c257169f677cf8da",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

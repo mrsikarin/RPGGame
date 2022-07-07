@@ -1,0 +1,53 @@
+{
+  "data": {
+    "castAction": "g2033_skill_jump_05",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 200
+    },
+    "consumeVp": 10,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_bb361edf-1ff9-41c7-bc2a-5572b7a854d1"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/6ad387d1-0b7d-41bf-b407-39f5b6713709"
+          }
+        ],
+        "target": {
+          "type": "CameraYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 10
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/plasma-bolt.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "78971157ce7b3bd7f69d210bee75f522",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

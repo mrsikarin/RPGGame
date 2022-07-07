@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": "attack",
+    "cdTime": {
+      "value": 20
+    },
+    "name": {
+      "value": "skill_d8568aec-3271-4ae8-a9fa-4fe5b1c8a73b"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/b527b629-2f1f-49ca-a718-0d0d4e2d8b8c",
+            "startPos": {
+              "y": 0,
+              "z": 1
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f07e4e52be3808e60c1c9014a2e670a6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

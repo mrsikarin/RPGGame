@@ -1,0 +1,15 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": true,
+  "icon": "@asset/Item/R (6) (4).png",
+  "itemname": "99ca7540-4339-4d64-af32-33ad5435292a",
+  "needSave": true,
+  "stack_count_max": 999,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

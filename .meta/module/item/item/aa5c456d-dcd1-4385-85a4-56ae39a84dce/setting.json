@@ -1,0 +1,22 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip",
+        "equip_skill": [
+          ""
+        ]
+      }
+    },
+    "name": {
+      "value": "item_aa5c456d-dcd1-4385-85a4-56ae39a84dce"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8f76b14d4e7e43309b4f5de646a050a2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Red Eagle/Big Dog.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 3,
+          "fullName": "myplugin/0948170e-c722-4876-9f69-075e9c0627c7"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "idleTime": {
+          "min": {
+            "value": 20
+          }
+        },
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 1.5,
+        "y": 5,
+        "z": 1.5
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "hpBarHeight": 0.1,
+    "maxHp": 250,
+    "name": {
+      "value": "entity_fa448aeb-1c98-4fc5-b36b-b6bd6a43aef5"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "de3ceff7b50afbbf40f631184ee8415f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

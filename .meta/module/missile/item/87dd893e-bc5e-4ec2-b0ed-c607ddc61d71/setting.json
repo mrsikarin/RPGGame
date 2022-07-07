@@ -1,0 +1,36 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 3,
+        "y": 1.2,
+        "z": 7
+      }
+    },
+    "hitCount": {
+      "hitEntityCount": 1
+    },
+    "hitEntityEffect": {
+      "once": true
+    },
+    "hitEntitySkill": "myplugin/f3e54da9-d8d4-4e59-8381-2f4c662bf496",
+    "hitInterval": {
+      "value": 40
+    },
+    "lifeTime": {
+      "value": 4
+    },
+    "moveSpeed": 0,
+    "name": {
+      "value": "16c954ea-256a-48a8-b812-684d5527c457"
+    },
+    "target_type": "hitPlayer"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a0115ff56f219b238eefbc8921f3e66b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

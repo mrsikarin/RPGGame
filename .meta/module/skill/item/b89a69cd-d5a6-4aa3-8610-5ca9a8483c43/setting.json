@@ -1,0 +1,225 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_09",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_ender_pearl.effect"
+      },
+      "pos": {
+        "y": 1
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 1200
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_b89a69cd-d5a6-4aa3-8610-5ca9a8483c43"
+    },
+    "skill": {
+      "type": "Base"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 26
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/magic-gate.png"
+      },
+      "iconPos": {
+        "area_number": 6
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetEntityPosition",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "61f6dddb-4f2b-4ccb-a2c5-26749865a899"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Map",
+                        "action": "4c614bab-2e45-425e-a1b0-c4ff8a4d3564"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_ScenePos",
+                        "action": "b54c2db9-3463-4a10-9e6f-d649c2030226"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "597c5528-d0d0-4985-8813-284c78acfd57"
+              },
+              "pos": {
+                "x": 591,
+                "y": 365
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "61f6dddb-4f2b-4ccb-a2c5-26749865a899"
+              },
+              "pos": {
+                "x": 1258,
+                "y": 251
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityMap",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "946e8603-cd07-43fb-889b-855ca088483d"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4c614bab-2e45-425e-a1b0-c4ff8a4d3564"
+              },
+              "pos": {
+                "x": 1261,
+                "y": 391
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "946e8603-cd07-43fb-889b-855ca088483d"
+              },
+              "pos": {
+                "x": 1651,
+                "y": 359
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetRebirthPos",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "5c548b4e-a6a1-4e71-91a2-c2595440522b"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b54c2db9-3463-4a10-9e6f-d649c2030226"
+              },
+              "pos": {
+                "x": 1267,
+                "y": 499
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "5c548b4e-a6a1-4e71-91a2-c2595440522b"
+              },
+              "pos": {
+                "x": 1658,
+                "y": 493
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c9013161-4a80-4523-817f-79506b722e1e"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "597c5528-d0d0-4985-8813-284c78acfd57"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "c70fb157-b928-4375-b26b-18f176831001"
+            },
+            "pos": {
+              "x": 279,
+              "y": 430
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "276112e3b94e94862ebc71b376461e40",
+      "triggers.bts": "6a648bd90a5f2733a060b11053a52db8"
+    },
+    "VERSION": "0.21"
+  }
+}

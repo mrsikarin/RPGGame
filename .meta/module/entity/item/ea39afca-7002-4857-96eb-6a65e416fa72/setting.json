@@ -1,0 +1,159 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Red Eyed Robot Soldier/Advanced Armored Soldier.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 3,
+          "fullName": "myplugin/24fbf4dc-70c3-4ea7-a547-f2bf4b9a4772"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 1
+      }
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "hpBarHeight": 0.1,
+    "hpBarWidth": 0.8,
+    "maxHp": 75,
+    "name": {
+      "value": "entity_ea39afca-7002-4857-96eb-6a65e416fa72"
+    },
+    "textHeight": 4.3,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "33cac0a7-e8a2-4fc7-b743-9e74b0a9dbd5"
+              },
+              "pos": {
+                "x": 1157.4748965048,
+                "y": 337.38012096311
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Function",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "exp"
+                      }
+                    },
+                    {
+                      "key": "Exp",
+                      "value": {
+                        "__OBJ_TYPE": "T_Var",
+                        "action": "80a34bd8-03c7-4978-a366-bd0a7cb6d289"
+                      }
+                    },
+                    {
+                      "key": "player",
+                      "value": {
+                        "__OBJ_TYPE": "T_Var",
+                        "action": "33cac0a7-e8a2-4fc7-b743-9e74b0a9dbd5"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "func_declare_id": "c02b686356b_c54fd21a-59a2-4401-915f-65c07414e707",
+              "func_name": "exp",
+              "id": {
+                "value": "8f8c5114-ea9b-4a0b-904a-f7097660106d"
+              },
+              "pos": {
+                "x": 690.52510349522,
+                "y": 234.99245870852
+              },
+              "type": "T_Void"
+            },
+            {
+              "__OBJ_TYPE": "Action_NumberFloor",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "rawval": 100
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "80a34bd8-03c7-4978-a366-bd0a7cb6d289"
+              },
+              "pos": {
+                "x": 1126.4483321852,
+                "y": 208.61987903689
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0841aece-f0c9-4465-b5b2-6b2856bdc91a"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "8f8c5114-ea9b-4a0b-904a-f7097660106d"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "91451a57-8e2d-4670-a777-6cddf16bc08a"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8e4a6d59391df934e123d34d423b728e",
+      "triggers.bts": "9ccbb211fa75aace9c27a751153abc78"
+    },
+    "VERSION": "0.21"
+  }
+}

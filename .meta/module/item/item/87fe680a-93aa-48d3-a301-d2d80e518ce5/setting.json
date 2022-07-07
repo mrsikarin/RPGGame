@@ -1,0 +1,25 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Item/R (6) (10).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_87fe680a-93aa-48d3-a301-d2d80e518ce5"
+    },
+    "needSave": true,
+    "stack_count_max": 999
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c98ed3725609ad52ab38a42b56893102",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

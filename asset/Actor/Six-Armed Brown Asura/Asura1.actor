@@ -1,0 +1,21 @@
+<ActorTemplates>
+	<ActorTemplate MinDistance="1" SoundFileNum="0" Originalscale="1.5 1.5 1.5" SoundName3="" TextHeight="0" name="111.actor" SoundName1="" SoundName2="" MaxDistance="16" Volume="0.8" Alpha="1" SoundName4="" Skeleton="g2030_Shikigami_axiuluo.skel" IntervalTime="2" WoundBone="" AttackScale="1" IsShowShadow="true" SoundName5="" WoundAngle="25" SelectedRingSize="1">
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/g2030_shikigami_axiuluo_idle.anim" TimeScale="1" Times="-1" Channel="" Length="6.366" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" EnableWound="false" TextMode="0">
+				<Animation Name="asset/Anim/g2030_shikigami_axiuluo_walk.anim" TimeScale="1" Times="-1" Channel="" Length="1.366" FadeTime="0.25" BeginTime="0"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Anim/g2030_shikigami_axiuluo_walk.anim"/>
+			<Anim Name="asset/Anim/g2030_shikigami_axiuluo_idle.anim"/>
+		</Anims>
+		<BodyParts>
+			<BodyPart DefaultUse="true" SlaveName="1" ColorParams="1 1 1 1" MasterName="body" EdgeColor="1 1 1 1">
+				<Skin UVSpeed="0 0" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" type_name="g2030_Shikigami_axiuluo" MeshName="asset/Skin/Actor_skin/g2030_Shikigami_axiuluo.skin" UseOverlayColorReplaceMode="false" LocalAlpha="1" EdgeColor="1.0 0 0 1.0" UseOriginalcolor="false" UseTransparentNearestSlice="true" SpecularColor="1.0 1.0 1.0 1.0" LocalBrightnessScale="1.0" UseEdge="false" DiscardAlpha="0" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseBloom="true" SpecularStrength="1" UseReflect="false"/>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

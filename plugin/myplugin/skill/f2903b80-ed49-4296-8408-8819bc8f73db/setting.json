@@ -1,0 +1,69 @@
+{
+  "area": [
+    [
+      0,
+      -58
+    ],
+    [
+      0,
+      -238
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 9,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "g2033_skill_sword_10",
+  "castActionTime": -1,
+  "cdTime": 0,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "hurtDistance": 0.1,
+  "icon": "@asset/Skill/crossed-swords.png",
+  "ignoreCastSkillPreS": true,
+  "isClick": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/ce01d5b6-a63b-4d1e-a6f1-9866f8c63470"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 40,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Self",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

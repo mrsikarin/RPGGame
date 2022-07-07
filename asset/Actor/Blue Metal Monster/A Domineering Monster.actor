@@ -1,0 +1,54 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="spiderlord.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="spiderlord.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="01" MasterName="body">
+				<Skin ChangeColor="2.10195e-44 8.94028e-43 7.1491e+28 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/spiderlord.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="hand_01" MasterName="hand">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="b_r_hand"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/spiderlord_axe.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="02" MasterName="hand">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="b_r_hand"/>
+					<Position_Y value="0"/>
+					<yaw value="180"/>
+					<Position_Z value="-0.122948"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/shiwei_sword.mesh"/>
+					<Position_X value="0.506063"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/spiderlord_summon.anim"/>
+			<Anim Name="asset/Anim/spiderlord_move.anim"/>
+			<Anim Name="asset/Anim/spiderlord_attack.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/spiderlord_attack.anim" Channel="" TimeScale="1" Length="2.033" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/spiderlord_move.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/spiderlord_move.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+			</Skill>
+			<Skill Name="summon" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/spiderlord_summon.anim" Channel="" TimeScale="1" Length="1.366" Times="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

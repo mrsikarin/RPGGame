@@ -1,0 +1,119 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown Vicious Toad Monster/A Bit Fierce Toad.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 3,
+          "fullName": "myplugin/edd86bcb-fb16-4d6a-820b-71a7b16b0d9f"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 1
+      }
+    },
+    "destroyTime": {
+      "value": 100
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "hpBarHeight": 0.1,
+    "maxHp": 50,
+    "name": {
+      "value": "entity_a220541d-37e7-417c-ba6e-021395d10e5a"
+    },
+    "textHeight": 4.3,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "2fe3e3a7-291f-49de-b63e-1210a5d84b79"
+              },
+              "pos": {
+                "x": 1106.4748965048,
+                "y": 406.38012096311
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_NumberFloor",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Double",
+                        "rawval": 100
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8657f629-6a45-4c7b-ba43-721701736b73"
+              },
+              "pos": {
+                "x": 1075.4483321852,
+                "y": 277.61987903689
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "612d52c2-c838-4369-933c-7fd7ecd6cf21"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "4506055c-809e-41dc-8994-3bfe5084b437"
+            }
+          },
+          "type": "Trigger_EntityDie"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "320efa758312e1eeb0e60dc8638c8938",
+      "triggers.bts": "fb62cfcdb4d0392ececce083c81f7149"
+    },
+    "VERSION": "0.21"
+  }
+}

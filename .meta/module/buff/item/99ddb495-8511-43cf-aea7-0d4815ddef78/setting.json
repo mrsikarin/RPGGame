@@ -1,0 +1,19 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_levelup_effect.effect"
+      }
+    },
+    "name": {
+      "value": "buff_99ddb495-8511-43cf-aea7-0d4815ddef78"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2820f694d13e392a253aa37143ac2983"
+    },
+    "VERSION": "0.21"
+  }
+}

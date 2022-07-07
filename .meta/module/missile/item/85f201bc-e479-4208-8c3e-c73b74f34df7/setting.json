@@ -1,0 +1,118 @@
+{
+  "data": {
+    "name": {
+      "value": "missile_85f201bc-e479-4208-8c3e-c73b74f34df7"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Continuous_waterball_tail.effect"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "fc0cfd1e-f7ab-452e-8d72-a616e355adb2"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 20
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "621b97c0-1ff6-424a-9835-dfa0a068b24b"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d3715ccf-1cb2-4c24-98e2-0685b76ec9fc"
+              },
+              "pos": {
+                "x": 766,
+                "y": 315
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "fc0cfd1e-f7ab-452e-8d72-a616e355adb2"
+              },
+              "pos": {
+                "x": 1165,
+                "y": 233
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "621b97c0-1ff6-424a-9835-dfa0a068b24b"
+              },
+              "pos": {
+                "x": 1155,
+                "y": 476
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "442adb93-d7fc-4f80-9cee-506671243ee0"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "d3715ccf-1cb2-4c24-98e2-0685b76ec9fc"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "1f793f18-b684-4b7c-bf4d-06a06bc4b140"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b30ce83f8db2a9a68ac779fc5e4303db",
+      "triggers.bts": "225737a7cce772f95a5a739cbf38f53c"
+    },
+    "VERSION": "0.21"
+  }
+}

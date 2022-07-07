@@ -1,0 +1,22 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2030_Shikigami_axiuluo2.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1.5 1.5 1.5" SoundName4="" WoundBone="" name="pluspet_axiuluo2.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Skin SpecularCoef="0.15" SpecularColor="1 1 1 1" UVSpeed="0 0" LocalAlpha="0.7" UseBloom="true" SpecularStrength="1" UseTransparentNearestSlice="true" MeshName="asset/Skin/Actor_skin/g2030_Shikigami_axiuluo2.skin" ChangeColor="1.0256e-08 1.34567e-08 1.26963e+19 4.36078e+27"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2030_shikigami_axiuluo2_feixing.anim"/>
+			<Anim Name="asset/Anim/g2030_shikigami_axiuluo2_daiji.anim"/>
+			<Anim Name="asset/Anim/g2030_pluspet_axiuluo2_idle.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_pluspet_axiuluo2_idle.anim" Channel="" TimeScale="0.8" Length="6" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2030_shikigami_axiuluo2_feixing.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

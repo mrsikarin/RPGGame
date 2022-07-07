@@ -1,0 +1,40 @@
+{
+  "data": {
+    "castAction": "attack",
+    "cdTime": {
+      "value": 20
+    },
+    "name": {
+      "value": "skill_c4028628-c045-46ff-bd93-6310bbc4ebb9"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/28e5f7ed-17e5-4b45-8f71-f13f6668a03f"
+          }
+        ],
+        "target": {
+          "type": "CameraYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/wizard-staff.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8f24e658f611a9647384b3cab5a7aa29",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

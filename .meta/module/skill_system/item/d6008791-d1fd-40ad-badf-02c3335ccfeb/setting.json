@@ -1,0 +1,15 @@
+{
+  "data": {
+    "damage": 10,
+    "name": {
+      "value": "47e2927c-83ab-4cbb-889f-ac6bb0459aad"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1f5f54a3a059ac5447b9079f84ca5ca5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

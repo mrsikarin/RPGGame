@@ -1,0 +1,49 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_05",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 600
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_050122fd-f810-49bf-80c9-f4f38aede772"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/d02d08fe-aa0f-4908-8283-f4bf36585271",
+        "buffTime": {
+          "value": 100
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 40
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/shield-reflect.png"
+      },
+      "iconPos": {
+        "area_number": 6
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b3d2ffff6f254d00afca40bb54a7fb38",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

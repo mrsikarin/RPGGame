@@ -1,0 +1,22 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Surround_custom_aura_yellow.effect"
+      },
+      "once": false
+    },
+    "damagePct": 0.5,
+    "deDmgPct": 0.3,
+    "name": {
+      "value": "buff_69b16502-2382-4b0a-9d26-c6a78600e64a"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "13656afa9d156fed95435da1d4fc3b84"
+    },
+    "VERSION": "0.21"
+  }
+}

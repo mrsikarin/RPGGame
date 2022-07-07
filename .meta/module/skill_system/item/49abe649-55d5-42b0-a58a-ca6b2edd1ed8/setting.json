@@ -1,0 +1,31 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 3,
+        "y": 3,
+        "z": 3
+      }
+    },
+    "castAction": {
+      "castAction": "comboAttack3"
+    },
+    "damage": 10,
+    "name": {
+      "value": "skill_system_49abe649-55d5-42b0-a58a-ca6b2edd1ed8"
+    },
+    "skillIcon": {
+      "asset": "asset/Skill/spinning-sword.png"
+    },
+    "skillIconPos": {
+      "area_number": 8
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "861a73d86a7b7c3477f5b1896154d88b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

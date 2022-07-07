@@ -1,0 +1,55 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_06",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 600
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_e1cb6a02-83cd-4c73-818c-a94733fea9ca"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/22fcfa22-763d-4a38-b91a-6d0918325c19",
+            "startPos": {
+              "y": 0
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 20
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/rolling-energy.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "566096a7f5ee38e5c4fa3f5c30c899f2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,7 @@
+LevelUp {
+	ShowTip(
+		keepTime = 200,
+		textKey = Concat(p1 = "LevelUP : ", p2 = ToString(GetFuncsParamsVar(key = "player").level)),
+		tipType = "1"
+	)
+}

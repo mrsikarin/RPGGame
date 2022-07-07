@@ -1,0 +1,49 @@
+{
+  "data": {
+    "castAction": "eat",
+    "castActionTime": {
+      "value": 60
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "defineActionTime": true,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_2b127615-4a2f-4bbb-9a0a-8c94c2a5eeb8"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/61244f0f-f2f1-4b7b-8dc7-d0b25e1b0172",
+        "buffTime": {
+          "value": 60
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skill_pre": {
+      "ignore_jump": true,
+      "ignore_move": true
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/healing.png"
+      },
+      "iconPos": {
+        "area_number": 5
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1901f1fc462b0c56a44d5b6907cba031",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

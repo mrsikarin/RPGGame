@@ -1,0 +1,36 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Archer Monster/Bow Shocker.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 8,
+          "fullName": "myplugin/e219bb7d-e1dd-4ca5-9076-e3a95010cd0f"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "name": {
+      "value": "entity_88955935-ca3b-40a4-a73a-c4e12315998a"
+    },
+    "textHeight": 3
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d290c8008d213647d393823c1b2ac0ad",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

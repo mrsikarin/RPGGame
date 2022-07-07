@@ -1,0 +1,25 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Item/R (6) (5).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemEquip",
+        "equip_buff": "myplugin/0642a4fd-c29b-4b5d-b41a-f62edf304903",
+        "tray": "2"
+      }
+    },
+    "name": {
+      "value": "item_152dff14-d68b-45ae-b6cd-c06616a6a4e1"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "983d53eee17ba477cb12a65221ae41ba",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

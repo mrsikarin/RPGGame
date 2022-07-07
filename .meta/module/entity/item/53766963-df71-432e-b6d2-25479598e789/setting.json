@@ -1,0 +1,59 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Brown Vicious Toad Monster/A Bit Fierce Toad.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 3,
+          "fullName": "myplugin/edd86bcb-fb16-4d6a-820b-71a7b16b0d9f"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "idleTime": {
+          "min": {
+            "value": 20
+          }
+        },
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "AI_walkRules": {
+      "faceCliff": {
+        "height": 2
+      }
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "y": 2
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "hpBarHeight": 0.1,
+    "maxHp": 100,
+    "name": {
+      "value": "entity_53766963-df71-432e-b6d2-25479598e789"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9356f28904906dfc6ed03d7c83a81530",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

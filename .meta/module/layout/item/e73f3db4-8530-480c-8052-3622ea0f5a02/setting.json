@@ -1,0 +1,166 @@
+{
+  "data": {
+    "md5": "37b9293e35e3a182fc9a9f7cef8bf627",
+    "path": "asset/Custom Joystick/mainWnd.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "Alpha": 0.75,
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "f615e796-9e28-4805-8d40-7d9df36270ca"
+                  },
+                  "Image": {
+                    "asset": "asset/Custom Joystick/pole (1).png"
+                  },
+                  "name": "MoveBg",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1
+                    },
+                    "UDim_Y": {
+                      "Offect": 0,
+                      "Scale": 1
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "ClippedByParent": true,
+                  "id": {
+                    "value": "c0001bbe-55b3-492a-bb7f-58beba23ccc6"
+                  },
+                  "Image": {
+                    "asset": "asset/Custom Joystick/pole (2).png"
+                  },
+                  "name": "Point",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 64
+                    },
+                    "UDim_Y": {
+                      "Offect": 64
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "DefaultWindow",
+                  "id": {
+                    "value": "21b7f585-a77d-4830-b85b-fa4bd9a39389"
+                  },
+                  "name": "MoveArea",
+                  "pos": {
+                    "UDim_X": {
+                      "Scale": -0.12
+                    },
+                    "UDim_Y": {
+                      "Offect": 1.1180124282837,
+                      "Scale": -0.12
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 0,
+                      "Scale": 1.24
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0,
+                      "Scale": 1.24
+                    }
+                  }
+                }
+              ],
+              "id": {
+                "value": "ac63bed9-bc29-431d-af4c-91b689a55751"
+              },
+              "name": "Pole",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 10
+                },
+                "UDim_Y": {
+                  "Offect": -50
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 10,
+                  "Scale": 1
+                },
+                "UDim_Y": {
+                  "Offect": 80,
+                  "Scale": 1
+                }
+              }
+            }
+          ],
+          "ClippedByParent": true,
+          "id": {
+            "value": "e94fa18f-d463-4993-9d73-b4ec6a941773"
+          },
+          "name": "MoveCompomentBase",
+          "pos": {
+            "UDim_X": {
+              "Offect": 73.774878382681
+            },
+            "UDim_Y": {
+              "Offect": -125.03112546994
+            }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 240.0
+            },
+            "UDim_Y": {
+              "Offect": 160.0
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "5671add5-0bef-48fc-8cce-694500db7f7c"
+      },
+      "pos": {
+        "UDim_Y": {
+          "Offect": 1.1180124282837
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0.0,
+          "Scale": 1
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "37b9293e35e3a182fc9a9f7cef8bf627",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

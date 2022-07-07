@@ -1,0 +1,38 @@
+{
+  "data": {
+    "castAction": "attack",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "65862fcc-0ae1-4c67-9f84-cbe287379bfe"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/6ef173ff-2eba-4f83-92b5-4b46f693d9c0",
+            "startPos": {
+              "z": 1
+            },
+            "startWait": {
+              "value": 10
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7bf891b4d99c711f0d00d946685136f7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Red Eyed Robot Soldier/Advanced Armored Soldier.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 3,
+          "fullName": "myplugin/e15d35b2-62c9-4a33-8b24-5a521950a29f"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "idleTime": {
+          "min": {
+            "value": 20
+          }
+        },
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "z": 2
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "empty.actor"
+    },
+    "hideHp": false,
+    "name": {
+      "value": "entity_0e66b0f6-e4c4-4e9b-b5ac-66b835e74bf7"
+    },
+    "textHeight": 3.3
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "240dffe7ed5c8c2915263ffec6f964e9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 1,
+        "y": 1.2,
+        "z": 1
+      }
+    },
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "hitEntitySkill": "myplugin/1008226d-3bed-4664-aeeb-607626bd8898",
+    "hitInterval": {
+      "value": 2
+    },
+    "lifeTime": {
+      "value": 20
+    },
+    "moveSpeed": 30.0,
+    "name": {
+      "value": "891d8c16-6e5c-4b3a-83e5-41a456f8dae5"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Actor/Blue Archer Monster/g2021_gaoda_biggun.effect"
+      },
+      "once": true
+    },
+    "target_type": "hitPlayer",
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "cb1bf0df-3bc5-4756-8213-49f10b13203f"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "6b4da4d8-741f-47a2-95ab-e41006cb16f9"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4320d21ff9a4d256bf46c11d4ef27481",
+      "triggers.bts": "72cc3f900de3a515fff800d5ea063d11"
+    },
+    "VERSION": "0.21"
+  }
+}

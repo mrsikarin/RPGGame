@@ -1,0 +1,869 @@
+{
+  "data": {
+    "md5": "d66ae0c9fcd2f9262fab77e792f4ceb9",
+    "path": "asset/PlayerStatus.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticImage",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "id": {
+                "value": "d61f0d3c-00e9-424e-baae-b7a1f0cf39c7"
+              },
+              "Image": {
+                "asset": "asset/Texture/Gui/scrollable_pane_ver_bar.png"
+              },
+              "name": "Line",
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.01
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "anchor": {
+                "HorizontalAlignment": "Right"
+              },
+              "DisabledImage": {
+                "asset": "asset/texture2/icon_blue_act.png"
+              },
+              "Font": "HarmonyOS_Sans_SC_Bold",
+              "Font_size": 21,
+              "HoverImage": {
+                "asset": "asset/texture2/icon_bule_nor.png"
+              },
+              "HoverTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "id": {
+                "value": "553bed3f-2ea9-45a7-8a96-a36f0edd3afa"
+              },
+              "name": "Close",
+              "NormalImage": {
+                "asset": "asset/texture2/icon_bule_nor.png"
+              },
+              "NormalTextColour": {
+                "b": 255,
+                "g": 255,
+                "r": 255
+              },
+              "PushedImage": {
+                "asset": "asset/texture2/icon_blue_act.png"
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 55
+                },
+                "UDim_Y": {
+                  "Offect": 45
+                }
+              },
+              "Text": "X",
+              "TextOffset": {
+                "y": -5
+              },
+              "triggers": {
+                "list": [
+                  {
+                    "actions": [
+                      {
+                        "__OBJ_TYPE": "Action_DestoryWidget",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Params",
+                            "params": [
+                              {
+                                "value": {
+                                  "__OBJ_TYPE": "T_Widget",
+                                  "action": "322453c7-dc8e-4c0f-8b88-bd419f8b2819"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "id": {
+                          "value": "d3a9db20-aacb-40c1-ade2-7570437796c2"
+                        },
+                        "pos": {
+                          "x": 729,
+                          "y": 331
+                        }
+                      },
+                      {
+                        "__OBJ_TYPE": "Action_GetContextVar",
+                        "components": [
+                          {
+                            "__OBJ_TYPE": "Component_Context",
+                            "key": "rootInstance"
+                          }
+                        ],
+                        "id": {
+                          "value": "322453c7-dc8e-4c0f-8b88-bd419f8b2819"
+                        },
+                        "pos": {
+                          "x": 1115,
+                          "y": 319
+                        },
+                        "type": "T_Layout"
+                      }
+                    ],
+                    "custom_trigger_data": {
+                      "name": {
+                        "value": "3ae06af4-ae53-4b8f-9a56-345654f86582"
+                      },
+                      "type": "Trigger_WidgetClicked"
+                    },
+                    "root": {
+                      "components": [
+                        {
+                          "__OBJ_TYPE": "Component_Sequence",
+                          "children": [
+                            {
+                              "action": "d3a9db20-aacb-40c1-ade2-7570437796c2"
+                            }
+                          ]
+                        }
+                      ],
+                      "id": {
+                        "value": "74b0a088-af24-45f4-b906-a0e6b97c2677"
+                      }
+                    },
+                    "type": "Trigger_WidgetClicked"
+                  }
+                ]
+              }
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Font_size": 24,
+              "id": {
+                "value": "af2ee490-30f7-4ce2-b58f-bd28f214210b"
+              },
+              "name": "PlayerInfo",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 70
+                },
+                "UDim_Y": {
+                  "Offect": 30
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 198.12155842781
+                },
+                "UDim_Y": {
+                  "Offect": 56.925264777625
+                }
+              },
+              "Text": "PlayerInfo",
+              "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "id": {
+                    "value": "aac470a0-54de-4dee-8084-7a1925b81cd8"
+                  },
+                  "name": "Atk",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 60
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.00604507342
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.403301894683
+                    }
+                  },
+                  "Text": "Atk"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "id": {
+                    "value": "2c2c8247-8b1a-4654-9a9a-37e9c968a665"
+                  },
+                  "name": "Mana",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 60
+                    },
+                    "UDim_Y": {
+                      "Offect": 40
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.00604507342
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.403301894683
+                    }
+                  },
+                  "Text": "Mana"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "id": {
+                    "value": "fe8e3f20-a7d2-4b05-9893-95e83167a8b4"
+                  },
+                  "name": "Def",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 60
+                    },
+                    "UDim_Y": {
+                      "Offect": 80
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.00604507342
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "Def"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "id": {
+                    "value": "c9ace6ac-9c31-4f8b-ac20-e59f064a0f14"
+                  },
+                  "name": "Haste",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 60.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 120.36987718489
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.00604507342
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "Haste"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "40fa2fb3-aaf1-48d2-9595-5d86f5b932cc"
+                  },
+                  "name": "mana_stat",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 220
+                    },
+                    "UDim_Y": {
+                      "Offect": 40
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 150
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.403301894683
+                    }
+                  },
+                  "Text": "0",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "ef317a29-2cf2-464b-9131-6e6c1d869f90"
+                  },
+                  "name": "Atk_stat",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 220
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 150
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.403301894683
+                    }
+                  },
+                  "Text": "0",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "ef93b714-00aa-4816-897b-70a708cfe431"
+                  },
+                  "name": "Haste_stat",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 220
+                    },
+                    "UDim_Y": {
+                      "Offect": 122.17120635508
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 150
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "0",
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "45feb92d-3b3d-45e3-97f6-c9109f859db5"
+                  },
+                  "name": "Def_stat",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 220
+                    },
+                    "UDim_Y": {
+                      "Offect": 80
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 150
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "0",
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "cfaa654e-603a-420b-ae53-622505c8c9c1"
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                }
+              }
+            },
+            {
+              "__OBJ_TYPE": "DefaultWindow",
+              "anchor": {
+                "HorizontalAlignment": "Right",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font_size": 18,
+                      "id": {
+                        "value": "f4c31459-5de7-4705-9d53-ebae2b4efe83"
+                      },
+                      "name": "txStr",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 189.58193726669
+                        },
+                        "UDim_Y": {
+                          "Offect": -9.5367429997495e-07
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 68.00604507342
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.403301894683
+                        }
+                      },
+                      "Text": "Str"
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "Font_size": 18,
+                      "id": {
+                        "value": "93dea969-9d7f-47b2-b41c-29a7a4dc4785"
+                      },
+                      "name": "upAtk",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 240.75916123183
+                        },
+                        "UDim_Y": {
+                          "Offect": -1.8640138002013e-06
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+                        }
+                      },
+                      "Text": "+"
+                    }
+                  ],
+                  "Font_size": 18,
+                  "id": {
+                    "value": "330dce1f-d98e-4a67-811d-0409cf845398"
+                  },
+                  "name": "Str",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 30
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.006045073417
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.403301894683
+                    }
+                  },
+                  "Text": "Str"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font_size": 18,
+                      "id": {
+                        "value": "f8b9094a-fcc9-464a-a64b-de7e35f08853"
+                      },
+                      "name": "txVit",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 189.58188299582
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.8497358237944
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 68.00604507342
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.40330189468
+                        }
+                      },
+                      "Text": "Vit"
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "Font_size": 18,
+                      "id": {
+                        "value": "0ffa869c-2644-4ec5-bd5e-5195516c6512"
+                      },
+                      "name": "upVit",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 240.75925260572
+                        },
+                        "UDim_Y": {
+                          "Offect": 2.6856564217067
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+                        }
+                      },
+                      "Text": "+"
+                    }
+                  ],
+                  "Font_size": 18,
+                  "id": {
+                    "value": "c188b90f-e260-44ea-a1f4-7e1d60d53596"
+                  },
+                  "name": "Vit",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 30
+                    },
+                    "UDim_Y": {
+                      "Offect": 80
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.006045073417
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "Vit"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "Font_size": 18,
+                      "id": {
+                        "value": "058d586b-962a-4564-b7a6-c615d51906a2"
+                      },
+                      "name": "txInt",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 189.58191741624
+                        },
+                        "UDim_Y": {
+                          "Offect": -1.0647648099882e-05
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 68.00604507342
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.40330189468
+                        }
+                      },
+                      "Text": "Int"
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "Font_size": 18,
+                      "id": {
+                        "value": "d2f21041-259f-4da0-bea9-bf623794c0fa"
+                      },
+                      "name": "upInt",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 240.75920812889
+                        },
+                        "UDim_Y": {
+                          "Offect": 0.9999797552415
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+                        }
+                      },
+                      "Text": "+"
+                    }
+                  ],
+                  "Font_size": 18,
+                  "id": {
+                    "value": "4babcdca-e28a-4f36-bd4d-61dec50292a8"
+                  },
+                  "name": "Int",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 29.999980330467
+                    },
+                    "UDim_Y": {
+                      "Offect": 39.418209195144
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.006045073417
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "Int"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "children": [
+                    {
+                      "__OBJ_TYPE": "StaticText",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "Font_size": 18,
+                      "id": {
+                        "value": "29a570f7-3840-4e2c-9d99-f3ef19a13ced"
+                      },
+                      "name": "txDex",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 189.58195852932
+                        },
+                        "UDim_Y": {
+                          "Offect": -5.0505300354463
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 68.00604507342
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.40330189468
+                        }
+                      },
+                      "Text": "Dex"
+                    },
+                    {
+                      "__OBJ_TYPE": "Button",
+                      "anchor": {
+                        "HorizontalAlignment": "Right",
+                        "VerticalAlignment": "Centre"
+                      },
+                      "Font_size": 18,
+                      "id": {
+                        "value": "5f67b635-6777-4060-8e8d-210209b18281"
+                      },
+                      "name": "upDex",
+                      "pos": {
+                        "UDim_X": {
+                          "Offect": 240.75922333064
+                        },
+                        "UDim_Y": {
+                          "Offect": -0.025970548397799
+                        }
+                      },
+                      "size": {
+                        "UDim_X": {
+                          "Offect": 35.0
+                        },
+                        "UDim_Y": {
+                          "Offect": 35.0
+                        }
+                      },
+                      "Text": "+"
+                    }
+                  ],
+                  "Font_size": 18,
+                  "id": {
+                    "value": "94eee80e-e991-4bb9-8551-67ee8916cb69"
+                  },
+                  "name": "Dex",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 29.999977707863
+                    },
+                    "UDim_Y": {
+                      "Offect": 125.97402187734
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 68.006045073417
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "Dex"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "id": {
+                    "value": "6d0926a6-69f1-498b-8efc-ef869782b250"
+                  },
+                  "name": "StatusPoint",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 30.00002789574
+                    },
+                    "UDim_Y": {
+                      "Offect": 211.30718038693
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 145.49048444646
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "Point"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "Font_size": 18,
+                  "HorzFormatting": "RightAligned",
+                  "id": {
+                    "value": "3b204a0a-e8e5-4f5d-8b11-985a6b6711ed"
+                  },
+                  "name": "Point",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": 119.51769447743
+                    },
+                    "UDim_Y": {
+                      "Offect": 211.30716517888
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 100.0
+                    },
+                    "UDim_Y": {
+                      "Offect": 35.40330189468
+                    }
+                  },
+                  "Text": "0",
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "4120a1e6-446a-4da2-afed-270ff22b2347"
+              },
+              "name": "DefaultWindow1",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 0.2572346925736
+                },
+                "UDim_Y": {
+                  "Scale": 0.1
+                }
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 0.0,
+                  "Scale": 0.5
+                },
+                "UDim_Y": {
+                  "Offect": 0,
+                  "Scale": 0.7
+                }
+              }
+            }
+          ],
+          "id": {
+            "value": "0b496e2a-e482-43cb-9a1e-58fc71bbd932"
+          },
+          "Image": {
+            "asset": "asset/texture2/bg.png"
+          },
+          "name": "BG",
+          "size": {
+            "UDim_X": {
+              "Offect": 800
+            },
+            "UDim_Y": {
+              "Offect": 400
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "993d5f7e-6f83-4dc0-a75f-b56a83cd64f9"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": -0.5428088903428
+        },
+        "UDim_Y": {
+          "Offect": -12.854072451591,
+          "Scale": -0.05
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 0.0,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 0.0,
+          "Scale": 1.0
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "d66ae0c9fcd2f9262fab77e792f4ceb9",
+      "triggers.bts": "6c1bfad73961a3f3abd41f8556c0a05e"
+    },
+    "VERSION": "0.21"
+  }
+}

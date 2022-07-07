@@ -1,0 +1,6 @@
+WIDGET_CREATE {
+	SetTextContext(
+		instance = GetWidgetByHierarchy(hierarchy = "BG/DefaultWindow1/StatusPoint_left", instance = $rootInstance),
+		text = ToString(GetUIVar(instance = $rootInstance, key = "points"))
+	)
+}

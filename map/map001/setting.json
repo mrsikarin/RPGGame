@@ -71,8 +71,13 @@
         "shadowsOffset": "0.02",
         "shadowsPresicion": "1024",
         "shadowsType": "hard",
+<<<<<<< HEAD
         "skyColor": "r:0.49803921568627 g:0.52156862745098 b:0.55294117647059 a:1.0",
         "skyLineColor": "r:0.24313725490196 g:0.23529411764706 b:0.2078431372549 a:1.0"
+=======
+        "skyColor": "r:0.49803921568627 g:0.51764705882353 b:0.54901960784314 a:1.0",
+        "skyLineColor": "r:0.24313725490196 g:0.23137254901961 b:0.2078431372549 a:1.0"
+>>>>>>> develop
       }
     },
     {
@@ -107,6 +112,7 @@
       }
     },
     {
+<<<<<<< HEAD
       "children": [
         {
           "class": "EffectPart",
@@ -128,6 +134,8 @@
           }
         }
       ],
+=======
+>>>>>>> develop
       "class": "MeshPart",
       "customProperties": [],
       "properties": {
@@ -423,6 +431,99 @@
         "scale": "x:1 y:1 z:1",
         "selectable": "true"
       }
+<<<<<<< HEAD
+=======
+    },
+    {
+      "class": "MeshPart",
+      "customProperties": [],
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "autoAnchor": "true",
+        "batchType": "Static",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "7838d784-7f7f-47b4-97fa-d74301bfd529",
+        "cameraCollideEnable": "true",
+        "collisionFidelity": "0",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "0.0",
+        "friction": "0.37",
+        "id": "8704502661562171393",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "4.4",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "mesh": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh",
+        "metalness": "0",
+        "name": "g2021_duchi_diaoxiang.mesh",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:7.2245240211487 y:3.369108915329 z:0.68748188018799",
+        "restitution": "0.3",
+        "rotation": "x:0 y:0 z:0",
+        "roughness": "0.9",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "staticBatchNo": "1",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "true",
+        "useTextureAlpha": "false"
+      }
+    },
+    {
+      "class": "MeshPart",
+      "customProperties": [],
+      "properties": {
+        "angleVelocity": "x:0 y:0 z:0",
+        "autoAnchor": "true",
+        "batchType": "Static",
+        "bloom": "false",
+        "booleanOperation": "0",
+        "btsKey": "ab23dcd1-b97f-458f-9ee4-863de5e27de6",
+        "cameraCollideEnable": "true",
+        "collisionFidelity": "0",
+        "collisionUniqueKey": "",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "0.0",
+        "friction": "0.37",
+        "id": "8704502725735956481",
+        "isLockedInEditor": "false",
+        "isVisibleInEditor": "true",
+        "lineVelocity": "x:0 y:0 z:0",
+        "mass": "4.4",
+        "materialAlpha": "1.0",
+        "materialColor": "r:1.0 g:1.0 b:1.0 a:1.0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "materialTexture": "part_suliao.tga",
+        "mesh": "asset/Mesh/Brown Devil Stone Carving/g2021_duchi_diaoxiang.mesh",
+        "metalness": "0",
+        "name": "g2021_duchi_diaoxiang.mesh",
+        "needSync": "true",
+        "partNavMeshType": "1",
+        "position": "x:21.591932296753 y:9.2966566085815 z:10.419268608093",
+        "restitution": "0.3",
+        "rotation": "x:0 y:-103.99999237061 z:0",
+        "roughness": "0.9",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "staticBatchNo": "1",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useGravity": "true",
+        "useTextureAlpha": "false"
+      }
+>>>>>>> develop
     }
   ],
   "skyBox": [

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"map_pos":{"map001":{"z":30,"x":30,"y":68}},"viewport_height":586,"camera_move_speed":0.3,"viewport_width":1043}
+=======
+{"viewport_height":365,"camera_move_speed":0.3,"map_pos":{"map001":{"z":30,"y":68,"x":30}},"viewport_width":624}
+>>>>>>> develop

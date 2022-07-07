@@ -1,6 +1,7 @@
 {
   "data": {
     "actorName": {
+<<<<<<< HEAD
       "asset": "empty.actor"
     },
     "AI_attack": {
@@ -11,6 +12,12 @@
     },
     "girlactor": {
       "asset": "empty.actor"
+=======
+      "asset": ""
+    },
+    "girlactor": {
+      "asset": ""
+>>>>>>> develop
     },
     "hideHp": false,
     "name": {
@@ -19,7 +26,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "b64cea5594584b2bef09f46327f1677a",
+=======
+      "setting.json": "3f208890850f03881600f8cd5dfec9d7",
+>>>>>>> develop
       "triggers.bts": ""
     },
     "VERSION": "0.21"

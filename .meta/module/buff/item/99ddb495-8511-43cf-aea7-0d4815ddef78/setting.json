@@ -12,7 +12,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "2820f694d13e392a253aa37143ac2983"
+=======
+      "setting.json": "7715c514190f38197925b8da06fff4ba"
+>>>>>>> develop
     },
     "VERSION": "0.21"
   }

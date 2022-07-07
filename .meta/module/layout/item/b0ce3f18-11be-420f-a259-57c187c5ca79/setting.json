@@ -1,6 +1,10 @@
 {
   "data": {
+<<<<<<< HEAD
     "md5": "38956b6dc09dfdb08f0a93f8528315c2",
+=======
+    "md5": "32240508dcdb7d54303baad83315ede4",
+>>>>>>> develop
     "path": "asset/damage.layout",
     "root": {
       "anchor": {
@@ -18,24 +22,41 @@
           "Font_size": 30,
           "HorzFormatting": "CentreAligned",
           "id": {
+<<<<<<< HEAD
             "value": "ef40b3c3-af4d-425f-8549-00a7f74e770f"
+=======
+            "value": "8923a8a5-de8b-4a1f-8eae-5528f501f53e"
+>>>>>>> develop
           },
           "TextColours": {
             "b": 42,
             "g": 10,
             "r": 251
           },
+<<<<<<< HEAD
           "VertFormatting": "CentreAligned"
         }
       ],
       "id": {
         "value": "fd49c76e-af8a-459b-9e71-96910dc56b58"
+=======
+          "VertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
+        }
+      ],
+      "id": {
+        "value": "cacec44d-c60f-4af1-95ea-dd2428865fbc"
+>>>>>>> develop
       }
     }
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "layout": "38956b6dc09dfdb08f0a93f8528315c2",
+=======
+      "layout": "32240508dcdb7d54303baad83315ede4",
+>>>>>>> develop
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

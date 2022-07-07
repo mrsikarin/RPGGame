@@ -1,11 +1,14 @@
 {
   "data": {
+<<<<<<< HEAD
     "AI_attack": {
       "enable": true
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
     },
+=======
+>>>>>>> develop
     "canClick": true,
     "name": {
       "value": "entity_004e2365-5ea0-421b-9409-3718a5e524e1"
@@ -84,7 +87,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "321933568e57efb43f12bed98d5e370b",
+=======
+      "setting.json": "a9034c46b60b2ff653a806975ddf44c5",
+>>>>>>> develop
       "triggers.bts": "ea5bc0b81f39a0a2d770a470585b3470"
     },
     "VERSION": "0.21"

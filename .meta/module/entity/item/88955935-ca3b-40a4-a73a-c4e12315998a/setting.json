@@ -13,12 +13,18 @@
         }
       ]
     },
+<<<<<<< HEAD
     "AI_patrol": {
       "patrolMode": "randomPath"
     },
     "enableAI": true,
     "girlactor": {
       "asset": "empty.actor"
+=======
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+>>>>>>> develop
     },
     "hideHp": false,
     "name": {
@@ -28,7 +34,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "d290c8008d213647d393823c1b2ac0ad",
+=======
+      "setting.json": "8b0d8295fe06e0f95ba9d52543d805f6",
+>>>>>>> develop
       "triggers.bts": ""
     },
     "VERSION": "0.21"

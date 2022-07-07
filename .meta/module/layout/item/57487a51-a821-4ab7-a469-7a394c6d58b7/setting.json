@@ -1,6 +1,10 @@
 {
   "data": {
+<<<<<<< HEAD
     "md5": "cf67cfb21226ac27a04a67fb20165c5a",
+=======
+    "md5": "e309223d244c346979b94bd7d7bbd2e0",
+>>>>>>> develop
     "path": "asset/interface.layout",
     "root": {
       "anchor": {
@@ -24,6 +28,7 @@
               "children": [
                 {
                   "__OBJ_TYPE": "StaticImage",
+<<<<<<< HEAD
                   "anchor": {
                     "VerticalAlignment": "Centre"
                   },
@@ -32,6 +37,14 @@
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_bg.png"
+=======
+                  "id": {
+                    "value": "afc44b5d-c052-4ca9-a518-fd925824dc71"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_bg.png",
+                    "selector": "asset/Texture/Gui/slider_bg.png"
+>>>>>>> develop
                   },
                   "name": "Background",
                   "size": {
@@ -45,6 +58,7 @@
                 },
                 {
                   "__OBJ_TYPE": "StaticImage",
+<<<<<<< HEAD
                   "anchor": {
                     "VerticalAlignment": "Centre"
                   },
@@ -53,6 +67,14 @@
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_top_h.png"
+=======
+                  "id": {
+                    "value": "8d9d5da6-e2a8-4cc1-9c78-9343cac6f40c"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_top_h.png",
+                    "selector": "asset/Texture/Gui/slider_top_h.png"
+>>>>>>> develop
                   },
                   "name": "Fill",
                   "size": {
@@ -66,17 +88,27 @@
                 },
                 {
                   "__OBJ_TYPE": "SliderThumb",
+<<<<<<< HEAD
                   "anchor": {
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
                     "value": "38f9fa6c-5de9-415a-b7b8-4e50030f09ce"
+=======
+                  "gui_type": "SliderThumb",
+                  "id": {
+                    "value": "f53b4475-4e69-4b7b-a07c-61cf42ab3d4a"
+>>>>>>> develop
                   },
                   "name": "Handle"
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "294f6891-c78f-451e-a3a2-fed7b30e9086"
+=======
+                "value": "65b3ee49-f7eb-4296-87f8-6796c8af4779"
+>>>>>>> develop
               }
             },
             {
@@ -85,12 +117,20 @@
                 "HorizontalAlignment": "Centre"
               },
               "id": {
+<<<<<<< HEAD
                 "value": "a90fd606-ab29-45ec-90a0-819c5ab41fa7"
+=======
+                "value": "0410d3ed-3c9c-48ef-b8c7-69cd245b4c2c"
+>>>>>>> develop
               }
             }
           ],
           "id": {
+<<<<<<< HEAD
             "value": "30e6ce0d-6b92-4452-82da-f47fb55f49b4"
+=======
+            "value": "4e535746-5174-48d2-9dff-f627ef3e185b"
+>>>>>>> develop
           },
           "size": {
             "UDim_X": {
@@ -103,7 +143,11 @@
         }
       ],
       "id": {
+<<<<<<< HEAD
         "value": "0b6ad615-236c-4edf-a26b-f5130075173f"
+=======
+        "value": "1275b58b-7550-4763-b441-6b60e1b72fa8"
+>>>>>>> develop
       },
       "size": {
         "UDim_X": {
@@ -117,7 +161,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "layout": "cf67cfb21226ac27a04a67fb20165c5a",
+=======
+      "layout": "e309223d244c346979b94bd7d7bbd2e0",
+>>>>>>> develop
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

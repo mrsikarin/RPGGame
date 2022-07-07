@@ -31,7 +31,11 @@
     },
     "enableAI": true,
     "girlactor": {
+<<<<<<< HEAD
       "asset": "empty.actor"
+=======
+      "asset": ""
+>>>>>>> develop
     },
     "hideHp": false,
     "hpBarHeight": 0.1,
@@ -111,7 +115,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "320efa758312e1eeb0e60dc8638c8938",
+=======
+      "setting.json": "478e6abb827b45b1f98fca1ea2248ff8",
+>>>>>>> develop
       "triggers.bts": "fb62cfcdb4d0392ececce083c81f7149"
     },
     "VERSION": "0.21"

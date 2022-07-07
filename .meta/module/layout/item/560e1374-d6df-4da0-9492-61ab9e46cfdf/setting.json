@@ -1,6 +1,10 @@
 {
   "data": {
+<<<<<<< HEAD
     "md5": "e8153e86b493e2c4f25578d19ffe4579",
+=======
+    "md5": "a00277ad6e0a7f84ad5e4570fe185243",
+>>>>>>> develop
     "path": "asset/QuestBoard.layout",
     "root": {
       "anchor": {
@@ -29,12 +33,19 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
+<<<<<<< HEAD
                     "value": "80b6b87e-d77d-4218-8a95-1f9610569e70"
+=======
+                    "value": "e97ef79e-1839-49f7-b093-ea484bc6dbec"
+>>>>>>> develop
                   },
                   "Image": {
                     "asset": "asset/Texture/output-onlinepngtools.png"
                   },
+<<<<<<< HEAD
                   "lock": true,
+=======
+>>>>>>> develop
                   "size": {
                     "UDim_X": {
                       "Offect": 170
@@ -49,6 +60,7 @@
                   "effectName": {
                     "asset": "asset/effect/Marker_exclamation_mark.effect"
                   },
+<<<<<<< HEAD
                   "EffectPosition": {
                     "y": 60
                   },
@@ -56,6 +68,12 @@
                   "effectYPosition": 60,
                   "id": {
                     "value": "ca1dcbad-e6ec-48e6-931e-3e3e6b18c3d1"
+=======
+                  "effectScale": 0.5,
+                  "effectYPosition": 60,
+                  "id": {
+                    "value": "0b63cb0d-f187-4553-b956-a93d1d57d8df"
+>>>>>>> develop
                   }
                 },
                 {
@@ -66,6 +84,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "DisabledImage": {
+<<<<<<< HEAD
                     "asset": ""
                   },
                   "HoverImage": {
@@ -76,6 +95,21 @@
                   },
                   "NormalImage": {
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "HoverImage": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "id": {
+                    "value": "a7604e0a-de7d-4fb6-b140-26667d629fba"
+                  },
+                  "NormalImage": {
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "pos": {
                     "UDim_X": {
@@ -86,14 +120,23 @@
                     }
                   },
                   "PushedImage": {
+<<<<<<< HEAD
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "size": {
                     "UDim_X": {
                       "Offect": 200.74297389384
                     },
                     "UDim_Y": {
+<<<<<<< HEAD
                       "Offect": 227.80657269815
+=======
+                      "Offect": 227.80657269816
+>>>>>>> develop
                     }
                   },
                   "Text": "",
@@ -165,7 +208,11 @@
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "c9b390c2-984c-4880-94a3-4ac6f345782e"
+=======
+                "value": "077a1803-8c6e-4ff4-9be6-78b698befe6b"
+>>>>>>> develop
               },
               "name": "Quest",
               "pos": {
@@ -178,7 +225,11 @@
               },
               "size": {
                 "UDim_X": {
+<<<<<<< HEAD
                   "Offect": 201.38509680331
+=======
+                  "Offect": 201.3850968033
+>>>>>>> develop
                 },
                 "UDim_Y": {
                   "Offect": 229.67799510712
@@ -199,12 +250,19 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
+<<<<<<< HEAD
                     "value": "be38a846-ca42-421c-8b65-324218fbdecd"
+=======
+                    "value": "9f6ea4ae-bceb-4452-9b93-cf4562acabf7"
+>>>>>>> develop
                   },
                   "Image": {
                     "asset": "asset/Texture/output-onlinepngtools.png"
                   },
+<<<<<<< HEAD
                   "lock": true,
+=======
+>>>>>>> develop
                   "size": {
                     "UDim_X": {
                       "Offect": 170
@@ -219,6 +277,7 @@
                   "effectName": {
                     "asset": "asset/effect/Marker_exclamation_mark.effect"
                   },
+<<<<<<< HEAD
                   "EffectPosition": {
                     "y": 60
                   },
@@ -226,6 +285,12 @@
                   "effectYPosition": 60,
                   "id": {
                     "value": "593614fc-a7e3-4a84-aa5f-ba41ae5931a4"
+=======
+                  "effectScale": 0.5,
+                  "effectYPosition": 60,
+                  "id": {
+                    "value": "01383875-3465-4105-88bf-7741e165d6a1"
+>>>>>>> develop
                   }
                 },
                 {
@@ -236,6 +301,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "DisabledImage": {
+<<<<<<< HEAD
                     "asset": ""
                   },
                   "HoverImage": {
@@ -246,6 +312,21 @@
                   },
                   "NormalImage": {
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "HoverImage": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "id": {
+                    "value": "bd11ea5b-5a12-4fb1-83cd-a5051a267c14"
+                  },
+                  "NormalImage": {
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "pos": {
                     "UDim_X": {
@@ -256,21 +337,34 @@
                     }
                   },
                   "PushedImage": {
+<<<<<<< HEAD
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "size": {
                     "UDim_X": {
                       "Offect": 200.74297389384
                     },
                     "UDim_Y": {
+<<<<<<< HEAD
                       "Offect": 227.80657269815
+=======
+                      "Offect": 227.80657269816
+>>>>>>> develop
                     }
                   },
                   "Text": ""
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "df4dc75d-6e0c-4e3d-9cb7-80890045c851"
+=======
+                "value": "099f5563-4321-43d5-8383-7df8fd2f6b69"
+>>>>>>> develop
               },
               "name": "Quest1",
               "pos": {
@@ -304,12 +398,19 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
+<<<<<<< HEAD
                     "value": "01365996-228a-4901-ae2b-12bf2694e99d"
+=======
+                    "value": "0567cb75-56f4-45ca-9faf-5b95fceff78a"
+>>>>>>> develop
                   },
                   "Image": {
                     "asset": "asset/Texture/output-onlinepngtools.png"
                   },
+<<<<<<< HEAD
                   "lock": true,
+=======
+>>>>>>> develop
                   "size": {
                     "UDim_X": {
                       "Offect": 170
@@ -324,6 +425,7 @@
                   "effectName": {
                     "asset": "asset/effect/Marker_exclamation_mark.effect"
                   },
+<<<<<<< HEAD
                   "EffectPosition": {
                     "y": 60
                   },
@@ -331,6 +433,12 @@
                   "effectYPosition": 60,
                   "id": {
                     "value": "e7eb2edc-c43c-456c-bb9f-c72ffadc8519"
+=======
+                  "effectScale": 0.5,
+                  "effectYPosition": 60,
+                  "id": {
+                    "value": "50171272-6600-43d4-9cd7-0bce144bf639"
+>>>>>>> develop
                   }
                 },
                 {
@@ -341,6 +449,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "DisabledImage": {
+<<<<<<< HEAD
                     "asset": ""
                   },
                   "HoverImage": {
@@ -351,6 +460,21 @@
                   },
                   "NormalImage": {
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "HoverImage": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "id": {
+                    "value": "646d71d8-37a9-49f1-887f-88f3a53407e1"
+                  },
+                  "NormalImage": {
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "pos": {
                     "UDim_X": {
@@ -361,21 +485,34 @@
                     }
                   },
                   "PushedImage": {
+<<<<<<< HEAD
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "size": {
                     "UDim_X": {
                       "Offect": 200.74297389384
                     },
                     "UDim_Y": {
+<<<<<<< HEAD
                       "Offect": 227.80657269815
+=======
+                      "Offect": 227.80657269816
+>>>>>>> develop
                     }
                   },
                   "Text": ""
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "6e2dbf0e-d4cc-4785-a76c-23b1226ed16b"
+=======
+                "value": "7e77dc0f-856e-43ce-a926-109de75ad0a9"
+>>>>>>> develop
               },
               "name": "Quest2",
               "pos": {
@@ -388,7 +525,11 @@
               },
               "size": {
                 "UDim_X": {
+<<<<<<< HEAD
                   "Offect": 201.38509680331
+=======
+                  "Offect": 201.3850968033
+>>>>>>> develop
                 },
                 "UDim_Y": {
                   "Offect": 229.67799510712
@@ -409,12 +550,19 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
+<<<<<<< HEAD
                     "value": "a26a0646-35d1-4e81-9f8a-ee5aada7ee68"
+=======
+                    "value": "7de1a3aa-d4ca-468b-8a18-8fa6c174689f"
+>>>>>>> develop
                   },
                   "Image": {
                     "asset": "asset/Texture/output-onlinepngtools.png"
                   },
+<<<<<<< HEAD
                   "lock": true,
+=======
+>>>>>>> develop
                   "size": {
                     "UDim_X": {
                       "Offect": 170
@@ -429,6 +577,7 @@
                   "effectName": {
                     "asset": "asset/effect/Marker_exclamation_mark.effect"
                   },
+<<<<<<< HEAD
                   "EffectPosition": {
                     "y": 60
                   },
@@ -436,6 +585,12 @@
                   "effectYPosition": 60,
                   "id": {
                     "value": "0d5a23a7-7192-4d46-9342-75f08620d6b7"
+=======
+                  "effectScale": 0.5,
+                  "effectYPosition": 60,
+                  "id": {
+                    "value": "76e830ce-d1a6-4fca-8f26-8b98bd8779a6"
+>>>>>>> develop
                   }
                 },
                 {
@@ -446,6 +601,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "DisabledImage": {
+<<<<<<< HEAD
                     "asset": ""
                   },
                   "HoverImage": {
@@ -456,6 +612,21 @@
                   },
                   "NormalImage": {
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "HoverImage": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "id": {
+                    "value": "8dde325c-4a35-4274-aaf7-a252f5176608"
+                  },
+                  "NormalImage": {
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "pos": {
                     "UDim_X": {
@@ -466,21 +637,34 @@
                     }
                   },
                   "PushedImage": {
+<<<<<<< HEAD
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "size": {
                     "UDim_X": {
                       "Offect": 200.74297389384
                     },
                     "UDim_Y": {
+<<<<<<< HEAD
                       "Offect": 227.80657269815
+=======
+                      "Offect": 227.80657269816
+>>>>>>> develop
                     }
                   },
                   "Text": ""
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "b0edf029-ab2e-41a1-a01f-3d925266348b"
+=======
+                "value": "acb7a540-2040-4bf7-a18e-c3b05a9f13b8"
+>>>>>>> develop
               },
               "name": "Quest3",
               "pos": {
@@ -514,12 +698,19 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
+<<<<<<< HEAD
                     "value": "20f2ad4a-745b-4849-b139-601b55d0d5b8"
+=======
+                    "value": "5b4a96c4-7386-4069-a94a-7608f1d01aef"
+>>>>>>> develop
                   },
                   "Image": {
                     "asset": "asset/Texture/output-onlinepngtools.png"
                   },
+<<<<<<< HEAD
                   "lock": true,
+=======
+>>>>>>> develop
                   "size": {
                     "UDim_X": {
                       "Offect": 170
@@ -534,6 +725,7 @@
                   "effectName": {
                     "asset": "asset/effect/Marker_exclamation_mark.effect"
                   },
+<<<<<<< HEAD
                   "EffectPosition": {
                     "y": 60
                   },
@@ -541,6 +733,12 @@
                   "effectYPosition": 60,
                   "id": {
                     "value": "237b61a5-6b76-4a38-93fd-6623689b7aa3"
+=======
+                  "effectScale": 0.5,
+                  "effectYPosition": 60,
+                  "id": {
+                    "value": "339b8f20-1d9d-488b-9dee-3b5d13417a95"
+>>>>>>> develop
                   }
                 },
                 {
@@ -551,6 +749,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "DisabledImage": {
+<<<<<<< HEAD
                     "asset": ""
                   },
                   "HoverImage": {
@@ -561,6 +760,21 @@
                   },
                   "NormalImage": {
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "HoverImage": {
+                    "asset": "",
+                    "selector": ""
+                  },
+                  "id": {
+                    "value": "d1c6b035-21fe-4ded-a23e-5d06381879e4"
+                  },
+                  "NormalImage": {
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "pos": {
                     "UDim_X": {
@@ -571,21 +785,34 @@
                     }
                   },
                   "PushedImage": {
+<<<<<<< HEAD
                     "asset": ""
+=======
+                    "asset": "",
+                    "selector": ""
+>>>>>>> develop
                   },
                   "size": {
                     "UDim_X": {
                       "Offect": 200.74297389384
                     },
                     "UDim_Y": {
+<<<<<<< HEAD
                       "Offect": 227.80657269815
+=======
+                      "Offect": 227.80657269816
+>>>>>>> develop
                     }
                   },
                   "Text": ""
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "1866e9b5-a59b-49b2-bf23-cee50141c652"
+=======
+                "value": "7314d156-c42c-4470-911a-87abb6552278"
+>>>>>>> develop
               },
               "name": "Quest4",
               "pos": {
@@ -598,7 +825,11 @@
               },
               "size": {
                 "UDim_X": {
+<<<<<<< HEAD
                   "Offect": 201.38509680331
+=======
+                  "Offect": 201.3850968033
+>>>>>>> develop
                 },
                 "UDim_Y": {
                   "Offect": 229.67799510712
@@ -611,7 +842,12 @@
                 "HorizontalAlignment": "Right"
               },
               "DisabledImage": {
+<<<<<<< HEAD
                 "asset": ""
+=======
+                "asset": "",
+                "selector": ""
+>>>>>>> develop
               },
               "DisabledTextColour": {
                 "b": 9,
@@ -621,7 +857,12 @@
               "Font": "HarmonyOS_Sans_SC_Bold",
               "Font_size": 48,
               "HoverImage": {
+<<<<<<< HEAD
                 "asset": ""
+=======
+                "asset": "",
+                "selector": ""
+>>>>>>> develop
               },
               "HoverTextColour": {
                 "b": 33,
@@ -629,11 +870,20 @@
                 "r": 170
               },
               "id": {
+<<<<<<< HEAD
                 "value": "671615dd-a43c-4306-a75f-8b4175bf7331"
               },
               "name": "CloseBtn",
               "NormalImage": {
                 "asset": ""
+=======
+                "value": "d0f5de84-bdae-4a00-b15f-bf743ad93d9b"
+              },
+              "name": "CloseBtn",
+              "NormalImage": {
+                "asset": "",
+                "selector": ""
+>>>>>>> develop
               },
               "NormalTextColour": {
                 "b": 33,
@@ -649,7 +899,12 @@
                 }
               },
               "PushedImage": {
+<<<<<<< HEAD
                 "asset": ""
+=======
+                "asset": "",
+                "selector": ""
+>>>>>>> develop
               },
               "PushedTextColour": {
                 "b": 9,
@@ -739,12 +994,19 @@
             }
           ],
           "id": {
+<<<<<<< HEAD
             "value": "d0a48771-a497-4ae0-81f6-f559f567ff49"
+=======
+            "value": "528f8d31-69d8-43b6-8a1d-78b1ad48333f"
+>>>>>>> develop
           },
           "Image": {
             "asset": "asset/Texture/output-onlinepngtools (1).png"
           },
+<<<<<<< HEAD
           "lock": true,
+=======
+>>>>>>> develop
           "name": "Board",
           "size": {
             "UDim_X": {
@@ -759,7 +1021,11 @@
         }
       ],
       "id": {
+<<<<<<< HEAD
         "value": "812de26b-d806-4991-8d68-3c28f063ea16"
+=======
+        "value": "413dd04d-7db5-4efd-b1d2-5f1c919902fd"
+>>>>>>> develop
       },
       "size": {
         "UDim_X": {
@@ -775,7 +1041,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "layout": "e8153e86b493e2c4f25578d19ffe4579",
+=======
+      "layout": "a00277ad6e0a7f84ad5e4570fe185243",
+>>>>>>> develop
       "triggers.bts": "f30918ebb286f1938b809a32e18cfcc2"
     },
     "VERSION": "0.21"

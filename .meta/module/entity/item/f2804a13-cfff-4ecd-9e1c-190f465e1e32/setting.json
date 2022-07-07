@@ -1,11 +1,14 @@
 {
   "data": {
+<<<<<<< HEAD
     "AI_attack": {
       "enable": true
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
     },
+=======
+>>>>>>> develop
     "canClick": true,
     "name": {
       "value": "entity_f2804a13-cfff-4ecd-9e1c-190f465e1e32"
@@ -13,6 +16,65 @@
     "triggers": {
       "list": [
         {
+<<<<<<< HEAD
+=======
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_Int",
+                      "key": "exp",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "33d15d28-6f13-4220-8014-e2d505c3aa61"
+                      }
+                    }
+                  ],
+                  "proto_id": "1af48063-ecfd-4d3b-ad3a-279846af59f5",
+                  "proto_name": "sendexp",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "05f0df5a-5a76-401b-ac1a-0ce27faca1a9"
+              },
+              "pos": {
+                "x": 787,
+                "y": 172
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "33d15d28-6f13-4220-8014-e2d505c3aa61"
+              },
+              "pos": {
+                "x": 1202,
+                "y": 78
+              },
+              "type": "T_Entity"
+            }
+          ],
+>>>>>>> develop
           "custom_trigger_data": {
             "name": {
               "value": "5bd9b5ee-fea1-45db-8c42-708abcea29e4"
@@ -24,8 +86,14 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
+<<<<<<< HEAD
                   [],
                   []
+=======
+                  {
+                    "action": "05f0df5a-5a76-401b-ac1a-0ce27faca1a9"
+                  }
+>>>>>>> develop
                 ]
               }
             ],
@@ -40,8 +108,13 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "setting.json": "12dcaba52cd8e01447d984d99cfb5760",
       "triggers.bts": "6a0c90522e1ec791f774f8fc7e12d334"
+=======
+      "setting.json": "45f3b278bf74dfa1d4beec920cdf90a2",
+      "triggers.bts": "8fd822378401414688841d3eac8c5a1e"
+>>>>>>> develop
     },
     "VERSION": "0.21"
   }

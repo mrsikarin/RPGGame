@@ -126,6 +126,7 @@
             }
           },
           "type": "Trigger_RegisterClientProto"
+<<<<<<< HEAD
         },
         {
           "actions": [
@@ -276,6 +277,8 @@
             }
           },
           "type": "Trigger_RegisterClientProto"
+=======
+>>>>>>> develop
         }
       ]
     },
@@ -350,7 +353,11 @@
       "setting.json": "19def57e68552810d113a7c19af9f81b",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
+<<<<<<< HEAD
       "triggers_client.bts": "23c6252e07a19d5e87a2881442a5dc41"
+=======
+      "triggers_client.bts": "b1127e3235c0b9946d03bf2df00bbc05"
+>>>>>>> develop
     },
     "VERSION": "0.21"
   }

@@ -1,6 +1,10 @@
 {
   "data": {
+<<<<<<< HEAD
     "md5": "37b9293e35e3a182fc9a9f7cef8bf627",
+=======
+    "md5": "8867c83e1c02ae7b39c0d6273a043378",
+>>>>>>> develop
     "path": "asset/Custom Joystick/mainWnd.layout",
     "root": {
       "anchor": {
@@ -22,7 +26,11 @@
                   "Alpha": 0.75,
                   "ClippedByParent": true,
                   "id": {
+<<<<<<< HEAD
                     "value": "f615e796-9e28-4805-8d40-7d9df36270ca"
+=======
+                    "value": "7a73afe3-e8da-4799-a74e-34fb29f3eb20"
+>>>>>>> develop
                   },
                   "Image": {
                     "asset": "asset/Custom Joystick/pole (1).png"
@@ -47,7 +55,11 @@
                   },
                   "ClippedByParent": true,
                   "id": {
+<<<<<<< HEAD
                     "value": "c0001bbe-55b3-492a-bb7f-58beba23ccc6"
+=======
+                    "value": "29934a88-fad2-4746-a288-3d068f74e067"
+>>>>>>> develop
                   },
                   "Image": {
                     "asset": "asset/Custom Joystick/pole (2).png"
@@ -65,7 +77,11 @@
                 {
                   "__OBJ_TYPE": "DefaultWindow",
                   "id": {
+<<<<<<< HEAD
                     "value": "21b7f585-a77d-4830-b85b-fa4bd9a39389"
+=======
+                    "value": "92bc0894-b956-4a37-b97e-374c682560c0"
+>>>>>>> develop
                   },
                   "name": "MoveArea",
                   "pos": {
@@ -90,7 +106,11 @@
                 }
               ],
               "id": {
+<<<<<<< HEAD
                 "value": "ac63bed9-bc29-431d-af4c-91b689a55751"
+=======
+                "value": "f8359d55-be17-481b-8f02-82702e5d4086"
+>>>>>>> develop
               },
               "name": "Pole",
               "pos": {
@@ -115,7 +135,11 @@
           ],
           "ClippedByParent": true,
           "id": {
+<<<<<<< HEAD
             "value": "e94fa18f-d463-4993-9d73-b4ec6a941773"
+=======
+            "value": "f01179f2-3b0d-4ed4-8802-dbb9450412ee"
+>>>>>>> develop
           },
           "name": "MoveCompomentBase",
           "pos": {
@@ -137,7 +161,11 @@
         }
       ],
       "id": {
+<<<<<<< HEAD
         "value": "5671add5-0bef-48fc-8cce-694500db7f7c"
+=======
+        "value": "b4cb2229-7f73-474b-bbb5-0d06a846fc7e"
+>>>>>>> develop
       },
       "pos": {
         "UDim_Y": {
@@ -158,7 +186,11 @@
   },
   "meta": {
     "EXPORT": {
+<<<<<<< HEAD
       "layout": "37b9293e35e3a182fc9a9f7cef8bf627",
+=======
+      "layout": "8867c83e1c02ae7b39c0d6273a043378",
+>>>>>>> develop
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

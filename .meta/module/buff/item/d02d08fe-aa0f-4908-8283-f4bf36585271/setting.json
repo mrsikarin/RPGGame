@@ -1,0 +1,24 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Surround_magic_light_shield2.effect"
+      },
+      "pos": {
+        "y": 1
+      }
+    },
+    "deadRemove": true,
+    "name": {
+      "value": "buff_d02d08fe-aa0f-4908-8283-f4bf36585271"
+    },
+    "sync": "self",
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "de7e49da332d82d7d8f26515bb367af9"
+    },
+    "VERSION": "0.21"
+  }
+}

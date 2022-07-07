@@ -1,0 +1,45 @@
+{
+  "data": {
+    "castAction": "g2033_skill_sword_04",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 200
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_caa34750-4bc8-4d16-9e0a-5ffb60edca35"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/5608c13b-0635-44be-a3f2-f98f7a7f1dc5",
+            "startPos": {
+              "y": 0,
+              "z": 1
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/wind-slap.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cf806e1f17fa8fc6bcb312b06bf034f6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

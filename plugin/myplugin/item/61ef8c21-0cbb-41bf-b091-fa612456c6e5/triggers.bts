@@ -1,0 +1,3 @@
+REMOVE_ITEM_AT_COUNT {
+	AddEntityVp(entity = $obj1, step = 10)
+}

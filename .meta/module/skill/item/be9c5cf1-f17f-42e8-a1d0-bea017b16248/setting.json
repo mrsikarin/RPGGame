@@ -1,0 +1,51 @@
+{
+  "data": {
+    "castAction": "g2033_skill_sword_09",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_brick_break.effect"
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 200
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_be9c5cf1-f17f-42e8-a1d0-bea017b16248"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 20,
+        "hurtDistance": 0.3
+      }
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 24
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isClick": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "530732da87dbf5112832f9259d2bb719",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

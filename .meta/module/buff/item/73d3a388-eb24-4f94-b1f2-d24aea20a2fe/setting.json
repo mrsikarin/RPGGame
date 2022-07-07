@@ -1,0 +1,22 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_bubble_pop.effect"
+      },
+      "pos": {
+        "y": 1
+      }
+    },
+    "deadRemove": true,
+    "name": {
+      "value": "buff_73d3a388-eb24-4f94-b1f2-d24aea20a2fe"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e3c84bae61a7b27561bf65426ceed949"
+    },
+    "VERSION": "0.21"
+  }
+}

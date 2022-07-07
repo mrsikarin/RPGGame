@@ -1,0 +1,44 @@
+{
+  "data": {
+    "md5": "32240508dcdb7d54303baad83315ede4",
+    "path": "asset/damage.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Black",
+          "Font_size": 30,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "8923a8a5-de8b-4a1f-8eae-5528f501f53e"
+          },
+          "TextColours": {
+            "b": 42,
+            "g": 10,
+            "r": 251
+          },
+          "VertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughAlpha"
+        }
+      ],
+      "id": {
+        "value": "cacec44d-c60f-4af1-95ea-dd2428865fbc"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "32240508dcdb7d54303baad83315ede4",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

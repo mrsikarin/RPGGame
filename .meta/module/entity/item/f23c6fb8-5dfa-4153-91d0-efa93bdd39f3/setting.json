@@ -1,0 +1,54 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Antlers Redhead Boy/g2038_pet_02_1.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 8,
+          "fullName": "myplugin/6ae40ff0-c943-450c-a27b-176cce6b9b1b"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "idleTime": {
+          "min": {
+            "value": 20
+          }
+        },
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 1.6,
+        "z": 1.6
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "hpBarHeight": 0.1,
+    "maxHp": 200,
+    "name": {
+      "value": "entity_f23c6fb8-5dfa-4153-91d0-efa93bdd39f3"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3dffcd84e4c781343294dde07685621f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

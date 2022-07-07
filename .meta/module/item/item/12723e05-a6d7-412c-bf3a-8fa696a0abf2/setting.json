@@ -1,0 +1,102 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Item/R (6) (4).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "99ca7540-4339-4d64-af32-33ad5435292a"
+    },
+    "needSave": true,
+    "stack_count_max": 999,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "39506da1-91b8-4faf-b0f6-a04ba3019085"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 50
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "990dd839-cdcd-4709-b96b-d1f9a4972787"
+              },
+              "pos": {
+                "x": 747,
+                "y": 314
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "39506da1-91b8-4faf-b0f6-a04ba3019085"
+              },
+              "pos": {
+                "x": 1185,
+                "y": 312
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "24b28ec5-e174-434f-8c3e-86adfac6afd3"
+            },
+            "type": "Trigger_RemoveItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "990dd839-cdcd-4709-b96b-d1f9a4972787"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "fb0d7db7-56c5-4066-b1c8-a6ef63de0c7f"
+            }
+          },
+          "type": "Trigger_RemoveItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2accbf42b07fbc5d87e16fb697a18376",
+      "triggers.bts": "409841339484cf49da990add6eb3410f"
+    },
+    "VERSION": "0.21"
+  }
+}

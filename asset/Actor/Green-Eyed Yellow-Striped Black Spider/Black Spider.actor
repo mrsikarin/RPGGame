@@ -1,0 +1,28 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" AttackScale="1" Originalscale="1 1 1" TextHeight="0" name="111.actor" SoundFileNum="0" IsShowShadow="true" Alpha="1" SoundName3="" SelectedRingSize="1" Skeleton="spider_bone.skel" Volume="0.8" MaxDistance="16" MinDistance="1" SoundName1="" WoundBone="" SoundName5="" WoundAngle="25" SoundName2="" IntervalTime="2">
+		<BodyParts>
+			<BodyPart SlaveName="01" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" MasterName="body">
+				<Skin LocalBrightnessScale="1.0" UseTransparentNearestSlice="false" UseOriginalcolor="false" UseBloom="false" type_name="yellow_spider" LocalAlpha="1" UseEdge="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" DiscardAlpha="0" UVSpeed="0 0" EdgeColor="1.0 0 0 1.0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" MeshName="asset/Skin/Actor_skin/yellow_spider.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Actor/Green-Eyed Yellow-Striped Black Spider/spider_attack.anim"/>
+			<Anim Name="asset/Anim/spider_move.anim"/>
+			<Anim Name="asset/Anim/spider_death.anim"/>
+		</Anims>
+		<Skills>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="death">
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/spider_death.anim" FadeTime="0.25" BeginTime="0" Times="1" Length="1.033"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="idle">
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/spider_move.anim" FadeTime="0.25" BeginTime="0" Times="-1" Length="0.566"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="run">
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/spider_move.anim" FadeTime="0.25" BeginTime="0" Times="-1" Length="0.566"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="attack">
+				<Animation Channel="" TimeScale="1" Name="asset/Actor/Green-Eyed Yellow-Striped Black Spider/spider_attack.anim" FadeTime="0.25" BeginTime="0" Times="1" Length="1.7"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

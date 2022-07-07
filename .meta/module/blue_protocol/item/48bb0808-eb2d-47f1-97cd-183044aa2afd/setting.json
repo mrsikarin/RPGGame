@@ -1,0 +1,43 @@
+{
+  "data": {
+    "id": {
+      "value": "48bb0808-eb2d-47f1-97cd-183044aa2afd"
+    },
+    "name": "getPoints",
+    "register_object": "game/0/triggers_client/list/2",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "ed897c51-bd70-435d-8b03-68b480b7fcf7"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "clientMessage_1",
+          "proto_uuid": "48bb0808-eb2d-47f1-97cd-183044aa2afd",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "02f0cbfb-b3ed-4798-b486-b7b08ea121fb"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        }
+      ]
+    },
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "996f4835eb737a01a4eea2a4b378914f",
+      "triggers.bts": "bcd549e6664d65b85f23da8f1cc17dd4"
+    },
+    "VERSION": "0.21"
+  }
+}

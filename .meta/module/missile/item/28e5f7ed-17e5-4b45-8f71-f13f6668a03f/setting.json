@@ -1,0 +1,122 @@
+{
+  "data": {
+    "followTarget": true,
+    "lifeTime": {
+      "value": 60
+    },
+    "name": {
+      "value": "missile_28e5f7ed-17e5-4b45-8f71-f13f6668a03f"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Continuous_magic_shot.effect"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "447c6a01-ce64-4b1c-a9a8-99adc0a7419b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "57e13d7f-1596-4147-816d-e1315de28f5c"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "47b4f3a9-988e-4473-a383-339c7ef605c4"
+              },
+              "pos": {
+                "x": 770,
+                "y": 335
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "447c6a01-ce64-4b1c-a9a8-99adc0a7419b"
+              },
+              "pos": {
+                "x": 1191,
+                "y": 320
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "57e13d7f-1596-4147-816d-e1315de28f5c"
+              },
+              "pos": {
+                "x": 1190,
+                "y": 523
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c706b1ee-d8fc-41e6-85d5-4e146d6d0235"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "47b4f3a9-988e-4473-a383-339c7ef605c4"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3b7557b0-ad8d-4b3e-97b1-f45566274336"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "98d8f540236f3269ef97c42c76d308e9",
+      "triggers.bts": "262ed18c5309609ccbae2efeaade5bf9"
+    },
+    "VERSION": "0.21"
+  }
+}

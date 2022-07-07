@@ -1,0 +1,30 @@
+ENTITY_DIE {
+	ExecFunction(Exp = NumberFloor(p1 = 100), func_name = "exp", player = $obj2)
+}
+
+ENTITY_ENTER {
+	ExecScript(
+		agi = $obj1.agi,
+		dex = $obj1.dex,
+		int = $obj1.int,
+		player = $obj1,
+		point = $obj1.point,
+		script_name = "ScriptableNode_5",
+		str = $obj1.str,
+		vit = $obj1.vit
+	)
+}
+
+ENTITY_LEAVE {
+	Parallel {
+		$obj1.point = ExecScript(player = $obj1, script_name = "ScriptableNode_7")
+		$obj1.dex = ExecScript(player = $obj1, script_name = "ScriptableNode_1")
+		$obj1.str = ExecScript(player = $obj1, script_name = "ScriptableNode_8")
+		$obj1.agi = ExecScript(player = $obj1, script_name = "ScriptableNode_9")
+		$obj1.int = ExecScript(player = $obj1, script_name = "ScriptableNode_10")
+		$obj1.vit = ExecScript(player = $obj1, script_name = "ScriptableNode_11")
+	}
+}
+
+ENTITY_DAMAGE {
+}

@@ -1,0 +1,64 @@
+{
+  "data": {
+    "castAction": "attack",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "1c143f8f-f204-4e75-8bec-51f6d8a30145"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/309de84d-55dc-4140-9bc3-9a6c07ce21b2",
+            "startPos": {
+              "z": 1
+            },
+            "startWait": {
+              "value": 20
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "89cbed98-3c85-4a8a-9fd5-ef6ec5a2af26"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "d0675417-721c-4c3b-86e8-d2946b2db774"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8f4a701312a576b307fe19b03ad06c4c",
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
+    },
+    "VERSION": "0.21"
+  }
+}

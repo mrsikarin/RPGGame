@@ -1,0 +1,54 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_01",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_car_explosion.effect"
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 1000
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "b2261903-48c1-4e3b-a7ff-5f75b1746eec"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/9cb2a9e0-f322-4745-a807-da6f8bd823be",
+        "buffTime": {
+          "value": 100
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 40
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_ทษ.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "02d695f5f57db20bd9707ca7ae011625",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,6 @@
+exp {
+	SetFuncContextVar(key = "maxExp", value = nil * 100)
+	If (nil >= GetFuncContextVar(key = "maxExp")) {
+		ExecFunction(func_name = "LevelUp", player = GetFuncsParamsVar(key = "player"))
+	}
+}

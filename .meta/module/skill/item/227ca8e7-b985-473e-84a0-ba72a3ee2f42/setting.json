@@ -1,0 +1,52 @@
+{
+  "data": {
+    "castAction": "g2033_skill_jump_05",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 100
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_227ca8e7-b985-473e-84a0-ba72a3ee2f42"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/85f201bc-e479-4208-8c3e-c73b74f34df7"
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 10
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/water-bolt.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "085ff5dd851d14abb74850711221dd64",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_02",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 400
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_4251001b-30f2-47ce-b976-d611ab3c4aed"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/fddedcd2-d9e2-4179-bc98-4a967d796c9a",
+            "startPos": {
+              "y": 0
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 10
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/tornado.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "48d50b1c3fdf6a934e0f1bc58560c9b3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

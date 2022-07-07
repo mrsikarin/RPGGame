@@ -1,0 +1,69 @@
+{
+  "area": [
+    [
+      0,
+      -228
+    ],
+    [
+      0,
+      -68
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 7,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "attack",
+  "castActionTime": -1,
+  "cdTime": 0,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "hurtDistance": 0.1,
+  "icon": "@asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png",
+  "ignoreCastSkillPreS": true,
+  "isClick": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/89c12506-47c8-46a3-8cd6-3f19ece9e657"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Self",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

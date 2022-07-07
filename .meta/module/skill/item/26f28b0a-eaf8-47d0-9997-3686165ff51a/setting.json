@@ -1,0 +1,180 @@
+{
+  "data": {
+    "castAction": "g2030_train_chakra",
+    "castActionTime": {
+      "value": 100
+    },
+    "castEffect": {
+      "once": false,
+      "pos": {
+        "y": 1
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "defineActionTime": true,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_26f28b0a-eaf8-47d0-9997-3686165ff51a"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/75f20600-76d6-4cd4-8ba1-96ecd6e0c60b",
+        "buffTime": {
+          "value": 100
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skill_pre": {
+      "ignore_jump": true,
+      "ignore_move": true
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/meditation.png"
+      },
+      "iconPos": {
+        "area_number": 6
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityVp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "84ef41ca-f0ef-4aae-bd42-377acc6e54e0"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "02c8ae68-bbf3-49a2-bdb5-1318b14c2896"
+              },
+              "pos": {
+                "x": 1238,
+                "y": 500
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "84ef41ca-f0ef-4aae-bd42-377acc6e54e0"
+              },
+              "pos": {
+                "x": 1635,
+                "y": 487
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_StartTimer2",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 20
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 5
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "02c8ae68-bbf3-49a2-bdb5-1318b14c2896"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e7ff9b1a-642e-4c77-9871-a9b0dd47a4d8"
+              },
+              "pos": {
+                "x": 705,
+                "y": 303
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "09049b01-f1c5-4516-b606-8e0ded091a3b"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e7ff9b1a-642e-4c77-9871-a9b0dd47a4d8"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d96f00b8-86c6-42a7-a529-b74b9830c5a0"
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2bb1771cbd67e7e78be4a36d8abe5725",
+      "triggers.bts": "4059c4d9b0f8eb1b632aa0f221022674"
+    },
+    "VERSION": "0.21"
+  }
+}

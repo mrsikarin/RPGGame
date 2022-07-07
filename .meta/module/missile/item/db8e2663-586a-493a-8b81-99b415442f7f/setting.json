@@ -1,0 +1,20 @@
+{
+  "data": {
+    "moveSpeed": 1,
+    "name": {
+      "value": "missile_db8e2663-586a-493a-8b81-99b415442f7f"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_blizzard.effect"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8659ae0ec601c2a81c8b4b93b1b09e6b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

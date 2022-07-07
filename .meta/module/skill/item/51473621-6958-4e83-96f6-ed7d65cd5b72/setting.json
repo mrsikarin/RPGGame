@@ -1,0 +1,55 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_06",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 600
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_51473621-6958-4e83-96f6-ed7d65cd5b72"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/a7cd2408-707f-4737-b27b-acc6afc27324",
+            "startPos": {
+              "y": 0
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 20
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/poison-gas.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1a0411af342399e289d7f9b5b7a13659",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

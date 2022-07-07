@@ -1,0 +1,52 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_08",
+    "castEffect": {
+      "once": false
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 800
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_575d8783-a1a9-44a2-9646-c1f0f060bad6"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/69b16502-2382-4b0a-9d26-c6a78600e64a",
+        "buffTime": {
+          "value": 400
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 20
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/lion.png"
+      },
+      "iconPos": {
+        "area_number": 6
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f83993b4583b43539db178361ac0761b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

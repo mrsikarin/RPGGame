@@ -1,0 +1,23 @@
+{
+  "data": {
+    "antiGravity": 1.0,
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Surround_rage.effect"
+      }
+    },
+    "damagePct": 2,
+    "deadRemove": true,
+    "moveSpeed": 2.0,
+    "name": {
+      "value": "buff_9cb2a9e0-f322-4745-a807-da6f8bd823be"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c29f83a207885f849dc691b485b2b568"
+    },
+    "VERSION": "0.21"
+  }
+}

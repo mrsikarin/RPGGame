@@ -1,0 +1,176 @@
+{
+  "data": {
+    "canUse": true,
+    "icon": {
+      "asset": "asset/Item/R (6) (13).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "2fe6c3cd-f851-49e5-aa71-5129d03ea326"
+    },
+    "needSave": true,
+    "stack_count_max": 999,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ComputeInt",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "d57104c4-6263-424b-bbd0-2fc2a8a4f2fc"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BinaryOperCompute"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 10
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "4bba3fcc-5d2d-4f40-b1e9-aa1da6f54637"
+              },
+              "pos": {
+                "x": 1108,
+                "y": 406.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetEntityCurHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "9393f2ae-9cef-4227-847b-2cc1619df9d6"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "d57104c4-6263-424b-bbd0-2fc2a8a4f2fc"
+              },
+              "pos": {
+                "x": 1544,
+                "y": 424.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_SetHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "c28b759e-242e-4135-a2b9-6e8b0907e93b"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "action": "4bba3fcc-5d2d-4f40-b1e9-aa1da6f54637"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "b6e596a1-930c-40cc-a3d9-f6dd5708447e"
+              },
+              "pos": {
+                "x": 726,
+                "y": 303.5
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "c28b759e-242e-4135-a2b9-6e8b0907e93b"
+              },
+              "pos": {
+                "x": 1093,
+                "y": 197.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "9393f2ae-9cef-4227-847b-2cc1619df9d6"
+              },
+              "pos": {
+                "x": 1894,
+                "y": 396.5
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ab3d2409-f98e-4746-889f-bc40182a9c63"
+            },
+            "type": "Trigger_RemoveItem"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "b6e596a1-930c-40cc-a3d9-f6dd5708447e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "9452caa1-cc2a-472f-8237-d7901de39f14"
+            }
+          },
+          "type": "Trigger_RemoveItem"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a9d3501df83b513835115486b7f3d24f",
+      "triggers.bts": "ec9ad0bc48183c6c4a1e21a6bbe2d874"
+    },
+    "VERSION": "0.21"
+  }
+}

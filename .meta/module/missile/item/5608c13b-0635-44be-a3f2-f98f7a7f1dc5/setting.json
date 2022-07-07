@@ -1,0 +1,25 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "lifeTime": {
+      "value": 2
+    },
+    "moveSpeed": 0,
+    "name": {
+      "value": "missile_5608c13b-0635-44be-a3f2-f98f7a7f1dc5"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f78f8aef61942591528777a7cc16f61b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

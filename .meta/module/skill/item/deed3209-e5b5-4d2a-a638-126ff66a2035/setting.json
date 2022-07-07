@@ -1,0 +1,149 @@
+{
+  "data": {
+    "castAction": "comboAttack6",
+    "castActionTime": {
+      "value": 100
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 20
+    },
+    "defineActionTime": true,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_deed3209-e5b5-4d2a-a638-126ff66a2035"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/a9179906-961e-4722-9519-9d7df7a9f35b",
+            "startPos": {
+              "y": 0
+            }
+          }
+        ],
+        "target": {
+          "type": "CameraYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "ignore_jump": true,
+      "ignore_move": true,
+      "move_interrupt": true
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/spinning-blades.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "f22f1274-c8c2-452b-8a8e-64f0b0619686"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/0cfe81d3-581c-4acd-8a10-05ee4d6599be"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 100
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "783663f9-aeb3-4632-b1c9-24c9fba5e014"
+              },
+              "pos": {
+                "x": 632,
+                "y": 303
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "f22f1274-c8c2-452b-8a8e-64f0b0619686"
+              },
+              "pos": {
+                "x": 1146,
+                "y": 310
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "f2646d9b-08ed-498f-8a19-e6be18d6a228"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "783663f9-aeb3-4632-b1c9-24c9fba5e014"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d10b9034-8926-48e8-b6c3-bf449cd66a80"
+            },
+            "pos": {
+              "x": 340,
+              "y": 290
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d43fdaaec03fdef505d615ec53e664dc",
+      "triggers.bts": "665de9a52cc2adfa694bb0c4cd11dd46"
+    },
+    "VERSION": "0.21"
+  }
+}

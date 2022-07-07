@@ -1,0 +1,123 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" AttackScale="1" Originalscale="1 1 1" TextHeight="0" name="111.actor" SoundFileNum="0" IsShowShadow="true" Alpha="1" SoundName3="" SelectedRingSize="1" Skeleton="g2021_emozhanshi.skel" Volume="0.8" MaxDistance="16" MinDistance="1" SoundName1="" WoundBone="" SoundName5="" WoundAngle="25" SoundName2="" IntervalTime="2">
+		<BodyParts>
+			<BodyPart SlaveName="body" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1" MasterName="body">
+				<Skin LocalBrightnessScale="1.0" UseTransparentNearestSlice="false" UseOriginalcolor="false" UseBloom="false" type_name="g2021_emozhanshi_body" LocalAlpha="1" UseEdge="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" DiscardAlpha="0" UVSpeed="0 0" EdgeColor="1.0 0 0 1.0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" MeshName="asset/Skin/Actor_skin/g2021_emozhanshi_body.skin"/>
+				<Skin LocalBrightnessScale="1.0" UseTransparentNearestSlice="false" UseOriginalcolor="false" UseBloom="false" type_name="g2021_emozhanshi_hand" LocalAlpha="1" UseEdge="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" DiscardAlpha="0" UVSpeed="0 0" EdgeColor="1.0 0 0 1.0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" MeshName="asset/Skin/Actor_skin/g2021_emozhanshi_hand.skin"/>
+				<Skin LocalBrightnessScale="1.0" UseTransparentNearestSlice="false" UseOriginalcolor="false" UseBloom="false" type_name="g2021_emozhanshi_shield" LocalAlpha="1" UseEdge="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" DiscardAlpha="0" UVSpeed="0 0" EdgeColor="1.0 0 0 1.0" UseOverlayColorReplaceMode="false" SpecularStrength="1.0" SpecularColor="1.0 1.0 1.0 1.0" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" UseReflect="false" MeshName="asset/Skin/Actor_skin/g2021_emozhanshi_shield.skin"/>
+				<Effect>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<type_name value="g2021_17_C"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_17_C.effect"/>
+					<pitch value="0"/>
+					<scale value="2"/>
+					<SocketName value="Bip001_L_Hand"/>
+				</Effect>
+				<Effect>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<type_name value="g2021_17_C"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_17_C.effect"/>
+					<pitch value="0"/>
+					<scale value="2"/>
+					<SocketName value="Bip001_R_Hand"/>
+				</Effect>
+				<Effect>
+					<Position_X value="0.01331"/>
+					<Position_Y value="0.568995"/>
+					<type_name value="g2021_emozhanshi_body"/>
+					<Alpha value="1"/>
+					<TimeScale value="1"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_emozhanshi_body.effect"/>
+					<pitch value="0"/>
+					<scale value="0.7"/>
+					<SocketName value="Bip001"/>
+				</Effect>
+				<StaticMesh LocalAlpha="1" type_name="g2021_weapon_23" DiscardAlpha="0">
+					<Position_X value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<Position_Y value="0"/>
+					<UseOriginalcolor value="false"/>
+					<UseBloom value="false"/>
+					<SocketName value="Bip001_L_Hand"/>
+					<yaw value="60"/>
+					<UseEdge value="false"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2021_weapon_23.mesh"/>
+					<pitch value="50"/>
+					<Position_Z value="0.0120454"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<UseReflect value="false"/>
+					<SpecularStrength value="1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<SpecularCoef value="0.15"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<scale value="0.5"/>
+					<roll value="50"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_emozhanshi_walk.anim"/>
+			<Anim Name="asset/Anim/g2021_emozhanshi_attack_01.anim"/>
+			<Anim Name="asset/Anim/g2021_emozhanshi_daiji.anim"/>
+			<Anim Name="asset/Anim/g2021_emzhanshi_shouji.anim"/>
+			<Anim Name="asset/Anim/g2021_emozhanshi_attack_02.anim"/>
+		</Anims>
+		<Skills>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="attack1">
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/g2021_emozhanshi_attack_02.anim" FadeTime="0.25" BeginTime="0" Times="1" Length="1.4"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="attack2">
+				<Effect>
+					<Position_X value="0"/>
+					<CycleTime value="-1"/>
+					<Times value="1"/>
+					<Position_Y value="1.02302"/>
+					<TimeScale value="1.2"/>
+					<BeginTime value="0.52"/>
+					<type_name value="g2021_dungeon_4_4_attack"/>
+					<FollowActor value="true"/>
+					<Alpha value="1"/>
+					<yaw value="-142"/>
+					<Position_Z value="0"/>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_4_4_attack.effect"/>
+					<pitch value="0"/>
+					<scale value="1"/>
+					<SocketName value="BuSuiFu"/>
+				</Effect>
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/g2021_emozhanshi_attack_01.anim" FadeTime="0.25" BeginTime="0" Times="1" Length="1.566"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="hurt">
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/g2021_emzhanshi_shouji.anim" FadeTime="0.25" BeginTime="0" Times="1" Length="0.533"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="idle">
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+				<Animation Channel="" TimeScale="1" Name="asset/Anim/g2021_emozhanshi_daiji.anim" FadeTime="0.25" BeginTime="0" Times="-1" Length="0.966"/>
+			</Skill>
+			<Skill EnableWound="false" TextMode="0" UserDefineTime="-2" Name="run">
+				<ActorScaleChange beginScale="1.8" endScale="1.8"/>
+				<Animation Channel="" TimeScale="0.85" Name="asset/Anim/g2021_emozhanshi_walk.anim" FadeTime="0.25" BeginTime="0" Times="-1" Length="0.9"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,60 @@
+{
+  "data": {
+    "castAction": "g2033_skill_chakra_06",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_lightning_implosion.effect"
+      }
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 800
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_4b52290d-bf8a-4824-8330-4e9d43a8f569"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/32ee30f6-9387-492d-a0ca-70303073f3d5",
+            "startPos": {
+              "y": 0
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 20
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/lightning-dissipation.png"
+      },
+      "iconPos": {
+        "area_number": 9
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8a1182004c377688cd39ef8937ee40ff",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

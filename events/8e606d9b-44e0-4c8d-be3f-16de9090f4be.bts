@@ -1,0 +1,3 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SendToClient(msg = "client_2a49af20_4513_4822_90ed_389b9761ac85", player = $obj2)
+}

@@ -1,0 +1,21 @@
+{
+  "data": {
+    "actorName": {
+      "asset": ""
+    },
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "name": {
+      "value": "entity_ee9943e4-64a8-46b3-8b45-ba8147710a82"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3f208890850f03881600f8cd5dfec9d7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

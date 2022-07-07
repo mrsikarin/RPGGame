@@ -1,0 +1,56 @@
+{
+  "data": {
+    "castAction": "selectable_action_9",
+    "castActionTime": {
+      "value": 40
+    },
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 600
+    },
+    "defineActionTime": true,
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_f679489f-f625-46ff-83bd-71afdf57fd98"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/de385993-0c33-4377-b69c-fd1f5c3f00cc",
+            "startPos": {
+              "y": 0
+            }
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/boot-stomp.png"
+      },
+      "iconPos": {
+        "area_number": 5
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "af64c3b9aefefd594523ce5d167c73a5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

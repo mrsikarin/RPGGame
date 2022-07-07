@@ -1,0 +1,43 @@
+{
+  "data": {
+    "id": {
+      "value": "2a49af20-4513-4822-90ed-389b9761ac85"
+    },
+    "name": "questBoard",
+    "register_object": "game/0/triggers_client/list/3",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "5c03ae8a-057a-4595-af91-ba4782383772"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "clientMessage_2",
+          "proto_uuid": "2a49af20-4513-4822-90ed-389b9761ac85",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "98db6d54-ba04-47fa-95b6-2ef2be84b79f"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        }
+      ]
+    },
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0edfbab4e9b636acbf02079e4afc65da",
+      "triggers.bts": "7370503e75827a02b90f62252900d741"
+    },
+    "VERSION": "0.21"
+  }
+}

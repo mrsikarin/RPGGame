@@ -1,0 +1,293 @@
+{
+  "data": {
+    "md5": "565887518576bdd595aba0e461c5dd3e",
+    "path": "asset/playerUI.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Right",
+            "VerticalAlignment": "Centre"
+          },
+          "DisabledImage": {
+            "asset": "asset/texture2/icon_red_act.png"
+          },
+          "HoverImage": {
+            "asset": "asset/texture2/icon_red_nor.png"
+          },
+          "HoverTextColour": {
+            "b": 106,
+            "g": 75,
+            "r": 240
+          },
+          "id": {
+            "value": "22a0003a-8eb7-4260-aa75-5f8acd35c3d5"
+          },
+          "NormalImage": {
+            "asset": "asset/texture2/icon_red_nor.png"
+          },
+          "NormalTextColour": {
+            "b": 106,
+            "g": 75,
+            "r": 240
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -100
+            },
+            "UDim_Y": {
+              "Scale": -0.3
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/texture2/icon_red_act.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 70
+            },
+            "UDim_Y": {
+              "Offect": 70
+            }
+          },
+          "Text": "Status",
+          "TextOffset": {
+            "y": -5
+          },
+          "triggers": {
+            "list": [
+              {
+                "actions": [
+                  {
+                    "__OBJ_TYPE": "Action_CreateLayout",
+                    "components": [
+                      {
+                        "__OBJ_TYPE": "Component_Params",
+                        "params": [
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_Res_Layout",
+                              "rawval": {
+                                "asset": "asset/PlayerStatus.layout",
+                                "selector": "editor/Monster-Hunter/asset/PlayerStatus.layout"
+                              }
+                            }
+                          },
+                          {
+                            "value": {
+                              "__OBJ_TYPE": "T_String"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+                    "id": {
+                      "value": "9995fe86-86b2-444f-8d05-3a27b5d52ff3"
+                    },
+                    "pos": {
+                      "x": 798,
+                      "y": 301
+                    }
+                  }
+                ],
+                "custom_trigger_data": {
+                  "name": {
+                    "value": "4cb18614-84f8-46f2-8955-1068d7eb65b1"
+                  },
+                  "type": "Trigger_WidgetClicked"
+                },
+                "root": {
+                  "components": [
+                    {
+                      "__OBJ_TYPE": "Component_Sequence",
+                      "children": [
+                        {
+                          "action": "9995fe86-86b2-444f-8d05-3a27b5d52ff3"
+                        }
+                      ]
+                    }
+                  ],
+                  "id": {
+                    "value": "f7c70efe-c517-4755-9006-0935267607df"
+                  }
+                },
+                "type": "Trigger_WidgetClicked"
+              }
+            ]
+          }
+        },
+        {
+          "__OBJ_TYPE": "DefaultWindow",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Bottom"
+          },
+          "children": [
+            {
+              "__OBJ_TYPE": "CustomHorizontalSlider",
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Centre"
+              },
+              "children": [
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "id": {
+                    "value": "9e7f0425-953a-45b4-9a85-bb05bed7a948"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_bg.png",
+                    "selector": "asset/Texture/Gui/slider_bg.png"
+                  },
+                  "name": "Background",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256
+                    },
+                    "UDim_Y": {
+                      "Offect": 20
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "StaticImage",
+                  "id": {
+                    "value": "59887826-9bce-48ac-9b36-dbee3aef9f0d"
+                  },
+                  "Image": {
+                    "asset": "asset/Texture/Gui/slider_top_h.png",
+                    "selector": "asset/Texture/Gui/slider_top_h.png"
+                  },
+                  "name": "Fill",
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 256
+                    },
+                    "UDim_Y": {
+                      "Offect": 16
+                    }
+                  }
+                },
+                {
+                  "__OBJ_TYPE": "SliderThumb",
+                  "gui_type": "SliderThumb",
+                  "id": {
+                    "value": "598d706d-f5f3-46e5-8376-c976fcf3770e"
+                  },
+                  "name": "Handle",
+                  "Visible": false
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "3a760249-53ce-47c1-acc7-72aaa14b67e3"
+                  },
+                  "name": "level",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": -56.435851635192
+                    },
+                    "UDim_Y": {
+                      "Offect": -48.317771249953
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 139.55161976815
+                    }
+                  },
+                  "Text": "Lv.",
+                  "TextColours": {
+                    "b": 127,
+                    "g": 85,
+                    "r": 170
+                  },
+                  "VertFormatting": "CentreAligned"
+                },
+                {
+                  "__OBJ_TYPE": "StaticText",
+                  "anchor": {
+                    "HorizontalAlignment": "Centre",
+                    "VerticalAlignment": "Centre"
+                  },
+                  "Font": "HarmonyOS_Sans_SC_Bold",
+                  "Font_size": 20,
+                  "HorzFormatting": "CentreAligned",
+                  "id": {
+                    "value": "8f836980-9ca2-4c35-94a6-b1598529f03a"
+                  },
+                  "name": "textexp",
+                  "pos": {
+                    "UDim_X": {
+                      "Offect": -195.92307060815
+                    },
+                    "UDim_Y": {
+                      "Offect": 0.0712845227307
+                    }
+                  },
+                  "size": {
+                    "UDim_X": {
+                      "Offect": 139.55161976815
+                    }
+                  },
+                  "Text": "EXP",
+                  "TextColours": {
+                    "b": 127,
+                    "g": 85,
+                    "r": 170
+                  },
+                  "VertFormatting": "CentreAligned"
+                }
+              ],
+              "id": {
+                "value": "c77710dc-6802-44a9-a906-9fb4d2de4d38"
+              },
+              "name": "expbar"
+            }
+          ],
+          "id": {
+            "value": "39b23083-3016-49b4-bebf-89a77cd4fd38"
+          },
+          "size": {
+            "UDim_X": {
+              "Scale": 1
+            }
+          }
+        }
+      ],
+      "id": {
+        "value": "016bb159-dcce-41de-b6d0-ded95c2c7734"
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 171.32,
+          "Scale": 1
+        },
+        "UDim_Y": {
+          "Offect": 70,
+          "Scale": 1
+        }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "565887518576bdd595aba0e461c5dd3e",
+      "triggers.bts": "2c843c0491deb2fcfea676039f39ad4b"
+    },
+    "VERSION": "0.21"
+  }
+}

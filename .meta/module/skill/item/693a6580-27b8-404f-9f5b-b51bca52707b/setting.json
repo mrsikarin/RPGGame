@@ -1,0 +1,52 @@
+{
+  "data": {
+    "castAction": "g2033_skill_jump_05",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 100
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_693a6580-27b8-404f-9f5b-b51bca52707b"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/ee8c32ae-277f-4e30-9a9e-0daa00f34fa3"
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 10
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/chemical-bolt.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bb2bfdb29ddb7bfc877a3a67b6936fbe",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "automatch": false,
+  "bagCap": 9,
+  "cameraCfg": {
+    "canSwitchView": true,
+    "defaultPitch": 0,
+    "defaultView": 3,
+    "defaultYaw": 0,
+    "viewModeConfig": [
+      {
+        "enable": true,
+        "lockSlideScreen": false,
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": true,
+        "enableCollisionDetect": true,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": false,
+        "enableCollisionDetect": true,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "distance": 4,
+        "enable": true,
+        "enableCollisionDetect": true,
+        "lockBodyRotation": false,
+        "lockSlideScreen": false,
+        "offset": {
+          "__OBJ_TYPE": "Vector3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "viewFovAngle": 75
+      },
+      {
+        "enable": false,
+        "lockBodyRotation": false,
+        "lockSlideScreen": false,
+        "lockViewPos": true,
+        "pos": {
+          "__OBJ_TYPE": "Vector3i",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "viewFovAngle": 75
+      }
+    ]
+  },
+  "canJoinMidway": false,
+  "defaultMap": "map001",
+  "defaultQualityLevel": 2,
+  "dragControlConfig": {
+    "useDragControl": true
+  },
+  "editorFovAngle": 65,
+  "enableNewLighting": true,
+  "engineDefUIEnable": {
+    "actionControl": false,
+    "actionControlMode": "flexibleDragControl",
+    "appMainRole": true,
+    "chat": true,
+    "playerinfo": true,
+    "shortcutBar": true,
+    "toolbar": true
+  },
+  "forcePickBlock": true,
+  "glesMinorVersion": 0,
+  "glesVersion": 3,
+  "hideCloud": false,
+  "hideTeamStatusBar": false,
+  "ignoreEmptyStartPos": false,
+  "initPos": {
+    "map": "map001",
+    "x": 2.1216065883636,
+    "y": 1.0399001026154,
+    "z": 3.7268977165222
+  },
+  "isTimeStopped": true,
+  "jumpControlConfig": {
+    "area": [
+      [
+        0,
+        100
+      ],
+      [
+        0,
+        60
+      ],
+      [
+        0,
+        200
+      ],
+      [
+        0,
+        200
+      ]
+    ],
+    "jumpImage": {
+      "name": "jump_imagesets/icon_jump_nor.png"
+    },
+    "jumpPushImage": {
+      "name": "jump_imagesets/icon_jump_act.png"
+    },
+    "useGroup": "_imagesets_"
+  },
+  "maxPlayers": 6,
+  "minPlayers": 1,
+  "moveStateConfig": {
+    "isShow": false
+  },
+  "needSave": true,
+  "noLoadHp": true,
+  "notReadUserSettingCfgAtEditor": true,
+  "nowTime": 10666.666666667,
+  "oneDayTime": 600.0,
+  "personalSettingUI": {
+    "controlMode": true,
+    "guiSize": false,
+    "horizon": false,
+    "imageQuality": true,
+    "jumpSneakState": false,
+    "luminance": false,
+    "sensitive": true,
+    "volume": true
+  },
+  "personalShop": false,
+  "playerCfg": "myplugin/player1",
+  "playTime": -1,
+  "qualityLevelData": {
+    "maxLevel": [
+      2,
+      0,
+      0.6,
+      0.68,
+      0.00132,
+      3,
+      1.4,
+      1,
+      1,
+      0.22,
+      -0.00132,
+      0.43,
+      1,
+      0,
+      0.1,
+      0,
+      0,
+      2,
+      2,
+      1,
+      0,
+      2,
+      1.8
+    ]
+  },
+  "replay": false,
+  "reportTime": 1200,
+  "skillJack": {
+    "AJackArea": [
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        120
+      ],
+      [
+        0,
+        120
+      ]
+    ],
+    "hideBJack": true,
+    "lineSkills": [
+      {
+        "hAlign": 2,
+        "itemSpace": 30,
+        "jackNum": 2,
+        "jackSize": 80,
+        "vAlign": 1,
+        "xOffset": -50,
+        "yOffset": 0
+      },
+      {
+        "hAlign": 1,
+        "itemSpace": 30,
+        "jackNum": 4,
+        "jackSize": 80,
+        "vAlign": 0,
+        "xOffset": 0,
+        "yOffset": 50
+      }
+    ],
+    "sectorSkills": [
+      {
+        "deltaAngle": 45,
+        "jackNum": 3,
+        "jackSize": 88,
+        "radius": 170,
+        "startAngle": 270
+      }
+    ]
+  },
+  "startPos": [
+    {
+      "map": "map001",
+      "x": 2.4832611083984,
+      "y": 1.0398998641968,
+      "z": 3.3711795806885
+    }
+  ],
+  "team": [],
+  "teammateHurt": false,
+  "topTeamInfo": {
+    "teamDieIcon": "flag_textures/flag_die",
+    "teamDieIconArea": [
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        -7
+      ],
+      [
+        0,
+        20
+      ],
+      [
+        0,
+        20
+      ]
+    ],
+    "teamInfoArea": [
+      [
+        0,
+        -5
+      ],
+      [
+        0,
+        -3
+      ],
+      [
+        0,
+        53.45
+      ],
+      [
+        0,
+        17
+      ]
+    ]
+  },
+  "useNewFirstViewer": true,
+  "useNewQuadConfig": true,
+  "useNewUI": true,
+  "useVoxelTerrain": true,
+  "vars": {
+    "__OBJ_TYPE": [],
+    "entity": [
+      {
+        "key": "level",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "exp",
+        "run_type": "server",
+        "save": true,
+        "value": 0
+      },
+      {
+        "key": "str",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "agi",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "int",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "vit",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "dex",
+        "run_type": "server",
+        "save": true,
+        "value": 1
+      },
+      {
+        "key": "point",
+        "run_type": "server",
+        "save": true,
+        "value": 0
+      }
+    ],
+    "global": [],
+    "ui": [
+      {
+        "key": "points",
+        "run_type": "client",
+        "save": true,
+        "value": 0
+      }
+    ]
+  },
+  "waitAtInitPos": true,
+  "waitGoTime": 0,
+  "waitPlayerTime": 0,
+  "waitStartTime": 0
+}

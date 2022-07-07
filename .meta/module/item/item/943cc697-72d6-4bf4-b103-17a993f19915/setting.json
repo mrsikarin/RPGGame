@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Item/R (6) (7).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
+          "myplugin/b3b3da22-421f-45e3-af84-7025d1d2ce4c",
+          "myplugin/c52487b2-5016-44f7-9c67-522c6648b41d"
+        ]
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "item_943cc697-72d6-4bf4-b103-17a993f19915"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8fcfb99069c3db20d109b271e0b8949a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

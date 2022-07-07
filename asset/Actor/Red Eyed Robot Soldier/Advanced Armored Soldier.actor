@@ -1,0 +1,99 @@
+<ActorTemplates>
+	<ActorTemplate SoundName4="" TextHeight="0" MinDistance="1" SelectedRingSize="1" WoundBone="" IntervalTime="2" SoundName3="" WoundAngle="25" Originalscale="0.8 0.8 0.8" Skeleton="g2007_blackskele.skel" Alpha="1" SoundName2="" Volume="0.8" SoundName1="" IsShowShadow="true" MaxDistance="16" SoundName5="" name="111.actor" SoundFileNum="0" AttackScale="1">
+		<Anims>
+			<Anim Name="asset/Anim/g2007_blackskele_walk.anim"/>
+			<Anim Name="asset/Anim/g2007_blackskele_gongji.anim"/>
+			<Anim Name="asset/Anim/g2007_blackskele_shouji.anim"/>
+			<Anim Name="asset/Anim/g2007_blackskele_idle.anim"/>
+		</Anims>
+		<Skills>
+			<Skill UserDefineTime="-2" Name="attack1" TextMode="0" EnableWound="false">
+				<Animation Times="1" Channel="" FadeTime="0.25" TimeScale="1" Name="asset/Anim/g2007_blackskele_gongji.anim" Length="2" BeginTime="0"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill UserDefineTime="-2" Name="hurt" TextMode="0" EnableWound="false">
+				<Animation Times="1" Channel="" FadeTime="0.25" TimeScale="1" Name="asset/Anim/g2007_blackskele_shouji.anim" Length="0.533" BeginTime="0"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill UserDefineTime="-2" Name="idle" TextMode="0" EnableWound="false">
+				<Animation Times="-1" Channel="" FadeTime="0.25" TimeScale="1" Name="asset/Anim/g2007_blackskele_idle.anim" Length="6.866" BeginTime="0"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill UserDefineTime="-2" Name="run" TextMode="0" EnableWound="false">
+				<Animation Times="-1" Channel="" FadeTime="0.25" TimeScale="1" Name="asset/Anim/g2007_blackskele_walk.anim" Length="1.033" BeginTime="0"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+		</Skills>
+		<BodyParts>
+			<BodyPart ColorParams="1 1 1 1" MasterName="body" EdgeColor="1 1 1 1" DefaultUse="true" SlaveName="body">
+				<Skin ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed="0 0" SpecularColor="1.0 1.0 1.0 1.0" LocalBrightnessScale="1.0" UseOverlayColorReplaceMode="false" UseBloom="false" SpecularStrength="1.0" UseReflect="false" LocalAlpha="1" UseTransparentNearestSlice="false" UseEdge="false" type_name="g2007_blackskele_body" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" MeshName="asset/Skin/Actor_skin/g2007_blackskele_body.skin" UseOriginalcolor="false" DiscardAlpha="0" EdgeColor="1.0 0 0 1.0"/>
+				<Skin ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed="0 0" SpecularColor="1.0 1.0 1.0 1.0" LocalBrightnessScale="1.0" UseOverlayColorReplaceMode="false" UseBloom="false" SpecularStrength="1.0" UseReflect="false" LocalAlpha="1" UseTransparentNearestSlice="false" UseEdge="false" type_name="g2007_blackskele_head" SpecularCoef="0.15" OverlayColor="1.0 1.0 1.0 1.0" MeshName="asset/Skin/Actor_skin/g2007_blackskele_head.skin" UseOriginalcolor="false" DiscardAlpha="0" EdgeColor="1.0 0 0 1.0"/>
+				<Effect>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_17_C.effect"/>
+					<type_name value="g2021_17_C"/>
+					<Position_Z value="0.0273821"/>
+					<Alpha value="1"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<scale value="2"/>
+					<yaw value="0"/>
+					<Position_Y value="1.31092"/>
+					<Position_X value="-0.0926474"/>
+					<pitch value="0"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_weiba.effect"/>
+					<type_name value="g2021_feilong_weiba"/>
+					<Position_Z value="-0.210213"/>
+					<Alpha value="1"/>
+					<SocketName value="Bip001_Head"/>
+					<scale value="0.3"/>
+					<yaw value="0"/>
+					<Position_Y value="0.107987"/>
+					<Position_X value="0.240677"/>
+					<pitch value="0"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<roll value="0"/>
+					<FileName value="asset/Effect/Roles/g2021_feilong_weiba.effect"/>
+					<type_name value="g2021_feilong_weiba"/>
+					<Position_Z value="-0.195849"/>
+					<Alpha value="1"/>
+					<SocketName value="Bip001_Head"/>
+					<scale value="0.3"/>
+					<yaw value="0"/>
+					<Position_Y value="-0.103277"/>
+					<Position_X value="0.234346"/>
+					<pitch value="0"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<StaticMesh type_name="g2021_weapon_6_2" DiscardAlpha="0" LocalAlpha="1">
+					<scale value="0.4"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<LocalBrightnessScale value="1.0"/>
+					<UseOverlayColorReplaceMode value="false"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1.0"/>
+					<UseReflect value="false"/>
+					<pitch value="270"/>
+					<UseOriginalcolor value="false"/>
+					<roll value="30"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2021_weapon_6_2.mesh"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<SpecularCoef value="0.15"/>
+					<OverlayColor value="1.0 1.0 1.0 1.0"/>
+					<EdgeColor value="1.0 0 0 1.0"/>
+					<SpecularColor value="1.0 1.0 1.0 1.0"/>
+					<Position_Y value="0"/>
+					<Position_X value="0"/>
+					<UseTransparentNearestSlice value="false"/>
+					<UseEdge value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+	</ActorTemplate>
+</ActorTemplates>

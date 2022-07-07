@@ -1,0 +1,207 @@
+{
+  "data": {
+    "canJoinMidway": false,
+    "defaultView": "Follow",
+    "enableNewLighting": true,
+    "fixed_viewPos": {
+      "pos": {
+        "__OBJ_TYPE": "Vector3i"
+      }
+    },
+    "follow_enable": {
+      "enable": true
+    },
+    "initPos": {
+      "map": "map001",
+      "pos": {
+        "x": 2.1216065883636,
+        "y": 1.0399001026154,
+        "z": 3.7268977165222
+      }
+    },
+    "needSave": true,
+    "nowTime": {
+      "h": 16,
+      "m": 40
+    },
+    "player_range": {
+      "max": 6,
+      "min": 1
+    },
+    "startPos": {
+      "map": "map001",
+      "pos": {
+        "x": 2.4832611083984,
+        "y": 1.0398998641968,
+        "z": 3.3711795806885
+      }
+    },
+    "triggers_client": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "1823c80b-82dd-4ede-a454-85310dd83046",
+                      "param_name": "exp"
+                    },
+                    {
+                      "action": "e983cc9d-0b52-4374-9859-20d51f110a13",
+                      "param_name": "player"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_12"
+                }
+              ],
+              "id": {
+                "value": "2dae06e1-4d82-4728-8478-2c0fae9f4a83"
+              },
+              "pos": {
+                "x": 824.38357061206,
+                "y": 408.7711065898
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetProtocolParam",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Param",
+                  "key": "exp"
+                }
+              ],
+              "id": {
+                "value": "1823c80b-82dd-4ede-a454-85310dd83046"
+              },
+              "pos": {
+                "x": 1272.4924824386,
+                "y": 345.48855033949
+              },
+              "proto_id": "1af48063-ecfd-4d3b-ad3a-279846af59f5",
+              "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "e983cc9d-0b52-4374-9859-20d51f110a13"
+              },
+              "pos": {
+                "x": 1344.3267354795,
+                "y": 526.78452229983
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "c8a38ae3-5884-407c-9233-42a3b81a9cd8"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "sendexp",
+          "proto_uuid": "1af48063-ecfd-4d3b-ad3a-279846af59f5",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "2dae06e1-4d82-4728-8478-2c0fae9f4a83"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "01ff2136-bfbc-4365-84c1-ec71d82626a0"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        }
+      ]
+    },
+    "ui_enable": {
+      "actionControl": false
+    },
+    "unlimitedPlayTime": true,
+    "vars": {
+      "entity": [
+        {
+          "key": "level",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "exp",
+          "save": true
+        },
+        {
+          "key": "str",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "agi",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "int",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "vit",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "dex",
+          "save": true,
+          "value": {
+            "rawval": 1
+          }
+        },
+        {
+          "key": "point",
+          "save": true
+        }
+      ],
+      "ui": [
+        {
+          "key": "points",
+          "run_type": "client",
+          "save": true
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "19def57e68552810d113a7c19af9f81b",
+      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "triggers.bts": "",
+      "triggers_client.bts": "b1127e3235c0b9946d03bf2df00bbc05"
+    },
+    "VERSION": "0.21"
+  }
+}

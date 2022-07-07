@@ -1,0 +1,3 @@
+client_1af48063_ecfd_4d3b_ad3a_279846af59f5 {
+	ExecScript(exp = $p_exp, player = $player, script_name = "ScriptableNode_12")
+}

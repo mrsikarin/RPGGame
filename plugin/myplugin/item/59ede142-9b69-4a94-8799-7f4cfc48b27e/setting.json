@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Item/R (6) (20).png",
+  "itemname": "item_59ede142-9b69-4a94-8799-7f4cfc48b27e",
+  "needSave": true,
+  "skill": [
+    "myplugin/c4028628-c045-46ff-bd93-6310bbc4ebb9",
+    "myplugin/227ca8e7-b985-473e-84a0-ba72a3ee2f42",
+    "myplugin/b89a69cd-d5a6-4aa3-8610-5ca9a8483c43",
+    "myplugin/e1cb6a02-83cd-4c73-818c-a94733fea9ca"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

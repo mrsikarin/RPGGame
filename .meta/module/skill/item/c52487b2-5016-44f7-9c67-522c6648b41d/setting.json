@@ -1,0 +1,41 @@
+{
+  "data": {
+    "castAction": "block1",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 400
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_c52487b2-5016-44f7-9c67-522c6648b41d"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/df1f2b5d-a7b5-4ed8-937e-c386fddcbd64",
+        "buffTime": {
+          "value": 200
+        },
+        "target": "self"
+      },
+      "type": "Buff"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/shield.png"
+      },
+      "iconPos": {
+        "area_number": 5
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3b00bc038ce1c0de032ffe514c7f6167",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

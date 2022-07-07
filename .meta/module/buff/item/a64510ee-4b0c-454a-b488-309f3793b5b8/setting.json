@@ -1,0 +1,23 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Continuous_flag_effect.effect"
+      }
+    },
+    "damagePct": 2,
+    "deDmgPct": 0.5,
+    "jumpSpeed": 1.0,
+    "moveFactor": 1,
+    "name": {
+      "value": "buff_a64510ee-4b0c-454a-b488-309f3793b5b8"
+    },
+    "sync": "self"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b89e107db19759e9c3323be5ffa2379c"
+    },
+    "VERSION": "0.21"
+  }
+}

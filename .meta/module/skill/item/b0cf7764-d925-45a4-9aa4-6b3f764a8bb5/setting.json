@@ -1,0 +1,52 @@
+{
+  "data": {
+    "castAction": "g2033_skill_jump_05",
+    "cdAnimation": "Clockwise",
+    "cdTime": {
+      "value": 200
+    },
+    "enableCdMask": true,
+    "FillPosition": "Top_With360Degree",
+    "FillType": "With360Degree",
+    "name": {
+      "value": "skill_b0cf7764-d925-45a4-9aa4-6b3f764a8bb5"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/b64f3e5d-ad19-4645-9ad7-83a14f4a72b2"
+          }
+        ],
+        "target": {
+          "type": "BodyYaw"
+        }
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "enable_pre": true,
+      "ignore_jump": true,
+      "ignore_move": true,
+      "time": {
+        "value": 10
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/skull-bolt.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "d89fb383cbfe74971db3c504cbf95903",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

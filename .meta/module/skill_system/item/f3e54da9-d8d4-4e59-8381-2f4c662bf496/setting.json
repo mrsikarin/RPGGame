@@ -1,0 +1,16 @@
+{
+  "data": {
+    "damage": 10,
+    "hurtDistance": 1,
+    "name": {
+      "value": "ebec7493-d67e-405a-8bf0-6b1fc4b5ffab"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8b99bb55c79af4efe00cbcd1933e034c",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

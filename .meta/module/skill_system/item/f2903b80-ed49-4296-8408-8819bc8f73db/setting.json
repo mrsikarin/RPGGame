@@ -1,0 +1,32 @@
+{
+  "data": {
+    "attackBound": {
+      "position": {
+        "z": 1
+      }
+    },
+    "castAction": {
+      "castAction": "g2033_skill_sword_10"
+    },
+    "damage": 40,
+    "name": {
+      "value": "skill_system_f2903b80-ed49-4296-8408-8819bc8f73db"
+    },
+    "preKillTime": {
+      "value": 40
+    },
+    "skillIcon": {
+      "asset": "asset/Skill/crossed-swords.png"
+    },
+    "skillIconPos": {
+      "area_number": 9
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a47a6d02b2b2b5b5567ada4e0a1ee9ca",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Continuous_tp_light.effect"
+      },
+      "once": false
+    },
+    "continueHeal": 5,
+    "deadRemove": true,
+    "moveSpeed": -999.0,
+    "name": {
+      "value": "buff_61244f0f-f2f1-4b7b-8dc7-d0b25e1b0172"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "ce459d781f8d5e2850f98c758d1d751a"
+    },
+    "VERSION": "0.21"
+  }
+}

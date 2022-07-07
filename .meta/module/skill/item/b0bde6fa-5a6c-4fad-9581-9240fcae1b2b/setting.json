@@ -1,0 +1,38 @@
+{
+  "data": {
+    "castAction": "app_selectable_action_34",
+    "consumeVp": 5,
+    "name": {
+      "value": "skill_b0bde6fa-5a6c-4fad-9581-9240fcae1b2b"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/db8e2663-586a-493a-8b81-99b415442f7f"
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_ฟชพต_nor.png"
+      },
+      "iconPos": {
+        "area_number": 7
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5058700975cb8772957e75b299ee6500",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

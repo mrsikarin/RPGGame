@@ -1,0 +1,20 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Surround_tornado.effect"
+      }
+    },
+    "deadRemove": true,
+    "moveSpeed": -999.0,
+    "name": {
+      "value": "buff_0cfe81d3-581c-4acd-8a10-05ee4d6599be"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "a74c619ad1179ee57267e8e71123dc64"
+    },
+    "VERSION": "0.21"
+  }
+}

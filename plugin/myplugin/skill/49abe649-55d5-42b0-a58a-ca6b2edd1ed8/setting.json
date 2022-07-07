@@ -1,0 +1,69 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "comboAttack3",
+  "castActionTime": -1,
+  "cdTime": 0,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "hurtDistance": 0.1,
+  "icon": "@asset/Skill/spinning-sword.png",
+  "ignoreCastSkillPreS": true,
+  "isClick": false,
+  "isTouch": false,
+  "missileCfg": [
+    "myplugin/7869049c-262d-4bc4-9f56-c9a9265637d2"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Self",
+  "type": "Missile",
+  "verticalAlignment": 2
+}

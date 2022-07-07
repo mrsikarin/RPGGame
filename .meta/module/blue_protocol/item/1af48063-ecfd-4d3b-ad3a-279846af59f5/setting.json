@@ -1,0 +1,48 @@
+{
+  "data": {
+    "id": {
+      "value": "1af48063-ecfd-4d3b-ad3a-279846af59f5"
+    },
+    "name": "sendexp",
+    "params": [
+      {
+        "param_name": "exp"
+      }
+    ],
+    "register_object": "game/0/triggers_client/list/4",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "fa1dec68-e4c7-4c04-9795-12d85f96a11a"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "clientMessage_2",
+          "proto_uuid": "1af48063-ecfd-4d3b-ad3a-279846af59f5",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "98ccaeb6-1686-406b-aab0-111d8896b321"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        }
+      ]
+    },
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "011e0b2057cd32ed2503322cb286f665",
+      "triggers.bts": "0a58f21b1679fb813af8246289dcd896"
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,5 @@
+SKILL_CAST {
+	StartTimer2(interval = 20, time = 5, timer = "") {
+		AddEntityVp(entity = $obj1, step = 10)
+	}
+}

@@ -1,0 +1,59 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "y": 1.2,
+        "z": 6
+      }
+    },
+    "hitCount": {
+      "hitEntityCount": 1
+    },
+    "hitEntitySkill": "myplugin/c383c8cd-f438-4227-bfa7-c44018e8e936",
+    "hitInterval": {
+      "value": 40
+    },
+    "lifeTime": {
+      "value": 4
+    },
+    "moveSpeed": 0,
+    "name": {
+      "value": "b590ae3a-c857-46bb-9f19-94d2cc182f4b"
+    },
+    "target_type": "hitPlayer",
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "b3243a94-8860-446b-9df0-18045ab879ea"
+            },
+            "type": "Trigger_MissileHitEntity"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "6b4da4d8-741f-47a2-95ab-e41006cb16f9"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f6f2d2db415057d80acf34908ca86913",
+      "triggers.bts": "72cc3f900de3a515fff800d5ea063d11"
+    },
+    "VERSION": "0.21"
+  }
+}

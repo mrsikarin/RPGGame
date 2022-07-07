@@ -1,0 +1,65 @@
+{
+  "data": {
+    "_clientScript": [
+      {
+        "path": "client/client_script"
+      }
+    ],
+    "actorName": {
+      "asset": "asset/Actor/Blue Armor Monster/Armor Defender·High Order.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/ed4b7780-a333-4895-bd82-ec6a8cd9098c"
+        },
+        {
+          "fullName": "myplugin/8ac17569-8e99-4ecf-a8db-a31bda29d836"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "idleTime": {
+          "max": {
+            "value": 40
+          },
+          "min": {
+            "value": 20
+          }
+        },
+        "prob": {
+          "value": 0.5
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "collision": true,
+    "enableAI": true,
+    "girlactor": {
+      "asset": ""
+    },
+    "hideHp": false,
+    "maxHp": 400,
+    "name": {
+      "value": "entity_c388f2e1-22af-4eaa-b777-21b4d96e1510"
+    },
+    "textHeight": 3.3
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "543f4e7432f30075f5abda276ab787e0",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

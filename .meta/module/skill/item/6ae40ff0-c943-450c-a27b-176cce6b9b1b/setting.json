@@ -1,0 +1,101 @@
+{
+  "data": {
+    "castAction": "attack1",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "5efcb19f-2b3c-4700-a83d-005324586819"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "bodyPitchOffset": 90,
+            "bodyYawOffset": 180,
+            "missileCfg": "myplugin/74ec415d-39a1-4cab-be25-b09b470958ca",
+            "startPos": {
+              "z": 1
+            },
+            "startWait": {
+              "value": 20
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_SetUserContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Var"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "bf210950-c908-400a-a95a-2109c8525a84"
+              },
+              "pos": {
+                "x": 586,
+                "y": 161
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "40bf042b-5ca4-44a0-ae3f-0e3d0d16e421"
+            },
+            "type": "Trigger_SkillCast"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "bf210950-c908-400a-a95a-2109c8525a84"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d0675417-721c-4c3b-86e8-d2946b2db774"
+            },
+            "pos": {
+              "x": 273,
+              "y": 144
+            }
+          },
+          "type": "Trigger_SkillCast"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9da3691518e01ac34d08ff834d75eac4",
+      "triggers.bts": "5a566fc7c963bf1119b53b2fee3dc77b"
+    },
+    "VERSION": "0.21"
+  }
+}

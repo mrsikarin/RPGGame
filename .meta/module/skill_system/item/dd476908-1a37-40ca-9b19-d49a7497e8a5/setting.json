@@ -1,0 +1,23 @@
+{
+  "data": {
+    "castAction": {
+      "castAction": "attack"
+    },
+    "name": {
+      "value": "skill_system_dd476908-1a37-40ca-9b19-d49a7497e8a5"
+    },
+    "skillIcon": {
+      "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+    },
+    "skillIconPos": {
+      "area_number": 7
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "60aa63819300b3f7253aca6b80bdda20",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

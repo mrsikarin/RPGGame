@@ -1,5 +1,6 @@
 {
   "data": {
+    "canAbandon": true,
     "icon": {
       "asset": "asset/Mesh/Blue Frost Sword/R (2) (1).png"
     },
@@ -7,8 +8,7 @@
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
-          "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
-          "myplugin/be9c5cf1-f17f-42e8-a1d0-bea017b16248"
+          "myplugin/f2903b80-ed49-4296-8408-8819bc8f73db"
         ]
       },
       "type": "InHand"
@@ -23,7 +23,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9f8aa7bb79d7ce622716408f9d7149c7",
+      "setting.json": "8d8e5383f9b2cc881e660f5b514847e7",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

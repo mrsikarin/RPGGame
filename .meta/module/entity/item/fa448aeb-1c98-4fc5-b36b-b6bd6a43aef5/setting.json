@@ -49,6 +49,7 @@
     "name": {
       "value": "entity_fa448aeb-1c98-4fc5-b36b-b6bd6a43aef5"
     },
+    "textHeight": 5,
     "triggers": {
       "list": [
         {
@@ -245,7 +246,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "933d235cfce04b65e5f091cf08ef3390",
+      "setting.json": "b8300dfc0f673c36cf0df4de9e705f2c",
       "triggers.bts": "961e64027b6445db89325c2397dd2194"
     },
     "VERSION": "0.21"

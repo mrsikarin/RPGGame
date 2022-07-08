@@ -76,21 +76,6 @@
       }
     },
     {
-      "class": "Entity",
-      "config": "myplugin/player1",
-      "customProperties": [],
-      "properties": {
-        "batchType": "Static",
-        "id": "8692911802860519425",
-        "name": "Player",
-        "needSync": "true",
-        "position": "x:4.0562009811401 y:1.1708989143372 z:1.2040195465088",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1",
-        "selectable": "true"
-      }
-    },
-    {
       "class": "DropItem",
       "config": "myplugin/4fa23ab5-42ce-495a-abcf-4a6632c0b5ba",
       "customProperties": [],
@@ -321,36 +306,6 @@
     },
     {
       "class": "Entity",
-      "config": "myplugin/f2804a13-cfff-4ecd-9e1c-190f465e1e32",
-      "customProperties": [],
-      "properties": {
-        "batchType": "Static",
-        "id": "8701445921647607809",
-        "name": "set",
-        "needSync": "true",
-        "position": "x:-2.9961493015289 y:0.9999006986618 z:3.714093208313",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1",
-        "selectable": "true"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/004e2365-5ea0-421b-9409-3718a5e524e1",
-      "customProperties": [],
-      "properties": {
-        "batchType": "Static",
-        "id": "8701445950274437121",
-        "name": "Show",
-        "needSync": "true",
-        "position": "x:-1.2780132293701 y:0.99990081787109 z:2.3183078765869",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1",
-        "selectable": "true"
-      }
-    },
-    {
-      "class": "Entity",
       "config": "myplugin/6e8c63e3-a7a8-4a32-a785-624d83bc34a1",
       "customProperties": [],
       "properties": {
@@ -419,6 +374,36 @@
         "name": "Pig Lv.1",
         "needSync": "true",
         "position": "x:1.6224975585938 y:0.99989986419678 z:36.494255065918",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8705645872924819457",
+        "name": "Pig Lv.1",
+        "needSync": "true",
+        "position": "x:28.814441680908 y:0.99989986419678 z:21.054458618164",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/f2804a13-cfff-4ecd-9e1c-190f465e1e32",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "id": "8705821190430441473",
+        "name": "Give Exp",
+        "needSync": "true",
+        "position": "x:-0.081271708011627 y:0.99989914894104 z:1.8751668930054",
         "rotation": "x:0 y:0 z:0",
         "scale": "x:1 y:1 z:1",
         "selectable": "true"

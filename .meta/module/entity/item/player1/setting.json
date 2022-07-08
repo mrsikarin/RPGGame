@@ -43,7 +43,6 @@
       "3",
       "4"
     ],
-    "hideHp": false,
     "isPlayer": true,
     "maxHp": 100,
     "name": {
@@ -159,7 +158,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "00459c66e8e5e47166b533cafc51cd26",
+      "setting.json": "a795345663db7b0c3645a50d65b0d23f",
       "triggers.bts": "2af0bb932b43a96bca5017c2f0baf5fe"
     },
     "VERSION": "0.21"

@@ -90,7 +90,7 @@
   "gravity": 0.08,
   "headPic": "",
   "hideHolder": false,
-  "hideHp": 0,
+  "hideHp": 1,
   "hideName": false,
   "homeSize": 20,
   "hpBarColor": 4294967551.0,

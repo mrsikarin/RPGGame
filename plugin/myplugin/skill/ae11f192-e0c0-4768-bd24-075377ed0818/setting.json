@@ -24,7 +24,7 @@
   "cdTime": 0,
   "consumeVp": 0,
   "customizeSkill": true,
-  "damage": 5,
+  "damage": 15,
   "dmgFactor": 0,
   "draggingEnabled": false,
   "enableBackSwing": false,

@@ -1,5 +1,5 @@
 {
-  "canAbandon": false,
+  "canAbandon": true,
   "candrop": false,
   "canEquipPlural": true,
   "canUse": false,
@@ -9,8 +9,7 @@
   "mesh": "asset/Mesh/Blue Frost Sword/crystal_sword.mesh",
   "needSave": true,
   "skill": [
-    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
-    "myplugin/be9c5cf1-f17f-42e8-a1d0-bea017b16248"
+    "myplugin/f2903b80-ed49-4296-8408-8819bc8f73db"
   ],
   "stack_count_max": 1,
   "syncGameData": {

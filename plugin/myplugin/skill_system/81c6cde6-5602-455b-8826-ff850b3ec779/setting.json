@@ -94,7 +94,7 @@
     "__OBJ_TYPE": "Time",
     "value": 0
   },
-  "damage": 5,
+  "damage": 15,
   "hitEntitySound": {
     "__OBJ_TYPE": "CastSound",
     "loop": false,

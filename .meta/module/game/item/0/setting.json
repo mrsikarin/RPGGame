@@ -3,6 +3,7 @@
     "canJoinMidway": false,
     "defaultView": "Follow",
     "enableNewLighting": true,
+    "firstPerson_viewFovAngle": 90,
     "fixed_viewPos": {
       "pos": {
         "__OBJ_TYPE": "Vector3i"
@@ -11,12 +12,13 @@
     "follow_enable": {
       "enable": true
     },
+    "follow_viewFovAngle": 100,
     "initPos": {
-      "map": "map001",
+      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
       "pos": {
-        "x": 2.1216065883636,
-        "y": 1.0399001026154,
-        "z": 3.7268977165222
+        "x": -4.7168641090393,
+        "y": 1.0398989105225,
+        "z": 12.291089057922
       }
     },
     "needSave": true,
@@ -29,11 +31,11 @@
       "min": 1
     },
     "startPos": {
-      "map": "map001",
+      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
       "pos": {
-        "x": 2.4832611083984,
+        "x": -4.2093043327332,
         "y": 1.0398998641968,
-        "z": 3.3711795806885
+        "z": 12.986339569092
       }
     },
     "triggers_client": {
@@ -203,12 +205,8 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  {
-                    "action": "45fc5353-3a2a-4141-acd0-4317ee0e48a4"
-                  },
-                  {
-                    "action": "ec642ac1-3b15-4935-b10c-fadbbb77a502"
-                  }
+                  [],
+                  []
                 ]
               }
             ],
@@ -526,10 +524,10 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "19def57e68552810d113a7c19af9f81b",
+      "setting.json": "bf76a8e3fd202ee3812b888f3292c3da",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
-      "triggers_client.bts": "c8ca51640ecd0bc815a8948eae923df0"
+      "triggers_client.bts": "b78a8597ab8c59fe6fc813a06d8f1887"
     },
     "VERSION": "0.21"
   }

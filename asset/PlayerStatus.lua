@@ -14,6 +14,7 @@ local tx_Str = self:child("txStr")
 local tx_Vit = self:child("txVit")
 local tx_Int = self:child("txInt")
 local tx_Dex = self:child("txDex")
+local tx_level = self:child("Text_level")
 
 local tx_Atk = self:child("Atk_stat")
 local tx_mana = self:child("mana_stat")
@@ -21,7 +22,7 @@ local tx_Def= self:child("Def_stat")
 local tx_Haste= self:child("Haste_stat")
 -- value
 local str,vit,int,dex = Me:getValue("str"),Me:getValue("vit"),Me:getValue("int"),Me:getValue("dex")
-
+local lv = Me:getValue("level")
 local Atk,Def,Haste,mana= Me:prop("damage"),Me:prop("defense"),0,Me:getValue("defaultmaxVp")
 --PackageHandlers.sendClientHandler("SetStatusPlayer",{atk=Atk,def=Def,haste=Haste,mana=mana},function(...) end)
 
@@ -80,7 +81,7 @@ function self:refreshStat()
   tx_Vit:setText(vit)
   tx_Int:setText(int)
   tx_Dex:setText(dex)
-  
+  tx_level:setText(string.format("Level %s",lv))
   tx_Atk:setText(Me:prop("damage"))
   tx_mana:setText(Me:prop("maxVp"))
   tx_Def:setText(Me:prop("defense"))

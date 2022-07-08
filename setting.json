@@ -10,7 +10,7 @@
       {
         "enable": true,
         "lockSlideScreen": false,
-        "viewFovAngle": 75
+        "viewFovAngle": 90
       },
       {
         "distance": 4,
@@ -50,7 +50,7 @@
           "y": 0.0,
           "z": 0.0
         },
-        "viewFovAngle": 75
+        "viewFovAngle": 100
       },
       {
         "enable": false,
@@ -68,7 +68,7 @@
     ]
   },
   "canJoinMidway": false,
-  "defaultMap": "map001",
+  "defaultMap": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
   "defaultQualityLevel": 2,
   "dragControlConfig": {
     "useDragControl": true
@@ -91,10 +91,10 @@
   "hideTeamStatusBar": false,
   "ignoreEmptyStartPos": false,
   "initPos": {
-    "map": "map001",
-    "x": 2.1216065883636,
-    "y": 1.0399001026154,
-    "z": 3.7268977165222
+    "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
+    "x": -4.7168641090393,
+    "y": 1.0398989105225,
+    "z": 12.291089057922
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -228,10 +228,10 @@
   },
   "startPos": [
     {
-      "map": "map001",
-      "x": 2.4832611083984,
+      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
+      "x": -4.2093043327332,
       "y": 1.0398998641968,
-      "z": 3.3711795806885
+      "z": 12.986339569092
     }
   ],
   "team": [],

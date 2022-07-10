@@ -1,27 +1,22 @@
 {
   "data": {
     "id": {
-      "value": "452b900f-ffd6-413c-a1b0-63255ba5957d"
+      "value": "05d1fe70-9588-4721-bf17-b9a90a741fa2"
     },
-    "name": "damage",
-    "params": [
-      {
-        "param_name": "damage"
-      }
-    ],
-    "register_object": "game/0/triggers_client/list/4",
+    "name": "OpenQuestBoard",
+    "register_object": "game/0/triggers_client/list/6",
     "save": true,
     "triggers": {
       "list": [
         {
           "custom_trigger_data": {
             "name": {
-              "value": "018a6897-d68a-4009-8aae-cb1d7d6eec1a"
+              "value": "0bbc09a6-69a7-4fdf-8ec8-027d3b3d614e"
             },
             "type": "Trigger_RegisterClientProto"
           },
-          "func_name": "clientMessage_5",
-          "proto_uuid": "452b900f-ffd6-413c-a1b0-63255ba5957d",
+          "func_name": "clientMessage_7",
+          "proto_uuid": "05d1fe70-9588-4721-bf17-b9a90a741fa2",
           "root": {
             "components": [
               {
@@ -29,7 +24,7 @@
               }
             ],
             "id": {
-              "value": "61e471aa-9cbb-4943-b42e-32f4f2cfeffc"
+              "value": "8cbad15f-7400-41f9-aa43-e6d0b9970f6f"
             }
           },
           "type": "Trigger_RegisterClientProto"
@@ -40,8 +35,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f3c1f84f3fa73e0eb53afc0606c1c1b2",
-      "triggers.bts": "1e79994e3177f97ba69c9e79ac8890d7"
+      "setting.json": "4643320ee632d401bf69559cdafb371d",
+      "triggers.bts": "65b1a3b6d04a6b0782ee5454db4a3bea"
     },
     "VERSION": "0.21"
   }

@@ -3,7 +3,8 @@
     "client/client_script"
   ],
   "_serverScript": [
-    "server/server_script"
+    "server/server_script",
+    "server/server_script_2"
   ],
   "aiFixSpeedRate": 2,
   "attackNpc": false,

@@ -15,7 +15,15 @@
         "id": "8705664596929052673",
         "ID": 3,
         "lightType": "GlobalLight",
-        "name": "EnvironmentLight"
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
@@ -36,7 +44,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "f8d257e52bff45180c30bdf64a0aac66"
+      "setting.json": "f0728bb324f60e7b1b77b5f7036d6db0"
     },
     "VERSION": "0.21"
   }

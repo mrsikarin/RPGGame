@@ -14,11 +14,11 @@
     },
     "follow_viewFovAngle": 100,
     "initPos": {
-      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
+      "map": "map001",
       "pos": {
-        "x": -4.7168641090393,
-        "y": 1.0398989105225,
-        "z": 12.291089057922
+        "x": 1.5535192489624,
+        "y": 1.0398998641968,
+        "z": 1.9550704956055
       }
     },
     "needSave": true,
@@ -31,11 +31,11 @@
       "min": 1
     },
     "startPos": {
-      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
+      "map": "map001",
       "pos": {
-        "x": -4.2093043327332,
-        "y": 1.0398998641968,
-        "z": 12.986339569092
+        "x": 1.352424621582,
+        "y": 1.0399008178711,
+        "z": 1.5073261260986
       }
     },
     "triggers_client": {
@@ -205,8 +205,12 @@
               {
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
-                  [],
-                  []
+                  {
+                    "action": "45fc5353-3a2a-4141-acd0-4317ee0e48a4"
+                  },
+                  {
+                    "action": "ec642ac1-3b15-4935-b10c-fadbbb77a502"
+                  }
                 ]
               }
             ],
@@ -215,65 +219,6 @@
             }
           },
           "type": "Trigger_ClientInitFinished"
-        },
-        {
-          "actions": [
-            {
-              "__OBJ_TYPE": "Action_CreateLayout",
-              "components": [
-                {
-                  "__OBJ_TYPE": "Component_Params",
-                  "params": [
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_Res_Layout",
-                        "rawval": {
-                          "asset": "asset/QuestBoard.layout",
-                          "selector": "editor/neo/asset/QuestBoard.layout"
-                        }
-                      }
-                    },
-                    {
-                      "value": {
-                        "__OBJ_TYPE": "T_String"
-                      }
-                    }
-                  ]
-                }
-              ],
-              "id": {
-                "value": "f343f748-94de-453e-89dc-44a43f37df6d"
-              },
-              "pos": {
-                "x": 840,
-                "y": 390
-              }
-            }
-          ],
-          "custom_trigger_data": {
-            "name": {
-              "value": "5520d42e-deb0-413e-820d-8cb2dbc23962"
-            },
-            "type": "Trigger_RegisterClientProto"
-          },
-          "func_name": "questBoard_1",
-          "proto_uuid": "e799cacb-4890-4ba7-b0d0-f2bf416bb7c3",
-          "root": {
-            "components": [
-              {
-                "__OBJ_TYPE": "Component_Sequence",
-                "children": [
-                  {
-                    "action": "f343f748-94de-453e-89dc-44a43f37df6d"
-                  }
-                ]
-              }
-            ],
-            "id": {
-              "value": "e47a3b9a-09c0-47ea-bf5a-039684445373"
-            }
-          },
-          "type": "Trigger_RegisterClientProto"
         },
         {
           "actions": [
@@ -453,6 +398,154 @@
             }
           },
           "type": "Trigger_RegisterClientProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "67413a7f-8b9f-493f-ad3a-890e6b53721e",
+                      "param_name": "player"
+                    },
+                    {
+                      "action": "1740f9f1-9ed3-43e9-ac7a-aa61378eb0b4",
+                      "param_name": "quest"
+                    }
+                  ],
+                  "script_name": "ScriptableNode_16"
+                }
+              ],
+              "id": {
+                "value": "91a478ca-3fde-45b1-9f85-a04203f157a3"
+              },
+              "pos": {
+                "x": 857,
+                "y": 382
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetProtocolParam",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Param",
+                  "key": "quest"
+                }
+              ],
+              "id": {
+                "value": "1740f9f1-9ed3-43e9-ac7a-aa61378eb0b4"
+              },
+              "pos": {
+                "x": 1229,
+                "y": 605
+              },
+              "proto_id": "73c1c38e-855f-4d30-a9f6-95f62c0ad49a",
+              "type": "T_String"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "67413a7f-8b9f-493f-ad3a-890e6b53721e"
+              },
+              "pos": {
+                "x": 1216,
+                "y": 414
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "b8d29573-f0aa-4a13-b7e0-b080e0be7391"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "checkQuest",
+          "proto_uuid": "73c1c38e-855f-4d30-a9f6-95f62c0ad49a",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "91a478ca-3fde-45b1-9f85-a04203f157a3"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "084c6aca-5727-4e02-93d6-2657432fb21a"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        },
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_CreateLayout",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Res_Layout",
+                        "rawval": {
+                          "asset": "asset/QuestBoard.layout",
+                          "selector": "editor/rpg/asset/QuestBoard.layout"
+                        }
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "471e7bea-ab41-42a6-922d-0a1448db8034"
+              },
+              "pos": {
+                "x": 819,
+                "y": 376
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "4f41ea8e-de6c-46fd-a54f-c8f86ecb7d87"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "OpenQuestBoard",
+          "proto_uuid": "05d1fe70-9588-4721-bf17-b9a90a741fa2",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "471e7bea-ab41-42a6-922d-0a1448db8034"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "7c5a869b-7fd2-4633-9e03-3e44ae02b538"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
         }
       ]
     },
@@ -524,10 +617,10 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bf76a8e3fd202ee3812b888f3292c3da",
+      "setting.json": "9f2b9b60a62a1098864fa959848d753c",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
-      "triggers_client.bts": "b78a8597ab8c59fe6fc813a06d8f1887"
+      "triggers_client.bts": "fc504e1b64ba7a26b9018c0178ec2b30"
     },
     "VERSION": "0.21"
   }

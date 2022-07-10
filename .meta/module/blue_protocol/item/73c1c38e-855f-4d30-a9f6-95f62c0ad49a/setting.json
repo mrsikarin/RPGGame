@@ -1,0 +1,53 @@
+{
+  "data": {
+    "id": {
+      "value": "73c1c38e-855f-4d30-a9f6-95f62c0ad49a"
+    },
+    "name": "checkQuest",
+    "params": [
+      {
+        "param_name": "quest",
+        "param_type": "T_String",
+        "param_type_old": "T_String",
+        "value": {
+          "__OBJ_TYPE": "T_String"
+        }
+      }
+    ],
+    "register_object": "game/0/triggers_client/list/6",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "15e849f3-c699-41bc-8520-0624d2cfaea4"
+            },
+            "type": "Trigger_RegisterClientProto"
+          },
+          "func_name": "clientMessage_7",
+          "proto_uuid": "73c1c38e-855f-4d30-a9f6-95f62c0ad49a",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "fbfab6ba-1b50-4d33-b1d6-1e96482b4c7a"
+            }
+          },
+          "type": "Trigger_RegisterClientProto"
+        }
+      ]
+    },
+    "type": "client"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "482c681565deebf01b70d453cb9242ef",
+      "triggers.bts": "321dba92f447223eb087fd8307b64438"
+    },
+    "VERSION": "0.21"
+  }
+}

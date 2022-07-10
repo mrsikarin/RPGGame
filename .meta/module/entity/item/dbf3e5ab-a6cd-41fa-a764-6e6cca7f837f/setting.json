@@ -99,6 +99,60 @@
                 "y": 332
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToClient",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params_To_Client",
+                  "params": [
+                    {
+                      "data_type": "T_String",
+                      "key": "quest",
+                      "must": true,
+                      "value": {
+                        "__OBJ_TYPE": "T_String",
+                        "rawval": "Kill pig"
+                      }
+                    }
+                  ],
+                  "params_default": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "3b8d2d4c-bd24-441e-b9e9-0e39358b19d1"
+                      }
+                    }
+                  ],
+                  "proto_id": "73c1c38e-855f-4d30-a9f6-95f62c0ad49a",
+                  "proto_name": "clientMessage_7",
+                  "proto_type": "client"
+                }
+              ],
+              "id": {
+                "value": "ec9b440e-5752-4f17-90cf-d1e86a8b8e47"
+              },
+              "pos": {
+                "x": 668,
+                "y": 493
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "3b8d2d4c-bd24-441e-b9e9-0e39358b19d1"
+              },
+              "pos": {
+                "x": 1134,
+                "y": 506
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -114,6 +168,9 @@
                 "children": [
                   {
                     "action": "dc588d63-55df-4ad1-8064-da280a3380a6"
+                  },
+                  {
+                    "action": "ec9b440e-5752-4f17-90cf-d1e86a8b8e47"
                   }
                 ]
               }
@@ -276,7 +333,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "b20158c3a90eaf5c96b30d62a31f2436",
-      "triggers.bts": "9ee8deec2f68161c9b8ce4b047323271"
+      "triggers.bts": "fca5167fe699b544275458e9b93251bd"
     },
     "VERSION": "0.21"
   }

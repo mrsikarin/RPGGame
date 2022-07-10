@@ -41,22 +41,12 @@
           "shadowsType": "hard"
         },
         "skyColor": {
-          "b": 142,
+          "b": 143,
           "g": 133
         },
         "skyLineColor": {
-          "g": 61,
+          "g": 62,
           "r": 62
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_DropItem",
-        "config": "myplugin/4fa23ab5-42ce-495a-abcf-4a6632c0b5ba",
-        "id": "8692923409070637057",
-        "position": {
-          "x": 0.64663171768188,
-          "y": 1.4808999300003,
-          "z": 5.2112307548523
         }
       },
       {
@@ -277,7 +267,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "39b819686d2e82c4d3778bcaa37b4d7e"
+      "setting.json": "8c4fcfd3d1032efd9708dd33d1f720c2"
     },
     "VERSION": "0.21"
   }

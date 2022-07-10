@@ -71,24 +71,8 @@
         "shadowsOffset": "0.02",
         "shadowsPresicion": "1024",
         "shadowsType": "hard",
-        "skyColor": "r:0.49803921568627 g:0.52156862745098 b:0.55686274509804 a:1.0",
-        "skyLineColor": "r:0.24313725490196 g:0.23921568627451 b:0.2078431372549 a:1.0"
-      }
-    },
-    {
-      "class": "DropItem",
-      "config": "myplugin/4fa23ab5-42ce-495a-abcf-4a6632c0b5ba",
-      "customProperties": [],
-      "properties": {
-        "batchType": "Static",
-        "fixRotation": false,
-        "id": "8692923409070637057",
-        "name": "DropItem",
-        "needSync": "true",
-        "position": "x:0.64663171768188 y:1.4808999300003 z:5.2112307548523",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1",
-        "selectable": "true"
+        "skyColor": "r:0.49803921568627 g:0.52156862745098 b:0.56078431372549 a:1.0",
+        "skyLineColor": "r:0.24313725490196 g:0.24313725490196 b:0.2078431372549 a:1.0"
       }
     },
     {

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "d1cf656e8226ae97b8a650909355ba2d",
+    "md5": "f82a2fadc34ba5e17bef762c1a30c775",
     "path": "asset/QuestInfo.layout",
     "root": {
       "anchor": {
@@ -72,56 +72,13 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 60.0
+                  "Offect": 60
                 },
                 "UDim_Y": {
-                  "Offect": 60.0
+                  "Offect": 60
                 }
               },
               "Text": "X"
-            },
-            {
-              "__OBJ_TYPE": "Button",
-              "Alpha": 0.994,
-              "anchor": {
-                "HorizontalAlignment": "Centre",
-                "VerticalAlignment": "Bottom"
-              },
-              "DisabledImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "Font_size": 24,
-              "HoverImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "id": {
-                "value": "ea1414b9-3293-4462-a36b-1f7efb633644"
-              },
-              "name": "AcceptBtn",
-              "NormalImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "pos": {
-                "UDim_Y": {
-                  "Offect": -17.201402664184
-                }
-              },
-              "PushedImage": {
-                "asset": "",
-                "selector": ""
-              },
-              "size": {
-                "UDim_X": {
-                  "Offect": 165.26615488529
-                },
-                "UDim_Y": {
-                  "Offect": 66.579730033877
-                }
-              },
-              "Text": "Accept"
             },
             {
               "__OBJ_TYPE": "StaticText",
@@ -173,6 +130,92 @@
               },
               "Text": "Reward",
               "VertFormatting": "CentreAligned"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0.994,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "Font_size": 24,
+              "HoverImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "id": {
+                "value": "116ecf33-c93e-48a5-a6ff-5304a215d4a8"
+              },
+              "name": "SubmitBtn",
+              "NormalImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -17.201402664184
+                }
+              },
+              "PushedImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 165.26615488529
+                },
+                "UDim_Y": {
+                  "Offect": 66.579730033877
+                }
+              },
+              "Text": "Submit"
+            },
+            {
+              "__OBJ_TYPE": "Button",
+              "Alpha": 0.994,
+              "anchor": {
+                "HorizontalAlignment": "Centre",
+                "VerticalAlignment": "Bottom"
+              },
+              "DisabledImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "Font_size": 24,
+              "HoverImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "id": {
+                "value": "ea1414b9-3293-4462-a36b-1f7efb633644"
+              },
+              "name": "AcceptBtn",
+              "NormalImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "pos": {
+                "UDim_Y": {
+                  "Offect": -17.201402664184
+                }
+              },
+              "PushedImage": {
+                "asset": "",
+                "selector": ""
+              },
+              "size": {
+                "UDim_X": {
+                  "Offect": 165.26615488529
+                },
+                "UDim_Y": {
+                  "Offect": 66.579730033877
+                }
+              },
+              "Text": "Accept"
             }
           ],
           "id": {
@@ -208,8 +251,8 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "d1cf656e8226ae97b8a650909355ba2d",
-      "triggers.bts": "6a675b5d791dd2cdb9fc6bc47a2bdc9c"
+      "layout": "f82a2fadc34ba5e17bef762c1a30c775",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"
   }

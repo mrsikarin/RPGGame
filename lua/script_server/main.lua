@@ -15,6 +15,10 @@ PackageHandlers.registerServerHandler("refreshBar", function(player, packet)
   PackageHandlers.sendServerHandler(player,"refreshBar",{})
 end)
 
+PackageHandlers.registerServerHandler("questUpdate", function(player, packet)
+  PackageHandlers.sendServerHandler(player,"questUpdate",{})
+end)
+
 Trigger.RegisterHandler(cfg, "ENTITY_ENTER", function(context)
   local player = context.obj1
   player:setValue("defaultDamage",player:prop("damage"))

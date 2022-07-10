@@ -1,14 +1,14 @@
 {
   "widget": [
     {
-      "btsKey": "b7ca78ee-3f03-4450-a42b-a5476873c78f",
-      "md5": "8c9a2c0c941bfec96ef077994f137784",
-      "name": "Board/Quest/Button"
-    },
-    {
       "btsKey": "e81793c5-1911-4ada-aaf9-c497be663728",
       "md5": "dea9ffb30fd77b22640d7bff198986ca",
       "name": "Board/CloseBtn"
+    },
+    {
+      "btsKey": "fb63c43f-7868-4948-a3f4-5676ad5573f2",
+      "md5": "8c9a2c0c941bfec96ef077994f137784",
+      "name": "Board/Quest/questBtn1"
     }
   ]
 }

@@ -4,6 +4,7 @@
       "radius": 5,
       "type": "Cylinder"
     },
+    "hitEntitySkill": "myplugin/damage",
     "moveSpeed": 0,
     "name": {
       "value": "missile_a7cd2408-707f-4737-b27b-acc6afc27324"
@@ -177,7 +178,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "444dc23be26dc571d91e859b793c73e3",
+      "setting.json": "b9776f1c9ae366f1174a49ac14160119",
       "triggers.bts": "40fdcc7a4afb6bdb4f1503ed7aceb392"
     },
     "VERSION": "0.21"

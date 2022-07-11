@@ -7,7 +7,8 @@
         "z": 2
       }
     },
-    "moveSpeed": 10.0,
+    "hitEntitySkill": "myplugin/damage",
+    "moveSpeed": 10,
     "name": {
       "value": "missile_fddedcd2-d9e2-4179-bc98-4a967d796c9a"
     },
@@ -118,7 +119,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e2ac229c6e9ddb5f0ed63f65486e2df9",
+      "setting.json": "b4cfcaae1f14b61ea49b878a4ff963fb",
       "triggers.bts": "9da262b3a56d91dd6024066a4e7ad475"
     },
     "VERSION": "0.21"

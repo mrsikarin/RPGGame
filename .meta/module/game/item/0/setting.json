@@ -39,7 +39,7 @@
               "value": "3676e017-29b0-4144-9704-15c7b0278a18"
             },
             "item": {
-              "item": "12723e05-a6d7-412c-bf3a-8fa696a0abf2"
+              "item": "9388c410-0c8b-47c0-8137-04b99724d444"
             },
             "name": {
               "value": "696b39ae-2009-4b46-9917-6101ae83a850"
@@ -51,7 +51,7 @@
               "value": "ab0be4ed-f724-4770-aa9b-f21efaa27e19"
             },
             "item": {
-              "item": "9388c410-0c8b-47c0-8137-04b99724d444"
+              "item": "dbbfbfdc-ca0c-4e6c-9b20-9a2100bb919b"
             },
             "name": {
               "value": "94a00374-73c7-44b0-af48-963e5be14d7c"
@@ -60,13 +60,73 @@
           {
             "coinId": "gDiamonds",
             "detail": {
+              "value": "95aa60da-3013-4c8d-bf0d-65a6d1ca9c1b"
+            },
+            "item": {
+              "item": "2e07bf57-d84e-447e-af96-17616ea35e88"
+            },
+            "name": {
+              "value": "4fdc0be8-a37e-4333-9fa2-e48166bbbd7f"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
               "value": "ef117583-da56-499d-b2bf-6bee21a901c3"
             },
             "item": {
-              "item": "dbbfbfdc-ca0c-4e6c-9b20-9a2100bb919b"
+              "item": "59e60365-77ce-4a9a-b974-e9757ecca6db"
             },
             "name": {
               "value": "8abf819a-e323-445b-ac09-2bf23e40a1a7"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "543843aa-69b9-402b-91fd-d75c98abe741"
+            },
+            "item": {
+              "item": "59ede142-9b69-4a94-8799-7f4cfc48b27e"
+            },
+            "name": {
+              "value": "273e6f1b-d2f0-4c1f-993b-313ed8947050"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "e4dbd191-5d5c-453e-9ebe-a1ff56529d2c"
+            },
+            "item": {
+              "item": "4f41a0b7-750a-4063-8f38-ca5c0e63ac1c"
+            },
+            "name": {
+              "value": "af51be94-ea7f-4725-bf8d-cac53b6ddc1d"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "bfbf8ad0-1c61-419b-a76e-aa0e6d734093"
+            },
+            "item": {
+              "item": "cda2bd7e-6b65-4f47-b06c-1e3bf67c7c7c"
+            },
+            "name": {
+              "value": "b233ca7b-b36d-4d78-afa3-941034749288"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "2dcb79b2-b483-464b-a6c5-06df4249c353"
+            },
+            "item": {
+              "item": "ce2f2f7c-5664-4219-9a5c-6ee4706e6145"
+            },
+            "name": {
+              "value": "6c1ed93e-793e-4433-9ebe-8d873af1c265"
             }
           }
         ],
@@ -75,13 +135,168 @@
         }
       },
       {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "8a7414f2-257e-4d2e-87e9-0d67c19d4838"
+            },
+            "item": {
+              "item": "366c3880-0d0a-42ba-b79c-be6e4dfc7edf"
+            },
+            "name": {
+              "value": "ea93b190-45a2-4585-b56b-ba08db3d7fa4"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "01b18bd4-180a-471f-9d1c-3d61b5396a6e"
+            },
+            "item": {
+              "item": "152dff14-d68b-45ae-b6cd-c06616a6a4e1"
+            },
+            "name": {
+              "value": "33036e0f-4e95-4749-a581-ec3da2eafc63"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "84079a1e-b9f5-48e4-a4ef-004bc95b47cc"
+            },
+            "item": {
+              "item": "ff76a233-cfed-473a-b985-b0c6d82fc80f"
+            },
+            "name": {
+              "value": "bf18ef5c-450c-4183-a234-5998c9f30fe1"
+            }
+          }
+        ],
         "name": {
           "value": "e5708d19-a079-4a10-95e2-8d8f8ac5f123"
         }
       },
       {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "5bb168ac-589b-4b06-a805-26274743177b"
+            },
+            "item": {
+              "item": "aef65a91-0679-4ed7-9524-394f0163f80d"
+            },
+            "name": {
+              "value": "86e299e8-00fe-4dd4-a5d9-f70ea864a707"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "8ff70e10-cddf-48fb-a23a-ab64df5eb2cb"
+            },
+            "item": {
+              "item": "fe1f5534-a5a0-47e2-91a9-27c74c600f22"
+            },
+            "name": {
+              "value": "9d83c9cc-f1b2-433d-a58f-f6e878dedf53"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "a8f3c9b5-2259-41ae-ba5b-a6c48bd74e27"
+            },
+            "item": {
+              "item": "3a81e02f-7237-44e6-a1ee-7eb5a69d85f5"
+            },
+            "name": {
+              "value": "dafa90f6-4d6c-46e3-90d1-846c167ef49e"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "fd681440-c51b-4562-8c5a-e0ab689d020a"
+            },
+            "item": {
+              "item": "61ef8c21-0cbb-41bf-b091-fa612456c6e5"
+            },
+            "name": {
+              "value": "885f7e52-313c-4f54-9c83-928fb5b4f3d9"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "5ecbfc56-8ba5-4534-95d5-2d439b1d92bd"
+            },
+            "item": {
+              "item": "177202d5-3841-4d35-9205-594d72bcfc21"
+            },
+            "name": {
+              "value": "1bef3677-8728-40d4-9c36-636048f951fa"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "7ef71558-4a94-44ef-ac77-687b1887639a"
+            },
+            "item": {
+              "item": "12723e05-a6d7-412c-bf3a-8fa696a0abf2"
+            },
+            "name": {
+              "value": "20fd4c47-207b-48a6-8416-751f5616531a"
+            }
+          }
+        ],
         "name": {
           "value": "20939f27-5859-45cd-9385-09ac05e0209d"
+        }
+      },
+      {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "95ca8174-6cbc-4dab-b7a7-1fc1441a8c14"
+            },
+            "item": {
+              "item": "08c9386d-6545-4454-b269-97a8b11cd166"
+            },
+            "name": {
+              "value": "f0a9ece7-34bd-45b9-9f79-dded4ea0584e"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "749b4e6c-14dd-42af-97ed-cc23b55c988b"
+            },
+            "item": {
+              "item": "1d671195-36c9-4f40-be01-9741578278e7"
+            },
+            "name": {
+              "value": "84bf452f-4da2-460f-b5f4-09c65b09768f"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "89ca800e-fa1b-4ee8-b826-11ae9afc7c33"
+            },
+            "item": {
+              "item": "87fe680a-93aa-48d3-a301-d2d80e518ce5"
+            },
+            "name": {
+              "value": "6a3bfd51-3de7-48df-812b-0f175c0494ef"
+            }
+          }
+        ],
+        "name": {
+          "value": "07583eba-af20-4ece-907e-14b56f7ad5bc"
         }
       }
     ],
@@ -620,7 +835,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "bbda9d8bfaaaa64df510de1a458e410f",
-      "shop.csv": "184ee3ef814a9cf19eef5916299b7da3",
+      "shop.csv": "e54acdb1e302f0b4354e331f7b6aaa75",
       "triggers.bts": "",
       "triggers_client.bts": "16bce7374ee8f3fc4d007cf1e28caac4"
     },

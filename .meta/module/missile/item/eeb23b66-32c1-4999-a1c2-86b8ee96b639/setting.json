@@ -4,6 +4,7 @@
       "radius": 5,
       "type": "Cylinder"
     },
+    "hitEntitySkill": "myplugin/damage",
     "lifeTime": {
       "value": 80
     },
@@ -118,7 +119,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "41890d2bf0d3722ddc402d9c658c5ff6",
+      "setting.json": "eb78fbb5dda60114b9bbdb423203a531",
       "triggers.bts": "526c8d8f9992a360a45903599187778f"
     },
     "VERSION": "0.21"

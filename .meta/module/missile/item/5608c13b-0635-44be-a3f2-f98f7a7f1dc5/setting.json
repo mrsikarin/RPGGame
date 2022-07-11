@@ -7,6 +7,7 @@
         "z": 1
       }
     },
+    "hitEntitySkill": "myplugin/damage",
     "lifeTime": {
       "value": 2
     },
@@ -17,7 +18,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f78f8aef61942591528777a7cc16f61b",
+      "setting.json": "c3c30ab9af83eb9660eee38cdeb07377",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

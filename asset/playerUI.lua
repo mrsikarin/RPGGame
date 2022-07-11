@@ -23,7 +23,7 @@ function self:questUpdate()
   else
     local quest = Me:getValue("quest")
     questDetail:setText("Task: "..quest.title.." "..quest.progress.."/"..quest.task)
-    questReward:setText("Reward: "..quest.reward.." bronze coins & ".. quest.reward*30 .." exp")
+    --questReward:setText("Reward: "..quest.reward.." bronze coins & ".. quest.reward*30 .." exp")
   
     questUI.Visible = true
   end

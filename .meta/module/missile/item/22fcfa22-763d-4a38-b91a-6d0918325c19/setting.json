@@ -4,6 +4,7 @@
       "radius": 5,
       "type": "Sphere"
     },
+    "hitEntitySkill": "myplugin/damage",
     "moveSpeed": 0,
     "name": {
       "value": "missile_22fcfa22-763d-4a38-b91a-6d0918325c19"
@@ -177,7 +178,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "e131be951b24e5187cf7d03fb7d3a298",
+      "setting.json": "6671d7a6ff92ec87dd6fb062d7327a97",
       "triggers.bts": "bc5649dcd740074e0d94f98b7f17e096"
     },
     "VERSION": "0.21"

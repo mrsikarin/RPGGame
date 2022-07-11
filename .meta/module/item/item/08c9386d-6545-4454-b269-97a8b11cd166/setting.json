@@ -5,7 +5,8 @@
     },
     "item": {
       "base": {
-        "__OBJ_TYPE": "ItemInHand"
+        "__OBJ_TYPE": "ItemInHand",
+        "isCoin": true
       },
       "type": "InHand"
     },
@@ -17,7 +18,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "91e0b9fa7698025c5f596136a99237f8",
+      "setting.json": "8127fe6516c04b81729d1babfb668a6a",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

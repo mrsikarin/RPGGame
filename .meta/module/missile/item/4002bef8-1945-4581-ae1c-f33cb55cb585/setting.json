@@ -7,6 +7,7 @@
         "z": 5
       }
     },
+    "hitEntitySkill": "myplugin/damage",
     "name": {
       "value": "missile_4002bef8-1945-4581-ae1c-f33cb55cb585"
     },
@@ -120,7 +121,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "84dcfe80515f101445fa2895a84b6f83",
+      "setting.json": "3c0069dbe7750321fd5e36c4633ff40c",
       "triggers.bts": "526c8d8f9992a360a45903599187778f"
     },
     "VERSION": "0.21"

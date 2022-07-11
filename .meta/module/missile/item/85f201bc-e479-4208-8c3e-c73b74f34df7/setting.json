@@ -1,5 +1,6 @@
 {
   "data": {
+    "hitEntitySkill": "myplugin/damage",
     "name": {
       "value": "missile_85f201bc-e479-4208-8c3e-c73b74f34df7"
     },
@@ -110,7 +111,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "dea2bced17feb033890feb91a23e2fcc",
+      "setting.json": "9b20b133cd2c5a66d3107bf10ece83fc",
       "triggers.bts": "225737a7cce772f95a5a739cbf38f53c"
     },
     "VERSION": "0.21"

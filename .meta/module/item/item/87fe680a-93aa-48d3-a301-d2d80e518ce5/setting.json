@@ -5,7 +5,8 @@
     },
     "item": {
       "base": {
-        "__OBJ_TYPE": "ItemInHand"
+        "__OBJ_TYPE": "ItemInHand",
+        "isCoin": true
       },
       "type": "InHand"
     },

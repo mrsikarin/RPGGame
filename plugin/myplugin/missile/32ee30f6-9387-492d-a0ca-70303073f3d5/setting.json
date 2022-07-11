@@ -24,6 +24,7 @@
     "z": 0
   },
   "gravity": 0.0,
+  "hitEntitySkill": "myplugin/damage",
   "hitEntitysRoles": [
     "hitAllTeam",
     "hitAllEntitys",

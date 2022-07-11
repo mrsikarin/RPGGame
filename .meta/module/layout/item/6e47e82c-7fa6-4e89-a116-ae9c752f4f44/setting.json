@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "44e671ea12cb976044ffe4c52d4a4c2c",
+    "md5": "f82a2fadc34ba5e17bef762c1a30c775",
     "path": "asset/QuestInfo.layout",
     "root": {
       "anchor": {
@@ -41,7 +41,7 @@
                 "r": 176
               },
               "id": {
-                "value": "cad4660f-0176-4c27-9dcf-d0f88995fec7"
+                "value": "187b878d-b751-4f02-8141-4a10f777c319"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -84,7 +84,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "54ba3b1e-7c96-4b36-ba56-ef1ae82ba9d9"
+                "value": "c264110f-a57e-4985-bce1-e9f7031a9ab6"
               },
               "name": "Detail_txt",
               "pos": {
@@ -109,7 +109,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "2208bd68-99fa-4448-af56-a6238b37f041"
+                "value": "3e113fcb-999f-4455-a673-2ddb14228ec7"
               },
               "name": "Reward_txt",
               "pos": {
@@ -148,7 +148,7 @@
                 "selector": ""
               },
               "id": {
-                "value": "21c9b290-5257-47d2-8bd0-73ac86ddb493"
+                "value": "fadc8de2-fa77-4f36-bef7-9759182a7bdf"
               },
               "name": "SubmitBtn",
               "NormalImage": {
@@ -191,7 +191,7 @@
                 "selector": ""
               },
               "id": {
-                "value": "50235ee5-7e0c-4183-809e-33ea848661a0"
+                "value": "f5d52d5f-f6d9-45be-8b99-ff8bea806f9f"
               },
               "name": "AcceptBtn",
               "NormalImage": {
@@ -219,7 +219,7 @@
             }
           ],
           "id": {
-            "value": "466854ab-b7d1-4152-be6f-68003b4d1a9a"
+            "value": "ace0245e-48be-4e11-9614-e402407bbec4"
           },
           "Image": {
             "asset": "asset/Texture/output-onlinepngtools.png"
@@ -235,7 +235,7 @@
         }
       ],
       "id": {
-        "value": "b9f0433a-a734-4d25-982c-5705b2e3d501"
+        "value": "e2988a96-d5a3-40d9-b01d-4af9f9190e80"
       },
       "size": {
         "UDim_X": {
@@ -251,7 +251,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "44e671ea12cb976044ffe4c52d4a4c2c",
+      "layout": "f82a2fadc34ba5e17bef762c1a30c775",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

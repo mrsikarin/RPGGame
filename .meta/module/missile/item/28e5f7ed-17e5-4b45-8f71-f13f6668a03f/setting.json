@@ -1,6 +1,7 @@
 {
   "data": {
     "followTarget": true,
+    "hitEntitySkill": "myplugin/damage",
     "lifeTime": {
       "value": 60
     },
@@ -114,7 +115,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "98d8f540236f3269ef97c42c76d308e9",
+      "setting.json": "d5cdfe66d3d3072c88fd801034efd527",
       "triggers.bts": "262ed18c5309609ccbae2efeaade5bf9"
     },
     "VERSION": "0.21"

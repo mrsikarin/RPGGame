@@ -76,8 +76,8 @@
                 "value": "d7a8c59a-7e66-448e-956c-245be25cb27d"
               },
               "pos": {
-                "x": 1007.25,
-                "y": 377.5
+                "x": 1192.25,
+                "y": 245.5
               },
               "type": "T_Int"
             },
@@ -93,8 +93,8 @@
                 "value": "8e78382a-eb7e-49ae-bca7-051738bc1341"
               },
               "pos": {
-                "x": 1078.75,
-                "y": 160.5
+                "x": 1143.75,
+                "y": 90.5
               },
               "type": "T_Entity"
             },
@@ -117,8 +117,8 @@
                 "value": "9a28962f-bd7e-4432-a17f-682296fa7afb"
               },
               "pos": {
-                "x": 775.25,
-                "y": 502.5
+                "x": 1159.25,
+                "y": 428.5
               }
             },
             {
@@ -133,8 +133,8 @@
                 "value": "65e8ea14-810f-4c11-98d8-40d9b998d37b"
               },
               "pos": {
-                "x": 1228.25,
-                "y": 457.5
+                "x": 1612.25,
+                "y": 383.5
               },
               "type": "T_Entity"
             },
@@ -183,6 +183,65 @@
                 "x": 658,
                 "y": 134
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "572d9f13-f214-4ad9-8316-6a05eb105de4"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1ca66aa4-d79e-4eaa-be95-402af1e9037c"
+              },
+              "pos": {
+                "x": 659,
+                "y": 541
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "572d9f13-f214-4ad9-8316-6a05eb105de4"
+              },
+              "pos": {
+                "x": 1184,
+                "y": 632
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -198,12 +257,19 @@
                 "children": [
                   {
                     "action": "c2b3042e-6364-4d85-95fb-3409e039719d"
+                  },
+                  {
+                    "action": "1ca66aa4-d79e-4eaa-be95-402af1e9037c"
                   }
                 ]
               }
             ],
             "id": {
               "value": "7b3a6875-3178-4723-862c-6bf60b39b09d"
+            },
+            "pos": {
+              "x": 162,
+              "y": 277
             }
           },
           "type": "Trigger_EntityDamage"
@@ -213,8 +279,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8e4a6d59391df934e123d34d423b728e",
-      "triggers.bts": "faab0fe6b3fac81d627d68f26187ce75"
+      "setting.json": "6c24d4aaa31a60d0d2314ef389df3fe7",
+      "triggers.bts": "6bdaacf35cb7fa29e3e2212908cf3161"
     },
     "VERSION": "0.21"
   }

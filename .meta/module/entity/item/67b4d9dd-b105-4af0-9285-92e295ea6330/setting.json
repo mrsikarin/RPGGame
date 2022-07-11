@@ -136,6 +136,10 @@
             ],
             "id": {
               "value": "1e39a998-ea06-472d-9c7a-978624f5e945"
+            },
+            "pos": {
+              "x": 303,
+              "y": 279
             }
           },
           "type": "Trigger_EntityDie"
@@ -145,7 +149,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "81488e6776aaf1de74b40c01383306d7",
+      "setting.json": "63e1891480f91398f7e444b59d5c6a49",
       "triggers.bts": "9ccbb211fa75aace9c27a751153abc78"
     },
     "VERSION": "0.21"

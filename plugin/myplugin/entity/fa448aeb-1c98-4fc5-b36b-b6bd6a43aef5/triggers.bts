@@ -5,6 +5,7 @@ ENTITY_DAMAGE {
 		p_pos = GetEntityPosition(entity = $obj1),
 		player = $obj2
 	)
+	AddEntityBuff(buffTime = 40, cfg = "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe", entity = $obj1)
 }
 
 ENTITY_ENTER {

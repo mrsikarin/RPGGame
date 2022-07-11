@@ -66,8 +66,8 @@
                 "value": "8f4b670d-406d-4468-987e-51e4e393232f"
               },
               "pos": {
-                "x": 748.5,
-                "y": 345
+                "x": 1058.5,
+                "y": 505
               }
             },
             {
@@ -82,8 +82,8 @@
                 "value": "f57644a6-cd97-4dca-8420-c44e995407c0"
               },
               "pos": {
-                "x": 980.5,
-                "y": 220
+                "x": 1074.5,
+                "y": 344
               },
               "type": "T_Int"
             },
@@ -99,8 +99,8 @@
                 "value": "bb7c39e5-5331-4bd8-8636-ce1fce4e0d77"
               },
               "pos": {
-                "x": 1201.5,
-                "y": 300
+                "x": 1511.5,
+                "y": 460
               },
               "type": "T_Entity"
             },
@@ -146,8 +146,8 @@
                 "value": "4633c154-5fa6-4cab-8de7-960a4199cf7b"
               },
               "pos": {
-                "x": 561,
-                "y": 14
+                "x": 585,
+                "y": 211
               }
             },
             {
@@ -162,7 +162,67 @@
                 "value": "aa2a0fb5-54d8-420c-b108-c2f3b6839ac6"
               },
               "pos": {
-                "x": 1014
+                "x": 1038,
+                "y": 197
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "fd5d53e9-ced5-46b8-8dd8-318c512a64cb"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a012cdea-31cf-445a-8618-fba8a7ee9a3a"
+              },
+              "pos": {
+                "x": 550,
+                "y": 625
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "fd5d53e9-ced5-46b8-8dd8-318c512a64cb"
+              },
+              "pos": {
+                "x": 1073,
+                "y": 651
               },
               "type": "T_Entity"
             }
@@ -180,12 +240,19 @@
                 "children": [
                   {
                     "action": "4633c154-5fa6-4cab-8de7-960a4199cf7b"
+                  },
+                  {
+                    "action": "a012cdea-31cf-445a-8618-fba8a7ee9a3a"
                   }
                 ]
               }
             ],
             "id": {
               "value": "0e4923c8-a729-4a3b-84c9-4e9cc33f5b6d"
+            },
+            "pos": {
+              "x": 171,
+              "y": 252
             }
           },
           "type": "Trigger_EntityDamage"
@@ -195,8 +262,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a99cd82c014042665f552c82cb5d5898",
-      "triggers.bts": "b8bf910db69d28ce495b5e37cc1feafd"
+      "setting.json": "3dffcd84e4c781343294dde07685621f",
+      "triggers.bts": "cfcc8ee58ea354494bc13c986e2554fa"
     },
     "VERSION": "0.21"
   }

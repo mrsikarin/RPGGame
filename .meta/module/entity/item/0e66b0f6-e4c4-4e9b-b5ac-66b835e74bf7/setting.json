@@ -165,6 +165,65 @@
                 "x": 1163,
                 "y": 489
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "d2cdd029-73f2-4861-a492-0a7c05ccec67"
+              },
+              "pos": {
+                "x": 1278.5,
+                "y": 788.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "d2cdd029-73f2-4861-a492-0a7c05ccec67"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "502a4d5f-ce23-41e7-9f17-22a9a03ccfe1"
+              },
+              "pos": {
+                "x": 753.5,
+                "y": 697.5
+              }
             }
           ],
           "custom_trigger_data": {
@@ -180,6 +239,9 @@
                 "children": [
                   {
                     "action": "b515f528-f362-4319-b898-1c13e904a123"
+                  },
+                  {
+                    "action": "502a4d5f-ce23-41e7-9f17-22a9a03ccfe1"
                   }
                 ]
               }
@@ -195,8 +257,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "240dffe7ed5c8c2915263ffec6f964e9",
-      "triggers.bts": "b8bf910db69d28ce495b5e37cc1feafd"
+      "setting.json": "b3f44d2704189c532c62662f9cda3289",
+      "triggers.bts": "cfcc8ee58ea354494bc13c986e2554fa"
     },
     "VERSION": "0.21"
   }

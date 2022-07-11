@@ -131,6 +131,65 @@
                 "y": 371
               },
               "type": "T_Int"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "cce4fdf8-35bb-42f4-aeff-4bf955c7ad73"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "44d93e5e-a1f6-46ad-aac4-8f89f6d46497"
+              },
+              "pos": {
+                "x": 771,
+                "y": 546
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "cce4fdf8-35bb-42f4-aeff-4bf955c7ad73"
+              },
+              "pos": {
+                "x": 1294,
+                "y": 568
+              },
+              "type": "T_Entity"
             }
           ],
           "custom_trigger_data": {
@@ -146,6 +205,9 @@
                 "children": [
                   {
                     "action": "82bf2e53-f432-4742-a301-46928fcb7ed5"
+                  },
+                  {
+                    "action": "44d93e5e-a1f6-46ad-aac4-8f89f6d46497"
                   }
                 ]
               }
@@ -162,7 +224,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "744b34769c64c3e12a06c3f987360745",
-      "triggers.bts": "2af0bb932b43a96bca5017c2f0baf5fe"
+      "triggers.bts": "ceeba61d2744960b1eae830d13f10110"
     },
     "VERSION": "0.21"
   }

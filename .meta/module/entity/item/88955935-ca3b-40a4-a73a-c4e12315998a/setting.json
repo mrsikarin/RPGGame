@@ -148,6 +148,65 @@
                 "x": 679,
                 "y": 198
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "0040f204-9aac-4db6-9c6e-dd2397e5357f"
+              },
+              "pos": {
+                "x": 1227.5,
+                "y": 770.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "0040f204-9aac-4db6-9c6e-dd2397e5357f"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "8798881f-48d7-46cd-a08f-55bdd9962d42"
+              },
+              "pos": {
+                "x": 702.5,
+                "y": 679.5
+              }
             }
           ],
           "custom_trigger_data": {
@@ -163,12 +222,19 @@
                 "children": [
                   {
                     "action": "ac85ca0b-8ca6-4671-a087-6d9ca8835031"
+                  },
+                  {
+                    "action": "8798881f-48d7-46cd-a08f-55bdd9962d42"
                   }
                 ]
               }
             ],
             "id": {
               "value": "ab29f928-3e3b-476a-833e-b62e42016307"
+            },
+            "pos": {
+              "x": 91,
+              "y": 464
             }
           },
           "type": "Trigger_EntityDamage"
@@ -178,8 +244,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bced27e1e35667bd37b3f7663e60048d",
-      "triggers.bts": "b8bf910db69d28ce495b5e37cc1feafd"
+      "setting.json": "a7239ad0b0fdac58dc6dd635d9cbdf12",
+      "triggers.bts": "cfcc8ee58ea354494bc13c986e2554fa"
     },
     "VERSION": "0.21"
   }

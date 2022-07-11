@@ -30,6 +30,62 @@
       "max": 6,
       "min": 1
     },
+    "shops": [
+      {
+        "items": [
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "3676e017-29b0-4144-9704-15c7b0278a18"
+            },
+            "item": {
+              "item": "12723e05-a6d7-412c-bf3a-8fa696a0abf2"
+            },
+            "name": {
+              "value": "696b39ae-2009-4b46-9917-6101ae83a850"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "ab0be4ed-f724-4770-aa9b-f21efaa27e19"
+            },
+            "item": {
+              "item": "9388c410-0c8b-47c0-8137-04b99724d444"
+            },
+            "name": {
+              "value": "94a00374-73c7-44b0-af48-963e5be14d7c"
+            }
+          },
+          {
+            "coinId": "gDiamonds",
+            "detail": {
+              "value": "ef117583-da56-499d-b2bf-6bee21a901c3"
+            },
+            "item": {
+              "item": "dbbfbfdc-ca0c-4e6c-9b20-9a2100bb919b"
+            },
+            "name": {
+              "value": "8abf819a-e323-445b-ac09-2bf23e40a1a7"
+            }
+          }
+        ],
+        "name": {
+          "value": "accdaf56-bece-4b00-8711-69b7ea3d33f6"
+        }
+      },
+      {
+        "name": {
+          "value": "e5708d19-a079-4a10-95e2-8d8f8ac5f123"
+        }
+      },
+      {
+        "name": {
+          "value": "20939f27-5859-45cd-9385-09ac05e0209d"
+        }
+      }
+    ],
+    "showShop": true,
     "startPos": {
       "map": "map001",
       "pos": {
@@ -617,8 +673,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9f2b9b60a62a1098864fa959848d753c",
-      "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
+      "setting.json": "fa321931017024dac1559faa3d9eaac4",
+      "shop.csv": "184ee3ef814a9cf19eef5916299b7da3",
       "triggers.bts": "",
       "triggers_client.bts": "fc504e1b64ba7a26b9018c0178ec2b30"
     },

@@ -177,6 +177,10 @@
             ],
             "id": {
               "value": "0b13ce4b-4e70-4c22-9bbc-7121d376b753"
+            },
+            "pos": {
+              "x": 254,
+              "y": 307
             }
           },
           "type": "Trigger_EntityDie"
@@ -323,6 +327,10 @@
             ],
             "id": {
               "value": "5bf0582e-a758-4477-89de-38d7863b25a5"
+            },
+            "pos": {
+              "x": 190,
+              "y": 263
             }
           },
           "type": "Trigger_EntityDamage"

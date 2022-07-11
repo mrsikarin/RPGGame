@@ -171,6 +171,65 @@
                 "x": 304,
                 "y": 29
               }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "e7b309a7-8805-463a-b4cb-bd1bc4f0ddc6"
+              },
+              "pos": {
+                "x": 867.5,
+                "y": 741.5
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "e7b309a7-8805-463a-b4cb-bd1bc4f0ddc6"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "1df37296-19a5-4394-b629-b88f92418879"
+              },
+              "pos": {
+                "x": 342.5,
+                "y": 650.5
+              }
             }
           ],
           "custom_trigger_data": {
@@ -186,6 +245,9 @@
                 "children": [
                   {
                     "action": "d8d35247-e3f3-4f51-afd8-5fd15021c623"
+                  },
+                  {
+                    "action": "1df37296-19a5-4394-b629-b88f92418879"
                   }
                 ]
               }
@@ -194,8 +256,8 @@
               "value": "e0b696a2-ec27-4b34-bcc8-560a0bdfaea5"
             },
             "pos": {
-              "x": 135,
-              "y": 230
+              "x": 0,
+              "y": 229
             }
           },
           "type": "Trigger_EntityDamage"
@@ -205,8 +267,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "9356f28904906dfc6ed03d7c83a81530",
-      "triggers.bts": "b8bf910db69d28ce495b5e37cc1feafd"
+      "setting.json": "a4e50848e4dc021cd476790102d32bfd",
+      "triggers.bts": "cfcc8ee58ea354494bc13c986e2554fa"
     },
     "VERSION": "0.21"
   }

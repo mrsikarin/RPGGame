@@ -392,6 +392,54 @@
         "scale": "x:1 y:1 z:1",
         "selectable": "true"
       }
+    },
+    {
+      "class": "DropItem",
+      "config": "myplugin/Sword_Lv.1",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "fixRotation": false,
+        "id": "8710094350540750849",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:-2.3540110588074 y:0.99989998340607 z:4.5627193450928",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "DropItem",
+      "config": "myplugin/Sword_Lv.1",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "fixRotation": false,
+        "id": "8710094376720302081",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:3.9555583000183 y:0.99989986419678 z:7.277174949646",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "DropItem",
+      "config": "myplugin/Magic-Lv.1",
+      "customProperties": [],
+      "properties": {
+        "batchType": "Static",
+        "fixRotation": false,
+        "id": "8710102919776714753",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:5.4147582054138 y:0.99989986419678 z:15.348997116089",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
     }
   ],
   "skyBox": [

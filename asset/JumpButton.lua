@@ -1,6 +1,0 @@
-local atkBtn = self:GetChildByName("Button")
-local ClickEvent = atkBtn:GetEvent("OnClick")
-ClickEvent:Bind(function(window, pos)
-    print("Click atkBtn")
-    PackageHandlers:SendToServer("NormalAttack",{})
-  end)

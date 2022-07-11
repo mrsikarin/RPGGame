@@ -255,6 +255,36 @@
           "y": 0.99989914894104,
           "z": 1.8751668930054
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/Sword_Lv.1",
+        "id": "8710094350540750849",
+        "position": {
+          "x": -2.3540110588074,
+          "y": 0.99989998340607,
+          "z": 4.5627193450928
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/Sword_Lv.1",
+        "id": "8710094376720302081",
+        "position": {
+          "x": 3.9555583000183,
+          "y": 0.99989986419678,
+          "z": 7.277174949646
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/Magic-Lv.1",
+        "id": "8710102919776714753",
+        "position": {
+          "x": 5.4147582054138,
+          "y": 0.99989986419678,
+          "z": 15.348997116089
+        }
       }
     ],
     "name": {
@@ -267,7 +297,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "8c4fcfd3d1032efd9708dd33d1f720c2"
+      "setting.json": "3b6251700af630d4ab7c951e1d46d5e5"
     },
     "VERSION": "0.21"
   }

@@ -288,56 +288,7 @@
   "useVoxelTerrain": true,
   "vars": {
     "__OBJ_TYPE": [],
-    "entity": [
-      {
-        "key": "level",
-        "run_type": "server",
-        "save": true,
-        "value": 1
-      },
-      {
-        "key": "exp",
-        "run_type": "server",
-        "save": true,
-        "value": 0
-      },
-      {
-        "key": "str",
-        "run_type": "server",
-        "save": true,
-        "value": 1
-      },
-      {
-        "key": "agi",
-        "run_type": "server",
-        "save": true,
-        "value": 1
-      },
-      {
-        "key": "int",
-        "run_type": "server",
-        "save": true,
-        "value": 1
-      },
-      {
-        "key": "vit",
-        "run_type": "server",
-        "save": true,
-        "value": 1
-      },
-      {
-        "key": "dex",
-        "run_type": "server",
-        "save": true,
-        "value": 1
-      },
-      {
-        "key": "point",
-        "run_type": "server",
-        "save": true,
-        "value": 0
-      }
-    ],
+    "entity": [],
     "global": [],
     "ui": [
       {

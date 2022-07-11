@@ -1,0 +1,28 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Item/R (6) (7).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Blue Frost Sword/crystal_sword.mesh"
+    },
+    "name": {
+      "value": "item_Sword_Lv.1"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e22368826866507413944233e3babeed",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

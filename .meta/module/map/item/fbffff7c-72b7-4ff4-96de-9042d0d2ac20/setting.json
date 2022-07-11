@@ -17,11 +17,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 140,
-          "g": 132
+          "b": 141,
+          "g": 133
         },
         "skyLineColor": {
-          "g": 59,
+          "g": 60,
           "r": 62
         }
       },
@@ -44,7 +44,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "f0728bb324f60e7b1b77b5f7036d6db0"
+      "setting.json": "2b19e5f5a5aebdfebfc5d09b6e9ac074"
     },
     "VERSION": "0.21"
   }

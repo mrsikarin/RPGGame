@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "76e4c8fe643e4b01d192ffd5f7938991",
+    "md5": "4a3e847d728930840748c46133e79809",
     "path": "asset/playerUI.layout",
     "root": {
       "anchor": {
@@ -26,7 +26,7 @@
             "r": 240
           },
           "id": {
-            "value": "186da93d-709f-45a4-b452-1bfb62faf82a"
+            "value": "2248f102-948b-499c-9422-e29b40b58112"
           },
           "NormalImage": {
             "asset": "asset/texture2/icon_red_nor.png"
@@ -50,10 +50,10 @@
           },
           "size": {
             "UDim_X": {
-              "Offect": 70
+              "Offect": 70.0
             },
             "UDim_Y": {
-              "Offect": 70
+              "Offect": 70.0
             }
           },
           "Text": "Status",
@@ -142,7 +142,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "5cdf1e56-f5cd-42a2-9c80-4b3925e8f8fe"
+                    "value": "530c0cfa-418d-46e3-8c86-143bf58da54e"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_bg.png"
@@ -163,7 +163,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "8ab35d3f-f93f-48f4-9397-86f9e36a3865"
+                    "value": "6a38d434-54f5-44fc-84fb-b33ca5cd0cc0"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_top_h.png"
@@ -184,7 +184,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "97b17c7f-08cd-4879-9ccd-fc6544bdf0b2"
+                    "value": "e3477fde-c73b-415b-b5be-c40024d5c483"
                   },
                   "name": "Handle",
                   "Visible": false
@@ -199,7 +199,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "440b5442-7955-4f56-bcf2-f1a2672534a1"
+                    "value": "902a14f2-2bd2-4938-9af7-baa4e65ea647"
                   },
                   "name": "level",
                   "pos": {
@@ -213,6 +213,9 @@
                   "size": {
                     "UDim_X": {
                       "Offect": 139.55161976815
+                    },
+                    "UDim_Y": {
+                      "Offect": 128.0
                     }
                   },
                   "Text": "Lv.",
@@ -228,7 +231,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "b19c4e0b-75e8-452f-8ec5-1a759cb3f525"
+                    "value": "f26f59e3-d86b-469f-9a34-1ad71dfebfdb"
                   },
                   "name": "textexp",
                   "pos": {
@@ -242,6 +245,9 @@
                   "size": {
                     "UDim_X": {
                       "Offect": 139.55161976815
+                    },
+                    "UDim_Y": {
+                      "Offect": 128.0
                     }
                   },
                   "Text": "EXP",
@@ -249,7 +255,7 @@
                 }
               ],
               "id": {
-                "value": "6a6f4bb5-2f9c-4c34-8ebc-0b2643685e31"
+                "value": "332755b5-bd1d-42c5-b9ff-29f06577fb51"
               },
               "name": "expbar",
               "pos": {
@@ -260,7 +266,7 @@
             }
           ],
           "id": {
-            "value": "109387ca-c503-4354-a5e1-ac905d16dab1"
+            "value": "ede2c788-e171-44ad-a1f4-e6846fd24fd1"
           },
           "pos": {
             "UDim_X": {
@@ -271,8 +277,11 @@
             }
           },
           "size": {
+            "UDim_X": {
+              "Offect": 400.0
+            },
             "UDim_Y": {
-              "Offect": 70
+              "Offect": 70.0
             }
           }
         },
@@ -290,7 +299,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "a428669b-7bdb-42e5-9316-306923d40321"
+                "value": "1f8acc60-d680-4285-b3fa-1328a209e219"
               },
               "Image": {
                 "asset": "asset/Component/Frame/BasicFrame_Square02_Yellow.png"
@@ -300,7 +309,7 @@
                   "Offect": 400
                 },
                 "UDim_Y": {
-                  "Offect": 200
+                  "Offect": 200.0
                 }
               },
               "StaticImageStretch": {
@@ -314,7 +323,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 24,
               "id": {
-                "value": "dac28ae7-9e33-431d-aaad-04fe6098730b"
+                "value": "10a49996-f47e-4405-a93a-3c4ab7075552"
               },
               "name": "quest_txt",
               "pos": {
@@ -327,10 +336,10 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 102.61136833957
+                  "Offect": 102.61136833958
                 },
                 "UDim_Y": {
-                  "Offect": 50.654367625719
+                  "Offect": 50.65436762572
                 }
               },
               "Text": "Quest",
@@ -344,7 +353,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 16,
               "id": {
-                "value": "804b6e36-cedc-44fb-942c-25503452198f"
+                "value": "420e93b7-49df-4c93-89ae-7fd948f3f22e"
               },
               "name": "detailTxt",
               "pos": {
@@ -370,7 +379,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 16,
               "id": {
-                "value": "c2951a4b-d899-4119-9957-6de9104eb173"
+                "value": "b859e60c-fd1e-4bbc-907b-d3e0558300dc"
               },
               "name": "rewardTxt",
               "pos": {
@@ -394,7 +403,7 @@
             }
           ],
           "id": {
-            "value": "e4f523ba-fd31-436c-a3b5-b6f06039daef"
+            "value": "0de4f0a2-d43d-4ed7-addf-a26ef433034a"
           },
           "name": "Quest",
           "pos": {
@@ -405,11 +414,19 @@
             "UDim_Y": {
               "Offect": 45.187669905376
             }
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 400.0
+            },
+            "UDim_Y": {
+              "Offect": 300.0
+            }
           }
         }
       ],
       "id": {
-        "value": "91a58832-43e4-450a-bd57-014cbdd6ff44"
+        "value": "2d36bf22-83b1-4915-a1b7-e58f419d9e37"
       },
       "pos": {
         "UDim_X": {
@@ -418,12 +435,17 @@
         "UDim_Y": {
           "Offect": -131.4675742388
         }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 400.0
+        }
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "76e4c8fe643e4b01d192ffd5f7938991",
+      "layout": "4a3e847d728930840748c46133e79809",
       "triggers.bts": "2c843c0491deb2fcfea676039f39ad4b"
     },
     "VERSION": "0.21"

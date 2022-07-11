@@ -1,0 +1,28 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Item/tile167.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Black Pistol/g2047_gun_01_01.mesh"
+    },
+    "name": {
+      "value": "item_Magic-Lv.1"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0ba2cd339f85cfa254fd82e45d2f001e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

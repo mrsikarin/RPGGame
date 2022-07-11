@@ -1,0 +1,18 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Item/tile167.png",
+  "itemname": "item_Magic-Lv.1",
+  "mesh": "asset/Mesh/Black Pistol/g2047_gun_01_01.mesh",
+  "needSave": true,
+  "skill": [],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

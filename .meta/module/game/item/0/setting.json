@@ -264,9 +264,7 @@
                   {
                     "action": "45fc5353-3a2a-4141-acd0-4317ee0e48a4"
                   },
-                  {
-                    "action": "ec642ac1-3b15-4935-b10c-fadbbb77a502"
-                  }
+                  []
                 ]
               }
             ],
@@ -610,58 +608,6 @@
     },
     "unlimitedPlayTime": true,
     "vars": {
-      "entity": [
-        {
-          "key": "level",
-          "save": true,
-          "value": {
-            "rawval": 1
-          }
-        },
-        {
-          "key": "exp",
-          "save": true
-        },
-        {
-          "key": "str",
-          "save": true,
-          "value": {
-            "rawval": 1
-          }
-        },
-        {
-          "key": "agi",
-          "save": true,
-          "value": {
-            "rawval": 1
-          }
-        },
-        {
-          "key": "int",
-          "save": true,
-          "value": {
-            "rawval": 1
-          }
-        },
-        {
-          "key": "vit",
-          "save": true,
-          "value": {
-            "rawval": 1
-          }
-        },
-        {
-          "key": "dex",
-          "save": true,
-          "value": {
-            "rawval": 1
-          }
-        },
-        {
-          "key": "point",
-          "save": true
-        }
-      ],
       "ui": [
         {
           "key": "points",
@@ -673,10 +619,10 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fa321931017024dac1559faa3d9eaac4",
+      "setting.json": "bbda9d8bfaaaa64df510de1a458e410f",
       "shop.csv": "184ee3ef814a9cf19eef5916299b7da3",
       "triggers.bts": "",
-      "triggers_client.bts": "fc504e1b64ba7a26b9018c0178ec2b30"
+      "triggers_client.bts": "16bce7374ee8f3fc4d007cf1e28caac4"
     },
     "VERSION": "0.21"
   }

@@ -1,0 +1,65 @@
+{
+  "data": {
+    "md5": "dcd1216b3ea45cf1d30c6b83948a2ed9",
+    "path": "asset/btn-melee-atk.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Right",
+        "VerticalAlignment": "Bottom"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "DisabledImage": {
+            "asset": ""
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+          },
+          "id": {
+            "value": "35e3ae41-a21f-44e3-91af-a851aac65099"
+          },
+          "NormalImage": {
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -5.3203575200556e-05
+            },
+            "UDim_Y": {
+              "Offect": -2.3841846299888e-05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_nor.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.5
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.5
+            }
+          },
+          "Text": ""
+        }
+      ],
+      "id": {
+        "value": "1fd15298-a799-420b-b927-e4e4ab69431b"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "dcd1216b3ea45cf1d30c6b83948a2ed9",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

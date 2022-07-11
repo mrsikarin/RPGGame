@@ -1,0 +1,66 @@
+{
+  "data": {
+    "md5": "17d80b50b4bdc551f4cd1353b7ca0a89",
+    "path": "asset/btn-magic-atk.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Right",
+        "VerticalAlignment": "Bottom"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "DisabledImage": {
+            "asset": ""
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_act.png"
+          },
+          "id": {
+            "value": "48d628a9-9767-42e7-b8ac-b73dea3ebd45"
+          },
+          "NormalImage": {
+            "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_act.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": 2.3687385700022e-05
+            },
+            "UDim_Y": {
+              "Offect": -1.558262639989e-05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_nor.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.5
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.5
+            }
+          },
+          "Text": ""
+        }
+      ],
+      "id": {
+        "value": "f249691b-c2cc-4741-9c36-6defb1d42372"
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "17d80b50b4bdc551f4cd1353b7ca0a89",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

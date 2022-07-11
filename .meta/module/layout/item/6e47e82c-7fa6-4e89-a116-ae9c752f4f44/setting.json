@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "f82a2fadc34ba5e17bef762c1a30c775",
+    "md5": "44e671ea12cb976044ffe4c52d4a4c2c",
     "path": "asset/QuestInfo.layout",
     "root": {
       "anchor": {
@@ -41,7 +41,7 @@
                 "r": 176
               },
               "id": {
-                "value": "5b6f71d7-bee4-40e5-ad60-c63710823bca"
+                "value": "cad4660f-0176-4c27-9dcf-d0f88995fec7"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -72,10 +72,10 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 60
+                  "Offect": 60.0
                 },
                 "UDim_Y": {
-                  "Offect": 60
+                  "Offect": 60.0
                 }
               },
               "Text": "X"
@@ -84,7 +84,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "c77e89d8-81d3-42b8-a436-641c5ba75e39"
+                "value": "54ba3b1e-7c96-4b36-ba56-ef1ae82ba9d9"
               },
               "name": "Detail_txt",
               "pos": {
@@ -109,7 +109,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "b94c967e-1c88-467e-a5ea-3f6f3cc2f64a"
+                "value": "2208bd68-99fa-4448-af56-a6238b37f041"
               },
               "name": "Reward_txt",
               "pos": {
@@ -148,7 +148,7 @@
                 "selector": ""
               },
               "id": {
-                "value": "116ecf33-c93e-48a5-a6ff-5304a215d4a8"
+                "value": "21c9b290-5257-47d2-8bd0-73ac86ddb493"
               },
               "name": "SubmitBtn",
               "NormalImage": {
@@ -191,7 +191,7 @@
                 "selector": ""
               },
               "id": {
-                "value": "ea1414b9-3293-4462-a36b-1f7efb633644"
+                "value": "50235ee5-7e0c-4183-809e-33ea848661a0"
               },
               "name": "AcceptBtn",
               "NormalImage": {
@@ -219,7 +219,7 @@
             }
           ],
           "id": {
-            "value": "581fea79-18f6-4a68-95d5-eb5457c02101"
+            "value": "466854ab-b7d1-4152-be6f-68003b4d1a9a"
           },
           "Image": {
             "asset": "asset/Texture/output-onlinepngtools.png"
@@ -235,7 +235,7 @@
         }
       ],
       "id": {
-        "value": "1dcbc986-ae23-4fbf-9d89-873712b679fd"
+        "value": "b9f0433a-a734-4d25-982c-5705b2e3d501"
       },
       "size": {
         "UDim_X": {
@@ -251,7 +251,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "f82a2fadc34ba5e17bef762c1a30c775",
+      "layout": "44e671ea12cb976044ffe4c52d4a4c2c",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

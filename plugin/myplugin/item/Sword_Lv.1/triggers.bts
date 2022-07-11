@@ -1,0 +1,3 @@
+HAND_ITEM_CHANGED_HAND {
+	ExecScript(script_name = "ScriptableNode_16")
+}

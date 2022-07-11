@@ -10,7 +10,7 @@
       {
         "enable": true,
         "lockSlideScreen": false,
-        "viewFovAngle": 75
+        "viewFovAngle": 90
       },
       {
         "distance": 4,
@@ -50,7 +50,7 @@
           "y": 0.0,
           "z": 0.0
         },
-        "viewFovAngle": 75
+        "viewFovAngle": 100
       },
       {
         "enable": false,
@@ -92,9 +92,9 @@
   "ignoreEmptyStartPos": false,
   "initPos": {
     "map": "map001",
-    "x": 2.1216065883636,
-    "y": 1.0399001026154,
-    "z": 3.7268977165222
+    "x": 2.0091571807861,
+    "y": 1.0398998641968,
+    "z": 2.0177927017212
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -229,9 +229,9 @@
   "startPos": [
     {
       "map": "map001",
-      "x": 2.4832611083984,
+      "x": 1.6374756097794,
       "y": 1.0398998641968,
-      "z": 3.3711795806885
+      "z": 2.9707617759705
     }
   ],
   "team": [],

@@ -1,0 +1,77 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Item/R (6) (7).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          ""
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Blue Frost Sword/crystal_sword.mesh"
+    },
+    "name": {
+      "value": "item_Sword_Lv.1"
+    },
+    "needSave": true,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "script_name": "ScriptableNode_16"
+                }
+              ],
+              "id": {
+                "value": "1546440c-d4aa-4e9c-8042-5f7656c37ebd"
+              },
+              "pos": {
+                "x": 751,
+                "y": 277
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "ec8f6d61-da6f-411e-a61a-7a8900df51ea"
+            },
+            "type": "Trigger_Hand"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "1546440c-d4aa-4e9c-8042-5f7656c37ebd"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3de919d7-8c34-437b-942e-7df730509ae7"
+            }
+          },
+          "type": "Trigger_Hand"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e22368826866507413944233e3babeed",
+      "triggers.bts": "bdb5835c9f091280d116115415b3122c"
+    },
+    "VERSION": "0.21"
+  }
+}

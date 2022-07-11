@@ -1,0 +1,43 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "8705664596877099009"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8705664596929052673",
+        "ID": 3,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/c388f2e1-22af-4eaa-b777-21b4d96e1510",
+        "id": "8705937867831508993",
+        "name": "Dark Knight Lv.40",
+        "position": {
+          "x": 4.3653526306152,
+          "y": 0.99989938735962,
+          "z": 4.536283493042
+        }
+      }
+    ],
+    "name": {
+      "value": "map_fbffff7c-72b7-4ff4-96de-9042d0d2ac20"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "f8d257e52bff45180c30bdf64a0aac66"
+    },
+    "VERSION": "0.21"
+  }
+}

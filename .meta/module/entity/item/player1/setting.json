@@ -43,7 +43,6 @@
       "3",
       "4"
     ],
-    "hideHp": false,
     "isPlayer": true,
     "maxHp": 100,
     "name": {
@@ -52,10 +51,6 @@
     "reviveTime": {
       "value": 40
     },
-    "skill": [
-      "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
-      "myplugin/d0a80792-daa8-4aff-92a7-0dc2e438a46b"
-    ],
     "triggers": {
       "list": [
         {
@@ -159,7 +154,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "00459c66e8e5e47166b533cafc51cd26",
+      "setting.json": "9e72ccb0d6215014ce1989cd51276c90",
       "triggers.bts": "2af0bb932b43a96bca5017c2f0baf5fe"
     },
     "VERSION": "0.21"

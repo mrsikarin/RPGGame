@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "9006a97437b3ebf497baeba90a10854f",
+    "md5": "af4f8b44e6d0d86a4afb4493418fd6a5",
     "path": "asset/QuestInfo_1.layout",
     "root": {
       "anchor": {
@@ -72,10 +72,10 @@
               },
               "size": {
                 "UDim_X": {
-                  "Offect": 60.0
+                  "Offect": 60
                 },
                 "UDim_Y": {
-                  "Offect": 60.0
+                  "Offect": 60
                 }
               },
               "Text": "X"
@@ -208,7 +208,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "9006a97437b3ebf497baeba90a10854f",
+      "layout": "af4f8b44e6d0d86a4afb4493418fd6a5",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

@@ -1,7 +1,7 @@
 {
   "data": {
     "actorName": {
-      "asset": "asset/Actor/Three-Eyed Green Stone Monster/A Graffiti Wall Monster.actor"
+      "asset": "asset/Actor/Three-Eyed Green Stone Monster_0/A Graffiti Wall Monster.actor"
     },
     "AI_attack": {
       "attackMode": "autoAttack",
@@ -9,7 +9,7 @@
       "skillList": [
         {
           "attackDis": 2.5,
-          "fullName": "myplugin/b10e587b-352c-4011-a321-d92773101487"
+          "fullName": "myplugin/monster_melee"
         }
       ]
     },
@@ -34,6 +34,7 @@
       }
     },
     "collision": true,
+    "damage": 20,
     "enableAI": true,
     "girlactor": {
       "asset": "empty.actor"
@@ -198,7 +199,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b850f197edce9c13dad63abe9446a27a",
+      "setting.json": "71d7e8559ed8913ffd5b29047d41dbc4",
       "triggers.bts": "b8bf910db69d28ce495b5e37cc1feafd"
     },
     "VERSION": "0.21"

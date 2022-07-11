@@ -1,7 +1,7 @@
 {
   "data": {
-    "md5": "b5f33461acc16c72765dda97c9ef8cf5",
-    "path": "asset/JumpButton.layout",
+    "md5": "b2d1d08cb72f36b67782d3e823899888",
+    "path": "asset/btnMeleeAtk.layout",
     "root": {
       "anchor": {
         "HorizontalAlignment": "Right",
@@ -10,58 +10,62 @@
       "children": [
         {
           "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
           "DisabledImage": {
-            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_nor.png"
+            "asset": ""
           },
           "HoverImage": {
-            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_nor.png"
           },
           "id": {
-            "value": "30fca8a2-776a-4bb2-9994-9af0d0b0326b"
+            "value": "ccb72b97-7fac-45a4-8ee0-b6e93d9aa2bb"
           },
           "NormalImage": {
-            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_nor.png"
           },
           "pos": {
             "UDim_X": {
-              "Offect": -179.99999164679,
-              "Scale": 1
+              "Offect": 2.3274345400282e-05
             },
             "UDim_Y": {
-              "Offect": -223.99997399678,
-              "Scale": 1
+              "Offect": -1.3384813000172e-05
             }
           },
           "PushedImage": {
-            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_nor.png"
+            "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
           },
           "size": {
             "UDim_X": {
-              "Offect": 170.0
+              "Offect": 100,
+              "Scale": 0.4
             },
             "UDim_Y": {
-              "Offect": 170.0
+              "Offect": 100,
+              "Scale": 0.4
             }
           },
-          "Text": " "
+          "Text": ""
         }
       ],
       "id": {
-        "value": "ce33dfe3-0d28-4b94-9fce-a0aea26fa535"
+        "value": "fbade50a-e2c4-4dfc-afa4-e90cb7f729d8"
       },
       "size": {
         "UDim_X": {
-          "Offect": 180
+          "Offect": 264.67901182175
         },
         "UDim_Y": {
-          "Offect": 224
+          "Offect": 203.83382475376
         }
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "b5f33461acc16c72765dda97c9ef8cf5",
+      "layout": "b2d1d08cb72f36b67782d3e823899888",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

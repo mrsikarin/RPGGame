@@ -9,7 +9,7 @@
       "skillList": [
         {
           "attackDis": 3,
-          "fullName": "myplugin/edd86bcb-fb16-4d6a-820b-71a7b16b0d9f"
+          "fullName": "myplugin/monster_melee"
         }
       ]
     },
@@ -39,7 +39,7 @@
     "name": {
       "value": "entity_a220541d-37e7-417c-ba6e-021395d10e5a"
     },
-    "textHeight": 4.3,
+    "textHeight": 2.5,
     "triggers": {
       "list": [
         {
@@ -193,7 +193,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "478e6abb827b45b1f98fca1ea2248ff8",
+      "setting.json": "95b8420fdc75d1779805026e965ca5f3",
       "triggers.bts": "b8bf910db69d28ce495b5e37cc1feafd"
     },
     "VERSION": "0.21"

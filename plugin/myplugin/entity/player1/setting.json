@@ -90,7 +90,7 @@
   "gravity": 0.08,
   "headPic": "",
   "hideHolder": false,
-  "hideHp": 0,
+  "hideHp": 1,
   "hideName": false,
   "homeSize": 20,
   "hpBarColor": 4294967551.0,
@@ -124,10 +124,7 @@
   "reachDistance": 6.5,
   "reviveTime": 40,
   "setFollowWhenCreate": true,
-  "skillInfos": [
-    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
-    "myplugin/d0a80792-daa8-4aff-92a7-0dc2e438a46b"
-  ],
+  "skillInfos": [],
   "stepHeight": 0.6,
   "textHeight": 2.3,
   "touchdownTimeToDie": true,

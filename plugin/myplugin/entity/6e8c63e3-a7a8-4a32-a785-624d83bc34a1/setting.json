@@ -2,7 +2,7 @@
   "_clientScript": [],
   "_serverScript": [],
   "actorGirlName": "empty.actor",
-  "actorName": "asset/Actor/Three-Eyed Green Stone Monster/A Graffiti Wall Monster.actor",
+  "actorName": "asset/Actor/Three-Eyed Green Stone Monster_0/A Graffiti Wall Monster.actor",
   "aiFixSpeedRate": 2,
   "attackNpc": false,
   "autoAttack": true,
@@ -40,7 +40,7 @@
     "type": "Box"
   },
   "collision": true,
-  "damage": 0,
+  "damage": 20,
   "deathHideTime": 20,
   "destroyTime": 0,
   "disableShadow": true,
@@ -90,7 +90,7 @@
     {
       "__OBJ_TYPE": "AI_Skill",
       "attackDis": 2.5,
-      "fullName": "myplugin/b10e587b-352c-4011-a321-d92773101487",
+      "fullName": "myplugin/monster_melee",
       "priority": 0
     }
   ],

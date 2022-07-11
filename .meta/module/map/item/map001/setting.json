@@ -50,27 +50,6 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/player1",
-        "id": "8692911802860519425",
-        "name": "Player",
-        "position": {
-          "x": 4.0562009811401,
-          "y": 1.1708989143372,
-          "z": 1.2040195465088
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_DropItem",
-        "config": "myplugin/4fa23ab5-42ce-495a-abcf-4a6632c0b5ba",
-        "id": "8692923409070637057",
-        "position": {
-          "x": 0.64663171768188,
-          "y": 1.4808999300003,
-          "z": 5.2112307548523
-        }
-      },
-      {
         "__OBJ_TYPE": "Instance_MeshPart",
         "btsKey": "8e606d9b-44e0-4c8d-be3f-16de9090f4be",
         "children": [
@@ -125,156 +104,82 @@
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8700338580358692865",
-        "name": "Pig Lv.1",
+        "config": "myplugin/f2804a13-cfff-4ecd-9e1c-190f465e1e32",
+        "id": "8705821190430441473",
+        "name": "Give Exp",
         "position": {
-          "x": -20.462108612061,
-          "y": 0.99990081787109,
-          "z": 24.476871490479
+          "x": -0.081271708011627,
+          "y": 0.99989914894104,
+          "z": 1.8751668930054
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bcfa98d4-7325-47d0-b2d6-88e8f02d1df8",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8709860427891802113",
+        "massCenter": {
+          "x": 3.9109144210815,
+          "y": 1.4998998641968,
+          "z": 5.694356918335
+        },
+        "position": {
+          "x": 3.9109144210815,
+          "y": 1.4998998641968,
+          "z": 5.694356918335
+        },
+        "restitution": 0.3
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/14eed005-5bf4-4c5f-9b76-3d0abaee83a1",
-        "id": "8700338826912350209",
+        "id": "8709878910622760961",
         "name": "Skeleton Knight Lv.15",
         "position": {
-          "x": -19.485555648804,
+          "x": -8.8938293457031,
+          "y": 0.99989986419678,
+          "z": -6.1967973709106
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/Sword_Lv.1",
+        "id": "8709929935540420609",
+        "position": {
+          "x": 1.0115365982056,
           "y": 0.99990081787109,
-          "z": 2.2755699157715
+          "z": 11.252969741821
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/f23c6fb8-5dfa-4153-91d0-efa93bdd39f3",
-        "id": "8700338868708458497",
-        "name": "The Boy Lv.20",
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/Sword_Lv.1",
+        "id": "8709929942263283713",
         "position": {
-          "x": -18.762807846069,
-          "y": 0.99990081787109,
-          "z": -3.7356524467468
+          "x": -8.9073638916016,
+          "y": 0.99989998340607,
+          "z": 8.4783306121826
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/fa448aeb-1c98-4fc5-b36b-b6bd6a43aef5",
-        "id": "8700338914043330561",
-        "name": "Tengu Lv.25",
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/12723e05-a6d7-412c-bf3a-8fa696a0abf2",
+        "id": "8709989650747129857",
         "position": {
-          "x": -18.431224822998,
+          "x": -3.8235158920288,
+          "y": 0.99989891052246,
+          "z": 7.8331365585327
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/Magic_Lv.1",
+        "id": "8710057230277148673",
+        "position": {
+          "x": 0.46659374237061,
           "y": 0.99989986419678,
-          "z": -10.448322296143
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/0e66b0f6-e4c4-4e9b-b5ac-66b835e74bf7",
-        "id": "8700338984648114177",
-        "name": "Skeleton Lv.30",
-        "position": {
-          "x": -19.943248748779,
-          "y": 0.99989986419678,
-          "z": -24.569290161133
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/88955935-ca3b-40a4-a73a-c4e12315998a",
-        "id": "8700343112066334721",
-        "name": "Lv.35",
-        "position": {
-          "x": -5.4221339225769,
-          "y": 0.99989902973175,
-          "z": -22.805818557739
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/c388f2e1-22af-4eaa-b777-21b4d96e1510",
-        "id": "8700371081166372865",
-        "name": "Dark Knight Lv.40",
-        "position": {
-          "x": 5.6618857383728,
-          "y": 0.99989986419678,
-          "z": -23.237823486328
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/f2804a13-cfff-4ecd-9e1c-190f465e1e32",
-        "id": "8701445921647607809",
-        "name": "set",
-        "position": {
-          "x": -2.9961493015289,
-          "y": 0.9999006986618,
-          "z": 3.714093208313
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/004e2365-5ea0-421b-9409-3718a5e524e1",
-        "id": "8701445950274437121",
-        "name": "Show",
-        "position": {
-          "x": -1.2780132293701,
-          "y": 0.99990081787109,
-          "z": 2.3183078765869
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/6e8c63e3-a7a8-4a32-a785-624d83bc34a1",
-        "id": "8704289356674564097",
-        "name": "Wall Lv.5",
-        "position": {
-          "x": -12.76868057251,
-          "y": 0.99989986419678,
-          "z": 17.688859939575
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/a220541d-37e7-417c-ba6e-021395d10e5a",
-        "id": "8704306329928089601",
-        "name": "Frog Lv.10",
-        "position": {
-          "x": -13.955755233765,
-          "y": 0.99989938735962,
-          "z": 10.946218490601
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8704409052642639873",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": -9.7906618118286,
-          "y": 0.99990081787109,
-          "z": 29.643718719482
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8704409058494775297",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": -16.909944534302,
-          "y": 0.99989986419678,
-          "z": 35.749488830566
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8704409065609232385",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": 1.6224975585938,
-          "y": 0.99989986419678,
-          "z": 36.494255065918
+          "z": 7.9138336181641
         }
       }
     ],
@@ -288,7 +193,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "e916fd17acebb0a73180d9c0d8714ad3"
+      "setting.json": "6a3d201b4e005bdf63df0cb85e0f4fa3"
     },
     "VERSION": "0.21"
   }

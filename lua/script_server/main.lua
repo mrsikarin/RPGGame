@@ -23,6 +23,3 @@ Trigger.RegisterHandler(cfg, "ENTITY_ENTER", function(context)
   setStatus(player)
 end)
 
---PackageHandlers.registerServerHandler("takeDamage", function(player, packet)
-  --local SceneUi = 
---end)

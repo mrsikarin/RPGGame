@@ -1,16 +1,15 @@
 {
-  "canAbandon": false,
+  "canAbandon": true,
   "candrop": false,
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
   "icon": "@asset/Item/R (6) (7).png",
   "itemname": "item_943cc697-72d6-4bf4-b103-17a993f19915",
+  "mesh": "asset/Mesh/Blue Frost Sword_0/crystal_sword.mesh",
   "needSave": true,
   "skill": [
-    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
-    "myplugin/b3b3da22-421f-45e3-af84-7025d1d2ce4c",
-    "myplugin/c52487b2-5016-44f7-9c67-522c6648b41d"
+    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41"
   ],
   "stack_count_max": 1,
   "syncGameData": {

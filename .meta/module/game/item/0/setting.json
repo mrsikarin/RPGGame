@@ -3,6 +3,7 @@
     "canJoinMidway": false,
     "defaultView": "Follow",
     "enableNewLighting": true,
+    "firstPerson_viewFovAngle": 90,
     "fixed_viewPos": {
       "pos": {
         "__OBJ_TYPE": "Vector3i"
@@ -11,12 +12,13 @@
     "follow_enable": {
       "enable": true
     },
+    "follow_viewFovAngle": 100,
     "initPos": {
       "map": "map001",
       "pos": {
-        "x": 2.1216065883636,
-        "y": 1.0399001026154,
-        "z": 3.7268977165222
+        "x": 2.0091571807861,
+        "y": 1.0398998641968,
+        "z": 2.0177927017212
       }
     },
     "needSave": true,
@@ -31,9 +33,9 @@
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": 2.4832611083984,
+        "x": 1.6374756097794,
         "y": 1.0398998641968,
-        "z": 3.3711795806885
+        "z": 2.9707617759705
       }
     },
     "triggers_client": {
@@ -140,7 +142,7 @@
                         "__OBJ_TYPE": "T_Res_Layout",
                         "rawval": {
                           "asset": "asset/Custom Joystick/mainWnd.layout",
-                          "selector": "editor/neo/asset/Custom Joystick/mainWnd.layout"
+                          "selector": "editor/RPGGame/asset/Custom Joystick/mainWnd.layout"
                         }
                       }
                     },
@@ -170,8 +172,8 @@
                       "value": {
                         "__OBJ_TYPE": "T_Res_Layout",
                         "rawval": {
-                          "asset": "asset/JumpButton.layout",
-                          "selector": "editor/neo/asset/JumpButton.layout"
+                          "asset": "asset/btnMeleeAtk.layout",
+                          "selector": "editor/RPGGame/asset/btnMeleeAtk.layout"
                         }
                       }
                     },
@@ -206,9 +208,7 @@
                   {
                     "action": "45fc5353-3a2a-4141-acd0-4317ee0e48a4"
                   },
-                  {
-                    "action": "ec642ac1-3b15-4935-b10c-fadbbb77a502"
-                  }
+                  []
                 ]
               }
             ],
@@ -526,10 +526,10 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "19def57e68552810d113a7c19af9f81b",
+      "setting.json": "d52ca3d596469b3cf5379b82a1c766fd",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
-      "triggers_client.bts": "c8ca51640ecd0bc815a8948eae923df0"
+      "triggers_client.bts": "ff93e82ac3ddab03f41fe25ee3173d81"
     },
     "VERSION": "0.21"
   }

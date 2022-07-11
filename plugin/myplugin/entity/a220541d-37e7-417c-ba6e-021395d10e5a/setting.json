@@ -90,13 +90,13 @@
     {
       "__OBJ_TYPE": "AI_Skill",
       "attackDis": 3,
-      "fullName": "myplugin/edd86bcb-fb16-4d6a-820b-71a7b16b0d9f",
+      "fullName": "myplugin/monster_melee",
       "priority": 0
     }
   ],
   "skillInfos": [],
   "stepHeight": 0.6,
-  "textHeight": 4.3,
+  "textHeight": 2.5,
   "touchdownTimeToDie": true,
   "touchdownTimeToDieTick": 5,
   "unassailable": 0,

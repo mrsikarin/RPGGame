@@ -1,0 +1,49 @@
+{
+  "data": {
+    "castAction": "attack",
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Track_footman_attack.effect"
+      },
+      "pos": {
+        "y": 1,
+        "z": 0.8
+      },
+      "scale": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      },
+      "yaw": 90
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "consumeItem": [
+      []
+    ],
+    "name": {
+      "value": "skill_test"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack"
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Skill/broadsword.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "cb657b4fffcbfa78a66876b65bdd70fa",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

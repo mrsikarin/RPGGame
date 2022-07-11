@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "6d2b3d280279d6a29b0c264d27007789",
+    "md5": "3aaa389aaf1ae2060ed1f090623bb405",
     "path": "asset/playerUI.layout",
     "root": {
       "anchor": {
@@ -203,10 +203,10 @@
                   "name": "level",
                   "pos": {
                     "UDim_X": {
-                      "Offect": -56.435851635192
+                      "Offect": -29.76912967987
                     },
                     "UDim_Y": {
-                      "Offect": -48.317771249953
+                      "Offect": -25.999956422988
                     }
                   },
                   "size": {
@@ -215,11 +215,6 @@
                     }
                   },
                   "Text": "Lv.",
-                  "TextColours": {
-                    "b": 127,
-                    "g": 85,
-                    "r": 170
-                  },
                   "VertFormatting": "CentreAligned"
                 },
                 {
@@ -237,33 +232,30 @@
                   "name": "textexp",
                   "pos": {
                     "UDim_X": {
-                      "Offect": -195.92307060815
+                      "Offect": -169.25631863655
                     },
                     "UDim_Y": {
-                      "Offect": 0.0712845227307
+                      "Offect": -0.1589293578082
                     }
                   },
                   "size": {
                     "UDim_X": {
                       "Offect": 139.55161976815
-                    },
-                    "UDim_Y": {
-                      "Offect": 128.0
                     }
                   },
                   "Text": "EXP",
-                  "TextColours": {
-                    "b": 127,
-                    "g": 85,
-                    "r": 170
-                  },
                   "VertFormatting": "CentreAligned"
                 }
               ],
               "id": {
                 "value": "01711454-abcc-486d-b77f-2fac50d2d350"
               },
-              "name": "expbar"
+              "name": "expbar",
+              "pos": {
+                "UDim_Y": {
+                  "Scale": -0.2
+                }
+              }
             }
           ],
           "id": {
@@ -273,7 +265,8 @@
             "UDim_X": {
               "Scale": 1
             }
-          }
+          },
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         }
       ],
       "id": {
@@ -288,12 +281,13 @@
           "Offect": 70,
           "Scale": 1
         }
-      }
+      },
+      "WindowTouchThroughMode": "MousePassThroughAlpha"
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "6d2b3d280279d6a29b0c264d27007789",
+      "layout": "3aaa389aaf1ae2060ed1f090623bb405",
       "triggers.bts": "2c843c0491deb2fcfea676039f39ad4b"
     },
     "VERSION": "0.21"

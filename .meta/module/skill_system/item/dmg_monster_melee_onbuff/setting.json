@@ -1,0 +1,19 @@
+{
+  "data": {
+    "attackTarget": {
+      "targetType": "hitPlayer"
+    },
+    "damage": 10,
+    "hurtDistance": 0.2,
+    "name": {
+      "value": "skill_system_dmg_monster_melee_onbuff"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2b3c92b9e5a30678fda20f5ee20b406b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

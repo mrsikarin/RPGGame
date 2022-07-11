@@ -1,0 +1,18 @@
+{
+  "canAbandon": false,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Item/R (6) (17).png",
+  "itemname": "item_Magic_Lv.1",
+  "mesh": "asset/Mesh/Powder Blue Medium Cupcakes/g2040_candy_icecream_03.mesh",
+  "needSave": true,
+  "skill": [],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

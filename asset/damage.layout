@@ -1,155 +1,155 @@
     <GUILayout version="4">
-        <Window name="Root" type="DefaultWindow">
-            <Window name="dmg" type="WindowsLook/StaticText">
-                <Property name="Area" value="{{0,0},{0,0},{0,256},{0,128}}">
+        <Window type="DefaultWindow" name="Root">
+            <Window type="WindowsLook/StaticText" name="dmg">
+                <Property value="{{0,0.8205313682556},{0,-86.00001776055},{0,256.82053136826},{0,41.99998223945}}" name="Area">
 
                 </Property>
-                <Property name="MaxSize" value="{{999,0},{999,0}}">
+                <Property value="{{999,0},{999,0}}" name="MaxSize">
 
                 </Property>
-                <Property name="HorizontalAlignment" value="Centre">
+                <Property value="Centre" name="HorizontalAlignment">
 
                 </Property>
-                <Property name="VerticalAlignment" value="Centre">
+                <Property value="Centre" name="VerticalAlignment">
 
                 </Property>
-                <Property name="AutoTextScale" value="false">
+                <Property value="ffffffff" name="FrameColours">
 
                 </Property>
-                <Property name="PivotX" value="0.5">
+                <Property value="false" name="ClippedByParent">
 
                 </Property>
-                <Property name="SoundTriggerRange" value="None">
+                <Property value="false" name="Disabled">
 
                 </Property>
-                <Property name="VertFormatting" value="CentreAligned">
+                <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
                 </Property>
-                <Property name="Font" value="HarmonyOS_Sans_SC_Black-30">
+                <Property value="1" name="Volume">
 
                 </Property>
-                <Property name="TextBoldWeight" value="0">
+                <Property value="1" name="Alpha">
 
                 </Property>
-                <Property name="FrameColours" value="ffffffff">
+                <Property value="0" name="BorderWidth">
 
                 </Property>
-                <Property name="HorzFormatting" value="WordWrapCentreAligned">
+                <Property value="false" name="TextWordBreak">
 
                 </Property>
-                <Property name="WindowTouchThroughAlpha" value="1">
+                <Property value="8" name="MinAutoTextScale">
 
                 </Property>
-                <Property name="BackgroundColours" value="ffffffff">
+                <Property value="false" name="AutoTextScale">
 
                 </Property>
-                <Property name="Disabled" value="false">
+                <Property value="ffffffff" name="BackgroundColours">
 
                 </Property>
-                <Property name="TextColours" value="fffb0a2a">
+                <Property value="Here is text" name="Text">
 
                 </Property>
-                <Property name="Font_size" value="30">
+                <Property value="0" name="TextBoldWeight">
 
                 </Property>
-                <Property name="BackgroundEnabled" value="false">
+                <Property value="0" name="AutoScale">
 
                 </Property>
-                <Property name="TextWordBreak" value="false">
+                <Property value="CentreAligned" name="VertFormatting">
 
                 </Property>
-                <Property name="BorderWidth" value="0">
+                <Property value="None" name="SoundTriggerRange">
 
                 </Property>
-                <Property name="Visible" value="true">
+                <Property value="1" name="WindowTouchThroughAlpha">
 
                 </Property>
-                <Property name="BorderColor" value="ffffffff">
+                <Property value="ffffffff" name="BorderColor">
 
                 </Property>
-                <Property name="FrameEnabled" value="false">
+                <Property value="HarmonyOS_Sans_SC_Bold-34" name="Font">
 
                 </Property>
-                <Property name="MinAutoTextScale" value="8">
+                <Property value="0.5" name="PivotY">
 
                 </Property>
-                <Property name="AutoScale" value="0">
+                <Property value="true" name="word_warpped">
 
                 </Property>
-                <Property name="word_warpped" value="true">
+                <Property value="true" name="Visible">
 
                 </Property>
-                <Property name="Alpha" value="1">
+                <Property value="WordWrapCentreAligned" name="HorzFormatting">
 
                 </Property>
-                <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+                <Property value="false" name="FrameEnabled">
 
                 </Property>
-                <Property name="Text" value="Here is text">
+                <Property value="fffb0a2a" name="TextColours">
 
                 </Property>
-                <Property name="PivotY" value="0.5">
+                <Property value="0.5" name="PivotX">
 
                 </Property>
-                <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+                <Property value="34" name="Font_size">
 
                 </Property>
-                <Property name="Volume" value="1">
+                <Property value="false" name="BackgroundEnabled">
 
                 </Property>
-                <Property name="SoundFile" value="">
+                <Property value="MousePassThroughOpen" name="WindowTouchThroughMode">
 
                 </Property>
-                <Property name="ClippedByParent" value="false">
+                <Property value="" name="SoundFile">
 
                 </Property>
             </Window>
-              <Property name="Area" value="{{0,0},{0,0},{0,400},{0,300}}">
+              <Property value="{{0,0},{0,0},{0,400},{0,300}}" name="Area">
 
               </Property>
-              <Property name="MaxSize" value="{{999,0},{999,0}}">
+              <Property value="{{999,0},{999,0}}" name="MaxSize">
 
               </Property>
-              <Property name="HorizontalAlignment" value="Centre">
+              <Property value="Centre" name="HorizontalAlignment">
 
               </Property>
-              <Property name="VerticalAlignment" value="Centre">
+              <Property value="Centre" name="VerticalAlignment">
 
               </Property>
-              <Property name="PivotX" value="0.5">
+              <Property value="false" name="ClippedByParent">
 
               </Property>
-              <Property name="Visible" value="true">
+              <Property value="false" name="Disabled">
 
               </Property>
-              <Property name="SoundTriggerRange" value="None">
+              <Property value="0.5" name="PivotX">
 
               </Property>
-              <Property name="PivotY" value="0.5">
+              <Property value="1" name="Volume">
 
               </Property>
-              <Property name="SoundFile" value="">
+              <Property value="1" name="WindowTouchThroughAlpha">
 
               </Property>
-              <Property name="Volume" value="1">
+              <Property value="1" name="Alpha">
 
               </Property>
-              <Property name="WindowTouchThroughAlpha" value="1">
+              <Property value="0.5" name="PivotY">
 
               </Property>
-              <Property name="Disabled" value="false">
+              <Property value="true" name="Visible">
 
               </Property>
-              <Property name="WindowTouchThroughMode" value="MousePassThroughClose">
+              <Property value="" name="SoundFile">
 
               </Property>
-              <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+              <Property value="None" name="SoundTriggerRange">
 
               </Property>
-              <Property name="Alpha" value="1">
+              <Property value="MousePassThroughOpen" name="WindowTouchThroughMode">
 
               </Property>
-              <Property name="ClippedByParent" value="false">
+              <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
               </Property>
         </Window>

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "6c6aa947d4223e6dd8cc71adff73a738",
+    "md5": "0ee70767415a4aebace22d3fb0b6a607",
     "path": "asset/damage.layout",
     "root": {
       "anchor": {
@@ -14,29 +14,39 @@
             "HorizontalAlignment": "Centre",
             "VerticalAlignment": "Centre"
           },
-          "Font": "HarmonyOS_Sans_SC_Black",
-          "Font_size": 30,
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 34,
           "HorzFormatting": "CentreAligned",
           "id": {
             "value": "ef40b3c3-af4d-425f-8549-00a7f74e770f"
           },
           "name": "dmg",
+          "pos": {
+            "UDim_X": {
+              "Offect": 0.8205313682556
+            },
+            "UDim_Y": {
+              "Offect": -86.00001776055
+            }
+          },
           "TextColours": {
             "b": 42,
             "g": 10,
             "r": 251
           },
-          "VertFormatting": "CentreAligned"
+          "VertFormatting": "CentreAligned",
+          "WindowTouchThroughMode": "MousePassThroughOpen"
         }
       ],
       "id": {
         "value": "fd49c76e-af8a-459b-9e71-96910dc56b58"
-      }
+      },
+      "WindowTouchThroughMode": "MousePassThroughOpen"
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "6c6aa947d4223e6dd8cc71adff73a738",
+      "layout": "0ee70767415a4aebace22d3fb0b6a607",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

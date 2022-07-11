@@ -15,7 +15,7 @@
   "canClick": false,
   "canHurtMove": true,
   "canJump": true,
-  "canMove": true,
+  "canMove": false,
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,

@@ -1,0 +1,78 @@
+{
+  "data": {
+    "md5": "61279bbabcdf3871a22bc7df50712962",
+    "path": "asset/btnMagicAtk.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Right",
+        "VerticalAlignment": "Bottom"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "Button",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "DisabledImage": {
+            "asset": ""
+          },
+          "HoverImage": {
+            "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_nor.png"
+          },
+          "id": {
+            "value": "70456dcf-4eed-40f2-b250-cc47e448c2d1"
+          },
+          "NormalImage": {
+            "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_nor.png"
+          },
+          "pos": {
+            "UDim_X": {
+              "Offect": -1.0696417700018e-05
+            },
+            "UDim_Y": {
+              "Offect": -1.1046479000854e-05
+            }
+          },
+          "PushedImage": {
+            "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_act.png"
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 0,
+              "Scale": 0.5
+            },
+            "UDim_Y": {
+              "Offect": 0,
+              "Scale": 0.5
+            }
+          },
+          "Text": ""
+        }
+      ],
+      "id": {
+        "value": "7c259bc5-3695-4614-be80-860c7a913769"
+      },
+      "pos": {
+        "UDim_Y": {
+          "Offect": -2.3452768325806
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 355.97291231157
+        },
+        "UDim_Y": {
+          "Offect": 267.09125971795
+        }
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "61279bbabcdf3871a22bc7df50712962",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.21"
+  }
+}

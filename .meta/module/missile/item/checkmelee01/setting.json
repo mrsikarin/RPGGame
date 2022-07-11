@@ -1,0 +1,25 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "y": 1,
+        "z": 1.2
+      }
+    },
+    "hitEntitySkill": "myplugin/dmg_monster_melee_onbuff",
+    "lifeTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "missile_checkmelee01"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "1d9fa11ab2c5172249974cade474bda3",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

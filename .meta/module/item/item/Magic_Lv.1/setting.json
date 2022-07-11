@@ -1,0 +1,28 @@
+{
+  "data": {
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Item/R (6) (17).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Powder Blue Medium Cupcakes/g2040_candy_icecream_03.mesh"
+    },
+    "name": {
+      "value": "item_Magic_Lv.1"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "71ca94a7ef7936dc7a5fe36a90227606",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

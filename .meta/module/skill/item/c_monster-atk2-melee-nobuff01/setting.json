@@ -1,0 +1,39 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "53d3de9e-46c0-4790-b660-a38c9f03c434"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/check-atk2-monster01",
+            "startPos": {
+              "y": 1.5,
+              "z": 1.8
+            },
+            "startWait": {
+              "value": 10
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "39e569c57493944c8cc2353537ec3512",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

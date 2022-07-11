@@ -9,7 +9,7 @@
       "skillList": [
         {
           "attackDis": 3,
-          "fullName": "myplugin/edd86bcb-fb16-4d6a-820b-71a7b16b0d9f"
+          "fullName": "myplugin/c_monster-atk1-melee-onbuff01"
         }
       ]
     },
@@ -38,13 +38,14 @@
       }
     },
     "collision": true,
+    "damage": 100,
     "enableAI": true,
     "girlactor": {
       "asset": "empty.actor"
     },
     "hideHp": false,
     "hpBarHeight": 0.1,
-    "maxHp": 100,
+    "maxHp": 200,
     "name": {
       "value": "entity_53766963-df71-432e-b6d2-25479598e789"
     },
@@ -267,7 +268,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "a4e50848e4dc021cd476790102d32bfd",
+      "setting.json": "4a0d968232b4aefde2e6d2daee519888",
       "triggers.bts": "cfcc8ee58ea354494bc13c986e2554fa"
     },
     "VERSION": "0.21"

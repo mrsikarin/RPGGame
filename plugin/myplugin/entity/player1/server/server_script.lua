@@ -17,14 +17,13 @@ Trigger.RegisterHandler(this:cfg(), "HAND_ITEM_CHANGED", function(context)
       local newItem = context.item
       local oldItem = context.oldItem
       local  index = 0
-      print(newItem:full_name())
-        if newItem == nil then
-          index = 0
-        elseif string.match(newItem:full_name(),"Sword")  then
+      if newItem ~= nil then
+        if string.match(newItem:full_name(),"Sword")  then
           index = 1
         elseif string.match(newItem:full_name(),"Magic")  then
           index = 2
         end
+      end
       PackageHandlers:SendToClient(this, "ChangeWeapon", {index = index})
       print("Change")
 end)

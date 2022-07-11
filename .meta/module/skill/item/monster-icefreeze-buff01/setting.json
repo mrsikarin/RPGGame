@@ -1,0 +1,27 @@
+{
+  "data": {
+    "cdTime": {
+      "value": 60
+    },
+    "name": {
+      "value": "skill_monster-icefreeze-buff01"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Buff",
+        "buffCfg": "myplugin/monster-atk-freeze",
+        "buffTime": {
+          "value": 60
+        }
+      },
+      "type": "Buff"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "73f6ca2aa78dcb220455c441b028e183",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

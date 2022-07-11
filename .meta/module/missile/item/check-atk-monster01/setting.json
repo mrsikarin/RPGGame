@@ -1,0 +1,30 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "hitEntitySkill": "myplugin/monster-dmg-nobuff01",
+    "hitInterval": {
+      "value": 2
+    },
+    "lifeTime": {
+      "value": 2
+    },
+    "moveSpeed": 0,
+    "name": {
+      "value": "missile_check-atk-monster01"
+    },
+    "target_type": "hitPlayer"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2b1ba84394ccf7adc6070c2952be020b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

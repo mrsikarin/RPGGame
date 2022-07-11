@@ -1,0 +1,36 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 2,
+        "y": 2,
+        "z": 2
+      }
+    },
+    "hitEntitySkill": "myplugin/monster-dmg-nobuff02",
+    "hitInterval": {
+      "value": 4
+    },
+    "lifeTime": {
+      "value": 4
+    },
+    "missileModel": {
+      "modelMesh": {
+        "asset": "asset/Mesh/Red Talisman Treasure Box/g2030_baoxiang_yueka.mesh"
+      },
+      "type": "mesh"
+    },
+    "moveSpeed": 0,
+    "name": {
+      "value": "84618194-eedc-4c9d-8fe5-7e5461ab1ead"
+    },
+    "target_type": "hitPlayer"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "577b868733cf59c144d421a2f276b0f6",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "extent": {
+      "x": 2,
+      "y": 2,
+      "z": 2
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0.0,
+  "hitEntitySkill": "myplugin/monster-dmg-nobuff02",
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitPlayer",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 4,
+  "isPitch": true,
+  "lifeTime": 4,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "modelMesh": "asset/Mesh/Red Talisman Treasure Box/g2030_baoxiang_yueka.mesh",
+  "moveAcc": 0.0,
+  "moveSpeed": 0.0,
+  "rotateFree": true,
+  "rotateSpeed": 0.0,
+  "startWithMoveAcc": true,
+  "vanishShow": false,
+  "vanishTime": 10
+}

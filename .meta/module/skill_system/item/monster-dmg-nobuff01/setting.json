@@ -1,0 +1,18 @@
+{
+  "data": {
+    "attackTarget": {
+      "targetType": "hitPlayer"
+    },
+    "hurtDistance": 0.2,
+    "name": {
+      "value": "skill_system_monster-dmg-nobuff01"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "88744ab7984393bd862eee264d7aeb6d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

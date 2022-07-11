@@ -9,7 +9,7 @@
       "skillList": [
         {
           "attackDis": 8,
-          "fullName": "myplugin/6ae40ff0-c943-450c-a27b-176cce6b9b1b"
+          "fullName": "myplugin/c_monster-atk1-magic-nobuff01"
         }
       ]
     },
@@ -33,13 +33,14 @@
       }
     },
     "collision": true,
+    "damage": 200,
     "enableAI": true,
     "girlactor": {
       "asset": "empty.actor"
     },
     "hideHp": false,
     "hpBarHeight": 0.1,
-    "maxHp": 200,
+    "maxHp": 400,
     "name": {
       "value": "entity_f23c6fb8-5dfa-4153-91d0-efa93bdd39f3"
     },
@@ -262,7 +263,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "3dffcd84e4c781343294dde07685621f",
+      "setting.json": "c31253e33e481879c874e58ccc7b9cdd",
       "triggers.bts": "cfcc8ee58ea354494bc13c986e2554fa"
     },
     "VERSION": "0.21"

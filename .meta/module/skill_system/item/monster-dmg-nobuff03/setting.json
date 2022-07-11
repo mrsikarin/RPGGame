@@ -1,0 +1,18 @@
+{
+  "data": {
+    "attackTarget": {
+      "targetType": "hitPlayer"
+    },
+    "hurtDistance": 1,
+    "name": {
+      "value": "8387960f-cecb-4f16-9c5d-19eb45c09bfa"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "9992a991432dd5f1c343538177d0807d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

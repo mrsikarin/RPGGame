@@ -40,7 +40,7 @@
     "type": "Box"
   },
   "collision": true,
-  "damage": 0,
+  "damage": 150,
   "deathHideTime": 20,
   "destroyTime": 0,
   "disableShadow": true,
@@ -71,7 +71,7 @@
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
-  "maxHp": 150,
+  "maxHp": 300,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,
@@ -90,7 +90,7 @@
     {
       "__OBJ_TYPE": "AI_Skill",
       "attackDis": 2,
-      "fullName": "myplugin/feb3ba42-c47e-404c-9284-a6a6133e9b1d",
+      "fullName": "myplugin/c_monster-atk1-melee-onbuff01",
       "priority": 0
     }
   ],

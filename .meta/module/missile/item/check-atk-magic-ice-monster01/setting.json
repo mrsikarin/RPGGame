@@ -1,0 +1,30 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    "hitEntitySkill": "myplugin/monster-icefreeze-buff01",
+    "moveSpeed": 20,
+    "name": {
+      "value": "missile_check-atk-magic-ice-monster01"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Continuous_footman_weapon_effect.effect"
+      },
+      "yaw": -180
+    },
+    "target_type": "hitPlayer"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "7d9883f6ec538d2a0b8ce7fed6268e76",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

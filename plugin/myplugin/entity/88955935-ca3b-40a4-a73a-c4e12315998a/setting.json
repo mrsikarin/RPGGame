@@ -39,8 +39,8 @@
     },
     "type": "Box"
   },
-  "collision": false,
-  "damage": 0,
+  "collision": true,
+  "damage": 350,
   "deathHideTime": 20,
   "destroyTime": 0,
   "disableShadow": true,
@@ -71,7 +71,7 @@
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
-  "maxHp": 20,
+  "maxHp": 700,
   "maxVisualAngle": 360,
   "meetCliffBackRun": true,
   "moveAcc": 0.2,
@@ -90,7 +90,7 @@
     {
       "__OBJ_TYPE": "AI_Skill",
       "attackDis": 8,
-      "fullName": "myplugin/e219bb7d-e1dd-4ca5-9076-e3a95010cd0f",
+      "fullName": "myplugin/c_monster-atk1-magic-buff02",
       "priority": 0
     }
   ],

@@ -9,7 +9,7 @@
       "skillList": [
         {
           "attackDis": 2,
-          "fullName": "myplugin/887aad61-41e6-4975-b33a-9a482e5cf1ee"
+          "fullName": "myplugin/c_monster-atk1-melee-onbuff01"
         }
       ]
     },
@@ -33,12 +33,14 @@
       }
     },
     "collision": true,
+    "damage": 10,
     "enableAI": true,
     "girlactor": {
       "asset": "empty.actor"
     },
     "hideHp": false,
     "hpBarHeight": 0.1,
+    "maxHp": 50,
     "name": {
       "value": "entity_dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f"
     },
@@ -153,6 +155,47 @@
                 "y": 506
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/dead"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 20
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e97bbd43-cb45-44f2-9971-46196b3d6fca"
+              },
+              "pos": {
+                "x": 582,
+                "y": 779
+              }
             }
           ],
           "custom_trigger_data": {
@@ -171,6 +214,9 @@
                   },
                   {
                     "action": "ec9b440e-5752-4f17-90cf-d1e86a8b8e47"
+                  },
+                  {
+                    "action": "e97bbd43-cb45-44f2-9971-46196b3d6fca"
                   }
                 ]
               }
@@ -340,8 +386,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b20158c3a90eaf5c96b30d62a31f2436",
-      "triggers.bts": "fca5167fe699b544275458e9b93251bd"
+      "setting.json": "7df9a779f830ae654168f8ace9f16d63",
+      "triggers.bts": "2244d264b57954d9a68380b1a0433d02"
     },
     "VERSION": "0.21"
   }

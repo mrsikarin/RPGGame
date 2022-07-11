@@ -104,17 +104,6 @@
       },
       {
         "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8700338580358692865",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": -20.462108612061,
-          "y": 0.99990081787109,
-          "z": 24.476871490479
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
         "config": "myplugin/14eed005-5bf4-4c5f-9b76-3d0abaee83a1",
         "id": "8700338826912350209",
         "name": "Skeleton Knight Lv.15",
@@ -133,17 +122,6 @@
           "x": -18.762807846069,
           "y": 0.99990081787109,
           "z": -3.7356524467468
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/fa448aeb-1c98-4fc5-b36b-b6bd6a43aef5",
-        "id": "8700338914043330561",
-        "name": "Tengu Lv.25",
-        "position": {
-          "x": -18.431224822998,
-          "y": 0.99989986419678,
-          "z": -10.448322296143
         }
       },
       {
@@ -177,72 +155,6 @@
           "x": 5.6618857383728,
           "y": 0.99989986419678,
           "z": -23.237823486328
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/6e8c63e3-a7a8-4a32-a785-624d83bc34a1",
-        "id": "8704289356674564097",
-        "name": "Wall Lv.5",
-        "position": {
-          "x": -12.76868057251,
-          "y": 0.99989986419678,
-          "z": 17.688859939575
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/a220541d-37e7-417c-ba6e-021395d10e5a",
-        "id": "8704306329928089601",
-        "name": "Frog Lv.10",
-        "position": {
-          "x": -13.955755233765,
-          "y": 0.99989938735962,
-          "z": 10.946218490601
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8704409052642639873",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": -9.7906618118286,
-          "y": 0.99990081787109,
-          "z": 29.643718719482
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8704409058494775297",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": -16.909944534302,
-          "y": 0.99989986419678,
-          "z": 35.749488830566
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8704409065609232385",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": 1.6224975585938,
-          "y": 0.99989986419678,
-          "z": 36.494255065918
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
-        "id": "8705645872924819457",
-        "name": "Pig Lv.1",
-        "position": {
-          "x": 28.814441680908,
-          "y": 0.99989986419678,
-          "z": 21.054458618164
         }
       },
       {
@@ -285,6 +197,39 @@
           "y": 0.99989986419678,
           "z": 15.348997116089
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/fa448aeb-1c98-4fc5-b36b-b6bd6a43aef5",
+        "id": "8710280307637125121",
+        "name": "Tengu Lv.25",
+        "position": {
+          "x": 15.880981445312,
+          "y": 0.99989986419678,
+          "z": -1.971510887146
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/88955935-ca3b-40a4-a73a-c4e12315998a",
+        "id": "8710306762983604225",
+        "name": "Archer Lv.35",
+        "position": {
+          "x": -1.2765483856201,
+          "y": 0.99989891052246,
+          "z": 25.972484588623
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
+        "id": "8710315782415040513",
+        "name": "Pig Lv.1",
+        "position": {
+          "x": 7.2738389968872,
+          "y": 0.99989902973175,
+          "z": 9.2112007141113
+        }
       }
     ],
     "name": {
@@ -297,7 +242,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "3b6251700af630d4ab7c951e1d46d5e5"
+      "setting.json": "ef6e4adbbdda0d4481278a513f06ef60"
     },
     "VERSION": "0.21"
   }

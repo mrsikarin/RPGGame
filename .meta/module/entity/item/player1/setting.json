@@ -47,7 +47,7 @@
       "4"
     ],
     "isPlayer": true,
-    "maxHp": 100,
+    "maxHp": 10000,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
@@ -223,7 +223,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "744b34769c64c3e12a06c3f987360745",
+      "setting.json": "aa1914d793b585891b249c65f4e14df5",
       "triggers.bts": "ceeba61d2744960b1eae830d13f10110"
     },
     "VERSION": "0.21"

@@ -1,0 +1,18 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_death.effect"
+      }
+    },
+    "name": {
+      "value": "buff_dead"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "738a0b26090efee445a26171b54c3f89"
+    },
+    "VERSION": "0.21"
+  }
+}

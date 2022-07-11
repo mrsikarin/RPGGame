@@ -1,0 +1,38 @@
+{
+  "data": {
+    "castAction": "attack1",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_c_monster-atk1-magic-nobuff01"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/check-atk-magic-fire-monster01",
+            "startPos": {
+              "z": 1
+            },
+            "startWait": {
+              "value": 10
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f80d94620381a24ef84c13aa7f108cbb",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

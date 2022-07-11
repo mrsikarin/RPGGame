@@ -1,0 +1,64 @@
+{
+  "autoRotateColliderBox": true,
+  "collideEntity": 6,
+  "collider": {
+    "extent": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Box"
+  },
+  "followTarget": false,
+  "followTargetRotation": true,
+  "followTargetRotationOffset": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "gravity": 0.0,
+  "hitEntitySkill": "myplugin/monster-icefreeze-buff01",
+  "hitEntitysRoles": [
+    "hitAllTeam",
+    "hitPlayer",
+    "hitAllConfigEntity"
+  ],
+  "hitInterval": 10,
+  "isPitch": true,
+  "lifeTime": 100,
+  "lockRotateBodyPitch": 0,
+  "lockRotateBodyRoll": 0,
+  "lockRotateBodyYaw": 0,
+  "moveAcc": 0.0,
+  "moveSpeed": 1.0,
+  "rotateFree": true,
+  "rotateSpeed": 0.0,
+  "startEffect": {
+    "effect": "@asset/effect/Continuous_footman_weapon_effect.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": -180
+  },
+  "startWithMoveAcc": true,
+  "vanishShow": false,
+  "vanishTime": 10
+}

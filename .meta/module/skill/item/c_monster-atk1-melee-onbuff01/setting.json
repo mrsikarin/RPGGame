@@ -1,0 +1,36 @@
+{
+  "data": {
+    "castAction": "attack1",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_c_monster-atk1-melee-onbuff01"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/check-atk-monster01",
+            "startPos": {
+              "y": 1.5,
+              "z": 1.5
+            },
+            "startWait": {
+              "value": 10
+            }
+          }
+        ]
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e2aa990d1bfb69c10509bc7035e39cf2",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "data": {
+    "castAction": "attack1",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_c_monster-atk1-magic-buff02"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/check-atk-magic-ice-monster01",
+            "startWait": {
+              "value": 20
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "975e4739b091c88a6ebed6be66dc433d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

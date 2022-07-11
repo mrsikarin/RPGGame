@@ -1,0 +1,19 @@
+{
+  "data": {
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Continuous_frozen.effect"
+      }
+    },
+    "name": {
+      "value": "buff_monster-atk-freeze"
+    },
+    "undamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6fd3a819caa7273e4f4c7623cfef99c3"
+    },
+    "VERSION": "0.21"
+  }
+}

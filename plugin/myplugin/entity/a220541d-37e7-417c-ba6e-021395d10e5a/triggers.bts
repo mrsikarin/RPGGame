@@ -1,9 +1,0 @@
-ENTITY_DAMAGE {
-	SendToClient(
-		msg = "client_db0d8ecb_886e_4a3a_b055_d6f56bbc8fbf",
-		p_dmg = $damage,
-		p_pos = GetEntityPosition(entity = $obj1),
-		player = $obj2
-	)
-	AddEntityBuff(buffTime = 40, cfg = "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe", entity = $obj1)
-}

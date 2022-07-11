@@ -1,0 +1,29 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 1.5
+      }
+    },
+    "hitEntitySkill": "myplugin/player-dmg-magic-normal",
+    "moveSpeed": 20,
+    "name": {
+      "value": "missile_player-check-magic-normal"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Continuous_mario_ranged_attack.effect"
+      }
+    },
+    "target_type": "hitNpc"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f4da5e7b0d7f00ca5c08a63e87a5a47f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -39,7 +39,6 @@
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,
-  "modelMesh": "asset/Mesh/Red Talisman Treasure Box/g2030_baoxiang_yueka.mesh",
   "moveAcc": 0.0,
   "moveSpeed": 0.0,
   "rotateFree": true,

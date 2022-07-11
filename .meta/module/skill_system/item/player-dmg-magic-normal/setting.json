@@ -1,0 +1,40 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 4,
+        "y": 2,
+        "z": 4
+      }
+    },
+    "attackTarget": {
+      "targetType": "hitNpc"
+    },
+    "castAction": {
+      "castAction": "attack"
+    },
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Track_footman_attack.effect"
+      },
+      "pos": {
+        "y": 1,
+        "z": 1
+      },
+      "yaw": 90
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "name": {
+      "value": "75578ac4-e452-4939-ad50-ec52a2f15df4"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "be098969d5b4d346644bd639484fd95d",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

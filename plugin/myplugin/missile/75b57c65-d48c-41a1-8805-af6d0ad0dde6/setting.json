@@ -3,23 +3,23 @@
   "collideEntity": 6,
   "collider": {
     "extent": {
-      "x": 1,
-      "y": 1,
-      "z": 1
+      "x": 4,
+      "y": 2,
+      "z": 4
     },
     "offset": {
-      "x": 0,
-      "y": 0,
-      "z": 0
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
     },
     "rotation": {
-      "x": 0,
-      "y": 0,
-      "z": 0
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
     },
     "type": "Box"
   },
-  "followTarget": false,
+  "followTarget": true,
   "followTargetRotation": true,
   "followTargetRotationOffset": {
     "x": 0,
@@ -27,37 +27,22 @@
     "z": 0
   },
   "gravity": 0.0,
-  "hitEntitySkill": "myplugin/monster-icefreeze-buff01",
+  "hitEntitySkill": "myplugin/7fb8c809-f90c-46f3-a058-dcd70eb6100c",
   "hitEntitysRoles": [
     "hitAllTeam",
-    "hitPlayer",
+    "hitNpc",
     "hitAllConfigEntity"
   ],
-  "hitInterval": 10,
+  "hitInterval": 2,
   "isPitch": true,
-  "lifeTime": 100,
+  "lifeTime": 2,
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,
   "moveAcc": 0.0,
-  "moveSpeed": 1.0,
+  "moveSpeed": 2.0,
   "rotateFree": true,
   "rotateSpeed": 0.0,
-  "startEffect": {
-    "effect": "@asset/effect/Continuous_waterball_tail.effect",
-    "once": false,
-    "pos": {
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "scale": {
-      "x": 1,
-      "y": 1,
-      "z": 1
-    },
-    "yaw": 0
-  },
   "startWithMoveAcc": true,
   "vanishShow": false,
   "vanishTime": 10

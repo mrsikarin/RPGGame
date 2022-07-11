@@ -3,9 +3,9 @@
   "collideEntity": 6,
   "collider": {
     "extent": {
-      "x": 1,
-      "y": 1,
-      "z": 1
+      "x": 1.5,
+      "y": 1.5,
+      "z": 1.5
     },
     "offset": {
       "x": 0,
@@ -27,10 +27,10 @@
     "z": 0
   },
   "gravity": 0.0,
-  "hitEntitySkill": "myplugin/monster-icefreeze-buff01",
+  "hitEntitySkill": "myplugin/player-dmg-magic-normal",
   "hitEntitysRoles": [
     "hitAllTeam",
-    "hitPlayer",
+    "hitNpc",
     "hitAllConfigEntity"
   ],
   "hitInterval": 10,
@@ -44,7 +44,7 @@
   "rotateFree": true,
   "rotateSpeed": 0.0,
   "startEffect": {
-    "effect": "@asset/effect/Continuous_waterball_tail.effect",
+    "effect": "@asset/effect/Continuous_mario_ranged_attack.effect",
     "once": false,
     "pos": {
       "x": 0,

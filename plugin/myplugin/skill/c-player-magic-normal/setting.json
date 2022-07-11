@@ -20,12 +20,12 @@
   "area_number": 0,
   "backSwingTime": 0,
   "bodyPitchOffset": [
-    90
+    0
   ],
   "bodyYawOffset": [
     0
   ],
-  "castAction": "attack1",
+  "castAction": "attack2",
   "castActionTime": -1,
   "cdMaskConfig": {
     "AntiClockwise": false,
@@ -57,7 +57,7 @@
   "isShowCdPoint": false,
   "isTouch": false,
   "missileCfg": [
-    "myplugin/check-atk-magic-ice-monster01"
+    "myplugin/player-check-magic-normal"
   ],
   "missileCount": 1,
   "preSwingTime": 0,
@@ -72,16 +72,16 @@
     {
       "x": 0,
       "y": 1.6,
-      "z": 1
+      "z": 0
     }
   ],
   "startWait": [
-    24
+    10
   ],
   "startYaw": [
     0
   ],
   "sustainAction": "",
-  "targetType": "Self",
+  "targetType": "Any",
   "type": "Missile"
 }

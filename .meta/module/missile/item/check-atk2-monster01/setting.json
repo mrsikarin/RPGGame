@@ -14,12 +14,6 @@
     "lifeTime": {
       "value": 4
     },
-    "missileModel": {
-      "modelMesh": {
-        "asset": "asset/Mesh/Red Talisman Treasure Box/g2030_baoxiang_yueka.mesh"
-      },
-      "type": "mesh"
-    },
     "moveSpeed": 0,
     "name": {
       "value": "84618194-eedc-4c9d-8fe5-7e5461ab1ead"
@@ -28,7 +22,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "577b868733cf59c144d421a2f276b0f6",
+      "setting.json": "2cf768df1692860ca2305fe7ea5a7da9",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

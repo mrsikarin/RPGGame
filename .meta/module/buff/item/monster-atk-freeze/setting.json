@@ -7,12 +7,11 @@
     },
     "name": {
       "value": "buff_monster-atk-freeze"
-    },
-    "undamageable": true
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6fd3a819caa7273e4f4c7623cfef99c3"
+      "setting.json": "f92b157a67440e77ec64ec5ce55fccf9"
     },
     "VERSION": "0.21"
   }

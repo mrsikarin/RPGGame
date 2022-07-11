@@ -12,9 +12,13 @@
         "__OBJ_TYPE": "Skill_Missile",
         "missile": [
           {
+            "bodyPitchOffset": 90,
             "missileCfg": "myplugin/check-atk-magic-ice-monster01",
+            "startPos": {
+              "z": 1
+            },
             "startWait": {
-              "value": 20
+              "value": 24
             }
           }
         ],
@@ -27,7 +31,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "975e4739b091c88a6ebed6be66dc433d",
+      "setting.json": "2820b79c1ceaa7dac1af170d6e205eff",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

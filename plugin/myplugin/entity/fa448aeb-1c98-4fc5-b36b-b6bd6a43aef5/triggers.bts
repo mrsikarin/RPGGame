@@ -11,3 +11,6 @@ ENTITY_DAMAGE {
 ENTITY_ENTER {
 	ExecScript(script_name = "ScriptableNode_14")
 }
+
+ENTITY_DIE {
+}

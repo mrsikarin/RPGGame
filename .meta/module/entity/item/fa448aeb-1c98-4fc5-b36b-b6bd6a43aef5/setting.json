@@ -306,6 +306,28 @@
             }
           },
           "type": "Trigger_EntityEnter"
+        },
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "09b04152-1e81-42cd-865d-f7111c24e8fb"
+            },
+            "type": "Trigger_EntityDie"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "9f71debf-43dc-4a00-8c39-7d49314bdeb7"
+            }
+          },
+          "type": "Trigger_EntityDie"
         }
       ]
     }
@@ -313,7 +335,7 @@
   "meta": {
     "EXPORT": {
       "setting.json": "e5d7d81c3a59861f3781ec72cbb2a10f",
-      "triggers.bts": "5b8244cafb79ed3fb3c69a056e0cad33"
+      "triggers.bts": "362e1dfcbf32d9f6f9728c82fba53c21"
     },
     "VERSION": "0.21"
   }

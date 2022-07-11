@@ -1,0 +1,40 @@
+{
+  "data": {
+    "attackBound": {
+      "size": {
+        "x": 4,
+        "y": 2,
+        "z": 4
+      }
+    },
+    "attackTarget": {
+      "targetType": "hitNpc"
+    },
+    "castAction": {
+      "castAction": "attack"
+    },
+    "castEffect": {
+      "effect": {
+        "asset": "asset/effect/Track_footman_attack.effect"
+      },
+      "pos": {
+        "y": 1,
+        "z": 1
+      },
+      "yaw": 90
+    },
+    "cdTime": {
+      "value": 20
+    },
+    "name": {
+      "value": "skill_system_player-melee-normal"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "eae71b46f060c1eca295ba8e6debd804",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

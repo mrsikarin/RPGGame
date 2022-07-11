@@ -14,15 +14,14 @@
     },
     "startEffect": {
       "effect": {
-        "asset": "asset/effect/Continuous_footman_weapon_effect.effect"
-      },
-      "yaw": -180
+        "asset": "asset/effect/Continuous_waterball_tail.effect"
+      }
     },
     "target_type": "hitPlayer"
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "7d9883f6ec538d2a0b8ce7fed6268e76",
+      "setting.json": "e84b36afd060f0952934e32e35f8f049",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

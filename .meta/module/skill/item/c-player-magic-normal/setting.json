@@ -1,0 +1,32 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_c-player-magic-normal"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/player-check-magic-normal",
+            "startWait": {
+              "value": 10
+            }
+          }
+        ]
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "e9334cca6f4f50dff1174f7cfe0f9619",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

@@ -1,9 +1,9 @@
 PackageHandlers:Receive("meleeAttack",function(player, packet)
-    Skill.Cast("myplugin/".."c4028628-c045-46ff-bd93-6310bbc4ebb9",{}, player)
+    Skill.Cast("myplugin/".."player-melee-normal",{}, player)
 end)
 
 PackageHandlers:Receive("magicAttack",function(player, packet)
-    Skill.Cast("myplugin/".."c4028628-c045-46ff-bd93-6310bbc4ebb9",{}, player)
+    Skill.Cast("myplugin/".."c-player-magic-normal",{}, player)
 end)
 
 PackageHandlers:Receive("GetReward", function(player,packet)

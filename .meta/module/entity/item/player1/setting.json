@@ -55,7 +55,7 @@
       "value": 40
     },
     "skill": [
-      "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41",
+      "",
       "myplugin/d0a80792-daa8-4aff-92a7-0dc2e438a46b"
     ],
     "triggers": {
@@ -223,7 +223,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "aa1914d793b585891b249c65f4e14df5",
+      "setting.json": "5e6c3518e65d9f37a9b72e990a1845d0",
       "triggers.bts": "ceeba61d2744960b1eae830d13f10110"
     },
     "VERSION": "0.21"

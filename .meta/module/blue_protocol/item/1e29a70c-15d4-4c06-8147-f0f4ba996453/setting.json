@@ -1,0 +1,42 @@
+{
+  "data": {
+    "id": {
+      "value": "1e29a70c-15d4-4c06-8147-f0f4ba996453"
+    },
+    "name": "levelup",
+    "register_object": "game/0/triggers/list/1",
+    "save": true,
+    "triggers": {
+      "list": [
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "a7cc0c98-4517-4215-98cb-a0da821e3d17"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "serverMessage_1",
+          "proto_uuid": "1e29a70c-15d4-4c06-8147-f0f4ba996453",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence"
+              }
+            ],
+            "id": {
+              "value": "1ffcd504-89ba-4c0f-abe1-30b59b391908"
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0228c3b27d4b4925e602b04a752635da",
+      "triggers.bts": "93a44a67583f096e4954c10a260c0722"
+    },
+    "VERSION": "0.21"
+  }
+}

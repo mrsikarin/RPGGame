@@ -1,0 +1,3 @@
+server_1e29a70c_15d4_4c06_8147_f0f4ba996453 {
+	AddEntityBuff(buffTime = 40, cfg = "myplugin/99ddb495-8511-43cf-aea7-0d4815ddef78", entity = $player)
+}

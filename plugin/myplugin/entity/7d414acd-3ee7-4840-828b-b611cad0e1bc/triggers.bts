@@ -1,0 +1,4 @@
+ENTITY_ENTER {
+	AddEntityBuff(buffTime = 40, cfg = "myplugin/dead", entity = $obj1)
+	StartTimer2(interval = 0, time = 5, timer = "")
+}

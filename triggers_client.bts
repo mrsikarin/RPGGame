@@ -1,5 +1,7 @@
 client_1af48063_ecfd_4d3b_ad3a_279846af59f5 {
-	ExecScript(exp = $p_exp, player = $player, script_name = "ScriptableNode_12")
+	If (ExecScript(exp = $p_exp, player = $player, script_name = "ScriptableNode_12")) {
+		SendToServer(msg = "server_1e29a70c_15d4_4c06_8147_f0f4ba996453")
+	}
 }
 
 Client_Init_Finished {

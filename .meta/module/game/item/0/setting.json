@@ -14,10 +14,11 @@
     },
     "follow_viewFovAngle": 100,
     "initPos": {
-      "map": "town01",
+      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
       "pos": {
-        "y": 1.04,
-        "z": 14
+        "x": 3.1497168540955,
+        "y": 1.0399008178711,
+        "z": 12.417876243591
       }
     },
     "needSave": true,
@@ -301,12 +302,107 @@
     ],
     "showShop": true,
     "startPos": {
-      "map": "town01",
+      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
       "pos": {
-        "x": 0,
+        "x": 2.4164664745331,
         "y": 1.0399008178711,
-        "z": 14
+        "z": 13.743487358093
       }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_AddEntityBuff",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "62bce228-66f2-4802-a22a-268be1fa581e"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_BuffEntry",
+                        "rawval": "myplugin/99ddb495-8511-43cf-aea7-0d4815ddef78"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Time",
+                        "rawval": {
+                          "value": 40
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "0261d68d-0d4b-44fd-b203-66bf52545966"
+              },
+              "pos": {
+                "x": 447,
+                "y": 212
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "player"
+                }
+              ],
+              "id": {
+                "value": "62bce228-66f2-4802-a22a-268be1fa581e"
+              },
+              "pos": {
+                "x": 900,
+                "y": 103
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "7603a3ae-e009-46a5-97b6-21db92d7b35e"
+            },
+            "type": "Trigger_RegisterServerProto"
+          },
+          "func_name": "levelup",
+          "proto_uuid": "1e29a70c-15d4-4c06-8147-f0f4ba996453",
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "0261d68d-0d4b-44fd-b203-66bf52545966"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "82c0a527-7966-4941-af84-38dcf4441d31"
+            },
+            "pos": {
+              "x": 35,
+              "y": 114
+            }
+          },
+          "type": "Trigger_RegisterServerProto"
+        }
+      ]
     },
     "triggers_client": {
       "list": [
@@ -334,8 +430,8 @@
                 "value": "2dae06e1-4d82-4728-8478-2c0fae9f4a83"
               },
               "pos": {
-                "x": 824.38357061206,
-                "y": 408.7711065898
+                "x": 877.38357061206,
+                "y": 323.7711065898
               }
             },
             {
@@ -350,8 +446,8 @@
                 "value": "1823c80b-82dd-4ede-a454-85310dd83046"
               },
               "pos": {
-                "x": 1272.4924824386,
-                "y": 345.48855033949
+                "x": 1322.4924824386,
+                "y": 300.48855033949
               },
               "proto_id": "1af48063-ecfd-4d3b-ad3a-279846af59f5",
               "type": "T_Int"
@@ -372,6 +468,75 @@
                 "y": 526.78452229983
               },
               "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_If",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Condition",
+                  "children": [
+                    {
+                      "action": "e61be9de-641d-4dd7-9e6e-a993976da9ae"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "7b2bb852-dfda-4764-a596-4e45601bddd0"
+              },
+              "pos": {
+                "x": 572,
+                "y": 614
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_IfBranch",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Bool",
+                        "action": "2dae06e1-4d82-4728-8478-2c0fae9f4a83"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "__OBJ_TYPE": "Component_Sequence",
+                  "children": [
+                    {
+                      "action": "b79aab8c-4fad-4792-b722-3284ce549b9d"
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e61be9de-641d-4dd7-9e6e-a993976da9ae"
+              },
+              "pos": {
+                "x": 816,
+                "y": 592
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_Protocol_SendToServer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Proto_Params",
+                  "proto_id": "1e29a70c-15d4-4c06-8147-f0f4ba996453",
+                  "proto_name": "levelup",
+                  "proto_type": "server"
+                }
+              ],
+              "id": {
+                "value": "b79aab8c-4fad-4792-b722-3284ce549b9d"
+              },
+              "pos": {
+                "x": 1038,
+                "y": 693
+              }
             }
           ],
           "custom_trigger_data": {
@@ -388,7 +553,7 @@
                 "__OBJ_TYPE": "Component_Sequence",
                 "children": [
                   {
-                    "action": "2dae06e1-4d82-4728-8478-2c0fae9f4a83"
+                    "action": "7b2bb852-dfda-4764-a596-4e45601bddd0"
                   }
                 ]
               }
@@ -833,10 +998,10 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "add538a0c178ae307d63a0b01b74c9a3",
+      "setting.json": "cf1743f788d24a0a60e5c7761da9af31",
       "shop.csv": "e54acdb1e302f0b4354e331f7b6aaa75",
-      "triggers.bts": "",
-      "triggers_client.bts": "16bce7374ee8f3fc4d007cf1e28caac4"
+      "triggers.bts": "40bfc8c773604772cc567548fc390cdf",
+      "triggers_client.bts": "312e3a7e01c7b7e5f3cde366180e05a2"
     },
     "VERSION": "0.21"
   }

@@ -7,3 +7,7 @@ ENTITY_DAMAGE {
 	)
 	AddEntityBuff(buffTime = 40, cfg = "myplugin/73d3a388-eb24-4f94-b1f2-d24aea20a2fe", entity = $obj1)
 }
+
+ENTITY_DIE {
+	SendToClient(msg = "client_1af48063_ecfd_4d3b_ad3a_279846af59f5", p_exp = 800, player = $obj2)
+}

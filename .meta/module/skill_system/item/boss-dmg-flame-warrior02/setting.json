@@ -1,0 +1,15 @@
+{
+  "data": {
+    "hurtDistance": 1,
+    "name": {
+      "value": "skill_system_boss-dmg-flame-warrior02"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2afd6c8d835d2ecfe8ac2e85b0d85455",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

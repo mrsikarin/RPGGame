@@ -15,7 +15,15 @@
         "id": "8711229487538618369",
         "ID": 3,
         "lightType": "GlobalLight",
-        "name": "EnvironmentLight"
+        "name": "EnvironmentLight",
+        "skyColor": {
+          "b": 140,
+          "g": 132
+        },
+        "skyLineColor": {
+          "g": 59,
+          "r": 62
+        }
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -23,11 +31,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711237361662394369",
-        "massCenter": {
-          "x": 31.995941162109,
-          "y": 4.3360910415649,
-          "z": 54.448257446289
-        },
         "mesh": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
@@ -57,11 +60,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711237510454722561",
-        "massCenter": {
-          "x": -18.698204040527,
-          "y": 2.6862668991089,
-          "z": -34.116893768311
-        },
         "mesh": "asset/Mesh/Brown Ring Fence/g2044_1020_railing01.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Ring Fence/g2044_1020_railing01.mesh",
@@ -91,11 +89,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711237829067849729",
-        "massCenter": {
-          "x": -53.513866424561,
-          "y": 10.850135803223,
-          "z": 54.02530670166
-        },
         "mesh": "asset/Mesh/Brown Spire/g2044_5060_house08.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Spire/g2044_5060_house08.mesh",
@@ -122,9 +115,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711237939163152385",
-        "massCenter": {
-          "y": 8.2623519897461
-        },
         "mesh": "asset/Mesh/Brown Warrior Statue/g2044_5060_statue01.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Brown Warrior Statue/g2044_5060_statue01.mesh",
@@ -149,11 +139,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711238115316940801",
-        "massCenter": {
-          "x": 49.775337219238,
-          "y": 7.6407203674316,
-          "z": 14.478656768799
-        },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
@@ -183,11 +168,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711238264145281025",
-        "massCenter": {
-          "x": 49.455097198486,
-          "y": 8,
-          "z": -49.671249389648
-        },
         "mesh": "asset/Mesh/Four-Story Old Building/g2044_7080_house03.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Four-Story Old Building/g2044_7080_house03.mesh",
@@ -217,11 +197,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711238364403286017",
-        "massCenter": {
-          "x": 13.245945930481,
-          "y": 6.3053979873657,
-          "z": 51.820217132568
-        },
         "mesh": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
@@ -248,11 +223,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711238729264005121",
-        "massCenter": {
-          "x": -50.978092193604,
-          "y": 3.6293666362762,
-          "z": 69.409164428711
-        },
         "mesh": "asset/Mesh/Old Connected House/g2044_5060_house09.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Old Connected House/g2044_5060_house09.mesh",
@@ -281,11 +251,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711238922202398721",
-        "massCenter": {
-          "x": 53.526195526123,
-          "y": 4.3560876846313,
-          "z": 30.487682342529
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -315,11 +280,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711239246865563649",
-        "massCenter": {
-          "x": -54.25993347168,
-          "y": 4.5755152702332,
-          "z": 11.486450195312
-        },
         "mesh": "asset/Mesh/Staircase Double Storey Vintage House/g2044_5060_house12.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Staircase Double Storey Vintage House/g2044_5060_house12.mesh",
@@ -349,11 +309,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711239360064569345",
-        "massCenter": {
-          "x": -34.693290710449,
-          "y": 20,
-          "z": -41.727249145508
-        },
         "mesh": "asset/Mesh/Steeple Old Cathedral/g2044_7080_house04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Steeple Old Cathedral/g2044_7080_house04.mesh",
@@ -383,11 +338,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711239550214717441",
-        "massCenter": {
-          "x": 47.7177734375,
-          "y": 4.1892981529236,
-          "z": 47.894508361816
-        },
         "mesh": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
@@ -414,11 +364,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711239660405374977",
-        "massCenter": {
-          "x": 32.594543457031,
-          "y": 7.9019994735718,
-          "z": -50.904525756836
-        },
         "mesh": "asset/Mesh/Three-Story Old Building/g2044_7080_house05.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three-Story Old Building/g2044_7080_house05.mesh",
@@ -448,11 +393,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711239803003518977",
-        "massCenter": {
-          "x": 15.150575637817,
-          "y": 9.5,
-          "z": -48.616535186768
-        },
         "mesh": "asset/Mesh/Yellow Four-Story Old-Fashioned Building/g2044_7080_house09.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Yellow Four-Story Old-Fashioned Building/g2044_7080_house09.mesh",
@@ -482,11 +422,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176759144449",
-            "massCenter": {
-              "x": 21.385528564453,
-              "y": 9,
-              "z": -70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -516,11 +451,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176762601473",
-            "massCenter": {
-              "x": 74.885498046875,
-              "y": 9,
-              "z": -70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -550,11 +480,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176765747201",
-            "massCenter": {
-              "x": 53.485496520996,
-              "y": 9,
-              "z": -70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -584,11 +509,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176768925697",
-            "massCenter": {
-              "x": -64.185523986816,
-              "y": 9,
-              "z": -69.999992370605
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -618,11 +538,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176771989505",
-            "massCenter": {
-              "x": 10.685518264771,
-              "y": 9,
-              "z": -70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -652,11 +567,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176776052737",
-            "massCenter": {
-              "x": -53.485458374023,
-              "y": 9,
-              "z": -69.999992370605
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -686,11 +596,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176779264001",
-            "massCenter": {
-              "x": -74.885513305664,
-              "y": 9,
-              "z": -69.999992370605
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -720,11 +625,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176782360577",
-            "massCenter": {
-              "x": 42.785514831543,
-              "y": 9,
-              "z": -70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -754,11 +654,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176785457153",
-            "massCenter": {
-              "x": 64.185485839844,
-              "y": 9,
-              "z": -70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -788,11 +683,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176788602881",
-            "massCenter": {
-              "x": -10.685487747192,
-              "y": 9,
-              "z": -70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -822,11 +712,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176791764993",
-            "massCenter": {
-              "x": -42.785469055176,
-              "y": 9,
-              "z": -69.999992370605
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -856,11 +741,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176794910721",
-            "massCenter": {
-              "x": -21.3854637146,
-              "y": 9,
-              "z": -70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -890,11 +770,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176798040065",
-            "massCenter": {
-              "x": -32.085472106934,
-              "y": 9,
-              "z": -69.999992370605
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -924,11 +799,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711260176801153025",
-            "massCenter": {
-              "x": 32.085510253906,
-              "y": 9,
-              "z": -70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -960,8 +830,7 @@
         },
         "rotation": {
           "y": 90
-        },
-        "useAnchor": true
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -972,11 +841,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975141326849",
-            "massCenter": {
-              "x": 21.385528564453,
-              "y": 9,
-              "z": 70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1006,11 +870,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975144341505",
-            "massCenter": {
-              "x": 74.885498046875,
-              "y": 9,
-              "z": 70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1040,11 +899,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975147126785",
-            "massCenter": {
-              "x": 53.485496520996,
-              "y": 9,
-              "z": 70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1074,11 +928,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975149977601",
-            "massCenter": {
-              "x": -64.185523986816,
-              "y": 9,
-              "z": 70.000015258789
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1108,11 +957,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975152762881",
-            "massCenter": {
-              "x": 10.685518264771,
-              "y": 9,
-              "z": 70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1142,11 +986,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975155548161",
-            "massCenter": {
-              "x": -53.485458374023,
-              "y": 9,
-              "z": 70.000015258789
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1176,11 +1015,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975158349825",
-            "massCenter": {
-              "x": -74.885513305664,
-              "y": 9,
-              "z": 70.000015258789
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1210,11 +1044,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975161135105",
-            "massCenter": {
-              "x": 42.785514831543,
-              "y": 9,
-              "z": 70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1244,11 +1073,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975163920385",
-            "massCenter": {
-              "x": 64.185485839844,
-              "y": 9,
-              "z": 70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1278,11 +1102,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975166722049",
-            "massCenter": {
-              "x": -10.685487747192,
-              "y": 9,
-              "z": 70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1312,11 +1131,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975169490945",
-            "massCenter": {
-              "x": -42.785469055176,
-              "y": 9,
-              "z": 70.000015258789
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1346,11 +1160,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975172292609",
-            "massCenter": {
-              "x": -21.3854637146,
-              "y": 9,
-              "z": 70.000007629395
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1380,11 +1189,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975175569409",
-            "massCenter": {
-              "x": -32.085472106934,
-              "y": 9,
-              "z": 70.000015258789
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1414,11 +1218,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711263975178371073",
-            "massCenter": {
-              "x": 32.085510253906,
-              "y": 9,
-              "z": 70
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1450,8 +1249,7 @@
         },
         "rotation": {
           "y": 90
-        },
-        "useAnchor": true
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -1462,11 +1260,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076880560129",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": 21.385528564453
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1493,11 +1286,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076888621057",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": 74.88549041748
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1524,11 +1312,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076896223233",
-            "massCenter": {
-              "x": 70,
-              "y": 9,
-              "z": 53.485488891602
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1555,11 +1338,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076903481345",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": -64.185516357422
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1586,11 +1364,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076910510081",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": 10.685516357422
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1617,11 +1390,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076917800961",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": -53.485450744629
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1648,11 +1416,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076924747777",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": -74.88550567627
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1679,11 +1442,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076931973121",
-            "massCenter": {
-              "x": 70,
-              "y": 9,
-              "z": 42.785507202148
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1710,11 +1468,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076938756097",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": 64.185478210449
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1741,11 +1494,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076945833985",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": -10.685485839844
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1772,11 +1520,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076952502273",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": -42.785465240479
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1803,11 +1546,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076959531009",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": -21.3854637146
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1834,11 +1572,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076967002113",
-            "massCenter": {
-              "x": 69.999992370605,
-              "y": 9,
-              "z": -32.085468292236
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1865,11 +1598,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264076973932545",
-            "massCenter": {
-              "x": 70,
-              "y": 9,
-              "z": 32.085502624512
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1895,8 +1623,7 @@
         "position": {
           "x": 70,
           "y": 9
-        },
-        "useAnchor": true
+        }
       },
       {
         "__OBJ_TYPE": "Instance_Model",
@@ -1907,11 +1634,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392825847809",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": 21.385528564453
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1938,11 +1660,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392828665857",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": 74.88549041748
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -1969,11 +1686,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392831303681",
-            "massCenter": {
-              "x": -70.000007629395,
-              "y": 9,
-              "z": 53.485488891602
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2000,11 +1712,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392834056193",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": -64.185516357422
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2031,11 +1738,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392836972545",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": 10.685516357422
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2062,11 +1764,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392839741441",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": -53.485450744629
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2093,11 +1790,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392842477569",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": -74.88550567627
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2124,11 +1816,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392845099009",
-            "massCenter": {
-              "x": -70.000007629395,
-              "y": 9,
-              "z": 42.785507202148
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2155,11 +1842,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392847933441",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": 64.185478210449
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2186,11 +1868,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392850718721",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": -10.685485839844
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2217,11 +1894,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392854241281",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": -42.785465240479
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2248,11 +1920,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392857092097",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": -21.3854637146
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2279,11 +1946,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392861712385",
-            "massCenter": {
-              "x": -70.000015258789,
-              "y": 9,
-              "z": -32.085468292236
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2310,11 +1972,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711264392866119681",
-            "massCenter": {
-              "x": -70.000007629395,
-              "y": 9,
-              "z": 32.085502624512
-            },
             "mesh": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Two Pointed Square Stone Walls/g2044_1020_gate02.mesh",
@@ -2340,8 +1997,7 @@
         "position": {
           "x": -70,
           "y": 9
-        },
-        "useAnchor": true
+        }
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -2349,11 +2005,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711277996589268993",
-        "massCenter": {
-          "x": -52.527618408203,
-          "y": 7.6407203674316,
-          "z": 25.679679870605
-        },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
@@ -2383,11 +2034,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711279545280626689",
-        "massCenter": {
-          "x": -51.83606338501,
-          "y": 6.3053979873657,
-          "z": 41.162227630615
-        },
         "mesh": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
@@ -2417,11 +2063,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711281157034049537",
-        "massCenter": {
-          "x": -16.222230911255,
-          "y": 4.1892981529236,
-          "z": 47.894508361816
-        },
         "mesh": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
@@ -2448,11 +2089,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711281332966735873",
-        "massCenter": {
-          "x": -32.893756866455,
-          "y": 4.3560876846313,
-          "z": 54.417652130127
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -2482,11 +2118,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711281873588846593",
-        "massCenter": {
-          "x": -32.893756866455,
-          "y": 4.3560876846313,
-          "z": 44.358657836914
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -2516,11 +2147,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711282259895713793",
-        "massCenter": {
-          "x": -32.893756866455,
-          "y": 4.3560876846313,
-          "z": 38.110656738281
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -2550,11 +2176,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711283249233346561",
-        "massCenter": {
-          "x": 49.775337219238,
-          "y": 7.6407203674316,
-          "z": -31.401329040527
-        },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
@@ -2584,11 +2205,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711284241857396737",
-        "massCenter": {
-          "x": 50.485549926758,
-          "y": 7.9019994735718,
-          "z": -13.915521621704
-        },
         "mesh": "asset/Mesh/Three-Story Old Building/g2044_7080_house05.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three-Story Old Building/g2044_7080_house05.mesh",
@@ -2615,11 +2231,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711286094089240577",
-        "massCenter": {
-          "x": -17.036228179932,
-          "y": 4.1892981529236,
-          "z": 26.807508468628
-        },
         "mesh": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
@@ -2649,11 +2260,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711287228146368513",
-        "massCenter": {
-          "x": -29.247064590454,
-          "y": 4.3360910415649,
-          "z": 23.92324256897
-        },
         "mesh": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
@@ -2680,11 +2286,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711288099561324545",
-        "massCenter": {
-          "x": -37.766059875488,
-          "y": 4.3360910415649,
-          "z": 23.92324256897
-        },
         "mesh": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
@@ -2714,11 +2315,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711289267668041729",
-        "massCenter": {
-          "x": 38.375221252441,
-          "y": 4.3560876846313,
-          "z": 14.426671981812
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -2745,11 +2341,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711291833263423489",
-        "massCenter": {
-          "x": -36.157066345215,
-          "y": 6.3053979873657,
-          "z": 11.960243225098
-        },
         "mesh": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
@@ -2779,11 +2370,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711293131883429889",
-        "massCenter": {
-          "x": 12.611343383789,
-          "y": 7.6407203674316,
-          "z": 31.993644714355
-        },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
@@ -2813,11 +2399,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711295404531695617",
-        "massCenter": {
-          "x": 16.196382522583,
-          "y": 7.6407203674316,
-          "z": -29.43533706665
-        },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
@@ -2844,11 +2425,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711296803040034817",
-        "massCenter": {
-          "x": 31.787895202637,
-          "y": 6.3053979873657,
-          "z": -30.36071395874
-        },
         "mesh": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
@@ -2878,11 +2454,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711297254838042625",
-        "massCenter": {
-          "x": 38.375221252441,
-          "y": 4.3560876846313,
-          "z": -16.669328689575
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -2909,11 +2480,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711297332426014721",
-        "massCenter": {
-          "x": 26.475219726562,
-          "y": 4.3560876846313,
-          "z": -17.763326644897
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -2943,11 +2509,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711297865110061057",
-        "massCenter": {
-          "x": 14.098947525024,
-          "y": 4.3360910415649,
-          "z": -18.120748519897
-        },
         "mesh": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
@@ -2977,11 +2538,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711298922874748929",
-        "massCenter": {
-          "x": 32.40576171875,
-          "y": 4.1892991065979,
-          "z": 34.550510406494
-        },
         "mesh": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Tan Old-Fashioned Houses/g2044_1020_homegroup06.mesh",
@@ -3008,11 +2564,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711299865121570817",
-        "massCenter": {
-          "x": 26.137943267822,
-          "y": 4.1770911216736,
-          "z": 27.560266494751
-        },
         "mesh": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Big Tan Old-Fashioned House/g2044_1020_homegroup02.mesh",
@@ -3042,11 +2593,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711300436894171137",
-        "massCenter": {
-          "x": 30.008232116699,
-          "y": 4.3560876846313,
-          "z": 14.426671981812
-        },
         "mesh": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/One Big And One Small Old-Fashioned House/g2044_1020_homegroup04.mesh",
@@ -3076,11 +2622,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711301095727972353",
-        "massCenter": {
-          "x": -51.836071014404,
-          "y": 6.3053979873657,
-          "z": -12.177761077881
-        },
         "mesh": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Fresco Vintage House/g2044_7080_house07.mesh",
@@ -3110,11 +2651,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711301238353936385",
-        "massCenter": {
-          "x": -54.25993347168,
-          "y": 4.5755152702332,
-          "z": -24.385540008545
-        },
         "mesh": "asset/Mesh/Staircase Double Storey Vintage House/g2044_5060_house12.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Staircase Double Storey Vintage House/g2044_5060_house12.mesh",
@@ -3144,11 +2680,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711306498812559361",
-        "massCenter": {
-          "x": -23.716606140137,
-          "y": 7.4474172592163,
-          "z": 11.692708969116
-        },
         "mesh": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
@@ -3175,11 +2706,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711307378653872129",
-        "massCenter": {
-          "x": -7.0939273834229,
-          "y": 6.7228856086731,
-          "z": -7.6865272521973
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -3206,11 +2732,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711307558487080961",
-        "massCenter": {
-          "x": -42.275535583496,
-          "y": 7.3737363815308,
-          "z": -19.524703979492
-        },
         "mesh": "asset/Mesh/Separated Spherical Canopy Tree and Spindle Canopy Tree/g2038_tree_09.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Separated Spherical Canopy Tree and Spindle Canopy Tree/g2038_tree_09.mesh",
@@ -3237,11 +2758,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711308635912241153",
-        "massCenter": {
-          "x": -21.316780090332,
-          "y": 6.7131586074829,
-          "z": -21.23949432373
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Tree/g2038_tree_03.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Tree/g2038_tree_03.mesh",
@@ -3268,11 +2784,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711309726353244161",
-        "massCenter": {
-          "x": -89.25032043457,
-          "y": 7.489447593689,
-          "z": 15.448335647583
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3302,11 +2813,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310000845881345",
-        "massCenter": {
-          "x": -89.25032043457,
-          "y": 7.489447593689,
-          "z": 51.176338195801
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3336,11 +2842,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310000850321409",
-        "massCenter": {
-          "x": -89.25032043457,
-          "y": 7.489447593689,
-          "z": 34.538333892822
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3367,11 +2868,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310081661321217",
-        "massCenter": {
-          "x": -90.736328125,
-          "y": 7.489447593689,
-          "z": 70.978302001953
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3398,11 +2894,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310595935928321",
-        "massCenter": {
-          "x": -78.834312438965,
-          "y": 7.489447593689,
-          "z": -93.23461151123
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3432,11 +2923,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310595940384769",
-        "massCenter": {
-          "x": -90.736328125,
-          "y": 7.489447593689,
-          "z": -21.066638946533
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3466,11 +2952,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310595944415233",
-        "massCenter": {
-          "x": -90.736328125,
-          "y": 7.489447593689,
-          "z": -37.704662322998
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3497,11 +2978,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310595948494849",
-        "massCenter": {
-          "x": -89.25032043457,
-          "y": 7.489447593689,
-          "z": -0.65762329101562
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3528,11 +3004,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310595952541697",
-        "massCenter": {
-          "x": -89.25032043457,
-          "y": 7.489447593689,
-          "z": -74.144622802734
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3559,11 +3030,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711310595956047873",
-        "massCenter": {
-          "x": -89.25032043457,
-          "y": 7.489447593689,
-          "z": -57.506614685059
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3593,11 +3059,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711311698159271937",
-        "massCenter": {
-          "x": -58.624160766602,
-          "y": 6.4307594299316,
-          "z": -95.798713684082
-        },
         "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -3627,11 +3088,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711311936588300289",
-        "massCenter": {
-          "x": -37.05432510376,
-          "y": 7.489447593689,
-          "z": -93.23461151123
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3661,11 +3117,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711311936591462401",
-        "massCenter": {
-          "x": -16.844171524048,
-          "y": 7.1297597885132,
-          "z": -95.798713684082
-        },
         "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -3695,11 +3146,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711312167844478977",
-        "massCenter": {
-          "x": 1.3896636962891,
-          "y": 7.489447593689,
-          "z": -93.23461151123
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3729,11 +3175,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711312167847428097",
-        "massCenter": {
-          "x": 43.169658660889,
-          "y": 7.489447593689,
-          "z": -93.23461151123
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3763,11 +3204,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711312167850082305",
-        "massCenter": {
-          "x": 63.379806518555,
-          "y": 7.5967612266541,
-          "z": -95.798713684082
-        },
         "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -3797,11 +3233,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711312167852703745",
-        "massCenter": {
-          "x": 21.59981918335,
-          "y": 7.4907608032227,
-          "z": -95.798713684082
-        },
         "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -3831,11 +3262,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711313257229631489",
-        "massCenter": {
-          "x": 78.508773803711,
-          "y": 7.5967612266541,
-          "z": -92.675720214844
-        },
         "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -3865,11 +3291,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514729431041",
-        "massCenter": {
-          "x": 92.915588378906,
-          "y": 7.489447593689,
-          "z": -74.144584655762
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3896,11 +3317,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514739015681",
-        "massCenter": {
-          "x": 92.915588378906,
-          "y": 7.489447593689,
-          "z": 34.538379669189
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3927,11 +3343,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514743128065",
-        "massCenter": {
-          "x": 92.915588378906,
-          "y": 7.489447593689,
-          "z": 51.176383972168
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3961,11 +3372,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514747092993",
-        "massCenter": {
-          "x": 91.429580688477,
-          "y": 7.489447593689,
-          "z": 70.978340148926
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -3992,11 +3398,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514751123457",
-        "massCenter": {
-          "x": 92.915588378906,
-          "y": 7.489447593689,
-          "z": -0.6575665473938
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -4023,11 +3424,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514758496257",
-        "massCenter": {
-          "x": 92.915588378906,
-          "y": 7.489447593689,
-          "z": -57.506568908691
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -4057,11 +3453,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514762362881",
-        "massCenter": {
-          "x": 92.915588378906,
-          "y": 7.489447593689,
-          "z": 15.448390007019
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -4091,11 +3482,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514769473537",
-        "massCenter": {
-          "x": 91.429580688477,
-          "y": 7.489447593689,
-          "z": -37.704616546631
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -4122,11 +3508,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711315514772946945",
-        "massCenter": {
-          "x": 91.429580688477,
-          "y": 7.489447593689,
-          "z": -21.066589355469
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -4156,11 +3537,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711316644494295041",
-        "massCenter": {
-          "x": 22.509399414062,
-          "y": 7.4474172592163,
-          "z": -11.622291564941
-        },
         "mesh": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
@@ -4187,11 +3563,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711317048420155393",
-        "massCenter": {
-          "x": -45.625598907471,
-          "y": 7.4474172592163,
-          "z": 53.358703613281
-        },
         "mesh": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
@@ -4218,11 +3589,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711317619308855297",
-        "massCenter": {
-          "x": -24.388774871826,
-          "y": 6.7131586074829,
-          "z": -14.968489646912
-        },
         "mesh": "asset/Mesh/Three Spherical Canopy Tree/g2038_tree_03.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Three Spherical Canopy Tree/g2038_tree_03.mesh",
@@ -4249,11 +3615,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711317794761179137",
-        "massCenter": {
-          "x": -7.0939273834229,
-          "y": 6.7228856086731,
-          "z": -37.125526428223
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4280,11 +3641,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711317866222354433",
-        "massCenter": {
-          "x": -7.0939273834229,
-          "y": 6.7228856086731,
-          "z": -28.77752494812
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4311,11 +3667,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711318003741147137",
-        "massCenter": {
-          "x": -18.077541351318,
-          "y": 7.3737363815308,
-          "z": -47.977699279785
-        },
         "mesh": "asset/Mesh/Separated Spherical Canopy Tree and Spindle Canopy Tree/g2038_tree_09.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Separated Spherical Canopy Tree and Spindle Canopy Tree/g2038_tree_09.mesh",
@@ -4342,11 +3693,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711318597390729217",
-        "massCenter": {
-          "x": -7.5256013870239,
-          "y": 7.4474172592163,
-          "z": -50.948299407959
-        },
         "mesh": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
@@ -4373,11 +3719,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711319003125219329",
-        "massCenter": {
-          "x": 24.53239440918,
-          "y": 7.4474172592163,
-          "z": 10.740705490112
-        },
         "mesh": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
@@ -4407,11 +3748,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711319439120269313",
-        "massCenter": {
-          "x": 9.5380725860596,
-          "y": 6.7228856086731,
-          "z": 43.042461395264
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4438,11 +3774,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711320006289113089",
-        "massCenter": {
-          "x": 23.397068023682,
-          "y": 6.7228856086731,
-          "z": 53.018459320068
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4469,11 +3800,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711320316776153089",
-        "massCenter": {
-          "x": 20.107387542725,
-          "y": 7.4474172592163,
-          "z": 43.510692596436
-        },
         "mesh": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Double Spherical Canopy Tree/g2038_tree_06.mesh",
@@ -4503,11 +3829,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711320788568113153",
-        "massCenter": {
-          "x": -18.226928710938,
-          "y": 6.7228856086731,
-          "z": 15.447473526001
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4534,11 +3855,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711321177797328897",
-        "massCenter": {
-          "x": 23.495073318481,
-          "y": 6.7228856086731,
-          "z": -7.6865272521973
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4565,11 +3881,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711321458615713793",
-        "massCenter": {
-          "x": 34.827068328857,
-          "y": 6.7228856086731,
-          "z": -7.6865272521973
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4596,11 +3907,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711321687678976001",
-        "massCenter": {
-          "x": -14.862928390503,
-          "y": 6.7228856086731,
-          "z": 31.180473327637
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4627,11 +3933,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711322182330777601",
-        "massCenter": {
-          "x": 48.714073181152,
-          "y": 6.7228856086731,
-          "z": 28.986471176147
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4658,11 +3959,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711323494959759361",
-        "massCenter": {
-          "x": -42.275535583496,
-          "y": 7.3737363815308,
-          "z": -19.524703979492
-        },
         "mesh": "asset/Mesh/Separated Spherical Canopy Tree and Spindle Canopy Tree/g2038_tree_09.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Separated Spherical Canopy Tree and Spindle Canopy Tree/g2038_tree_09.mesh",
@@ -4689,11 +3985,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711324048429416449",
-        "massCenter": {
-          "x": 5.6730718612671,
-          "y": 6.7228856086731,
-          "z": -17.428527832031
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4728,11 +4019,6 @@
               "x": -7.6573128700256,
               "y": 5.0322432518005,
               "z": 11.883898735046
-            },
-            "size": {
-              "x": 0.79999989271164,
-              "y": 1.272897362709,
-              "z": 0.79999989271164
             }
           }
         ],
@@ -4740,11 +4026,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711325007996878849",
-        "massCenter": {
-          "x": -7.6572923660278,
-          "y": 2.8322463035583,
-          "z": 11.883898735046
-        },
         "mesh": "asset/Mesh/Wooden Notice Board/g2021_xinshoucun_zhaopai.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Wooden Notice Board/g2021_xinshoucun_zhaopai.mesh",
@@ -4771,11 +4052,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711326706274549761",
-        "massCenter": {
-          "x": 10.298084259033,
-          "y": 3.4628977775574,
-          "z": 21.256568908691
-        },
         "mesh": "asset/Mesh/White And Red Shed Stall/g2021_xinshoucun_guotan_03.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/White And Red Shed Stall/g2021_xinshoucun_guotan_03.mesh",
@@ -4802,11 +4078,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711327931026489345",
-        "massCenter": {
-          "x": 14.343412399292,
-          "y": 3.0224721431732,
-          "z": 21.131422042847
-        },
         "mesh": "asset/Mesh/Woodenwith Covered Stall/g2021_xinshoucun_guotan_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Woodenwith Covered Stall/g2021_xinshoucun_guotan_02.mesh",
@@ -4833,11 +4104,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711328470817570817",
-        "massCenter": {
-          "x": 25.84407043457,
-          "y": 6.7228856086731,
-          "z": 22.585470199585
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4864,11 +4130,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711328790610673665",
-        "massCenter": {
-          "x": 28.764072418213,
-          "y": 6.7228856086731,
-          "z": 32.495468139648
-        },
         "mesh": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Oval Canopy Tree/g2038_tree_02.mesh",
@@ -4895,11 +4156,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711331260379348993",
-        "massCenter": {
-          "x": 7.6109795570374,
-          "y": 2.4514586925507,
-          "z": 12.728531837463
-        },
         "mesh": "asset/Mesh/Green Shed Fruit Stand/g2021_xinshoucun_guotan_04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Green Shed Fruit Stand/g2021_xinshoucun_guotan_04.mesh",
@@ -4926,11 +4182,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711331896023220225",
-        "massCenter": {
-          "x": 12.68897819519,
-          "y": 2.4514586925507,
-          "z": 9.3835344314575
-        },
         "mesh": "asset/Mesh/Green Shed Fruit Stand/g2021_xinshoucun_guotan_04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Green Shed Fruit Stand/g2021_xinshoucun_guotan_04.mesh",
@@ -4960,11 +4211,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711332230435356673",
-        "massCenter": {
-          "x": 12.68897819519,
-          "y": 2.4514586925507,
-          "z": 6.4965353012085
-        },
         "mesh": "asset/Mesh/Green Shed Fruit Stand/g2021_xinshoucun_guotan_04.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Green Shed Fruit Stand/g2021_xinshoucun_guotan_04.mesh",
@@ -4994,11 +4240,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711332345555664897",
-        "massCenter": {
-          "x": 12.423412322998,
-          "y": 3.0224721431732,
-          "z": -7.294581413269
-        },
         "mesh": "asset/Mesh/Woodenwith Covered Stall/g2021_xinshoucun_guotan_02.mesh",
         "mesh_selector": {
           "asset": "asset/Mesh/Woodenwith Covered Stall/g2021_xinshoucun_guotan_02.mesh",
@@ -5036,21 +4277,12 @@
               "x": -5.1222741603851e-09,
               "y": 0.9449000954628,
               "z": 61.000003814697
-            },
-            "size": {
-              "x": 3.9999845027924,
-              "y": 5.3003978729248,
-              "z": 3.9999990463257
             }
           }
         ],
         "density": 2.2,
         "friction": 0.37,
         "id": "8711333541584306177",
-        "massCenter": {
-          "y": 0.94489979743958,
-          "z": 61
-        },
         "material": {
           "alpha": 0
         },
@@ -5078,11 +4310,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711337742698643457",
-        "massCenter": {
-          "x": -61.069511413574,
-          "y": 3.3038985729218,
-          "z": -0.030008673667908
-        },
         "material": {
           "alpha": 0.315,
           "color": {
@@ -5114,11 +4341,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711338893874135041",
-        "massCenter": {
-          "x": 61.222492218018,
-          "y": 3.3038985729218,
-          "z": -0.030008673667908
-        },
         "material": {
           "alpha": 0.315,
           "color": {
@@ -5150,11 +4372,6 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8711339340661604353",
-        "massCenter": {
-          "x": 0.07851392775774,
-          "y": 3.3038985729218,
-          "z": -60.870018005371
-        },
         "material": {
           "alpha": 0.315,
           "color": {
@@ -5193,11 +4410,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488239669249",
-            "massCenter": {
-              "x": 77.11759185791,
-              "y": 7.9873299598694,
-              "z": 97.047317504883
-            },
             "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -5228,11 +4440,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488245993473",
-            "massCenter": {
-              "x": -0.0010491113644093,
-              "y": 7.8800158500671,
-              "z": 96.488433837891
-            },
             "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -5263,11 +4470,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488252104705",
-            "massCenter": {
-              "x": 41.778697967529,
-              "y": 7.8800158500671,
-              "z": 96.488433837891
-            },
             "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -5298,11 +4500,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488258166785",
-            "massCenter": {
-              "x": -38.444789886475,
-              "y": 7.8800158500671,
-              "z": 96.488433837891
-            },
             "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -5333,11 +4530,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488264179713",
-            "massCenter": {
-              "x": -60.014610290527,
-              "y": 6.8213491439819,
-              "z": 93.924331665039
-            },
             "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -5368,11 +4560,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488269144065",
-            "massCenter": {
-              "x": -18.234767913818,
-              "y": 7.5203294754028,
-              "z": 93.924331665039
-            },
             "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -5403,11 +4590,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488274042881",
-            "massCenter": {
-              "x": 61.988822937012,
-              "y": 7.9873299598694,
-              "z": 93.924331665039
-            },
             "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -5438,11 +4620,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488280449025",
-            "massCenter": {
-              "x": 20.208988189697,
-              "y": 7.8813281059265,
-              "z": 93.924331665039
-            },
             "mesh": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Closed Oval Canopy Tree and Spherical Canopy Trees/g2038_tree_10.mesh",
@@ -5473,11 +4650,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488287248385",
-            "massCenter": {
-              "x": 90.038444519043,
-              "y": 7.7170147895813,
-              "z": 89.126457214355
-            },
             "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -5508,11 +4680,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488292360193",
-            "massCenter": {
-              "x": -80.224540710449,
-              "y": 7.8800158500671,
-              "z": 96.488433837891
-            },
             "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -5543,11 +4710,6 @@
             "density": 2.2,
             "friction": 0.37,
             "id": "8711342488297422849",
-            "massCenter": {
-              "x": -92.126487731934,
-              "y": 7.7170147895813,
-              "z": 89.126419067383
-            },
             "mesh": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
             "mesh_selector": {
               "asset": "asset/Mesh/Three Spherical Canopy Trees/g2038_tree_07.mesh",
@@ -5587,7 +4749,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "7427c02ece119f7736bd071ee8290140"
+      "setting.json": "78a097048711cd997842436738b8a1b7"
     },
     "VERSION": "0.21"
   }

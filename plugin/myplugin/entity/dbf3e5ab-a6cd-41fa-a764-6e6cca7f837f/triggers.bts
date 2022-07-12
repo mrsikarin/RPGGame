@@ -1,7 +1,6 @@
 ENTITY_DIE {
 	SendToClient(msg = "client_1af48063_ecfd_4d3b_ad3a_279846af59f5", p_exp = 50, player = $obj2)
 	SendToClient(msg = "client_73c1c38e_855f_4d30_a9f6_95f62c0ad49a", p_quest = "Kill pig", player = $obj2)
-	AddEntityBuff(buffTime = 20, cfg = "myplugin/dead")
 }
 
 ENTITY_DAMAGE {
@@ -10,5 +9,27 @@ ENTITY_DAMAGE {
 		p_dmg = $damage,
 		p_pos = GetEntityPosition(entity = $obj1),
 		player = $obj2
+	)
+}
+
+GAME_OVER {
+	CreateNpc(
+		cfgName = "myplugin/7d414acd-3ee7-4840-828b-b611cad0e1bc",
+		enableAI = false,
+		level = 0,
+		map = GetEntityMap(entity = $obj1),
+		name = "",
+		pos = GetEntityPosition(entity = $obj1)
+	)
+}
+
+ENTITY_LEAVE {
+	CreateNpc(
+		cfgName = "myplugin/7d414acd-3ee7-4840-828b-b611cad0e1bc",
+		enableAI = false,
+		level = 0,
+		map = $map,
+		name = "",
+		pos = GetEntityPosition(entity = $obj1)
 	)
 }

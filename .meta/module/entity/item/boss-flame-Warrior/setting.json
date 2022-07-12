@@ -1,0 +1,50 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Flame Axe Warrior Monster/Character Holding A Thunderbolt.actor"
+    },
+    "AI_attack": {
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/c-boss-flame-warrior01"
+        },
+        {
+          "fullName": "myplugin/c-boss-flame-warrior02"
+        }
+      ]
+    },
+    "AI_patrol": {
+      "idle": {
+        "prob": {
+          "value": 0.7
+        }
+      },
+      "patrolMode": "randomPath"
+    },
+    "boundingVolume": {
+      "params": {
+        "x": 3,
+        "y": 5,
+        "z": 3
+      }
+    },
+    "collision": true,
+    "damage": 100,
+    "enableAI": true,
+    "hideHp": false,
+    "hpBarWidth": 2,
+    "maxHp": 1000,
+    "name": {
+      "value": "entity_boss-flame-Warrior"
+    },
+    "textHeight": 8.3
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "518ef04f08b0a95c76fd9b16e32c02e9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

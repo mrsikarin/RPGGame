@@ -1,0 +1,30 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 4,
+        "y": 4,
+        "z": 6
+      }
+    },
+    "hitEntitySkill": "myplugin/boss-dmg-flame-warrior01",
+    "hitInterval": {
+      "value": 4
+    },
+    "lifeTime": {
+      "value": 4
+    },
+    "moveSpeed": 0,
+    "name": {
+      "value": "missile_check-boss-flame-warrior01"
+    },
+    "target_type": "hitPlayer"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "5bcfb3d5f915a22e340b2db6dc8370ce",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

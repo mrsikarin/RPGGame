@@ -1,0 +1,39 @@
+{
+  "data": {
+    "boundingVolume": {
+      "params": {
+        "x": 5,
+        "y": 5,
+        "z": 5
+      }
+    },
+    "hitEntitySkill": "myplugin/boss-dmg-flame-warrior02",
+    "hitInterval": {
+      "value": 2
+    },
+    "lifeTime": {
+      "value": 20
+    },
+    "moveSpeed": 0,
+    "name": {
+      "value": "missile_check-boss-flame-warrior02"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/effect/Burst_car_explosion.effect"
+      },
+      "once": true,
+      "scale": {
+        "x": 2.5,
+        "z": 2.5
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "2cc09614de53ef7c828a1de3a8098233",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

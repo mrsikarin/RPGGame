@@ -26,7 +26,7 @@
                       "must": true,
                       "value": {
                         "__OBJ_TYPE": "T_Int",
-                        "rawval": 10
+                        "rawval": 100
                       }
                     }
                   ],
@@ -98,8 +98,8 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "966705e8a70d3262f4deaa991dabf02c",
-      "triggers.bts": "8fd822378401414688841d3eac8c5a1e"
+      "setting.json": "52de2bbf896135709b9e5daf8808de4e",
+      "triggers.bts": "8c6e9d0131759a23fb56cd8d00e18e96"
     },
     "VERSION": "0.21"
   }

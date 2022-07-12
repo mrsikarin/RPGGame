@@ -1,0 +1,39 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "cdTime": {
+      "value": 40
+    },
+    "name": {
+      "value": "skill_c-boss-flame-warrior02"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/check-boss-flame-warrior02",
+            "startPos": {
+              "y": 0,
+              "z": 6
+            },
+            "startWait": {
+              "value": 20
+            }
+          }
+        ],
+        "target": {
+          "type": "Self"
+        }
+      },
+      "type": "Missile"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f5e25b9efc712c10406df933b185abb7",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

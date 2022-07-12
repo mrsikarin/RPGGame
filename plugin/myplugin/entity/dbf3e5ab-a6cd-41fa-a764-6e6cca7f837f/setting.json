@@ -42,7 +42,7 @@
   "collision": true,
   "damage": 10,
   "deathHideTime": 20,
-  "destroyTime": 0,
+  "destroyTime": 400,
   "disableShadow": true,
   "disableShadowAtFirstPRV": true,
   "dropDamageRatio": 0,

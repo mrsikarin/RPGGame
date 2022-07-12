@@ -216,14 +216,38 @@
             }
           },
           "type": "Trigger_EntityDamage"
+        },
+        {
+          "custom_trigger_data": {
+            "name": {
+              "value": "095f5351-3072-4610-b2dd-d084b67625ea"
+            },
+            "type": "Trigger_EntityEnter"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  [],
+                  [],
+                  []
+                ]
+              }
+            ],
+            "id": {
+              "value": "d5cb81c1-7786-451c-9594-2aeb6f9053fd"
+            }
+          },
+          "type": "Trigger_EntityEnter"
         }
       ]
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "c3e8b392ded98819576f73a8cbbb33ed",
-      "triggers.bts": "ceeba61d2744960b1eae830d13f10110"
+      "setting.json": "5e6c3518e65d9f37a9b72e990a1845d0",
+      "triggers.bts": "bd95d5ad9d5d53a9ce7fe3229eb7fcb5"
     },
     "VERSION": "0.21"
   }

@@ -26,14 +26,126 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/c388f2e1-22af-4eaa-b777-21b4d96e1510",
-        "id": "8705937867831508993",
-        "name": "Dark Knight Lv.40",
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "eae31d08-0628-47b8-ad57-5b432785464b",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8711598446542503937",
+        "massCenter": {
+          "x": 7.3004746437073,
+          "y": 1.4999008178711,
+          "z": 13.80689239502
+        },
         "position": {
-          "x": 4.3653526306152,
-          "y": 0.99989938735962,
-          "z": 4.536283493042
+          "x": 7.3004746437073,
+          "y": 1.4999008178711,
+          "z": 13.80689239502
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "974ee055-7800-4575-bff9-bb5449bda691",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8711598455849172993",
+        "massCenter": {
+          "x": -1.937539100647,
+          "y": 1.4999008178711,
+          "z": 8.6301193237305
+        },
+        "position": {
+          "x": -1.937539100647,
+          "y": 1.4999008178711,
+          "z": 8.6301193237305
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d9d600e3-0502-423e-a1a8-48046547d805",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8711598487551426561",
+        "massCenter": {
+          "x": -0.3126415014267,
+          "y": 1.4998989105225,
+          "z": 14.785696029663
+        },
+        "position": {
+          "x": -0.3126415014267,
+          "y": 1.4998989105225,
+          "z": 14.785696029663
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "84ac2ff7-8037-40cf-a70b-07bafeb76e36",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8711598495171248129",
+        "massCenter": {
+          "x": 6.5449876785278,
+          "y": 1.4999008178711,
+          "z": 18.502992630005
+        },
+        "position": {
+          "x": 6.5449876785278,
+          "y": 1.4999008178711,
+          "z": 18.502992630005
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "189b7576-6682-4def-9d20-74361c57e91e",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8711598500352589825",
+        "massCenter": {
+          "x": 4.828085899353,
+          "y": 1.4999008178711,
+          "z": 10.603958129883
+        },
+        "position": {
+          "x": 4.828085899353,
+          "y": 1.4999008178711,
+          "z": 10.603958129883
+        },
+        "restitution": 0.3
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/f2804a13-cfff-4ecd-9e1c-190f465e1e32",
+        "id": "8711606884885528577",
+        "name": "Give Exp",
+        "position": {
+          "x": 11.509370803833,
+          "y": 0.99990081787109,
+          "z": 16.765117645264
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/dbf3e5ab-a6cd-41fa-a764-6e6cca7f837f",
+        "id": "8711622081098022913",
+        "name": "Pig Lv.1",
+        "position": {
+          "x": -8.9845857620239,
+          "y": 0.99990093708038,
+          "z": 10.379341125488
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/boss-flame-Warrior",
+        "id": "8711658558591664129",
+        "name": "[BOSS] Flame Warrior",
+        "position": {
+          "x": 4.4751682281494,
+          "y": 0.99989986419678,
+          "z": -2.883186340332
         }
       }
     ],
@@ -44,7 +156,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "d53f196be029ecda487cea71ed5661a1"
+      "setting.json": "639a7a9eda0e0eea1720d42c2588ff86"
     },
     "VERSION": "0.21"
   }

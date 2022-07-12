@@ -17,11 +17,11 @@
         "lightType": "GlobalLight",
         "name": "EnvironmentLight",
         "skyColor": {
-          "b": 140,
-          "g": 132
+          "b": 141,
+          "g": 133
         },
         "skyLineColor": {
-          "g": 59,
+          "g": 60,
           "r": 62
         }
       },
@@ -4740,6 +4740,20 @@
           "y": 7.4693450927734,
           "z": 91.739471435547
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/merchant",
+        "id": "8711716689823694849",
+        "name": "merchant",
+        "position": {
+          "x": 8.914041519165,
+          "y": 0.99990010261536,
+          "z": 19.100524902344
+        },
+        "rotation": {
+          "y": 180
+        }
       }
     ],
     "name": {
@@ -4749,7 +4763,7 @@
   "meta": {
     "EXPORT": {
       "DataSet": [],
-      "setting.json": "78a097048711cd997842436738b8a1b7"
+      "setting.json": "082f81a2d897ff511ca615b68014e855"
     },
     "VERSION": "0.21"
   }

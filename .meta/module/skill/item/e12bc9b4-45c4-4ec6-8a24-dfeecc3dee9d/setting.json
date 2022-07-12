@@ -3,7 +3,7 @@
     "castAction": "g2033_skill_chakra_06",
     "cdAnimation": "Clockwise",
     "cdTime": {
-      "value": 20
+      "value": 600
     },
     "enableCdMask": true,
     "FillPosition": "Top_With360Degree",
@@ -47,7 +47,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "52f41412e6e1931bd54ab36bad220631",
+      "setting.json": "5d1764e8aee6a3d2ac0a6d17301a818f",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

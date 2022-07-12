@@ -22,16 +22,12 @@
       "effect": {
         "asset": "asset/effect/Burst_car_explosion.effect"
       },
-      "once": true,
-      "scale": {
-        "x": 2.5,
-        "z": 2.5
-      }
+      "once": true
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2cc09614de53ef7c828a1de3a8098233",
+      "setting.json": "3655614498e08930a3205b427526e5e0",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

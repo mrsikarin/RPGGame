@@ -34,7 +34,7 @@
     "horizontalAlignment": 1,
     "verticalAlignment": 1
   },
-  "cdTime": 600,
+  "cdTime": 1000,
   "consumeVp": 0,
   "customizeSkill": true,
   "draggingEnabled": false,

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "1767e7ef892ec178d90190f9085098e9",
+    "md5": "78fd343d9f4a068c8681896218fc0a3f",
     "path": "asset/PlayerStatus.layout",
     "root": {
       "anchor": {
@@ -19,7 +19,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 24,
               "id": {
-                "value": "5337cc4f-c56e-42c5-8866-c98de2865282"
+                "value": "ca228297-79c0-433f-b7b8-b830ee430549"
               },
               "name": "Text_level",
               "pos": {
@@ -47,7 +47,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "bb38ca79-716b-4756-9956-1953bd6ed93b"
+                "value": "bc3625d0-6656-47b9-93d3-0cb795c9a6d9"
               },
               "Image": {
                 "asset": "asset/Texture/Gui/scrollable_pane_ver_bar.png"
@@ -96,7 +96,7 @@
                 "r": 255
               },
               "id": {
-                "value": "b0b72742-1493-4030-9eff-474c7f3aac80"
+                "value": "abc19e56-6b40-455a-870e-39d3727c4e6b"
               },
               "name": "Close",
               "NormalImage": {
@@ -197,7 +197,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 24,
               "id": {
-                "value": "86c1fc5d-b926-462a-af93-39a50bcaa56e"
+                "value": "64a3e5b1-ff3e-4ef5-9f1c-2600f3622b50"
               },
               "name": "PlayerInfo",
               "pos": {
@@ -233,7 +233,7 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
-                        "value": "113b1f16-a517-4fe9-8ad4-4094f8156b9f"
+                        "value": "3be20ef6-775a-4893-bca3-6f1f912adee1"
                       },
                       "name": "Atk",
                       "pos": {
@@ -258,7 +258,7 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
-                        "value": "49c86f51-5636-408e-a15f-509e09287ca2"
+                        "value": "53469aea-cd3c-4f95-adeb-6937d48b37c8"
                       },
                       "name": "Mana",
                       "pos": {
@@ -283,7 +283,7 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
-                        "value": "6f7b062e-fe0a-4b44-9f55-838aaabbd197"
+                        "value": "f73a047f-8965-4b86-bed2-40703ae605ed"
                       },
                       "name": "Def",
                       "pos": {
@@ -308,7 +308,7 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
-                        "value": "189288a9-7476-4d89-9649-5e2fc5aafa67"
+                        "value": "3a21f1ff-045f-43a3-8c78-3b94947098c6"
                       },
                       "name": "Haste",
                       "pos": {
@@ -334,7 +334,7 @@
                       "Font_size": 18,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "80d57330-326e-4f77-ad09-be9375996f97"
+                        "value": "0d7b5e10-1b40-42d3-88b3-8e9f3b4404a3"
                       },
                       "name": "mana_stat",
                       "pos": {
@@ -361,7 +361,7 @@
                       "Font_size": 18,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "976fb444-5251-4c26-b581-b61fcfe96250"
+                        "value": "61fe129a-2cad-454d-aa27-e9a9de8a9a4d"
                       },
                       "name": "Atk_stat",
                       "pos": {
@@ -388,7 +388,7 @@
                       "Font_size": 18,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "531afae0-ed88-400e-bfba-acdb5ca4505e"
+                        "value": "791c29da-3f0e-4105-bbe6-48e610d5b2a4"
                       },
                       "name": "Haste_stat",
                       "pos": {
@@ -415,7 +415,7 @@
                       "Font_size": 18,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "f8fa4515-d781-4451-910d-31d2a9741060"
+                        "value": "4bbd3c81-a7f9-4dcd-8245-ab6c05e30790"
                       },
                       "name": "Def_stat",
                       "pos": {
@@ -445,7 +445,7 @@
                   },
                   "FrameEnabled": true,
                   "id": {
-                    "value": "c7ca850e-1085-46b1-8912-df98c39bb657"
+                    "value": "6f6d318f-05f9-4756-8b9a-62d2b2ed9e80"
                   },
                   "Image": {
                     "asset": "",
@@ -470,7 +470,7 @@
                 }
               ],
               "id": {
-                "value": "db9ff192-9042-4d9f-835b-b16a37aacc7a"
+                "value": "79c35319-bfdd-4cb6-9137-d9e963c0b464"
               },
               "pos": {
                 "UDim_X": {
@@ -510,7 +510,7 @@
                           "__OBJ_TYPE": "StaticText",
                           "Font_size": 18,
                           "id": {
-                            "value": "86628de3-c2a7-423d-945f-30e7c09e1d95"
+                            "value": "b4e880ad-bad5-4e98-9209-bc40b99a2b91"
                           },
                           "name": "txStr",
                           "pos": {
@@ -539,7 +539,7 @@
                           },
                           "Font_size": 18,
                           "id": {
-                            "value": "4732bafd-11cf-476e-8bd4-23a2667b8a23"
+                            "value": "cebf74e3-f6d4-4244-a75b-c5550974e866"
                           },
                           "name": "upAtk",
                           "pos": {
@@ -563,7 +563,7 @@
                       ],
                       "Font_size": 18,
                       "id": {
-                        "value": "ff149f82-dc12-4ff6-a8f2-3308d0d68940"
+                        "value": "9e07026f-e74a-43b5-94fe-5b50bfa5cde3"
                       },
                       "name": "Str",
                       "pos": {
@@ -591,7 +591,7 @@
                           "__OBJ_TYPE": "StaticText",
                           "Font_size": 18,
                           "id": {
-                            "value": "cb15ee58-cfc0-4801-b047-2772b7df2f85"
+                            "value": "325c7017-9033-45f3-83b5-c505f7e38905"
                           },
                           "name": "txVit",
                           "pos": {
@@ -620,7 +620,7 @@
                           },
                           "Font_size": 18,
                           "id": {
-                            "value": "94c4a0a4-c3a6-4a93-aeb4-4573b714b760"
+                            "value": "020c5cdc-2e13-4436-bf47-f332ca320681"
                           },
                           "name": "upVit",
                           "pos": {
@@ -644,7 +644,7 @@
                       ],
                       "Font_size": 18,
                       "id": {
-                        "value": "bcb54897-735b-41f9-b35a-747c73080f55"
+                        "value": "f27a4d17-73e0-480f-be87-00bddfd7f1a1"
                       },
                       "name": "Vit",
                       "pos": {
@@ -672,7 +672,7 @@
                           "__OBJ_TYPE": "StaticText",
                           "Font_size": 18,
                           "id": {
-                            "value": "9e310aef-528f-47ea-aea8-e534155aafdf"
+                            "value": "9b86c83a-1d16-4c9c-b317-83fc31b7e8d4"
                           },
                           "name": "txInt",
                           "pos": {
@@ -701,7 +701,7 @@
                           },
                           "Font_size": 18,
                           "id": {
-                            "value": "2432d19e-858f-46a7-bbeb-acbf01d2037a"
+                            "value": "c86ac092-e244-4be8-9691-bafc0c03675f"
                           },
                           "name": "upInt",
                           "pos": {
@@ -725,7 +725,7 @@
                       ],
                       "Font_size": 18,
                       "id": {
-                        "value": "a75a4a4e-7d39-4238-9687-71fdbbb07b63"
+                        "value": "fd685f91-8ea7-4be0-b206-bc6303bdfbb9"
                       },
                       "name": "Int",
                       "pos": {
@@ -757,7 +757,7 @@
                           },
                           "Font_size": 18,
                           "id": {
-                            "value": "c3067082-39eb-4232-84db-c8455f090b79"
+                            "value": "4ed1230c-bc5a-4bce-b204-2414f07cee42"
                           },
                           "name": "txDex",
                           "pos": {
@@ -786,7 +786,7 @@
                           },
                           "Font_size": 18,
                           "id": {
-                            "value": "f7ff2618-df96-467a-9f8c-7b5084aed98f"
+                            "value": "8b859563-75cf-45a2-ac62-77abba35568e"
                           },
                           "name": "upDex",
                           "pos": {
@@ -810,7 +810,7 @@
                       ],
                       "Font_size": 18,
                       "id": {
-                        "value": "3516d1e6-ccb8-43b0-93c7-c10619271e37"
+                        "value": "166bc7f0-d1e2-4d9d-841c-0216a0719568"
                       },
                       "name": "Dex",
                       "pos": {
@@ -835,7 +835,7 @@
                       "__OBJ_TYPE": "StaticText",
                       "Font_size": 18,
                       "id": {
-                        "value": "4f3bdab5-e24a-432f-83ee-e97769ed9408"
+                        "value": "660d5997-5fcf-44b1-b6fe-d420b3df0152"
                       },
                       "name": "StatusPoint",
                       "pos": {
@@ -861,7 +861,7 @@
                       "Font_size": 18,
                       "HorzFormatting": "RightAligned",
                       "id": {
-                        "value": "f11686d5-e9d4-484b-af83-cd1794fcb507"
+                        "value": "34bd1220-7f64-4e2e-ae5e-aa6d5e3cc602"
                       },
                       "name": "Point",
                       "pos": {
@@ -891,7 +891,7 @@
                   },
                   "FrameEnabled": true,
                   "id": {
-                    "value": "21de1aa5-f810-4c47-8cf0-2309ca5eaf76"
+                    "value": "3a25585a-8c47-4bc0-a3a8-029e002e7633"
                   },
                   "Image": {
                     "asset": "",
@@ -916,7 +916,7 @@
                 }
               ],
               "id": {
-                "value": "0961aa52-b51f-413a-a27d-083ed4e4c712"
+                "value": "5cbc379f-52f4-49f7-b55f-03b6079d5fbe"
               },
               "name": "DefaultWindow1",
               "pos": {
@@ -941,7 +941,7 @@
             }
           ],
           "id": {
-            "value": "e68b951a-25a0-43f4-bb4f-a59b35b1bfb6"
+            "value": "12cf8953-9c6e-4f8c-a44e-9f4ba8bbddde"
           },
           "Image": {
             "asset": "asset/texture2/bg.png"
@@ -962,7 +962,7 @@
         }
       ],
       "id": {
-        "value": "13eb96fb-5ca5-404b-bcef-28468d4485bc"
+        "value": "aafc7a75-4214-4190-9633-4c258ab27db9"
       },
       "pos": {
         "UDim_X": {
@@ -987,7 +987,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "1767e7ef892ec178d90190f9085098e9",
+      "layout": "78fd343d9f4a068c8681896218fc0a3f",
       "triggers.bts": "6c1bfad73961a3f3abd41f8556c0a05e"
     },
     "VERSION": "0.21"

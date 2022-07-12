@@ -8,7 +8,7 @@
     },
     "cdAnimation": "Clockwise",
     "cdTime": {
-      "value": 1000
+      "value": 400
     },
     "enableCdMask": true,
     "FillPosition": "Top_With360Degree",
@@ -21,7 +21,7 @@
         "__OBJ_TYPE": "Skill_Buff",
         "buffCfg": "myplugin/9cb2a9e0-f322-4745-a807-da6f8bd823be",
         "buffTime": {
-          "value": 100
+          "value": 200
         },
         "target": "self"
       },
@@ -46,7 +46,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "8f4e9c213ca567ab4cc44fe01bd779dd",
+      "setting.json": "ff2ce0d9499179aa6f08e1bdab74c46a",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

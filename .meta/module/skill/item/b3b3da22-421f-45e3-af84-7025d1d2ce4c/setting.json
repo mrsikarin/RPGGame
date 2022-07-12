@@ -3,7 +3,7 @@
     "castAction": "g2033_skill_sword_09",
     "cdAnimation": "Clockwise",
     "cdTime": {
-      "value": 200
+      "value": 300
     },
     "enableCdMask": true,
     "FillPosition": "Top_With360Degree",
@@ -48,7 +48,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b1573b7258037f2caf0d80b001f3840b",
+      "setting.json": "025ecdcce09a083da88f8c8c2808adf7",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

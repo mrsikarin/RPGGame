@@ -126,7 +126,8 @@
   "reviveTime": 40,
   "setFollowWhenCreate": true,
   "skillInfos": [
-    "myplugin/d0a80792-daa8-4aff-92a7-0dc2e438a46b"
+    "myplugin/2b127615-4a2f-4bbb-9a0a-8c94c2a5eeb8",
+    "myplugin/26f28b0a-eaf8-47d0-9997-3686165ff51a"
   ],
   "stepHeight": 0.6,
   "textHeight": 2.3,

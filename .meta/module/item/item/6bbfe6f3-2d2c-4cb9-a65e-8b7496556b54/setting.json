@@ -1,0 +1,27 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Item/tile070.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/player-melee-normal"
+        ]
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "8bf9be2a-df34-4bc9-96f5-243ac2698718"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "77c5f6a35b34619a2bbaae3ed6bb7f3a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

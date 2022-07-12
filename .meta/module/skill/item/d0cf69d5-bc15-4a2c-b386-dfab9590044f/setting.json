@@ -16,7 +16,7 @@
         "__OBJ_TYPE": "Skill_Buff",
         "buffCfg": "myplugin/a64510ee-4b0c-454a-b488-309f3793b5b8",
         "buffTime": {
-          "value": 400
+          "value": 600
         },
         "target": "self"
       },
@@ -33,7 +33,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f54ff96639c994c8455eef2752cfaf24",
+      "setting.json": "9dc525ee084963f4eb02bec5650db77f",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

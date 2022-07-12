@@ -1,0 +1,22 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Item/tile077.png",
+  "itemname": "5a977fd0-6c6f-4f8f-a314-d84e3584addf",
+  "needSave": true,
+  "skill": [
+    "myplugin/player-melee-normal",
+    "myplugin/8f9ba007-1431-4714-b9a5-4f3887383196",
+    "myplugin/b3b3da22-421f-45e3-af84-7025d1d2ce4c",
+    "myplugin/050122fd-f810-49bf-80c9-f4f38aede772"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

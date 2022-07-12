@@ -8,7 +8,7 @@
   "itemname": "item_4f41a0b7-750a-4063-8f38-ca5c0e63ac1c",
   "needSave": true,
   "skill": [
-    "myplugin/c4028628-c045-46ff-bd93-6310bbc4ebb9",
+    "myplugin/player-dmg-magic-normal",
     "myplugin/693a6580-27b8-404f-9f5b-b51bca52707b",
     "myplugin/51473621-6958-4e83-96f6-ed7d65cd5b72"
   ],

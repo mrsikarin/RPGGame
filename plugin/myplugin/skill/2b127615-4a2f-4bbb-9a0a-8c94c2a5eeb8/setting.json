@@ -20,7 +20,7 @@
   "area_number": 5,
   "backSwingTime": 0,
   "buffCfg": "myplugin/61244f0f-f2f1-4b7b-8dc7-d0b25e1b0172",
-  "buffTime": 60,
+  "buffTime": 100,
   "castAction": "eat",
   "castActionTime": 60,
   "cdMaskConfig": {
@@ -30,7 +30,7 @@
     "horizontalAlignment": 1,
     "verticalAlignment": 1
   },
-  "cdTime": 20,
+  "cdTime": 200,
   "consumeVp": 0,
   "customizeSkill": true,
   "draggingEnabled": false,

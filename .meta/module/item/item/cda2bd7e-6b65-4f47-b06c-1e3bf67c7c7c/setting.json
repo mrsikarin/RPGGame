@@ -1,16 +1,16 @@
 {
   "data": {
     "icon": {
-      "asset": "asset/Item/R (6) (17).png"
+      "asset": "asset/Item/tile134.png"
     },
     "item": {
       "base": {
         "__OBJ_TYPE": "ItemInHand",
         "skill": [
-          "myplugin/c4028628-c045-46ff-bd93-6310bbc4ebb9",
-          "myplugin/e12bc9b4-45c4-4ec6-8a24-dfeecc3dee9d",
-          "myplugin/26f28b0a-eaf8-47d0-9997-3686165ff51a",
-          "myplugin/b0cf7764-d925-45a4-9aa4-6b3f764a8bb5"
+          "myplugin/player-dmg-magic-normal",
+          "myplugin/227ca8e7-b985-473e-84a0-ba72a3ee2f42",
+          "myplugin/4251001b-30f2-47ce-b976-d611ab3c4aed",
+          "myplugin/e1cb6a02-83cd-4c73-818c-a94733fea9ca"
         ]
       },
       "type": "InHand"
@@ -22,7 +22,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b413c20ddca4ef4245199612243f2817",
+      "setting.json": "b1e44857fdf37f98e4f75cb9766c68cb",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

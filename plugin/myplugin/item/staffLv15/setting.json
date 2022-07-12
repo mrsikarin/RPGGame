@@ -1,0 +1,21 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Item/tile133.png",
+  "itemname": "19a02212-243d-496a-bdc3-1f53041f779a",
+  "needSave": true,
+  "skill": [
+    "myplugin/player-dmg-magic-normal",
+    "myplugin/bb361edf-1ff9-41c7-bc2a-5572b7a854d1",
+    "myplugin/f02588e8-fb27-4701-8958-ccb0175b9b3e"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

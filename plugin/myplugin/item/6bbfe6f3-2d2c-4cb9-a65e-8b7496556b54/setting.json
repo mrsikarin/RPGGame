@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Item/tile070.png",
+  "itemname": "8bf9be2a-df34-4bc9-96f5-243ac2698718",
+  "needSave": true,
+  "skill": [
+    "myplugin/player-melee-normal"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

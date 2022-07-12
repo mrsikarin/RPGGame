@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "dcd1216b3ea45cf1d30c6b83948a2ed9",
+    "md5": "84fd2470f4c83e7235ae34c9b27fca1b",
     "path": "asset/btn-melee-atk.layout",
     "root": {
       "anchor": {
@@ -22,7 +22,7 @@
             "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
           },
           "id": {
-            "value": "7f5d0bfd-3f0b-4956-a3bb-d2017ee9c6b2"
+            "value": "60f7bb8f-75c3-436a-b7ed-121ddf6fee82"
           },
           "NormalImage": {
             "asset": "asset/Texture/Skill/common/icon_ฝีฝนฅป๗_act.png"
@@ -52,13 +52,13 @@
         }
       ],
       "id": {
-        "value": "67f0c929-ca1b-448b-a946-f898df565372"
+        "value": "b3cea512-40dc-4559-8f89-10367828104b"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "dcd1216b3ea45cf1d30c6b83948a2ed9",
+      "layout": "84fd2470f4c83e7235ae34c9b27fca1b",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

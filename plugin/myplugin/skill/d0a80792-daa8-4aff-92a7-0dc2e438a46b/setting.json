@@ -20,7 +20,7 @@
   "area_number": 9,
   "backSwingTime": 0,
   "buffCfg": "myplugin/9cb2a9e0-f322-4745-a807-da6f8bd823be",
-  "buffTime": 100,
+  "buffTime": 200,
   "castAction": "g2033_skill_chakra_01",
   "castActionTime": -1,
   "castEffect": {
@@ -46,7 +46,7 @@
     "horizontalAlignment": 1,
     "verticalAlignment": 1
   },
-  "cdTime": 1000,
+  "cdTime": 400,
   "consumeVp": 0,
   "customizeSkill": true,
   "draggingEnabled": false,

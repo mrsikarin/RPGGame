@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "e1b7a35603c77e362b95db39bec117d6",
+    "md5": "9427d09837c544c51fe0be803fc1ae76",
     "path": "asset/playerUI.layout",
     "root": {
       "anchor": {
@@ -26,7 +26,7 @@
             "r": 240
           },
           "id": {
-            "value": "e0ebedf1-20d0-4a4e-b435-54a37a9b1e62"
+            "value": "7a15ba99-887c-4c5a-948a-1cd7ceb7c537"
           },
           "NormalImage": {
             "asset": "asset/texture2/icon_red_nor.png"
@@ -142,7 +142,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "1e18f7fc-5474-4c76-b952-feece3eb4455"
+                    "value": "570d2893-4088-4a1a-9372-1565b0251c21"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_bg.png"
@@ -163,7 +163,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "e11d94f6-dacc-4ebd-b75a-0ba0d835b39a"
+                    "value": "eae26764-2cad-4fd8-9d59-b6e9e117c11c"
                   },
                   "Image": {
                     "asset": "asset/Texture/Gui/slider_top_h.png"
@@ -184,7 +184,7 @@
                     "VerticalAlignment": "Centre"
                   },
                   "id": {
-                    "value": "61a5d9b8-dcbe-4af7-8ebf-bd9ccb21bebf"
+                    "value": "e17a442c-d78d-4b44-bd67-d1439831f107"
                   },
                   "name": "Handle",
                   "Visible": false
@@ -199,7 +199,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "27b81249-9d96-488c-a926-a522bee8b3db"
+                    "value": "9c9c0cad-773c-476c-aaf6-8bbd8a365046"
                   },
                   "name": "level",
                   "pos": {
@@ -231,7 +231,7 @@
                   "Font_size": 20,
                   "HorzFormatting": "CentreAligned",
                   "id": {
-                    "value": "f3ce3b51-e8ff-42db-9084-a5387f60f106"
+                    "value": "de919b4d-ba62-4024-b625-7cfeeb690e9e"
                   },
                   "name": "textexp",
                   "pos": {
@@ -255,7 +255,7 @@
                 }
               ],
               "id": {
-                "value": "9aacf245-6e42-4364-8048-3dc4f595883f"
+                "value": "6f99fe07-8500-4cd7-9eb0-3e8784e2cbfd"
               },
               "name": "expbar",
               "pos": {
@@ -266,7 +266,7 @@
             }
           ],
           "id": {
-            "value": "279d5db0-dc5f-48d4-a848-c4ed5ac886cd"
+            "value": "80795508-3ce3-4c5c-98e4-2420eda11ea9"
           },
           "pos": {
             "UDim_X": {
@@ -295,7 +295,7 @@
                 "VerticalAlignment": "Centre"
               },
               "id": {
-                "value": "b63779ba-678e-4e96-810b-7725443e2d21"
+                "value": "8312d9d0-7eb7-4ca1-afca-ee694a1ed1a2"
               },
               "Image": {
                 "asset": "asset/Component/Frame/BasicFrame_Square02_Yellow.png"
@@ -327,7 +327,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "d831390f-75e1-483f-941b-338ed73569e3"
+                "value": "256d9b48-bf1f-43f5-9509-d08f5d376c89"
               },
               "name": "quest_txt",
               "pos": {
@@ -357,7 +357,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 14,
               "id": {
-                "value": "00a03868-b8e2-4463-8474-e0ff7b011070"
+                "value": "326f2322-ed14-4cae-8152-5cdbcf573769"
               },
               "name": "detailTxt",
               "pos": {
@@ -383,7 +383,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 14,
               "id": {
-                "value": "7b82c02b-7fa1-40b2-802c-7e63684613e7"
+                "value": "eb91695b-bfd9-4196-a659-245566239354"
               },
               "name": "rewardTxt",
               "pos": {
@@ -408,7 +408,7 @@
             }
           ],
           "id": {
-            "value": "f61c3448-9514-437d-a1df-e79c1feb0fe5"
+            "value": "0e99addf-1e25-4257-9eda-fe364a520e1f"
           },
           "name": "Quest",
           "pos": {
@@ -427,7 +427,7 @@
         }
       ],
       "id": {
-        "value": "55ab12bc-f082-429b-839d-83a3f6317f72"
+        "value": "0ff9062e-1b45-4034-b096-6752aab3ec1e"
       },
       "pos": {
         "UDim_Y": {
@@ -446,7 +446,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "e1b7a35603c77e362b95db39bec117d6",
+      "layout": "9427d09837c544c51fe0be803fc1ae76",
       "triggers.bts": "2c843c0491deb2fcfea676039f39ad4b"
     },
     "VERSION": "0.21"

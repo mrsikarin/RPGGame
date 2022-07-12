@@ -20,7 +20,7 @@
   "area_number": 6,
   "backSwingTime": 0,
   "buffCfg": "myplugin/a64510ee-4b0c-454a-b488-309f3793b5b8",
-  "buffTime": 400,
+  "buffTime": 600,
   "castAction": "g2033_skill_chakra_05",
   "castActionTime": -1,
   "cdMaskConfig": {

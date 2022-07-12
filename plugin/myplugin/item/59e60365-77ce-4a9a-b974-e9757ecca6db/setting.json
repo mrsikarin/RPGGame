@@ -4,12 +4,12 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Item/R (6) (3).png",
+  "icon": "@asset/Item/tile134.png",
   "itemname": "item_59e60365-77ce-4a9a-b974-e9757ecca6db",
   "needSave": true,
   "skill": [
-    "myplugin/c4028628-c045-46ff-bd93-6310bbc4ebb9",
-    "myplugin/bb361edf-1ff9-41c7-bc2a-5572b7a854d1"
+    "myplugin/player-dmg-magic-normal",
+    "myplugin/227ca8e7-b985-473e-84a0-ba72a3ee2f42"
   ],
   "stack_count_max": 1,
   "syncGameData": {

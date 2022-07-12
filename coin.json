@@ -1,8 +1,24 @@
 [
   {
+    "coinName": "1d671195-36c9-4f40-be01-9741578278e7",
+    "item": {
+      "name": "myplugin/1d671195-36c9-4f40-be01-9741578278e7",
+      "type": "Item"
+    },
+    "showUi": false
+  },
+  {
     "coinName": "87fe680a-93aa-48d3-a301-d2d80e518ce5",
     "item": {
       "name": "myplugin/87fe680a-93aa-48d3-a301-d2d80e518ce5",
+      "type": "Item"
+    },
+    "showUi": false
+  },
+  {
+    "coinName": "08c9386d-6545-4454-b269-97a8b11cd166",
+    "item": {
+      "name": "myplugin/08c9386d-6545-4454-b269-97a8b11cd166",
       "type": "Item"
     },
     "showUi": false

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Item/tile133.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/player-dmg-magic-normal",
+          "myplugin/bb361edf-1ff9-41c7-bc2a-5572b7a854d1",
+          "myplugin/f02588e8-fb27-4701-8958-ccb0175b9b3e"
+        ]
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "19a02212-243d-496a-bdc3-1f53041f779a"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "4076673732c193e53e5b0c6a7869406a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

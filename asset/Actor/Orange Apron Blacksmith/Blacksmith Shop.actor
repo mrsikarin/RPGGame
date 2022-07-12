@@ -1,0 +1,87 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="boy.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_tiejiang.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="2.5"/>
+					<roll value="0"/>
+					<SocketName value="s_Head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="1.5"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_ui_hammer.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_Hand_l"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/shoes_tiejiang_l.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_Hand_r"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/shoes_tiejiang_r.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_Hand_r"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/tiejiang_hammer.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_Head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="20"/>
+					<FileName value="asset/Mesh/Actor_mesh/head_tiejiang.mesh"/>
+					<Position_X value="-0.1"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_Head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="20"/>
+					<FileName value="asset/Mesh/Actor_mesh/hair_tiejiang.mesh"/>
+					<Position_X value="-0.1"/>
+				</StaticMesh>
+				<Skin ChangeColor="2.10195e-44 8.87022e-43 5.54597e+31 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/clothes_tiejiang.skin"/>
+				<Skin ChangeColor="2.10195e-44 1.06499e-42 5.54597e+31 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/pants_tiejiang.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/boy_stand05.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/boy_stand05.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+				<ActorScaleChange beginScale="2.5" endScale="2.5"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

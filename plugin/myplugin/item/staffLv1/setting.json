@@ -1,0 +1,19 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Item/R (6) (20).png",
+  "itemname": "a668d4ea-f331-4e9a-9aa6-f94964ebf797",
+  "needSave": true,
+  "skill": [
+    "myplugin/player-dmg-magic-normal"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

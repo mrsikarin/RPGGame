@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "17d80b50b4bdc551f4cd1353b7ca0a89",
+    "md5": "091b7e6cf15b4b0609c92cfda4735da2",
     "path": "asset/btn-magic-atk.layout",
     "root": {
       "anchor": {
@@ -22,7 +22,7 @@
             "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_act.png"
           },
           "id": {
-            "value": "102f1ad3-5716-4dc4-8727-44a9762dd601"
+            "value": "515b56c3-6a4a-401d-817c-820f66a102ac"
           },
           "NormalImage": {
             "asset": "asset/Texture/Skill/common/icon_ป๐ว๒_act.png"
@@ -52,13 +52,13 @@
         }
       ],
       "id": {
-        "value": "daf4fe13-8770-439d-a42a-e1f99f96067b"
+        "value": "a7068dbc-107b-45e7-88b9-5f1d7c23dfa7"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "17d80b50b4bdc551f4cd1353b7ca0a89",
+      "layout": "091b7e6cf15b4b0609c92cfda4735da2",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

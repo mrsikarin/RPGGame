@@ -12,7 +12,7 @@
     },
     "cdAnimation": "Clockwise",
     "cdTime": {
-      "value": 20
+      "value": 200
     },
     "defineActionTime": true,
     "enableCdMask": true,
@@ -172,7 +172,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2bb1771cbd67e7e78be4a36d8abe5725",
+      "setting.json": "463ae9e66625baa483ca87b93bc330eb",
       "triggers.bts": "4059c4d9b0f8eb1b632aa0f221022674"
     },
     "VERSION": "0.21"

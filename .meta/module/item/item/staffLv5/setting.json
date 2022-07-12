@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Item/R (6) (20).png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/player-dmg-magic-normal",
+          "myplugin/bb361edf-1ff9-41c7-bc2a-5572b7a854d1",
+          ""
+        ]
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "26c99233-d370-4df1-bc49-a28ea189753e"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "62feb57e6eb3f49d8d9c49f106dc8345",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

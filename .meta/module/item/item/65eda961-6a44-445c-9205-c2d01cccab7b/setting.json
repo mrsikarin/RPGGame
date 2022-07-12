@@ -1,0 +1,30 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Item/tile078.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/player-melee-normal",
+          "myplugin/f679489f-f625-46ff-83bd-71afdf57fd98",
+          "myplugin/8f9ba007-1431-4714-b9a5-4f3887383196",
+          "myplugin/d0cf69d5-bc15-4a2c-b386-dfab9590044f"
+        ]
+      },
+      "type": "InHand"
+    },
+    "name": {
+      "value": "9b47ce10-95c8-47ab-aff0-55b7570d31ce"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "714b878b624074af2d27ce6c54128c95",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.21"
+  }
+}

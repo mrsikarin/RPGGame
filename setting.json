@@ -1,6 +1,6 @@
 {
   "automatch": false,
-  "bagCap": 9,
+  "bagCap": 24,
   "cameraCfg": {
     "canSwitchView": true,
     "defaultPitch": 0,
@@ -228,10 +228,10 @@
   },
   "startPos": [
     {
-      "map": "fbffff7c-72b7-4ff4-96de-9042d0d2ac20",
-      "x": 2.4164664745331,
-      "y": 1.0399008178711,
-      "z": 13.743487358093
+      "map": "town01",
+      "x": 1.6728944778442,
+      "y": 1.0398989105225,
+      "z": 17.355316162109
     }
   ],
   "team": [],
@@ -275,13 +275,6 @@
       ]
     ]
   },
-  "uiNavigation": [
-    {
-      "iconPath": "set:main_page.json image:shop_icon.png",
-      "list": 1,
-      "name": "shop"
-    }
-  ],
   "useNewFirstViewer": true,
   "useNewQuadConfig": true,
   "useNewUI": true,

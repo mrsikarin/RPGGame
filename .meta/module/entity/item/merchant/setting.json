@@ -1,0 +1,98 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Girl With Yellow Hair And Green Clothes/Cocoa Who Loves To Travel.actor"
+    },
+    "canMove": false,
+    "girlactor": {
+      "asset": "asset/Actor/Girl With Yellow Hair And Green Clothes/Cocoa Who Loves To Travel.actor"
+    },
+    "name": {
+      "value": "entity_merchant"
+    },
+    "textHeight": 2,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ShowShop",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "ae7bed87-cdee-4744-be72-a593c68be48c"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_String"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "a1b887d5-b779-417d-b3dc-bab3d03d3aaa"
+              },
+              "pos": {
+                "x": 849,
+                "y": 343
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "ae7bed87-cdee-4744-be72-a593c68be48c"
+              },
+              "pos": {
+                "x": 1309,
+                "y": 333
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "480231de-52b1-4f9f-b35f-b986f877388c"
+            },
+            "type": "Trigger_ENTITY_TOUCH_ALL"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "a1b887d5-b779-417d-b3dc-bab3d03d3aaa"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "5e5ec78a-699e-4450-9680-d13ec6411a26"
+            }
+          },
+          "type": "Trigger_ENTITY_TOUCH_ALL"
+        }
+      ]
+    },
+    "unDamageable": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "c746d78a7f7ee4bf3c606ef335cdba19",
+      "triggers.bts": "74153f6a1236084446cc37df5b233521"
+    },
+    "VERSION": "0.21"
+  }
+}

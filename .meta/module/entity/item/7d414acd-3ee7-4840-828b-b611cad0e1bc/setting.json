@@ -1,10 +1,16 @@
 {
   "data": {
     "actorName": {
-      "asset": ""
+      "asset": "empty.actor"
+    },
+    "AI_attack": {
+      "enable": true
+    },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
     },
     "girlactor": {
-      "asset": ""
+      "asset": "empty.actor"
     },
     "name": {
       "value": "entity_7d414acd-3ee7-4840-828b-b611cad0e1bc"
@@ -150,7 +156,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "db1e2e738b1638db475f39c85292ee91",
+      "setting.json": "d7bc898d239dced2b3305e69bbe50c68",
       "triggers.bts": "941dd16e703845bc50e968681b795b13"
     },
     "VERSION": "0.21"

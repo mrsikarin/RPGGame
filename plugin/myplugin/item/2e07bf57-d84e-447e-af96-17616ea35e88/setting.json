@@ -4,11 +4,14 @@
   "canEquipPlural": true,
   "canUse": false,
   "handItemBoneName": "s_hand_r",
-  "icon": "@asset/Item/R (6) (2).png",
+  "icon": "@asset/Item/tile073.png",
   "itemname": "item_2e07bf57-d84e-447e-af96-17616ea35e88",
   "needSave": true,
   "skill": [
-    "myplugin/6b5b739d-371a-4b7d-8039-cbad055d3c41"
+    "myplugin/player-melee-normal",
+    "myplugin/8f9ba007-1431-4714-b9a5-4f3887383196",
+    "myplugin/f679489f-f625-46ff-83bd-71afdf57fd98",
+    "myplugin/575d8783-a1a9-44a2-9646-c1f0f060bad6"
   ],
   "stack_count_max": 1,
   "syncGameData": {

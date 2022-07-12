@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "af4f8b44e6d0d86a4afb4493418fd6a5",
+    "md5": "73f0487a68c25b71829a3a57caf9c0cf",
     "path": "asset/QuestInfo_1.layout",
     "root": {
       "anchor": {
@@ -41,7 +41,7 @@
                 "r": 176
               },
               "id": {
-                "value": "d2d4e61a-75b6-492a-94ce-af44c3bb3c89"
+                "value": "d9db95ae-838d-4a0e-aed4-091c17a1aacd"
               },
               "name": "CloseBtn",
               "NormalImage": {
@@ -97,7 +97,7 @@
                 "selector": ""
               },
               "id": {
-                "value": "3371da60-5575-483e-a7f8-c6b7e9ec17d0"
+                "value": "e6d089e0-f556-4710-993a-bae5a08b783c"
               },
               "name": "SubmitBtn",
               "NormalImage": {
@@ -127,7 +127,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "149344ac-b20e-497c-801b-d30a6e12652b"
+                "value": "9727542e-8366-4e30-b1a7-1ee05bdb5730"
               },
               "name": "Detail_txt",
               "pos": {
@@ -152,7 +152,7 @@
               "__OBJ_TYPE": "StaticText",
               "Font_size": 18,
               "id": {
-                "value": "d07ab1c3-6196-4785-afb6-4e36b4c0e1da"
+                "value": "21b46b04-7f1a-4371-a118-8c1d90d265b9"
               },
               "name": "Reward_txt",
               "pos": {
@@ -176,7 +176,7 @@
             }
           ],
           "id": {
-            "value": "6ab29a4f-905d-451d-a30f-a2a095f34d27"
+            "value": "0452d2ec-bda4-47a4-98be-f730ab858bba"
           },
           "Image": {
             "asset": "asset/Texture/output-onlinepngtools.png"
@@ -192,7 +192,7 @@
         }
       ],
       "id": {
-        "value": "426bf93c-915c-4a60-98bd-b5aad2298ba3"
+        "value": "dd3ed7da-c2cc-443d-8918-3d38816c6e31"
       },
       "size": {
         "UDim_X": {
@@ -208,7 +208,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "af4f8b44e6d0d86a4afb4493418fd6a5",
+      "layout": "73f0487a68c25b71829a3a57caf9c0cf",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

@@ -14,11 +14,10 @@
     },
     "follow_viewFovAngle": 100,
     "initPos": {
-      "map": "map001",
+      "map": "town01",
       "pos": {
-        "x": 1.5535192489624,
-        "y": 1.0398998641968,
-        "z": 1.9550704956055
+        "y": 1.04,
+        "z": 14
       }
     },
     "needSave": true,
@@ -302,11 +301,11 @@
     ],
     "showShop": true,
     "startPos": {
-      "map": "map001",
+      "map": "town01",
       "pos": {
-        "x": 1.352424621582,
+        "x": 0,
         "y": 1.0399008178711,
-        "z": 1.5073261260986
+        "z": 14
       }
     },
     "triggers_client": {
@@ -834,7 +833,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "bbda9d8bfaaaa64df510de1a458e410f",
+      "setting.json": "add538a0c178ae307d63a0b01b74c9a3",
       "shop.csv": "e54acdb1e302f0b4354e331f7b6aaa75",
       "triggers.bts": "",
       "triggers_client.bts": "16bce7374ee8f3fc4d007cf1e28caac4"

@@ -21,18 +21,13 @@
     "startEffect": {
       "effect": {
         "asset": "asset/effect/Continuous_fireball_l.effect"
-      },
-      "scale": {
-        "x": 0.2,
-        "y": 0.2,
-        "z": 0.2
       }
     },
     "target_type": "hitPlayer"
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "66ef8ef5478aa41b5c01e59479d01e66",
+      "setting.json": "0c6372a79606a6d119f2ff906fc24935",
       "triggers.bts": ""
     },
     "VERSION": "0.21"

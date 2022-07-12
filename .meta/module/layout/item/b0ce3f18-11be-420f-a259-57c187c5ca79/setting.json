@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "0ee70767415a4aebace22d3fb0b6a607",
+    "md5": "db5a9e470279943b03a74b5972325c55",
     "path": "asset/damage.layout",
     "root": {
       "anchor": {
@@ -18,7 +18,7 @@
           "Font_size": 34,
           "HorzFormatting": "CentreAligned",
           "id": {
-            "value": "7231b4d5-7948-4e8a-a879-23fbe95c90c8"
+            "value": "d96eaa61-1b8d-4f5f-a6d1-068fef508f97"
           },
           "name": "dmg",
           "pos": {
@@ -43,13 +43,13 @@
         }
       ],
       "id": {
-        "value": "42cdbe54-6081-4e7a-8653-95d6aaf817c4"
+        "value": "2a88e313-0a17-4c5e-bec9-ebbd3bdb7a03"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "0ee70767415a4aebace22d3fb0b6a607",
+      "layout": "db5a9e470279943b03a74b5972325c55",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.21"

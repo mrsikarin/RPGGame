@@ -1,0 +1,13 @@
+PART_TOUCH_ENTITY_BEGIN {
+	SetEntityPosition(
+		entity = $obj2,
+		map = "b370a9ff-36b6-479d-a1b9-2f8f6200d516",
+		pos = {
+			x = -4,
+			y = 1,
+			z = -45
+		},
+		rp = 0,
+		ry = 0
+	)
+}
